@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="INSERT_OR_UPDATE">
+        <interface display_value="AWS EC2 Instance Resource Interface">3463bcd6db2c88d0a9ed3967f49619f9</interface>
+        <name>WorkloadConfigProvider</name>
+        <operation display_value="Provision">8d63fcd6db2c88d0a9ed3967f4961902</operation>
+        <order>210</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:00:59</sys_created_on>
+        <sys_id>4173301adb2c88d0a9ed3967f49619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WorkloadConfigProvider</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_4173301adb2c88d0a9ed3967f49619ca</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:00:59</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+</record_update>

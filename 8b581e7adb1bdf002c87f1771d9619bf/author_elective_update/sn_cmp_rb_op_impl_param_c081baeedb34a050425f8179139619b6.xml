@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="DELETE">
+        <applicable_to/>
+        <datasource>1</datasource>
+        <datasourcevalue/>
+        <defaultvalue>${parameter.StackOrchestrationTemplate}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>false</ismandatory>
+        <name>StackOrchestrationTemplate</name>
+        <op_param/>
+        <operation display_value="Provision">8081baeedb34a050425f8179139619a3</operation>
+        <order>1</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step display_value="Stack Orchestration Interface.Create Stack">8881baeedb34a050425f8179139619b2</step>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-12-03 17:28:11</sys_created_on>
+        <sys_id>c081baeedb34a050425f8179139619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StackOrchestrationTemplate</sys_name>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_c081baeedb34a050425f8179139619b6</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:28:11</sys_updated_on>
+        <ui_data_type/>
+        <value/>
+        <visibilty>false</visibilty>
+    </sn_cmp_rb_op_impl_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>241fb1badb8c7f8007072f17d49619c5</instance_id>
+        <instance_name>tblevinsitomdemo</instance_name>
+        <name>sn_cmp_rb_op_impl_param_c081baeedb34a050425f8179139619b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param"><sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE"><applicable_to/><datasource>1</datasource><datasourcevalue/><defaultvalue>${parameter.StackOrchestrationTemplate}</defaultvalue><error_text/><help_text/><host/><ismandatory>false</ismandatory><name>StackOrchestrationTemplate</name><op_param/><operation display_value="Provision">8081baeedb34a050425f8179139619a3</operation><order>1</order><read_only>false</read_only><regex/><step display_value="Stack Orchestration Interface.Create Stack">8881baeedb34a050425f8179139619b2</step><sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name><sys_created_by>john.depot</sys_created_by><sys_created_on>2020-12-03 17:28:11</sys_created_on><sys_id>c081baeedb34a050425f8179139619b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>StackOrchestrationTemplate</sys_name><sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_rb_op_impl_param_c081baeedb34a050425f8179139619b6</sys_update_name><sys_updated_by>john.depot</sys_updated_by><sys_updated_on>2020-12-03 17:28:11</sys_updated_on><ui_data_type/><value/><visibilty>false</visibilty></sn_cmp_rb_op_impl_param></record_update>]]></payload>
+        <payload_hash>683991714</payload_hash>
+        <record_name>StackOrchestrationTemplate</record_name>
+        <reverted_from/>
+        <source>a2faa3b1db3398d04cf6e8cd1396199d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-12-03 17:28:11</sys_created_on>
+        <sys_id>8481baeedb34a050425f8179139619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17629a5aac30000001</sys_recorded_at>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:28:11</sys_updated_on>
+        <type>Operation Parameter</type>
+        <update_guid>0c81baeedc34a0501dcd6ee01150f1bd</update_guid>
+        <update_guid_history>0c81baeedc34a0501dcd6ee01150f1bd:683991714,4481baeeee34a0503142a84250c2edbc:-360626624,8081baee7134a0502da99380d1dd1fbb:683991714</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="StackOrchestrationTemplate">7881faeedb34a050425f817913961982</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-12-03 17:28:14</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_param">sn_cmp_rb_op_impl_param</sys_db_object>
+        <sys_id>3e4b137785984068b059561eae734090</sys_id>
+        <sys_metadata>c081baeedb34a050425f8179139619b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StackOrchestrationTemplate</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_param_c081baeedb34a050425f8179139619b6</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_param_c081baeedb34a050425f8179139619b6">8481baeedb34a050425f8179139619be</sys_update_version>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:28:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

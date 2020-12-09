@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_op">
+    <sn_cmp_bp_stage_resource_op action="INSERT_OR_UPDATE">
+        <alias_name>AWS Ubuntu Server 16 LTS.Provision</alias_name>
+        <bp_stage_operation display_value="Provision">5cad498edb3ac4106846dd384b961932</bp_stage_operation>
+        <bp_stage_resource display_value="AWS Ubuntu Server 16 LTS">58ad498edb3ac4106846dd384b961954</bp_stage_resource>
+        <condition_text/>
+        <operation_order>100</operation_order>
+        <parent_id/>
+        <rb_operation_impl display_value="Provision">459d458edb3ac4106846dd384b96197a</rb_operation_impl>
+        <resource_block display_value="AWS Ubuntu Server 16 LTS">4c9d4d4edb3ac4106846dd384b9619a1</resource_block>
+        <sys_class_name>sn_cmp_bp_stage_resource_op</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:38:09</sys_created_on>
+        <sys_id>5cad498edb3ac4106846dd384b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS Ubuntu Server 16 LTS.Provision</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_op_5cad498edb3ac4106846dd384b9619a9</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:38:09</sys_updated_on>
+        <type/>
+        <unique_id>8191</unique_id>
+    </sn_cmp_bp_stage_resource_op>
+</record_update>

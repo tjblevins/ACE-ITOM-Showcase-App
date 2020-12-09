@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Deploy Shared MID Server for Demo">83754548dba37f00f4d7d8b6f49619e8</sc_cat_item>
+        <sc_catalog display_value="ITOM Demo Catalog">ea0b42b4dbaf9300786ff1351d961971</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 19:31:59</sys_created_on>
+        <sys_id>a2c5c948dba37f00f4d7d8b6f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOM Demo Catalog.Deploy Shared MID Server for Demo</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a2c5c948dba37f00f4d7d8b6f4961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 19:31:59</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

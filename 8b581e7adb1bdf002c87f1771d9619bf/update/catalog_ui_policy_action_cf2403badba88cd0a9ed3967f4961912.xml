@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Deprovision">be2403badba88cd0a9ed3967f4961903</catalog_item>
+        <catalog_variable>IO:be2403badba88cd0a9ed3967f4961907</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-21 10:50:13</sys_created_on>
+        <sys_id>cf2403badba88cd0a9ed3967f4961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cloudTaskWorkflowInput</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_cf2403badba88cd0a9ed3967f4961912</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-21 10:50:13</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Deprovision UI policy">472403badba88cd0a9ed3967f4961910</ui_policy>
+        <variable>cloudTaskWorkflowInput</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

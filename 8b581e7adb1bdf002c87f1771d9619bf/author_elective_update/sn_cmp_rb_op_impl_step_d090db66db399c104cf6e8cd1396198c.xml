@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step">
+    <sn_cmp_rb_op_impl_step action="DELETE">
+        <capi_interface/>
+        <capi_method/>
+        <capi_version/>
+        <condition/>
+        <depends_on/>
+        <enabled>true</enabled>
+        <flow_type/>
+        <force_async>false</force_async>
+        <interface/>
+        <interface_operation/>
+        <name/>
+        <operationimpl display_value="PostProvision">5484809ddbb8481015e3dd18f4961992</operationimpl>
+        <order>40</order>
+        <owner_type>1</owner_type>
+        <parent_step/>
+        <parentstep/>
+        <product_type/>
+        <provider/>
+        <provider_ref/>
+        <provider_type/>
+        <resource_interface/>
+        <sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-07-07 16:35:49</sys_created_on>
+        <sys_id>d090db66db399c104cf6e8cd1396198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_step_d090db66db399c104cf6e8cd1396198c</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-07-07 16:35:49</sys_updated_on>
+        <target_entity_flow/>
+    </sn_cmp_rb_op_impl_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>241fb1badb8c7f8007072f17d49619c5</instance_id>
+        <instance_name>tblevinsitomdemo</instance_name>
+        <name>sn_cmp_rb_op_impl_step_d090db66db399c104cf6e8cd1396198c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step"><sn_cmp_rb_op_impl_step action="INSERT_OR_UPDATE"><capi_interface/><capi_method/><capi_version/><condition/><depends_on/><enabled>true</enabled><flow_type/><force_async>false</force_async><interface/><interface_operation/><name/><operationimpl display_value="PostProvision">5484809ddbb8481015e3dd18f4961992</operationimpl><order>40</order><owner_type>1</owner_type><parent_step/><parentstep/><product_type/><provider/><provider_ref/><provider_type/><resource_interface/><sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name><sys_created_by>john.depot</sys_created_by><sys_created_on>2020-07-07 16:35:49</sys_created_on><sys_id>d090db66db399c104cf6e8cd1396198c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_rb_op_impl_step_d090db66db399c104cf6e8cd1396198c</sys_update_name><sys_updated_by>john.depot</sys_updated_by><sys_updated_on>2020-07-07 16:35:49</sys_updated_on><target_entity_flow/></sn_cmp_rb_op_impl_step></record_update>]]></payload>
+        <payload_hash>-568256199</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9c098ac1dbb600106846dd384b96192a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-07-07 16:35:50</sys_created_on>
+        <sys_id>eca01f66db399c104cf6e8cd1396193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732a222e910000001</sys_recorded_at>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-07-07 16:35:50</sys_updated_on>
+        <type>Operation Step</type>
+        <update_guid>d4a01f6669399c10011493d97993f73f</update_guid>
+        <update_guid_history>d4a01f6669399c10011493d97993f73f:-568256199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">88106d97dbfd90504cf6e8cd13961936</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-07-09 16:19:28</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_step">sn_cmp_rb_op_impl_step</sys_db_object>
+        <sys_id>54e0dac5bb274162a3c530b4ca7d1c91</sys_id>
+        <sys_metadata>d090db66db399c104cf6e8cd1396198c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_step_d090db66db399c104cf6e8cd1396198c</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_step_d090db66db399c104cf6e8cd1396198c">eca01f66db399c104cf6e8cd1396193f</sys_update_version>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-07-09 16:19:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl">
+    <sn_cmp_rb_op_impl action="INSERT_OR_UPDATE">
+        <interface display_value="Site Depot Wordpress Resource Interface">cd84c09ddbb8481015e3dd18f496195d</interface>
+        <operation display_value="Provision">4984c09ddbb8481015e3dd18f4961967</operation>
+        <operation_output_attributes/>
+        <resource display_value="Site Depot Wordpress Blueprint Resource">cd84c09ddbb8481015e3dd18f496195f</resource>
+        <sys_class_name>sn_cmp_rb_op_impl</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-28 15:17:42</sys_created_on>
+        <sys_id>d184c09ddbb8481015e3dd18f496196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4984c09ddbb8481015e3dd18f4961967</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_d184c09ddbb8481015e3dd18f496196b</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-28 15:17:42</sys_updated_on>
+    </sn_cmp_rb_op_impl>
+</record_update>

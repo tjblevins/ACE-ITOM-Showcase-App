@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE">
+        <applicable_to/>
+        <datasource>2</datasource>
+        <datasourcevalue>ServiceNow::Pools::ScheduleProfilePool.All</datasourcevalue>
+        <defaultvalue>${parameter.ScheduleProfile}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>true</ismandatory>
+        <name>ScheduleProfile</name>
+        <op_param/>
+        <operation display_value="ModifySchedule">4dbc2510db00801015e3dd18f4961927</operation>
+        <order>40</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step/>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 13:31:53</sys_created_on>
+        <sys_id>c1bc2510db00801015e3dd18f4961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScheduleProfile</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_c1bc2510db00801015e3dd18f4961950</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-18 13:31:53</sys_updated_on>
+        <ui_data_type/>
+        <value/>
+        <visibilty>true</visibilty>
+    </sn_cmp_rb_op_impl_param>
+</record_update>

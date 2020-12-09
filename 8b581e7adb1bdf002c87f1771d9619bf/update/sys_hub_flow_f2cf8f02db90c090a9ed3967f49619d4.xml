@@ -1,0 +1,2597 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <compiler_build>glide-orlando-12-11-2019__patch4-05-20-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>demo__configure_mid_server</internal_name>
+        <label_cache>[{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_finished","label":"3.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_started","label":"3.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_failed","label":"3.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status","label":"3.1➛Job Status","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_id","label":"3.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.error_message","label":"3.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.responce_body","label":"3.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.error_code","label":"3.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.status_code","label":"3.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.status_code","label":"2➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.error_code","label":"2➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.responce_body","label":"2➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_id","label":"2➛Job ID","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_status","label":"2➛Job Status","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_failed","label":"2➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_started","label":"2➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_finished","label":"2➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"1d539706-52b9-466b-80ba-442658b393aa.url","label":"1➛URL","reference_display":"URL","type":"string","base_type":"string"},{"name":"1d539706-52b9-466b-80ba-442658b393aa.hostname","label":"1➛hostname","type":"string","base_type":"string"},{"name":"subflow.instance_name","label":"Input➛Instance Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.install_dir","label":"Input➛Install Dir","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.mid_server_ip","label":"Input➛MID Server IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.mid_server_name","label":"Input➛MID Server Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.mid_server_user","label":"Input➛MID Server User","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""}]</label_cache>
+        <latest_snapshot>29054aaddbc65490425f8179139619d1</latest_snapshot>
+        <master_snapshot>99b16bcadbd0c090a9ed3967f4961975</master_snapshot>
+        <name>NOW - Configure MID Server</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 17:29:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f2cf8f02db90c090a9ed3967f49619d4</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>NOW - Configure MID Server</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_f2cf8f02db90c090a9ed3967f49619d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f2cf8f02db90c090a9ed3967f49619d4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f2cf8f02db90c090a9ed3967f49619d4"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=f2cf8f02db90c090a9ed3967f49619d4^sys_idNOT IN3d216f8adbd0c090a9ed3967f4961971,602f1bc6dbd0c090a9ed3967f4961908,71216f8adbd0c090a9ed3967f4961970,7d216f8adbd0c090a9ed3967f4961975,e42f1bc6dbd0c090a9ed3967f4961902"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">75216f8adbd0c090a9ed3967f4961971</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>3d216f8adbd0c090a9ed3967f4961971</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
+        <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3d216f8adbd0c090a9ed3967f4961971"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3d216f8adbd0c090a9ed3967f4961971</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>b1216f8adbd0c090a9ed3967f4961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:45:43</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3d216f8adbd0c090a9ed3967f4961971</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>fd216f8adbd0c090a9ed3967f4961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:45:43</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Install MID Server - Windows - Pass MID User">a84ddb06dbd0c090a9ed3967f4961924</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>a84ddb06dbd0c090a9ed3967f4961924</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>602f1bc6dbd0c090a9ed3967f4961908</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
+        <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=602f1bc6dbd0c090a9ed3967f4961908"/>
+    <sys_element_mapping action="delete_multiple" query="id=602f1bc6dbd0c090a9ed3967f4961908"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>install_dir</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>7eaf170adbd0c090a9ed3967f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.install_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>install_dir</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>f0b12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.install_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancename</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>b4b12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancename</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>32af170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_ip</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>78b12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_ip</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>f2af170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.mid_server_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_name</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>b6af170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.mid_server_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_name</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>3cb12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_user</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:14</sys_created_on>
+        <sys_id>7aaf170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.mid_server_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_user</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>fcb12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>ec2f1bc6dbd0c090a9ed3967f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>b0b12bcadbd0c090a9ed3967f49619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <order>3.1</order>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>71216f8adbd0c090a9ed3967f4961970</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
+        <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=71216f8adbd0c090a9ed3967f4961970"/>
+    <sys_element_mapping action="delete_multiple" query="id=71216f8adbd0c090a9ed3967f4961970"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>71216f8adbd0c090a9ed3967f4961970</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:30:55</sys_created_on>
+        <sys_id>c08be38adb14c090a9ed3967f496197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:30:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>71216f8adbd0c090a9ed3967f4961970</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:30:55</sys_created_on>
+        <sys_id>848be38adb14c090a9ed3967f496197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:30:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5216f8adbd0c090a9ed3967f4961975</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>7d216f8adbd0c090a9ed3967f4961975</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
+        <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7d216f8adbd0c090a9ed3967f4961975"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d216f8adbd0c090a9ed3967f4961975</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>35216f8adbd0c090a9ed3967f4961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:45:43</sys_updated_on>
+        <value>Check Status</value>
+        <variable display_value="">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d216f8adbd0c090a9ed3967f4961975</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>71216f8adbd0c090a9ed3967f4961977</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:30:55</sys_updated_on>
+        <value>{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=successful^NQ{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>e42f1bc6dbd0c090a9ed3967f4961902</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
+        <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e42f1bc6dbd0c090a9ed3967f4961902"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e42f1bc6dbd0c090a9ed3967f4961902</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>30b12bcadbd0c090a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <value>Tower1</value>
+        <variable display_value="">e9699ff7db1b3f00f4d7d8b6f49619ad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e42f1bc6dbd0c090a9ed3967f4961902</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>642f1bc6dbd0c090a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:36:53</sys_updated_on>
+        <value>Tower1</value>
+        <variable display_value="">f1875737db1b3f00f4d7d8b6f4961916</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f2cf8f02db90c090a9ed3967f49619d4^sys_idNOT INbecf8f02db90c090a9ed3967f49619d5"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f2cf8f02db90c090a9ed3967f49619d4</id>
+        <name>Demo - Configure MID Server</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 17:29:52</sys_created_on>
+        <sys_id>becf8f02db90c090a9ed3967f49619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 17:29:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=f2cf8f02db90c090a9ed3967f49619d4^sys_idNOT IN088f130adbd0c090a9ed3967f4961928,088f130adbd0c090a9ed3967f4961934,408f130adbd0c090a9ed3967f496192f,848f130adbd0c090a9ed3967f496193f,cc8f130adbd0c090a9ed3967f4961939"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Instance Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</model>
+        <model_id>f2cf8f02db90c090a9ed3967f49619d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>088f130adbd0c090a9ed3967f4961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Server IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</model>
+        <model_id>f2cf8f02db90c090a9ed3967f49619d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>088f130adbd0c090a9ed3967f4961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>install_dir</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Install Dir</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</model>
+        <model_id>f2cf8f02db90c090a9ed3967f49619d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>408f130adbd0c090a9ed3967f496192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server_user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Server User</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</model>
+        <model_id>f2cf8f02db90c090a9ed3967f49619d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>848f130adbd0c090a9ed3967f496193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Server Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</model>
+        <model_id>f2cf8f02db90c090a9ed3967f49619d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>cc8f130adbd0c090a9ed3967f4961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f2cf8f02db90c090a9ed3967f49619d4^sys_idNOT IN602f1bc6dbd0c090a9ed3967f4961908,71216f8adbd0c090a9ed3967f4961970,e42f1bc6dbd0c090a9ed3967f4961902"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Install MID Server - Windows - Pass MID User">a84ddb06dbd0c090a9ed3967f4961924</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>a84ddb06dbd0c090a9ed3967f4961924</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>602f1bc6dbd0c090a9ed3967f4961908</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
+        <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=602f1bc6dbd0c090a9ed3967f4961908"/>
+    <sys_element_mapping action="delete_multiple" query="id=602f1bc6dbd0c090a9ed3967f4961908"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>install_dir</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>7eaf170adbd0c090a9ed3967f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.install_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>install_dir</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>f0b12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.install_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancename</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>b4b12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancename</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>32af170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_ip</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>78b12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_ip</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>f2af170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.mid_server_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_name</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:13</sys_created_on>
+        <sys_id>b6af170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.mid_server_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_name</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>3cb12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_user</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:39:14</sys_created_on>
+        <sys_id>7aaf170adbd0c090a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:39:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{subflow.mid_server_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_user</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>fcb12bcadbd0c090a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>ec2f1bc6dbd0c090a9ed3967f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a3e65bcadb90c090a9ed3967f4961945</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>602f1bc6dbd0c090a9ed3967f4961908</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>b0b12bcadbd0c090a9ed3967f49619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <order>3.1</order>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>71216f8adbd0c090a9ed3967f4961970</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
+        <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=71216f8adbd0c090a9ed3967f4961970"/>
+    <sys_element_mapping action="delete_multiple" query="id=71216f8adbd0c090a9ed3967f4961970"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>71216f8adbd0c090a9ed3967f4961970</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:30:55</sys_created_on>
+        <sys_id>c08be38adb14c090a9ed3967f496197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:30:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>71216f8adbd0c090a9ed3967f4961970</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:30:55</sys_created_on>
+        <sys_id>848be38adb14c090a9ed3967f496197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:30:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>e42f1bc6dbd0c090a9ed3967f4961902</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
+        <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e42f1bc6dbd0c090a9ed3967f4961902"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e42f1bc6dbd0c090a9ed3967f4961902</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:06</sys_created_on>
+        <sys_id>30b12bcadbd0c090a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:06</sys_updated_on>
+        <value>Tower1</value>
+        <variable display_value="">e9699ff7db1b3f00f4d7d8b6f49619ad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e42f1bc6dbd0c090a9ed3967f4961902</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:36:53</sys_created_on>
+        <sys_id>642f1bc6dbd0c090a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:36:53</sys_updated_on>
+        <value>Tower1</value>
+        <variable display_value="">f1875737db1b3f00f4d7d8b6f4961916</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f2cf8f02db90c090a9ed3967f49619d4^sys_idNOT IN3d216f8adbd0c090a9ed3967f4961971,7d216f8adbd0c090a9ed3967f4961975"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">75216f8adbd0c090a9ed3967f4961971</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>3d216f8adbd0c090a9ed3967f4961971</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
+        <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3d216f8adbd0c090a9ed3967f4961971"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3d216f8adbd0c090a9ed3967f4961971</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>b1216f8adbd0c090a9ed3967f4961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:45:43</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>3d216f8adbd0c090a9ed3967f4961971</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>fd216f8adbd0c090a9ed3967f4961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:45:43</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5216f8adbd0c090a9ed3967f4961975</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>7d216f8adbd0c090a9ed3967f4961975</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
+        <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7d216f8adbd0c090a9ed3967f4961975"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d216f8adbd0c090a9ed3967f4961975</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>35216f8adbd0c090a9ed3967f4961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:45:43</sys_updated_on>
+        <value>Check Status</value>
+        <variable display_value="">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7d216f8adbd0c090a9ed3967f4961975</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:45:43</sys_created_on>
+        <sys_id>71216f8adbd0c090a9ed3967f4961977</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:30:55</sys_updated_on>
+        <value>{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=successful^NQ{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4^sys_idNOT IN008f130adbd0c090a9ed3967f4961939,488f130adbd0c090a9ed3967f4961933,808f130adbd0c090a9ed3967f496192e,8c8f130adbd0c090a9ed3967f4961943,c48f130adbd0c090a9ed3967f496193e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server_ip</element>
+        <help/>
+        <hint/>
+        <label>MID Server IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>008f130adbd0c090a9ed3967f4961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Server IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4_mid_server_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>install_dir</element>
+        <help/>
+        <hint/>
+        <label>Install Dir</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>488f130adbd0c090a9ed3967f4961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Install Dir</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4_install_dir_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_name</element>
+        <help/>
+        <hint/>
+        <label>Instance Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>808f130adbd0c090a9ed3967f496192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instance Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4_instance_name_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server_user</element>
+        <help/>
+        <hint/>
+        <label>MID Server User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:30</sys_created_on>
+        <sys_id>8c8f130adbd0c090a9ed3967f4961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Server User</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4_mid_server_user_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server_name</element>
+        <help/>
+        <hint/>
+        <label>MID Server Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:38:29</sys_created_on>
+        <sys_id>c48f130adbd0c090a9ed3967f496193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Server Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f2cf8f02db90c090a9ed3967f49619d4_mid_server_name_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:38:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f2cf8f02db90c090a9ed3967f49619d4^sys_idNOT IN71b1abcadbd0c090a9ed3967f4961932"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"71b1abcadbd0c090a9ed3967f4961932","name":"plan"}}</plan>
+        <plan_id display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</plan_id>
+        <snapshot>29054aaddbc65490425f8179139619d1</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>71b1abcadbd0c090a9ed3967f4961932</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>demo__configure_mid_server</internal_name>
+        <label_cache>[{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_finished","label":"3.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_started","label":"3.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_failed","label":"3.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status","label":"3.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_id","label":"3.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.error_message","label":"3.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.responce_body","label":"3.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.error_code","label":"3.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"14bec8cd-102b-4a07-ba7c-24160ce17a3a.status_code","label":"3.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.status_code","label":"2➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.error_code","label":"2➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.responce_body","label":"2➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_id","label":"2➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_status","label":"2➛Job Status","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_failed","label":"2➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_started","label":"2➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_finished","label":"2➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"1d539706-52b9-466b-80ba-442658b393aa.url","label":"1➛URL","reference_display":"URL","type":"string","base_type":"string"},{"name":"1d539706-52b9-466b-80ba-442658b393aa.hostname","label":"1➛HOSTNAME","reference_display":"HOSTNAME","type":"string","base_type":"string"},{"name":"subflow.instance_name","label":"Input➛Instance Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.install_dir","label":"Input➛Install Dir","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.mid_server_ip","label":"Input➛MID Server IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.mid_server_name","label":"Input➛MID Server Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.mid_server_user","label":"Input➛MID Server User","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""}]</label_cache>
+        <master>true</master>
+        <name>NOW - Configure MID Server</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>99b16bcadbd0c090a9ed3967f4961975</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=99b16bcadbd0c090a9ed3967f4961975"/>
+    <sys_variable_value action="delete_multiple" query="document_key=99b16bcadbd0c090a9ed3967f4961975"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=99b16bcadbd0c090a9ed3967f4961975^sys_idNOT IN2db16bcadbd0c090a9ed3967f49619e9,61b16bcadbd0c090a9ed3967f49619e3,69b16bcadbd0c090a9ed3967f49619d0,91b16bcadbd0c090a9ed3967f49619c7,e1b16bcadbd0c090a9ed3967f49619cc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <order>3.1</order>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>2db16bcadbd0c090a9ed3967f49619e9</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2db16bcadbd0c090a9ed3967f49619e9"/>
+    <sys_element_mapping action="delete_multiple" query="id=2db16bcadbd0c090a9ed3967f49619e9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>2db16bcadbd0c090a9ed3967f49619e9</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:31:09</sys_created_on>
+        <sys_id>a78b678adb14c090a9ed3967f49619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:31:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>2db16bcadbd0c090a9ed3967f49619e9</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:31:09</sys_created_on>
+        <sys_id>6b8b678adb14c090a9ed3967f49619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:31:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Install MID Server - Windows - Pass MID User">a84ddb06dbd0c090a9ed3967f4961924</action_type>
+        <action_type_parent display_value="NOW - Install MID Server - Windows - Pass MID User">a3e65bcadb90c090a9ed3967f4961945</action_type_parent>
+        <comment/>
+        <compiled_snapshot>a84ddb06dbd0c090a9ed3967f4961924</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>61b16bcadbd0c090a9ed3967f49619e3</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=61b16bcadbd0c090a9ed3967f49619e3"/>
+    <sys_element_mapping action="delete_multiple" query="id=61b16bcadbd0c090a9ed3967f49619e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>install_dir</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>29b16bcadbd0c090a9ed3967f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.install_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancename</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>e9b16bcadbd0c090a9ed3967f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_ip</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>adb16bcadbd0c090a9ed3967f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_name</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>61b16bcadbd0c090a9ed3967f49619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_user</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>25b16bcadbd0c090a9ed3967f49619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>e5b16bcadbd0c090a9ed3967f49619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent display_value="NOW - Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</action_type_parent>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>69b16bcadbd0c090a9ed3967f49619d0</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:14</sys_updated_on>
+        <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=69b16bcadbd0c090a9ed3967f49619d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>69b16bcadbd0c090a9ed3967f49619d0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>29b16bcadbd0c090a9ed3967f49619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <value>Tower1</value>
+        <variable display_value="">e9699ff7db1b3f00f4d7d8b6f49619ad</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">75216f8adbd0c090a9ed3967f4961971</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>91b16bcadbd0c090a9ed3967f49619c7</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=91b16bcadbd0c090a9ed3967f49619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>91b16bcadbd0c090a9ed3967f49619c7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>25b16bcadbd0c090a9ed3967f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>91b16bcadbd0c090a9ed3967f49619c7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>e5b16bcadbd0c090a9ed3967f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5216f8adbd0c090a9ed3967f4961975</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>e1b16bcadbd0c090a9ed3967f49619cc</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e1b16bcadbd0c090a9ed3967f49619cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e1b16bcadbd0c090a9ed3967f49619cc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>21b16bcadbd0c090a9ed3967f49619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <value>Check Status</value>
+        <variable display_value="">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e1b16bcadbd0c090a9ed3967f49619cc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>6db16bcadbd0c090a9ed3967f49619cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:31:09</sys_updated_on>
+        <value>{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=successful^NQ{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=99b16bcadbd0c090a9ed3967f4961975^sys_idNOT INd5b16bcadbd0c090a9ed3967f4961976"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>99b16bcadbd0c090a9ed3967f4961975</id>
+        <name>Demo - Configure MID Server</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:07</sys_created_on>
+        <sys_id>d5b16bcadbd0c090a9ed3967f4961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=99b16bcadbd0c090a9ed3967f4961975^sys_idNOT IN55b16bcadbd0c090a9ed3967f49619b4,5db16bcadbd0c090a9ed3967f49619ac,95b16bcadbd0c090a9ed3967f49619a5,9db16bcadbd0c090a9ed3967f49619bb,d9b16bcadbd0c090a9ed3967f4961977"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Server Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</model>
+        <model_id>99b16bcadbd0c090a9ed3967f4961975</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>55b16bcadbd0c090a9ed3967f49619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Server IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</model>
+        <model_id>99b16bcadbd0c090a9ed3967f4961975</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>5db16bcadbd0c090a9ed3967f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>install_dir</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Install Dir</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</model>
+        <model_id>99b16bcadbd0c090a9ed3967f4961975</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>95b16bcadbd0c090a9ed3967f49619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_server_user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Server User</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</model>
+        <model_id>99b16bcadbd0c090a9ed3967f4961975</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>9db16bcadbd0c090a9ed3967f49619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Instance Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</model>
+        <model_id>99b16bcadbd0c090a9ed3967f4961975</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:07</sys_created_on>
+        <sys_id>d9b16bcadbd0c090a9ed3967f4961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=99b16bcadbd0c090a9ed3967f4961975^sys_idNOT IN2db16bcadbd0c090a9ed3967f49619e9,61b16bcadbd0c090a9ed3967f49619e3,69b16bcadbd0c090a9ed3967f49619d0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <order>3.1</order>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>2db16bcadbd0c090a9ed3967f49619e9</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2db16bcadbd0c090a9ed3967f49619e9"/>
+    <sys_element_mapping action="delete_multiple" query="id=2db16bcadbd0c090a9ed3967f49619e9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>2db16bcadbd0c090a9ed3967f49619e9</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:31:09</sys_created_on>
+        <sys_id>a78b678adb14c090a9ed3967f49619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:31:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{266a9363-e4bf-48c1-8a22-c44f2bb6ca73.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>2db16bcadbd0c090a9ed3967f49619e9</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 19:31:09</sys_created_on>
+        <sys_id>6b8b678adb14c090a9ed3967f49619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:31:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Install MID Server - Windows - Pass MID User">a84ddb06dbd0c090a9ed3967f4961924</action_type>
+        <action_type_parent display_value="NOW - Install MID Server - Windows - Pass MID User">a3e65bcadb90c090a9ed3967f4961945</action_type_parent>
+        <comment/>
+        <compiled_snapshot>a84ddb06dbd0c090a9ed3967f4961924</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>61b16bcadbd0c090a9ed3967f49619e3</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=61b16bcadbd0c090a9ed3967f49619e3"/>
+    <sys_element_mapping action="delete_multiple" query="id=61b16bcadbd0c090a9ed3967f49619e3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>install_dir</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>29b16bcadbd0c090a9ed3967f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.install_dir}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>instancename</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>e9b16bcadbd0c090a9ed3967f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_ip</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>adb16bcadbd0c090a9ed3967f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_name</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>61b16bcadbd0c090a9ed3967f49619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server_user</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>25b16bcadbd0c090a9ed3967f49619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{subflow.mid_server_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>61b16bcadbd0c090a9ed3967f49619e3</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>e5b16bcadbd0c090a9ed3967f49619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a84ddb06dbd0c090a9ed3967f4961924</table>
+        <value>{{1d539706-52b9-466b-80ba-442658b393aa.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent display_value="NOW - Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</action_type_parent>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>69b16bcadbd0c090a9ed3967f49619d0</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:14</sys_updated_on>
+        <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=69b16bcadbd0c090a9ed3967f49619d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>69b16bcadbd0c090a9ed3967f49619d0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:09</sys_created_on>
+        <sys_id>29b16bcadbd0c090a9ed3967f49619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:09</sys_updated_on>
+        <value>Tower1</value>
+        <variable display_value="">e9699ff7db1b3f00f4d7d8b6f49619ad</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=99b16bcadbd0c090a9ed3967f4961975^sys_idNOT IN91b16bcadbd0c090a9ed3967f49619c7,e1b16bcadbd0c090a9ed3967f49619cc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">75216f8adbd0c090a9ed3967f4961971</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>91b16bcadbd0c090a9ed3967f49619c7</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=91b16bcadbd0c090a9ed3967f49619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>91b16bcadbd0c090a9ed3967f49619c7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>25b16bcadbd0c090a9ed3967f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>91b16bcadbd0c090a9ed3967f49619c7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>e5b16bcadbd0c090a9ed3967f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5216f8adbd0c090a9ed3967f4961975</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="NOW - Configure MID Server">99b16bcadbd0c090a9ed3967f4961975</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>e1b16bcadbd0c090a9ed3967f49619cc</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
+        <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e1b16bcadbd0c090a9ed3967f49619cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e1b16bcadbd0c090a9ed3967f49619cc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>21b16bcadbd0c090a9ed3967f49619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <value>Check Status</value>
+        <variable display_value="">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e1b16bcadbd0c090a9ed3967f49619cc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>6db16bcadbd0c090a9ed3967f49619cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 19:31:09</sys_updated_on>
+        <value>{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=successful^NQ{{14bec8cd-102b-4a07-ba7c-24160ce17a3a.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975^sys_idNOT IN55b16bcadbd0c090a9ed3967f496197d,55b16bcadbd0c090a9ed3967f49619c1,91b16bcadbd0c090a9ed3967f49619b2,99b16bcadbd0c090a9ed3967f49619aa,d9b16bcadbd0c090a9ed3967f49619b9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_name</element>
+        <help/>
+        <hint/>
+        <label>Instance Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>55b16bcadbd0c090a9ed3967f496197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instance Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975_instance_name_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server_user</element>
+        <help/>
+        <hint/>
+        <label>MID Server User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>55b16bcadbd0c090a9ed3967f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Server User</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975_mid_server_user_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server_ip</element>
+        <help/>
+        <hint/>
+        <label>MID Server IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>91b16bcadbd0c090a9ed3967f49619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Server IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975_mid_server_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>install_dir</element>
+        <help/>
+        <hint/>
+        <label>Install Dir</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>99b16bcadbd0c090a9ed3967f49619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Install Dir</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975_install_dir_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_server_name</element>
+        <help/>
+        <hint/>
+        <label>MID Server Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 18:48:08</sys_created_on>
+        <sys_id>d9b16bcadbd0c090a9ed3967f49619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Server Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_99b16bcadbd0c090a9ed3967f4961975_mid_server_name_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 18:48:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

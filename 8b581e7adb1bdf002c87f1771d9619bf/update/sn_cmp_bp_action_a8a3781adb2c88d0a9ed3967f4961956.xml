@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_action">
+    <sn_cmp_bp_action action="INSERT_OR_UPDATE">
+        <action_type>6</action_type>
+        <datasource/>
+        <name>TriggerChangeEvent Location</name>
+        <order>10</order>
+        <rule display_value="TriggerChangeEvent Location">eca3781adb2c88d0a9ed3967f4961954</rule>
+        <status>1</status>
+        <sys_class_name>sn_cmp_bp_action</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:01:46</sys_created_on>
+        <sys_id>a8a3781adb2c88d0a9ed3967f4961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TriggerChangeEvent Location</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_action_a8a3781adb2c88d0a9ed3967f4961956</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:01:46</sys_updated_on>
+        <target_attr display_value="Location">9293f41adb2c88d0a9ed3967f49619cd</target_attr>
+        <target_attribute>Location</target_attribute>
+        <target_attribute_select/>
+        <value/>
+    </sn_cmp_bp_action>
+</record_update>

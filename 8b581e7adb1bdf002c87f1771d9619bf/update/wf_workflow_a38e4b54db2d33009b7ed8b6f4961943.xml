@@ -1,0 +1,3616 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"activities":{"e51fe4d2db39b3809b7ed8b6f49619f2":"691f64d2db39b3809b7ed8b6f496190b","a11f28d2db39b3809b7ed8b6f496190d":"ed1f64d2db39b3809b7ed8b6f496190a","291fe4d2db39b3809b7ed8b6f49619f4":"e11f64d2db39b3809b7ed8b6f496190b","691f28d2db39b3809b7ed8b6f496190a":"611f64d2db39b3809b7ed8b6f496190b"},"stages":{"611f64d2db39b3809b7ed8b6f496190b":{"duration":"1 Day","order":120,"stageId":"611f64d2db39b3809b7ed8b6f496190b","name":"Fulfillment","value":"fulfillment"},"691f64d2db39b3809b7ed8b6f496190b":{"duration":"2 Days","order":140,"stageId":"691f64d2db39b3809b7ed8b6f496190b","name":"Delivery","value":"delivery"},"e11f64d2db39b3809b7ed8b6f496190b":{"duration":"","order":90,"stageId":"e11f64d2db39b3809b7ed8b6f496190b","name":"Request Approved","value":"request_approved"},"ed1f64d2db39b3809b7ed8b6f496190a":{"duration":"","order":1100,"stageId":"ed1f64d2db39b3809b7ed8b6f496190a","name":"Completed","value":"complete"}},"ends":["a11f28d2db39b3809b7ed8b6f496190d"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description>Performs Post Provisioning activities to set up a new SC Lab Environment. </description>
+        <expected_sequences>291fe4d2db39b3809b7ed8b6f49619f4,651fe4d2db39b3809b7ed8b6f49619f6,651f28d2db39b3809b7ed8b6f4961915,a51f28d2db39b3809b7ed8b6f496190b,e11f28d2db39b3809b7ed8b6f4961916,a51fe4d2db39b3809b7ed8b6f49619f5,a11f28d2db39b3809b7ed8b6f4961912,6d1f28d2db39b3809b7ed8b6f4961916,211fe4d2db39b3809b7ed8b6f49619f9,691f28d2db39b3809b7ed8b6f4961910,651f28d2db39b3809b7ed8b6f4961911,6d1f28d2db39b3809b7ed8b6f4961918,ed1f28d2db39b3809b7ed8b6f496190f,211fe4d2db39b3809b7ed8b6f49619f8,a91f64d2db39b3809b7ed8b6f496190f,691f28d2db39b3809b7ed8b6f496190a,a91f64d2db39b3809b7ed8b6f496190d,211f28d2db39b3809b7ed8b6f496190e,e11f28d2db39b3809b7ed8b6f496190c,611f28d2db39b3809b7ed8b6f496190f,2d1f28d2db39b3809b7ed8b6f4961917,691fe4d2db39b3809b7ed8b6f49619f3,e91f64d2db39b3809b7ed8b6f496190e,e11f64d2db39b3809b7ed8b6f496190c,e11f28d2db39b3809b7ed8b6f4961913,251f28d2db39b3809b7ed8b6f4961914,e51fe4d2db39b3809b7ed8b6f49619f2,e91fe4d2db39b3809b7ed8b6f49619f9,a11f28d2db39b3809b7ed8b6f496190d,e11fe4d2db39b3809b7ed8b6f49619f7</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>291fe4d2db39b3809b7ed8b6f49619f4,651fe4d2db39b3809b7ed8b6f49619f6,651f28d2db39b3809b7ed8b6f4961915,a51f28d2db39b3809b7ed8b6f496190b,e11f28d2db39b3809b7ed8b6f4961916,a51fe4d2db39b3809b7ed8b6f49619f5,a11f28d2db39b3809b7ed8b6f4961912,6d1f28d2db39b3809b7ed8b6f4961916,211fe4d2db39b3809b7ed8b6f49619f9,e91f28d2db39b3809b7ed8b6f4961909,691f28d2db39b3809b7ed8b6f4961910,a11f28d2db39b3809b7ed8b6f496190d,651f28d2db39b3809b7ed8b6f4961911,6d1f28d2db39b3809b7ed8b6f4961918,ed1f28d2db39b3809b7ed8b6f496190f,211fe4d2db39b3809b7ed8b6f49619f8,a91f64d2db39b3809b7ed8b6f496190f,691f28d2db39b3809b7ed8b6f496190a,a91f64d2db39b3809b7ed8b6f496190d,211f28d2db39b3809b7ed8b6f496190e,e11f28d2db39b3809b7ed8b6f496190c,611f28d2db39b3809b7ed8b6f496190f,2d1f28d2db39b3809b7ed8b6f4961917,691fe4d2db39b3809b7ed8b6f49619f3,e91f64d2db39b3809b7ed8b6f496190e,e11f64d2db39b3809b7ed8b6f496190c,e11f28d2db39b3809b7ed8b6f4961913,251f28d2db39b3809b7ed8b6f4961914,e51fe4d2db39b3809b7ed8b6f49619f2,e91fe4d2db39b3809b7ed8b6f49619f9,e51fe4d2db39b3809b7ed8b6f49619ee,e11fe4d2db39b3809b7ed8b6f49619f7</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>ITOM - SD LoadBalancer Config</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">291fe4d2db39b3809b7ed8b6f49619f4</start>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e51f64d2db39b3809b7ed8b6f4961909</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:51:13</sys_updated_on>
+        <table>global</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="ITOM - SD LoadBalancer Config">a38e4b54db2d33009b7ed8b6f4961943</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Performs Post Provisioning activities to set up a new SC Lab Environment. </description>
+        <name>ITOM - SD LoadBalancer Config</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-17 14:02:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a38e4b54db2d33009b7ed8b6f4961943</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ITOM - SD LoadBalancer Config</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>wf_workflow_a38e4b54db2d33009b7ed8b6f4961943</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-17 14:30:43</sys_updated_on>
+        <table>global</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ed1f64d2db39b3809b7ed8b6f496190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>691f64d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>611f64d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e51f64d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e11f64d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>651f64d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Add Host - WWW">eb2e2434db33df00786ff1351d9619bc</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>56</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(26).hostname}","lab_code":"${data.get(4).u_lab_code}","zabbix_ip":"${data.get(68).private_ip}","zabbix_user":"admin","zabbix_pass":"Aw3s0m31","host_name":"ace-${data.get(4).u_lab_code}-sdlb","host_ip":"${data.get(49).private_ip}"}</input>
+        <is_parent>false</is_parent>
+        <name>Add Site Depot LB to Zabbix</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e91f64d2db39b3809b7ed8b6f496190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>765</x>
+        <y>244</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e91f64d2db39b3809b7ed8b6f496190e"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Add Site Depot LB to Zabbix">e91f64d2db39b3809b7ed8b6f496190e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e11f64d2db39b3809b7ed8b6f496190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Request Approved">e11f64d2db39b3809b7ed8b6f496190b</stage>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>291fe4d2db39b3809b7ed8b6f49619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=291fe4d2db39b3809b7ed8b6f49619f4"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">291fe4d2db39b3809b7ed8b6f49619f4</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ed1fe4d2db39b3809b7ed8b6f49619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Branch">a246173ac0a8016400a47421cd41e42c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Branch</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">611f64d2db39b3809b7ed8b6f496190b</stage>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f496190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>261</x>
+        <y>581</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=691f28d2db39b3809b7ed8b6f496190a"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Branch">691f28d2db39b3809b7ed8b6f496190a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211f28d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Add A Record to Hosted Zone">2688434ddb3c37407e339e7aca96197b</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>53</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(51).hostname}","zone":"acmesitedepot.com","host":"www.${data.get(4).u_lab_code}","target_ip":"${data.get(62).public_ip}"}</input>
+        <is_parent>false</is_parent>
+        <name>Create DNS Record for WWW Site</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>251f28d2db39b3809b7ed8b6f4961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>1011</x>
+        <y>9</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=251f28d2db39b3809b7ed8b6f4961914"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create DNS Record for WWW Site">251f28d2db39b3809b7ed8b6f4961914</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>2d1f28d2db39b3809b7ed8b6f4961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Host Group">90537154dbf75f00786ff1351d9619fd</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>60</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(26).hostname}","lab_code":"${data.get(4).u_lab_code}"}</input>
+        <is_parent>false</is_parent>
+        <name>Create Host Group in Nagios</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>611f28d2db39b3809b7ed8b6f496190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>511</x>
+        <y>395</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=611f28d2db39b3809b7ed8b6f496190f"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Host Group in Nagios">611f28d2db39b3809b7ed8b6f496190f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f496190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Create Host Group">3467abe1dbb7d300e243b6d1ba961978</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>35</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(26).hostname}","lab_code":"${data.get(4).u_lab_code}","zabbix_ip":"${data.get(68).private_ip}","zabbix_user":"admin","zabbix_pass":"Aw3s0m31"}</input>
+        <is_parent>false</is_parent>
+        <name>Create Host Group in Zabbix</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f496190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>509</x>
+        <y>247</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e11f28d2db39b3809b7ed8b6f496190c"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Host Group in Zabbix">e11f28d2db39b3809b7ed8b6f496190c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91f28d2db39b3809b7ed8b6f496190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Deploy Monitoring Template">e5a37554dbf75f00786ff1351d9619e0</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>61</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(26).hostname}","lab_code":"${data.get(4).u_lab_code}","server_role":"lb","host_name":"ace-${data.get(4).u_lab_code}-sdlb","host_ip":"${data.get(49).private_ip}","host_group":"sd-${data.get(4).u_lab_code}"}</input>
+        <is_parent>false</is_parent>
+        <name>Deploy Monitoring Template for Site Depot LB</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e11f64d2db39b3809b7ed8b6f496190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>777</x>
+        <y>383</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e11f64d2db39b3809b7ed8b6f496190c"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Deploy Monitoring Template for Site Depot LB">e11f64d2db39b3809b7ed8b6f496190c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>6d1f64d2db39b3809b7ed8b6f496190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Configure NRPE Client - Linux">54c34b11dbad77009b7ed8b6f49619a2</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>63</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(26).hostname}","server_ip":"${data.get(49).private_ip}","nagios_ip":"${data.get(70).private_ip}"}</input>
+        <is_parent>false</is_parent>
+        <name>Deploy NRPE Config</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a91f64d2db39b3809b7ed8b6f496190d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:50:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>520</x>
+        <y>125</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a91f64d2db39b3809b7ed8b6f496190d"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Deploy NRPE Config">a91f64d2db39b3809b7ed8b6f496190d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a11f64d2db39b3809b7ed8b6f496190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Deploy Proxy VirtualHost Config">1d5df9a3db893b409b7ed8b6f4961970</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>52</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(26).hostname}","service_name":"www","server_ip":"${data.get(62).private_ip}","lab_code":"${data.get(4).u_lab_code}","target_ip":"${data.get(49).private_ip}","domain":"acmesitedepot.com"}</input>
+        <is_parent>false</is_parent>
+        <name>Deploy Virtual Host Config to MSP LB</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211f28d2db39b3809b7ed8b6f496190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>516</x>
+        <y>5</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=211f28d2db39b3809b7ed8b6f496190e"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Deploy Virtual Host Config to MSP LB">211f28d2db39b3809b7ed8b6f496190e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>291f28d2db39b3809b7ed8b6f496190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Configure Zabbix Agent - Linux">872256e8dbb1f7409b7ed8b6f4961948</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>71</databus_lookup_id>
+        <height/>
+        <input>{"Tower":"${data.get(26).hostname}","server_ip":"${data.get(49).private_ip}","zabbix_ip":"${data.get(68).private_ip}"}</input>
+        <is_parent>false</is_parent>
+        <name>Deploy Zabbix Config</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>2d1f28d2db39b3809b7ed8b6f4961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>765</x>
+        <y>118</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2d1f28d2db39b3809b7ed8b6f4961917"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Deploy Zabbix Config">2d1f28d2db39b3809b7ed8b6f4961917</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e51f28d2db39b3809b7ed8b6f4961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">ed1f64d2db39b3809b7ed8b6f496190a</stage>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f496190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>1658</x>
+        <y>597</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a11f28d2db39b3809b7ed8b6f496190d"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get Instance Name">5bd47073dbe7db00786ff1351d961997</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>39</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Get Instance Name</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f4961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>18</x>
+        <y>538</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a11f28d2db39b3809b7ed8b6f4961912"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Instance Name">a11f28d2db39b3809b7ed8b6f4961912</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91f28d2db39b3809b7ed8b6f4961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get Lab Code">eebf4372db1fdf002c87f1771d961945</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{"u_uid":"john.depot"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Lab Code</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651fe4d2db39b3809b7ed8b6f49619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>15</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=651fe4d2db39b3809b7ed8b6f49619f6"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Lab Code">651fe4d2db39b3809b7ed8b6f49619f6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1fe4d2db39b3809b7ed8b6f49619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="">5f265f73db69f3409b7ed8b6f4961939</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>62</databus_lookup_id>
+        <height/>
+        <input>{"vm_sysid":"${data.get(65).u_sysid}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get MSP LB IPs</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a91f64d2db39b3809b7ed8b6f496190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>252</x>
+        <y>500</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a91f64d2db39b3809b7ed8b6f496190f"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get MSP LB IPs">a91f64d2db39b3809b7ed8b6f496190f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ed1fe4d2db39b3809b7ed8b6f49619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get CI Sys ID">a967a486db617b009b7ed8b6f49619cb</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>65</databus_lookup_id>
+        <height/>
+        <input>{"ciName":"ACE-MSP-LB-${data.get(4).u_lab_code}","cmdbTable":"cmdb_ci_vm_instance"}</input>
+        <is_parent>false</is_parent>
+        <name>Get MSP LB SysID</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211fe4d2db39b3809b7ed8b6f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>248</x>
+        <y>407</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=211fe4d2db39b3809b7ed8b6f49619f8"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get MSP LB SysID">211fe4d2db39b3809b7ed8b6f49619f8</activity>
+        <condition/>
+        <condition_default display_value="Failure">a1676886db617b009b7ed8b6f496190d</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91fe4d2db39b3809b7ed8b6f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get MSP LB SysID">211fe4d2db39b3809b7ed8b6f49619f8</activity>
+        <condition>activityOutput.u_sysid != "NotFound"</condition>
+        <condition_default display_value="Success">69676886db617b009b7ed8b6f496190c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>291fe4d2db39b3809b7ed8b6f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Parse HostName from URL">0e435e10db7b5f00786ff1351d961954</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>51</databus_lookup_id>
+        <height/>
+        <input>{"u_url":"${data.get(50).tower_url}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get MSPTower1 IP</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a51fe4d2db39b3809b7ed8b6f49619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>18</x>
+        <y>461</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a51fe4d2db39b3809b7ed8b6f49619f5"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get MSPTower1 IP">a51fe4d2db39b3809b7ed8b6f49619f5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ad1fe4d2db39b3809b7ed8b6f49619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="">5f265f73db69f3409b7ed8b6f4961939</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>70</databus_lookup_id>
+        <height/>
+        <input>{"vm_sysid":"${data.get(69).u_sysid}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Nagios IPs</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f4961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>244</x>
+        <y>146</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=651f28d2db39b3809b7ed8b6f4961911"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Nagios IPs">651f28d2db39b3809b7ed8b6f4961911</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f4961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get CI Sys ID">a967a486db617b009b7ed8b6f49619cb</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>69</databus_lookup_id>
+        <height/>
+        <input>{"ciName":"ACE-MSP-Nagios-${data.get(4).u_lab_code}","cmdbTable":"cmdb_ci_vm_instance"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Nagios SysID</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f4961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>251</x>
+        <y>42</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=691f28d2db39b3809b7ed8b6f4961910"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Nagios SysID">691f28d2db39b3809b7ed8b6f4961910</activity>
+        <condition/>
+        <condition_default display_value="Failure">a1676886db617b009b7ed8b6f496190d</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f4961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Nagios SysID">691f28d2db39b3809b7ed8b6f4961910</activity>
+        <condition>activityOutput.u_sysid != "NotFound"</condition>
+        <condition_default display_value="Success">69676886db617b009b7ed8b6f496190c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f4961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="">5f265f73db69f3409b7ed8b6f4961939</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>49</databus_lookup_id>
+        <height/>
+        <input>{"vm_sysid":"${data.get(64).u_sysid}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Site Depot LB IPs</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f496190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>247</x>
+        <y>329</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ed1f28d2db39b3809b7ed8b6f496190f"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Site Depot LB IPs">ed1f28d2db39b3809b7ed8b6f496190f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f4961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get CI Sys ID">a967a486db617b009b7ed8b6f49619cb</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>64</databus_lookup_id>
+        <height/>
+        <input>{"ciName":"ACE-SD-LB-${data.get(4).u_lab_code}","cmdbTable":"cmdb_ci_vm_instance"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Site Depot LB Sys ID</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f4961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>247</x>
+        <y>230</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6d1f28d2db39b3809b7ed8b6f4961918"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Site Depot LB Sys ID">6d1f28d2db39b3809b7ed8b6f4961918</activity>
+        <condition/>
+        <condition_default display_value="Failure">a1676886db617b009b7ed8b6f496190d</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f4961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Site Depot LB Sys ID">6d1f28d2db39b3809b7ed8b6f4961918</activity>
+        <condition>activityOutput.u_sysid != "NotFound"</condition>
+        <condition_default display_value="Success">69676886db617b009b7ed8b6f496190c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>611f28d2db39b3809b7ed8b6f4961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Parse HostName from URL">0e435e10db7b5f00786ff1351d961954</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>26</databus_lookup_id>
+        <height/>
+        <input>{"u_url":"${data.get(25).tower_url}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Tower1 IP</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a51f28d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>15</x>
+        <y>304</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a51f28d2db39b3809b7ed8b6f496190b"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Tower1 IP">a51f28d2db39b3809b7ed8b6f496190b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91f28d2db39b3809b7ed8b6f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get Ansible Tower URL">00855690db7b5f00786ff1351d961901</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>50</databus_lookup_id>
+        <height/>
+        <input>{"u_towername":"MSPTower1"}</input>
+        <is_parent>false</is_parent>
+        <name>Get URL from "MSPTower1"</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f4961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>15</x>
+        <y>384</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e11f28d2db39b3809b7ed8b6f4961916"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get URL from &quot;MSPTower1&quot;">e11f28d2db39b3809b7ed8b6f4961916</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e51f28d2db39b3809b7ed8b6f4961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get Ansible Tower URL">00855690db7b5f00786ff1351d961901</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>25</databus_lookup_id>
+        <height/>
+        <input>{"u_towername":"Tower1"}</input>
+        <is_parent>false</is_parent>
+        <name>Get URL from "Tower1"</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f4961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>15</x>
+        <y>227</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=651f28d2db39b3809b7ed8b6f4961915"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get URL from &quot;Tower1&quot;">651f28d2db39b3809b7ed8b6f4961915</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f4961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="">5f265f73db69f3409b7ed8b6f4961939</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>68</databus_lookup_id>
+        <height/>
+        <input>{"vm_sysid":"${data.get(67).u_sysid}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Zabbix IPs</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211fe4d2db39b3809b7ed8b6f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>25</x>
+        <y>709</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=211fe4d2db39b3809b7ed8b6f49619f9"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Zabbix IPs">211fe4d2db39b3809b7ed8b6f49619f9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>251fe4d2db39b3809b7ed8b6f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get CI Sys ID">a967a486db617b009b7ed8b6f49619cb</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>67</databus_lookup_id>
+        <height/>
+        <input>{"ciName":"ACE-MSP-Zabbix-${data.get(4).u_lab_code}","cmdbTable":"cmdb_ci_vm_instance"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Zabbix SysID</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f4961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>16</x>
+        <y>615</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6d1f28d2db39b3809b7ed8b6f4961916"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Zabbix SysID">6d1f28d2db39b3809b7ed8b6f4961916</activity>
+        <condition/>
+        <condition_default display_value="Failure">a1676886db617b009b7ed8b6f496190d</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>611f28d2db39b3809b7ed8b6f4961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get Zabbix SysID">6d1f28d2db39b3809b7ed8b6f4961916</activity>
+        <condition>activityOutput.u_sysid != "NotFound"</condition>
+        <condition_default display_value="Success">69676886db617b009b7ed8b6f496190c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f4961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Join">7c9a2ba9c0a801650021ada408de0ebd</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Join</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Delivery">691f64d2db39b3809b7ed8b6f496190b</stage>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e51fe4d2db39b3809b7ed8b6f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>1459</x>
+        <y>342</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e51fe4d2db39b3809b7ed8b6f49619f2"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</activity>
+        <condition>activity.result == 'complete'</condition>
+        <condition_default display_value="Complete">6dd6ac3e0a6a803f16b5e594347ea01c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Complete</name>
+        <order>1</order>
+        <short_description>All predecessor activities have transitioned to this activity</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ad1fe4d2db39b3809b7ed8b6f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</activity>
+        <condition>activity.result == 'incomplete'</condition>
+        <condition_default display_value="Incomplete">6dd49ad30a6a803f03a5a18c4085b1c7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Incomplete</name>
+        <order>2</order>
+        <short_description>At least one predecessor activities did not transition to this activity</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>211fe4d2db39b3809b7ed8b6f49619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Log Trace Message">c13ed50d7f00000101ac0aa8e373ea73</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>66</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Log Failures</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91f28d2db39b3809b7ed8b6f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>405</x>
+        <y>739</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e91f28d2db39b3809b7ed8b6f4961909"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Log Failures">e91f28d2db39b3809b7ed8b6f4961909</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f496190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Quick Discovery">7aca077edbdbdf002c87f1771d961966</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>58</databus_lookup_id>
+        <height/>
+        <input>{"target_ip":"${data.get(49).private_ip}","target_mid":""}</input>
+        <is_parent>false</is_parent>
+        <name>Rediscover Site Depot LB</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11fe4d2db39b3809b7ed8b6f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>1326</x>
+        <y>203</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e11fe4d2db39b3809b7ed8b6f49619f7"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Rediscover Site Depot LB">e11fe4d2db39b3809b7ed8b6f49619f7</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e51fe4d2db39b3809b7ed8b6f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Quick Discovery">7aca077edbdbdf002c87f1771d961966</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{"target_ip":"${data.get(62).private_ip}","target_mid":""}</input>
+        <is_parent>false</is_parent>
+        <name>Rediscover The MSP LB</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>691fe4d2db39b3809b7ed8b6f49619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>753</x>
+        <y>10</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=691fe4d2db39b3809b7ed8b6f49619f3"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Rediscover The MSP LB">691fe4d2db39b3809b7ed8b6f49619f3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>611fe4d2db39b3809b7ed8b6f49619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Linux - Rename Server">0978f24ddbf837407e339e7aca961980</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>57</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(26).hostname}","server_ip":"${data.get(49).private_ip}","lab_code":"${data.get(4).u_lab_code}","server_role":"sdlb"}</input>
+        <is_parent>false</is_parent>
+        <name>Rename Site Depot LB</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f4961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>1013</x>
+        <y>119</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e11f28d2db39b3809b7ed8b6f4961913"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Rename Site Depot LB">e11f28d2db39b3809b7ed8b6f4961913</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91f28d2db39b3809b7ed8b6f4961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>24</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for Paths to Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e51fe4d2db39b3809b7ed8b6f49619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>1471</x>
+        <y>456</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e51fe4d2db39b3809b7ed8b6f49619ee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>251fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>291fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>2d1fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>611fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>651fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>691fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a11fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a51fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a91fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ad1fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e11fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e51fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e91fe4d2db39b3809b7ed8b6f49619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e91fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ed1fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e51fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e91fe4d2db39b3809b7ed8b6f49619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>691fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e11fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ed1fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>651fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a11fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>611fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>ad1fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a91fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>a51fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>291fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e91fe4d2db39b3809b7ed8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>251fe4d2db39b3809b7ed8b6f49619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e51fe4d2db39b3809b7ed8b6f49619ee</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>2d1fe4d2db39b3809b7ed8b6f49619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for Paths to Complete">e51fe4d2db39b3809b7ed8b6f49619ee</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>211fe4d2db39b3809b7ed8b6f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>59</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for Rename and Reboot</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91fe4d2db39b3809b7ed8b6f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+        <x>1244</x>
+        <y>119</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e91fe4d2db39b3809b7ed8b6f49619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211fe4d2db39b3809b7ed8b6f49619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>291f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>2d1f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f4961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1fe4d2db39b3809b7ed8b6f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a51f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91f28d2db39b3809b7ed8b6f4961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ad1f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>1970-01-01 00:03:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1fe4d2db39b3809b7ed8b6f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f4961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211fe4d2db39b3809b7ed8b6f49619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a51f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>1970-01-01 00:03:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ad1f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91f28d2db39b3809b7ed8b6f4961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>2d1f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>291f28d2db39b3809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e91fe4d2db39b3809b7ed8b6f49619f9</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211f28d2db39b3809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for Rename and Reboot">e91fe4d2db39b3809b7ed8b6f49619f9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ed1fe4d2db39b3809b7ed8b6f49619ed</condition>
+        <from display_value="Get MSP LB IPs">a91f64d2db39b3809b7ed8b6f496190f</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>211f28d2db39b3809b7ed8b6f496192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Branch">691f28d2db39b3809b7ed8b6f496190a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">611fe4d2db39b3809b7ed8b6f49619f4</condition>
+        <from display_value="Rediscover The MSP LB">691fe4d2db39b3809b7ed8b6f49619f3</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>251f28d2db39b3809b7ed8b6f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Create DNS Record for WWW Site">251f28d2db39b3809b7ed8b6f4961914</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Failure">ed1f28d2db39b3809b7ed8b6f4961910</condition>
+        <from display_value="Get Nagios SysID">691f28d2db39b3809b7ed8b6f4961910</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>251f28d2db39b3809b7ed8b6f496191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Log Failures">e91f28d2db39b3809b7ed8b6f4961909</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Complete">ad1fe4d2db39b3809b7ed8b6f49619f2</condition>
+        <from display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>251f28d2db39b3809b7ed8b6f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="End">a11f28d2db39b3809b7ed8b6f496190d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">691f28d2db39b3809b7ed8b6f4961911</condition>
+        <from display_value="Get Nagios IPs">651f28d2db39b3809b7ed8b6f4961911</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>291f28d2db39b3809b7ed8b6f496191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Site Depot LB Sys ID">6d1f28d2db39b3809b7ed8b6f4961918</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e51fe4d2db39b3809b7ed8b6f49619f7</condition>
+        <from display_value="Rediscover Site Depot LB">e11fe4d2db39b3809b7ed8b6f49619f7</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>2d1f28d2db39b3809b7ed8b6f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a91f28d2db39b3809b7ed8b6f496190b</condition>
+        <from display_value="Get Tower1 IP">a51f28d2db39b3809b7ed8b6f496190b</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>611f28d2db39b3809b7ed8b6f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get URL from &quot;MSPTower1&quot;">e11f28d2db39b3809b7ed8b6f4961916</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ad1fe4d2db39b3809b7ed8b6f49619f5</condition>
+        <from display_value="Get MSPTower1 IP">a51fe4d2db39b3809b7ed8b6f49619f5</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f496191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Instance Name">a11f28d2db39b3809b7ed8b6f4961912</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">211f28d2db39b3809b7ed8b6f496190b</condition>
+        <from display_value="Branch">691f28d2db39b3809b7ed8b6f496190a</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Deploy NRPE Config">a91f64d2db39b3809b7ed8b6f496190d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">251fe4d2db39b3809b7ed8b6f49619f9</condition>
+        <from display_value="Get Zabbix IPs">211fe4d2db39b3809b7ed8b6f49619f9</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f496191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Nagios SysID">691f28d2db39b3809b7ed8b6f4961910</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Failure">e11f28d2db39b3809b7ed8b6f4961919</condition>
+        <from display_value="Get Site Depot LB Sys ID">6d1f28d2db39b3809b7ed8b6f4961918</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>651f28d2db39b3809b7ed8b6f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Log Failures">e91f28d2db39b3809b7ed8b6f4961909</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">211f28d2db39b3809b7ed8b6f496190b</condition>
+        <from display_value="Branch">691f28d2db39b3809b7ed8b6f496190a</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Deploy Virtual Host Config to MSP LB">211f28d2db39b3809b7ed8b6f496190e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6d1f28d2db39b3809b7ed8b6f4961915</condition>
+        <from display_value="Get URL from &quot;Tower1&quot;">651f28d2db39b3809b7ed8b6f4961915</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Tower1 IP">a51f28d2db39b3809b7ed8b6f496190b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Failure">611f28d2db39b3809b7ed8b6f4961917</condition>
+        <from display_value="Get Zabbix SysID">6d1f28d2db39b3809b7ed8b6f4961916</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Log Failures">e91f28d2db39b3809b7ed8b6f4961909</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Failure">a91fe4d2db39b3809b7ed8b6f49619f8</condition>
+        <from display_value="Get MSP LB SysID">211fe4d2db39b3809b7ed8b6f49619f8</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f496191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Log Failures">e91f28d2db39b3809b7ed8b6f4961909</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6d1f64d2db39b3809b7ed8b6f496190c</condition>
+        <from display_value="Deploy Monitoring Template for Site Depot LB">e11f64d2db39b3809b7ed8b6f496190c</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>6d1f28d2db39b3809b7ed8b6f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Success">6d1f28d2db39b3809b7ed8b6f4961910</condition>
+        <from display_value="Get Nagios SysID">691f28d2db39b3809b7ed8b6f4961910</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f496191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Nagios IPs">651f28d2db39b3809b7ed8b6f4961911</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a91f28d2db39b3809b7ed8b6f4961912</condition>
+        <from display_value="Get Instance Name">a11f28d2db39b3809b7ed8b6f4961912</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f496191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Zabbix SysID">6d1f28d2db39b3809b7ed8b6f4961916</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">691f28d2db39b3809b7ed8b6f496190f</condition>
+        <from display_value="Create Host Group in Nagios">611f28d2db39b3809b7ed8b6f496190f</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Deploy Monitoring Template for Site Depot LB">e11f64d2db39b3809b7ed8b6f496190c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e91f28d2db39b3809b7ed8b6f4961913</condition>
+        <from display_value="Rename Site Depot LB">e11f28d2db39b3809b7ed8b6f4961913</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f496191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Wait for Rename and Reboot">e91fe4d2db39b3809b7ed8b6f49619f9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">291f28d2db39b3809b7ed8b6f496190e</condition>
+        <from display_value="Deploy Virtual Host Config to MSP LB">211f28d2db39b3809b7ed8b6f496190e</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a11f28d2db39b3809b7ed8b6f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Rediscover The MSP LB">691fe4d2db39b3809b7ed8b6f49619f3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Incomplete">211fe4d2db39b3809b7ed8b6f49619f3</condition>
+        <from display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a51f28d2db39b3809b7ed8b6f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Wait for Paths to Complete">e51fe4d2db39b3809b7ed8b6f49619ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e51f28d2db39b3809b7ed8b6f4961916</condition>
+        <from display_value="Get URL from &quot;MSPTower1&quot;">e11f28d2db39b3809b7ed8b6f4961916</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a51f28d2db39b3809b7ed8b6f496192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get MSPTower1 IP">a51fe4d2db39b3809b7ed8b6f49619f5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e11f28d2db39b3809b7ed8b6f4961910</condition>
+        <from display_value="Get Site Depot LB IPs">ed1f28d2db39b3809b7ed8b6f496190f</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91f28d2db39b3809b7ed8b6f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get MSP LB SysID">211fe4d2db39b3809b7ed8b6f49619f8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">2d1f28d2db39b3809b7ed8b6f4961914</condition>
+        <from display_value="Create DNS Record for WWW Site">251f28d2db39b3809b7ed8b6f4961914</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91f28d2db39b3809b7ed8b6f496191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e51f28d2db39b3809b7ed8b6f4961918</condition>
+        <from display_value="Deploy Zabbix Config">2d1f28d2db39b3809b7ed8b6f4961917</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>a91f28d2db39b3809b7ed8b6f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Rename Site Depot LB">e11f28d2db39b3809b7ed8b6f4961913</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a11f28d2db39b3809b7ed8b6f4961909</condition>
+        <from display_value="Wait for Rename and Reboot">e91fe4d2db39b3809b7ed8b6f49619f9</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ad1f28d2db39b3809b7ed8b6f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Rediscover Site Depot LB">e11fe4d2db39b3809b7ed8b6f49619f7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e91f28d2db39b3809b7ed8b6f496190c</condition>
+        <from display_value="Create Host Group in Zabbix">e11f28d2db39b3809b7ed8b6f496190c</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e11f28d2db39b3809b7ed8b6f496192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Add Site Depot LB to Zabbix">e91f64d2db39b3809b7ed8b6f496190e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ed1fe4d2db39b3809b7ed8b6f49619f4</condition>
+        <from display_value="Begin">291fe4d2db39b3809b7ed8b6f49619f4</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e51f28d2db39b3809b7ed8b6f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Lab Code">651fe4d2db39b3809b7ed8b6f49619f6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">211fe4d2db39b3809b7ed8b6f49619f2</condition>
+        <from display_value="Wait for Paths to Complete">e51fe4d2db39b3809b7ed8b6f49619ee</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e51f28d2db39b3809b7ed8b6f496191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">211f28d2db39b3809b7ed8b6f496190b</condition>
+        <from display_value="Branch">691f28d2db39b3809b7ed8b6f496190a</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e51f28d2db39b3809b7ed8b6f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Create Host Group in Zabbix">e11f28d2db39b3809b7ed8b6f496190c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Success">611f28d2db39b3809b7ed8b6f4961919</condition>
+        <from display_value="Get Site Depot LB Sys ID">6d1f28d2db39b3809b7ed8b6f4961918</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e51f28d2db39b3809b7ed8b6f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Site Depot LB IPs">ed1f28d2db39b3809b7ed8b6f496190f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6d1fe4d2db39b3809b7ed8b6f49619f6</condition>
+        <from display_value="Get Lab Code">651fe4d2db39b3809b7ed8b6f49619f6</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91f28d2db39b3809b7ed8b6f496191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get URL from &quot;Tower1&quot;">651f28d2db39b3809b7ed8b6f4961915</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">211f28d2db39b3809b7ed8b6f496190b</condition>
+        <from display_value="Branch">691f28d2db39b3809b7ed8b6f496190a</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>e91f28d2db39b3809b7ed8b6f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Create Host Group in Nagios">611f28d2db39b3809b7ed8b6f496190f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Success">e11f28d2db39b3809b7ed8b6f4961917</condition>
+        <from display_value="Get Zabbix SysID">6d1f28d2db39b3809b7ed8b6f4961916</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get Zabbix IPs">211fe4d2db39b3809b7ed8b6f49619f9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Success">291fe4d2db39b3809b7ed8b6f49619f8</condition>
+        <from display_value="Get MSP LB SysID">211fe4d2db39b3809b7ed8b6f49619f8</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f496191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Get MSP LB IPs">a91f64d2db39b3809b7ed8b6f496190f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a11f64d2db39b3809b7ed8b6f496190e</condition>
+        <from display_value="Deploy NRPE Config">a91f64d2db39b3809b7ed8b6f496190d</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f496191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Deploy Zabbix Config">2d1f28d2db39b3809b7ed8b6f4961917</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a11f28d2db39b3809b7ed8b6f496190a</condition>
+        <from display_value="Log Failures">e91f28d2db39b3809b7ed8b6f4961909</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="End">a11f28d2db39b3809b7ed8b6f496190d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e11f64d2db39b3809b7ed8b6f496190f</condition>
+        <from display_value="Add Site Depot LB to Zabbix">e91f64d2db39b3809b7ed8b6f496190e</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>ed1f28d2db39b3809b7ed8b6f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <to display_value="Join">e51fe4d2db39b3809b7ed8b6f49619f2</to>
+    </wf_transition>
+    <wf_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>u_db</name>
+        <order/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text/>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>wf_variable</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>311f28d2db39b3809b7ed8b6f4961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <workflow display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow>
+        <write_roles/>
+    </wf_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=311f28d2db39b3809b7ed8b6f4961931"/>
+    <fx_price action="delete_multiple" query="id=311f28d2db39b3809b7ed8b6f4961931"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>311f28d2db39b3809b7ed8b6f4961931</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>751f28d2db39b3809b7ed8b6f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>311f28d2db39b3809b7ed8b6f4961931</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>3d1f28d2db39b3809b7ed8b6f4961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <wf_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>u_msp_lb</name>
+        <order/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text/>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>wf_variable</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>3d1f28d2db39b3809b7ed8b6f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <workflow display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow>
+        <write_roles/>
+    </wf_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d1f28d2db39b3809b7ed8b6f4961932"/>
+    <fx_price action="delete_multiple" query="id=3d1f28d2db39b3809b7ed8b6f4961932"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>3d1f28d2db39b3809b7ed8b6f4961932</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>f91f28d2db39b3809b7ed8b6f4961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>3d1f28d2db39b3809b7ed8b6f4961932</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>b11f28d2db39b3809b7ed8b6f4961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <wf_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>u_lb</name>
+        <order/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text/>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>wf_variable</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>691f28d2db39b3809b7ed8b6f496192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <workflow display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow>
+        <write_roles/>
+    </wf_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=691f28d2db39b3809b7ed8b6f496192d"/>
+    <fx_price action="delete_multiple" query="id=691f28d2db39b3809b7ed8b6f496192d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>691f28d2db39b3809b7ed8b6f496192d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>751f28d2db39b3809b7ed8b6f496192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>691f28d2db39b3809b7ed8b6f496192d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>611f28d2db39b3809b7ed8b6f496192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <wf_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>u_www</name>
+        <order/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text/>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>wf_variable</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>b91f28d2db39b3809b7ed8b6f4961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <workflow display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow>
+        <write_roles/>
+    </wf_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=b91f28d2db39b3809b7ed8b6f4961934"/>
+    <fx_price action="delete_multiple" query="id=b91f28d2db39b3809b7ed8b6f4961934"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>b91f28d2db39b3809b7ed8b6f4961934</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>791f28d2db39b3809b7ed8b6f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>b91f28d2db39b3809b7ed8b6f4961934</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:15</sys_created_on>
+        <sys_id>311f28d2db39b3809b7ed8b6f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:15</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-04 17:49:14</sys_created_on>
+        <sys_id>e91f64d2db39b3809b7ed8b6f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-04 17:49:14</sys_updated_on>
+        <workflow_version display_value="ITOM - SD LoadBalancer Config">e51f64d2db39b3809b7ed8b6f4961909</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=a38e4b54db2d33009b7ed8b6f4961943^sys_id!=e51f64d2db39b3809b7ed8b6f4961909">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

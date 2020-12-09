@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop">
+    <sn_cmp_bp_global_prop action="DELETE">
+        <bp_stage_operation display_value="Provision">2773b01adb2c88d0a9ed3967f49619b5</bp_stage_operation>
+        <bp_stage_res_op_attr display_value="u_ansible_tower">11ccf41adb6c88d0a9ed3967f4961909</bp_stage_res_op_attr>
+        <mandatory>true</mandatory>
+        <name>AWS_EC2_Instance_u_ansible_tower</name>
+        <order>860</order>
+        <resource_op_unique_id>1044</resource_op_unique_id>
+        <sys_class_name>sn_cmp_bp_global_prop</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:41:41</sys_created_on>
+        <sys_id>ddccf41adb6c88d0a9ed3967f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS_EC2_Instance_u_ansible_tower</sys_name>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_global_prop_ddccf41adb6c88d0a9ed3967f4961909</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:41:41</sys_updated_on>
+    </sn_cmp_bp_global_prop>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sn_cmp_bp_global_prop_ddccf41adb6c88d0a9ed3967f4961909</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop"><sn_cmp_bp_global_prop action="INSERT_OR_UPDATE"><bp_stage_operation display_value="Provision">2773b01adb2c88d0a9ed3967f49619b5</bp_stage_operation><bp_stage_res_op_attr display_value="u_ansible_tower">11ccf41adb6c88d0a9ed3967f4961909</bp_stage_res_op_attr><mandatory>true</mandatory><name>AWS_EC2_Instance_u_ansible_tower</name><order>860</order><resource_op_unique_id>1044</resource_op_unique_id><sys_class_name>sn_cmp_bp_global_prop</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2019-10-19 11:41:41</sys_created_on><sys_id>ddccf41adb6c88d0a9ed3967f4961909</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS_EC2_Instance_u_ansible_tower</sys_name><sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_bp_global_prop_ddccf41adb6c88d0a9ed3967f4961909</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2019-10-19 11:41:41</sys_updated_on></sn_cmp_bp_global_prop></record_update>]]></payload>
+        <payload_hash>99299530</payload_hash>
+        <record_name>AWS_EC2_Instance_u_ansible_tower</record_name>
+        <reverted_from/>
+        <source>8766a179dbf33700261616370596198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:41:41</sys_created_on>
+        <sys_id>59ccf41adb6c88d0a9ed3967f496190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16de3d2bc5c0000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:41:41</sys_updated_on>
+        <type>Global Property</type>
+        <update_guid>51ccf41a2f6c88d0a431912ed91b810b</update_guid>
+        <update_guid_history>51ccf41a2f6c88d0a431912ed91b810b:99299530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AWS_EC2_Instance_u_ansible_tower">2441cddedb6c88d0a9ed3967f49619ef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 12:01:18</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_global_prop">sn_cmp_bp_global_prop</sys_db_object>
+        <sys_id>b49a229d1f9e4208ab3076fa72473710</sys_id>
+        <sys_metadata>ddccf41adb6c88d0a9ed3967f4961909</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS_EC2_Instance_u_ansible_tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_global_prop_ddccf41adb6c88d0a9ed3967f4961909</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_global_prop_ddccf41adb6c88d0a9ed3967f4961909">59ccf41adb6c88d0a9ed3967f496190b</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 12:01:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

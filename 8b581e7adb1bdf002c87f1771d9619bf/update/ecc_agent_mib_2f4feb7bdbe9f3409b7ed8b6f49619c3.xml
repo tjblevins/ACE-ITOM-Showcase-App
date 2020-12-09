@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_mib">
+    <ecc_agent_mib action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>NAGIOS-ROOT-MIB</description>
+        <directory>false</directory>
+        <name>NAGIOS-ROOT-MIB</name>
+        <parent/>
+        <source>NAGIOS-ROOT-MIB</source>
+        <sys_class_name>ecc_agent_mib</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-28 13:24:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f4feb7bdbe9f3409b7ed8b6f49619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NAGIOS-ROOT-MIB</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>ecc_agent_mib_2f4feb7bdbe9f3409b7ed8b6f49619c3</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-28 13:24:48</sys_updated_on>
+        <version/>
+    </ecc_agent_mib>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>text/plain</content_type>
+        <encryption_context/>
+        <file_name>NAGIOS-ROOT-MIB</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1982</size_bytes>
+        <size_compressed>938</size_compressed>
+        <state>pending</state>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-28 13:24:41</sys_created_on>
+        <sys_id>796feb7bdbe9f3409b7ed8b6f49619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-28 13:24:41</sys_updated_on>
+        <table_name>ecc_agent_mib</table_name>
+        <table_sys_id>2f4feb7bdbe9f3409b7ed8b6f49619c3</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="NAGIOS-ROOT-MIB" sys_id="796feb7bdbe9f3409b7ed8b6f49619c8">796feb7bdbe9f3409b7ed8b6f49619c8</sys_attachment>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-28 13:24:41</sys_created_on>
+        <sys_id>b96feb7bdbe9f3409b7ed8b6f49619c8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>xVRtb9pIEP5c/4oRn0CHKZC2unJCOgc7xBdYI9skbb8tZsG+2LvW7hqKqvvvnbUNiZrmdNKddBGRYV6emXnmGRNn7geRHQZBbC/9a3C9G5/4sR+QCCaTKVx7c59Y/nIVhHFkASwDd73wbN/1SOzHn/sAjGsmS5kppgADAG7CYAkRWa4OYzta+miLvU/x2lnYs4Dcm7yAvAiMZ79ZlsXpPhPqxyJ18MKJYnu9cp3Yc6EzHg7fD6+GH4f496UDtg1LKpMUPvbBuOqMIJw7xP/imHrQITV0p/ZgH7Ezi22f3AS1AaADUbVJGd9WME+FSltz+4hZzspUcDaBX0ZYAf+vxjD+9f2oDfAKmuUTUHuT+3ulmFQDJSqZsJ2QezbgTFttaNMI+Bw9BdWZ4JPWA5BqXU7evj0ej4OGigFmnzusn64XzUJ/deEQ7cHmT5ZoBYjXgnd10QOyjJqU0Lv3o5qDf8LaTwpEJctzSFKWPHasN29+wBuNhxe8PyivqDwh2t8j+jzTGc3hHnlCApo+jdy+PVeTAf7wl2XZNn5wB191hTkzwQ8YhWnKeCwidLY7xaeS1Qg/1VoUO/E6gqSSElOtlz11HFBaZnwP2daA707mu04ZaAMsdsBNmSypF4YOqiFTsGEmTGFGo5TuKgyuF96yj6TPgnsvxANxZnckeFh47txbYkN9uFk4q5VP5thUGAMu7ckQrHoD67zs6DOq9BP4JPbmXgjfakcpxSZnRXfY69e/JUvEgclTd9QaaPLIxTFn2z0rsK/uuLXvclqW2K3SVOru1QurKLvverUNGb8VSkeaaua7/45UXhUbJhu+EoGBqhR8q0CLmtw2F7nHWoZlY8QT0hMYTterPoymbvBA+g274+mahJ4zu3WQ48GrFFXlhZ2tOPILMxWXjCYpRf5w/nbU8+U9jfzfKYlva720QmpmrOVkLvX5+Gbi5r6ge+uErhFFDRYFN3FvAJHYtRwpEAlmwRFfVc/SFOpAV5IDRZ1yO7iDrnmuV722bCMNvgUqGTZWV0cpJUwpQ3ujY8SQGdsO4JbK7bkerqzK9bOCNVRbNaUHhsnoqg0M8UGVLMFLwe8F/ZoVVXEWgVlvVjD1+uZSrHvZncKhcXdnSUZMHrKE/W+qVE19I8zgrhXkaPrghAQvF992UywS+zNn0Ycr1Km5efLaLTfTisfLrEcqOW7gItVE4vsxofnleiturpo/6dayPOJa3wFCDR8rvgcAAA==</data>
+        <length>1240</length>
+        <position>1</position>
+        <sys_attachment display_value="NAGIOS-ROOT-MIB" sys_id="796feb7bdbe9f3409b7ed8b6f49619c8">796feb7bdbe9f3409b7ed8b6f49619c8</sys_attachment>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-28 13:24:41</sys_created_on>
+        <sys_id>3d6feb7bdbe9f3409b7ed8b6f49619c8</sys_id>
+    </sys_attachment_doc>
+</record_update>

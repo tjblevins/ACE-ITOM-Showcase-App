@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_cloud_template_version_param">
+    <sn_cmp_cloud_template_version_param action="INSERT_OR_UPDATE">
+        <action_type>new</action_type>
+        <cloud_variable/>
+        <datasource>1</datasource>
+        <datasourcevalue/>
+        <decision>update_using_template</decision>
+        <default_value/>
+        <error_text/>
+        <help_text/>
+        <name>LABCODE</name>
+        <order>0</order>
+        <regex/>
+        <sys_class_name>sn_cmp_cloud_template_version_param</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 13:31:08</sys_created_on>
+        <sys_id>d28c2d9cdbcc401015e3dd18f49619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f8fb61dcdbcc401015e3dd18f4961998</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_cloud_template_version_param_d28c2d9cdbcc401015e3dd18f49619e3</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-18 13:31:08</sys_updated_on>
+        <template_version display_value="1">f8fb61dcdbcc401015e3dd18f4961998</template_version>
+        <type>1</type>
+        <variable_datasource/>
+        <variable_datasourcevalue/>
+        <variable_default_value/>
+        <variable_error_text/>
+        <variable_help_text/>
+        <variable_regex/>
+    </sn_cmp_cloud_template_version_param>
+</record_update>

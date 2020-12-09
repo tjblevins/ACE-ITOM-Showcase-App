@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_keyvalue_mapping">
+    <sn_cmp_rb_keyvalue_mapping action="INSERT_OR_UPDATE">
+        <keyvalue display_value="templateParameters">d38011c6db7ac4106846dd384b96196b</keyvalue>
+        <parameter>dnsLabelPrefix</parameter>
+        <parameter_source>1</parameter_source>
+        <sys_class_name>sn_cmp_rb_keyvalue_mapping</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:50:55</sys_created_on>
+        <sys_id>238011c6db7ac4106846dd384b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_keyvalue_mapping_238011c6db7ac4106846dd384b961996</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:50:55</sys_updated_on>
+    </sn_cmp_rb_keyvalue_mapping>
+</record_update>

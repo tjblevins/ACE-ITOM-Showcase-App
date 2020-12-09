@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="Run Script">d0c7fe11eb013100fc5e8a7af106fee0</base_provider>
+        <category>Deprecated - ServiceNow</category>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_runscript.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"ciName","type":"STRING","mandatory":true},{"name":"cmdbTable","type":"STRING","mandatory":true,"defaultValue":"cmdb_ci"}]}</input_meta>
+        <input_process_script/>
+        <input_transform/>
+        <local_variables/>
+        <name>Get CI Sys ID</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"u_sysid","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform/>
+        <processing_script><![CDATA[var ciID = activityInput.ciName;  //input reference field to cmdb_ci table  
+var ciRec = new GlideRecord(activityInput.cmdbTable);  
+ciRec.addQuery("name",ciID); 
+ciRec.query();
+
+if (ciRec.next()){
+	activityOutput.u_sysid = ciRec.sys_id;
+	
+}
+else {
+	activityOutput.u_sysid = "NotFound"; 
+	
+}]]></processing_script>
+        <sample_payloads>{}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-22 12:21:29</sys_created_on>
+        <sys_id>a967a486db617b009b7ed8b6f49619cb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get CI Sys ID</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>wf_element_activity_a967a486db617b009b7ed8b6f49619cb</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 12:10:35</sys_updated_on>
+        <version_container_id>f135ee85db70f3409b7ed8b6f4961997</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=a967a486db617b009b7ed8b6f49619cb"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>true</published>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-22 12:21:29</sys_created_on>
+        <sys_id>e567a486db617b009b7ed8b6f49619cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-22 12:21:53</sys_updated_on>
+        <valid_from>2019-05-22 12:21:53</valid_from>
+        <valid_to/>
+        <version>4</version>
+        <version_container_id>f135ee85db70f3409b7ed8b6f4961997</version_container_id>
+        <wf_element_definition display_value="Get CI Sys ID">a967a486db617b009b7ed8b6f49619cb</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get CI Sys ID">a967a486db617b009b7ed8b6f49619cb</activity_definition>
+        <condition>activityOutput.u_sysid != "NotFound"</condition>
+        <derived_definition>0ae1ec8edb217b009b7ed8b6f496192a</derived_definition>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-22 12:21:29</sys_created_on>
+        <sys_id>69676886db617b009b7ed8b6f496190c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-22 12:21:48</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get CI Sys ID">a967a486db617b009b7ed8b6f49619cb</activity_definition>
+        <condition/>
+        <derived_definition>57f1e0cedb217b009b7ed8b6f496193f</derived_definition>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-22 12:21:29</sys_created_on>
+        <sys_id>a1676886db617b009b7ed8b6f496190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-22 12:21:29</sys_updated_on>
+    </wf_condition_default>
+    <wf_versionable action="update_multiple" query="version_container_id=f135ee85db70f3409b7ed8b6f4961997^sys_id!=e567a486db617b009b7ed8b6f49619cc^version&lt;4">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=f135ee85db70f3409b7ed8b6f4961997">
+        <new_activity_definition>a967a486db617b009b7ed8b6f49619cb</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+    </wf_activity>
+</record_update>

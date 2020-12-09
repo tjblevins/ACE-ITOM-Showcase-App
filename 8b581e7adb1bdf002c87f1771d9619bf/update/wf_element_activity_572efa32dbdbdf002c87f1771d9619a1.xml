@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="Run Script">d0c7fe11eb013100fc5e8a7af106fee0</base_provider>
+        <category>Deprecated - ServiceNow</category>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description>Runs Quick Discovery</description>
+        <image>images/heisenberg_icons/workflow_ie8/provider_runscript.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"target_ip","type":"STRING","mandatory":true},{"name":"target_mid","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform/>
+        <local_variables/>
+        <name>Quick Discovery</name>
+        <output_meta/>
+        <output_process_script/>
+        <output_transform/>
+        <processing_script><![CDATA[var d = new Discovery();
+var statusID = d.discoveryFromIP(activityInput.target_ip, activityInput.target_mid);]]></processing_script>
+        <sample_payloads>{}</sample_payloads>
+        <short_description>Quick Discovery</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-07-18 14:43:57</sys_created_on>
+        <sys_id>572efa32dbdbdf002c87f1771d9619a1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Quick Discovery</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>wf_element_activity_572efa32dbdbdf002c87f1771d9619a1</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 12:10:34</sys_updated_on>
+        <version_container_id>f95e7e32dbdbdf002c87f1771d96195d</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=572efa32dbdbdf002c87f1771d9619a1"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>false</published>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-07-18 14:43:57</sys_created_on>
+        <sys_id>b15e7e32dbdbdf002c87f1771d96195f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-07-18 15:38:50</sys_updated_on>
+        <valid_from>2018-07-18 14:47:32</valid_from>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>f95e7e32dbdbdf002c87f1771d96195d</version_container_id>
+        <wf_element_definition display_value="Quick Discovery">572efa32dbdbdf002c87f1771d9619a1</wf_element_definition>
+    </wf_versionable>
+</record_update>

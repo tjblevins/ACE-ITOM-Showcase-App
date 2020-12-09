@@ -1,0 +1,2401 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Monitoring">c842e809dba0c0d0a9ed3967f4961939</category>
+        <compiler_build/>
+        <copied_from>6995ffafdbec001015e3dd18f4961971</copied_from>
+        <copied_from_name>Zabbix - Add Host - HTTP</copied_from_name>
+        <description/>
+        <internal_name>zabbix__create_host_group</internal_name>
+        <label_cache>[{"name":"subflow.ansible_tower_private_ip","label":"Input➛Ansible Tower Private IP","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.host_group","label":"Input➛Host Group","type":"string","base_type":"string"},{"name":"subflow.host_name","label":"Input➛Host Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.nagios_ip","label":"Input➛Nagios IP","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.db_ip","label":"Input➛DB IP","type":"string","base_type":"string"},{"name":"subflow.db_pass","label":"Input➛DB Pass","type":"string","base_type":"string"},{"name":"subflow.db_user","label":"Input➛DB User","type":"string","base_type":"string"},{"name":"subflow.db_name","label":"Input➛DB Name","type":"string","base_type":"string"},{"name":"subflow.host_ip","label":"Input➛Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_finished","label":"3➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_started","label":"3➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_failed","label":"3➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_status","label":"3➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_id","label":"3➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.responce_body","label":"3➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.error_code","label":"3➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.status_code","label":"3➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.domain","label":"Input➛Domain","type":"string","base_type":"string"},{"name":"subflow.target_ip","label":"Input➛Target IP","type":"string","base_type":"string"},{"name":"subflow.apache_host_ip","label":"Input➛Apache Host IP","type":"string","base_type":"string"},{"name":"subflow.server_ip","label":"Input➛Apache Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.lab_code","label":"Input➛Lab Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.server_role","label":"Input➛Server Role","type":"string","base_type":"string"},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"subflow.zabbix_ip","label":"Input➛Zabbix IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""}]</label_cache>
+        <latest_snapshot>0735133bdba4801015e3dd18f49619fa</latest_snapshot>
+        <master_snapshot>2b5a3fa7db20401015e3dd18f4961971</master_snapshot>
+        <name>Zabbix - Create Host Group</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0717bf63db20401015e3dd18f49619d9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Zabbix - Create Host Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_0717bf63db20401015e3dd18f49619d9</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:42</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0717bf63db20401015e3dd18f49619d9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0717bf63db20401015e3dd18f49619d9"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=0717bf63db20401015e3dd18f49619d9^sys_idNOT IN4317ff63db20401015e3dd18f496195e,5317ff63db20401015e3dd18f496196e,ca5afba7db20401015e3dd18f4961945,cf17ff63db20401015e3dd18f4961961"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>4317ff63db20401015e3dd18f496195e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:42</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4317ff63db20401015e3dd18f496195e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4317ff63db20401015e3dd18f496195e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>0717ff63db20401015e3dd18f4961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4317ff63db20401015e3dd18f496195e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>c717ff63db20401015e3dd18f4961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>5317ff63db20401015e3dd18f496196e</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:38:44</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5317ff63db20401015e3dd18f496196e"/>
+    <sys_element_mapping action="delete_multiple" query="id=5317ff63db20401015e3dd18f496196e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>5317ff63db20401015e3dd18f496196e</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>1317ff63db20401015e3dd18f496196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{eb9b0681-0171-44a3-b972-efa7f8c17edf.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>5317ff63db20401015e3dd18f496196e</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>d317ff63db20401015e3dd18f496196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Zabbix - Create Host Group">c769e563dba0001015e3dd18f4961935</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c769e563dba0001015e3dd18f4961935</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>ca5afba7db20401015e3dd18f4961945</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:38:44</sys_updated_on>
+        <ui_id>eb9b0681-0171-44a3-b972-efa7f8c17edf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca5afba7db20401015e3dd18f4961945"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>0e5afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <value>localhost</value>
+        <variable display_value="">7a58a9efdb60001015e3dd18f4961977</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>1b5a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:32</sys_updated_on>
+        <value/>
+        <variable display_value="">c769e563dba0001015e3dd18f496193b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>825afba7db20401015e3dd18f4961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <value>Aw3s0m31</value>
+        <variable display_value="">dd67a1afdb60001015e3dd18f4961938</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>9f5a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <value>Aw3s0m31</value>
+        <variable display_value="">c769e563dba0001015e3dd18f496197f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>ce5afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <value>admin</value>
+        <variable display_value="">9567a1afdb60001015e3dd18f4961934</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>db5a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <value>admin</value>
+        <variable display_value="">0369e563dba0001015e3dd18f4961962</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca5afba7db20401015e3dd18f4961945"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lab_code</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>ca5afba7db20401015e3dd18f4961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value>{{subflow.lab_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lab_code</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>935a3fa7db20401015e3dd18f4961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.lab_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_private_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>9b5a3fa7db20401015e3dd18f496192a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower_private_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_private_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>8e5afba7db20401015e3dd18f4961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_public_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>d35a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_public_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>c65afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>8a5afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value>{{subflow.zabbix_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>975a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.zabbix_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_password</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>065afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_password</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>135a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_user</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>425afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_user</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>5f5a3fa7db20401015e3dd18f496192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>cf17ff63db20401015e3dd18f4961961</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:42</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf17ff63db20401015e3dd18f4961961"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cf17ff63db20401015e3dd18f4961961</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>c317ff63db20401015e3dd18f4961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0717bf63db20401015e3dd18f49619d9^sys_idNOT IN0717bf63db20401015e3dd18f49619da"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0717bf63db20401015e3dd18f49619d9</id>
+        <name>Zabbix - Create Host Group</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:13</sys_created_on>
+        <sys_id>0717bf63db20401015e3dd18f49619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=0717bf63db20401015e3dd18f49619d9^sys_idNOT IN0f17ff63db20401015e3dd18f4961935,4317ff63db20401015e3dd18f496193b,4fa2d373dba4801015e3dd18f49619f4,8f17ff63db20401015e3dd18f496193f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</model>
+        <model_id>0717bf63db20401015e3dd18f49619d9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:13</sys_created_on>
+        <sys_id>0f17ff63db20401015e3dd18f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lab_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Lab Code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</model>
+        <model_id>0717bf63db20401015e3dd18f49619d9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:13</sys_created_on>
+        <sys_id>4317ff63db20401015e3dd18f496193b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower_private_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower Private IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</model>
+        <model_id>0717bf63db20401015e3dd18f49619d9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-24 14:27:31</sys_created_on>
+        <sys_id>4fa2d373dba4801015e3dd18f49619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>zabbix_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Zabbix IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</model>
+        <model_id>0717bf63db20401015e3dd18f49619d9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>8f17ff63db20401015e3dd18f496193f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0717bf63db20401015e3dd18f49619d9^sys_idNOT IN5317ff63db20401015e3dd18f496196e,ca5afba7db20401015e3dd18f4961945"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>5317ff63db20401015e3dd18f496196e</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:38:44</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5317ff63db20401015e3dd18f496196e"/>
+    <sys_element_mapping action="delete_multiple" query="id=5317ff63db20401015e3dd18f496196e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>5317ff63db20401015e3dd18f496196e</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>1317ff63db20401015e3dd18f496196f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{eb9b0681-0171-44a3-b972-efa7f8c17edf.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>5317ff63db20401015e3dd18f496196e</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>d317ff63db20401015e3dd18f496196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Zabbix - Create Host Group">c769e563dba0001015e3dd18f4961935</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c769e563dba0001015e3dd18f4961935</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>ca5afba7db20401015e3dd18f4961945</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:38:44</sys_updated_on>
+        <ui_id>eb9b0681-0171-44a3-b972-efa7f8c17edf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca5afba7db20401015e3dd18f4961945"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>0e5afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <value>localhost</value>
+        <variable display_value="">7a58a9efdb60001015e3dd18f4961977</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>1b5a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:32</sys_updated_on>
+        <value/>
+        <variable display_value="">c769e563dba0001015e3dd18f496193b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>825afba7db20401015e3dd18f4961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <value>Aw3s0m31</value>
+        <variable display_value="">dd67a1afdb60001015e3dd18f4961938</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>9f5a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <value>Aw3s0m31</value>
+        <variable display_value="">c769e563dba0001015e3dd18f496197f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>ce5afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <value>admin</value>
+        <variable display_value="">9567a1afdb60001015e3dd18f4961934</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca5afba7db20401015e3dd18f4961945</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>db5a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <value>admin</value>
+        <variable display_value="">0369e563dba0001015e3dd18f4961962</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca5afba7db20401015e3dd18f4961945"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lab_code</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>ca5afba7db20401015e3dd18f4961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value>{{subflow.lab_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lab_code</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>935a3fa7db20401015e3dd18f4961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.lab_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_private_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>9b5a3fa7db20401015e3dd18f496192a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower_private_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_private_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>8e5afba7db20401015e3dd18f4961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_public_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>d35a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_public_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>c65afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>8a5afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value>{{subflow.zabbix_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_ip</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>975a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.zabbix_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_password</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>065afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_password</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>135a3fa7db20401015e3dd18f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_user</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:21</sys_created_on>
+        <sys_id>425afba7db20401015e3dd18f4961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94bad37edb2c8cd0a9ed3967f4961990</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_user</field>
+        <id>ca5afba7db20401015e3dd18f4961945</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:26</sys_created_on>
+        <sys_id>5f5a3fa7db20401015e3dd18f496192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0717bf63db20401015e3dd18f49619d9^sys_idNOT IN4317ff63db20401015e3dd18f496195e,cf17ff63db20401015e3dd18f4961961"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>4317ff63db20401015e3dd18f496195e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:42</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4317ff63db20401015e3dd18f496195e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4317ff63db20401015e3dd18f496195e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>0717ff63db20401015e3dd18f4961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4317ff63db20401015e3dd18f496195e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>c717ff63db20401015e3dd18f4961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>cf17ff63db20401015e3dd18f4961961</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:42</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cf17ff63db20401015e3dd18f4961961"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cf17ff63db20401015e3dd18f4961961</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>c317ff63db20401015e3dd18f4961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9^sys_idNOT IN13a2d373dba4801015e3dd18f49619fa,8717ff63db20401015e3dd18f496193a,c317ff63db20401015e3dd18f496193f,c717ff63db20401015e3dd18f4961950"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower_private_ip</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower Private IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-24 14:27:31</sys_created_on>
+        <sys_id>13a2d373dba4801015e3dd18f49619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Private IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9_ansible_tower_private_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:13</sys_created_on>
+        <sys_id>8717ff63db20401015e3dd18f496193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9_ansible_tower_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>lab_code</element>
+        <help/>
+        <hint/>
+        <label>Lab Code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>c317ff63db20401015e3dd18f496193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Code</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9_lab_code_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>zabbix_ip</element>
+        <help/>
+        <hint/>
+        <label>Zabbix IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:28:14</sys_created_on>
+        <sys_id>c717ff63db20401015e3dd18f4961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zabbix IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0717bf63db20401015e3dd18f49619d9_zabbix_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:28:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0717bf63db20401015e3dd18f49619d9^sys_idNOT IN0c6a7fa7db20401015e3dd18f4961908"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"0c6a7fa7db20401015e3dd18f4961908","name":"plan"}}</plan>
+        <plan_id display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</plan_id>
+        <snapshot>0735133bdba4801015e3dd18f49619fa</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0c6a7fa7db20401015e3dd18f4961908</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:41</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Monitoring">c842e809dba0c0d0a9ed3967f4961939</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>zabbix__create_host_group</internal_name>
+        <label_cache>[{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"eb9b0681-0171-44a3-b972-efa7f8c17edf.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"fb3d37e7-9ab4-4774-92d7-8253da912c4d.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"548e8fcb-1d52-4b20-8181-22ea12a0c5f7.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.host_group","label":"Input➛Host Group","type":"string","base_type":"string"},{"name":"subflow.host_name","label":"Input➛Host Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.nagios_ip","label":"Input➛Nagios IP","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.db_ip","label":"Input➛DB IP","type":"string","base_type":"string"},{"name":"subflow.db_pass","label":"Input➛DB Pass","type":"string","base_type":"string"},{"name":"subflow.db_user","label":"Input➛DB User","type":"string","base_type":"string"},{"name":"subflow.db_name","label":"Input➛DB Name","type":"string","base_type":"string"},{"name":"subflow.host_ip","label":"Input➛Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_finished","label":"3➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_started","label":"3➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_failed","label":"3➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_status","label":"3➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_id","label":"3➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.responce_body","label":"3➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.error_code","label":"3➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.status_code","label":"3➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.domain","label":"Input➛Domain","type":"string","base_type":"string"},{"name":"subflow.target_ip","label":"Input➛Target IP","type":"string","base_type":"string"},{"name":"subflow.apache_host_ip","label":"Input➛Apache Host IP","type":"string","base_type":"string"},{"name":"subflow.server_ip","label":"Input➛Apache Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.lab_code","label":"Input➛Lab Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.server_role","label":"Input➛Server Role","type":"string","base_type":"string"},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"subflow.zabbix_ip","label":"Input➛Zabbix IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""}]</label_cache>
+        <master>true</master>
+        <name>Zabbix - Create Host Group</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Zabbix - Create Host Group">0717bf63db20401015e3dd18f49619d9</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2b5a3fa7db20401015e3dd18f4961971</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b5a3fa7db20401015e3dd18f4961971"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2b5a3fa7db20401015e3dd18f4961971"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2b5a3fa7db20401015e3dd18f4961971^sys_idNOT IN335a3fa7db20401015e3dd18f49619da,375a3fa7db20401015e3dd18f49619e1,7b5a3fa7db20401015e3dd18f49619ad,b75a3fa7db20401015e3dd18f49619a8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Zabbix - Create Host Group">c769e563dba0001015e3dd18f4961935</action_type>
+        <action_type_parent display_value="Zabbix - Create Host Group">94bad37edb2c8cd0a9ed3967f4961990</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c769e563dba0001015e3dd18f4961935</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>335a3fa7db20401015e3dd18f49619da</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>eb9b0681-0171-44a3-b972-efa7f8c17edf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=335a3fa7db20401015e3dd18f49619da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>335a3fa7db20401015e3dd18f49619da</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>3b5a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <value/>
+        <variable display_value="">c769e563dba0001015e3dd18f496193b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>335a3fa7db20401015e3dd18f49619da</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>bf5a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>Aw3s0m31</value>
+        <variable display_value="">c769e563dba0001015e3dd18f496197f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>335a3fa7db20401015e3dd18f49619da</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>fb5a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>admin</value>
+        <variable display_value="">0369e563dba0001015e3dd18f4961962</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=335a3fa7db20401015e3dd18f49619da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lab_code</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f75a3fa7db20401015e3dd18f49619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.lab_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_private_ip</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>bb5a3fa7db20401015e3dd18f49619db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower_private_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_public_ip</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f35a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_ip</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>b75a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.zabbix_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_password</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>335a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_user</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>7f5a3fa7db20401015e3dd18f49619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>375a3fa7db20401015e3dd18f49619e1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=375a3fa7db20401015e3dd18f49619e1"/>
+    <sys_element_mapping action="delete_multiple" query="id=375a3fa7db20401015e3dd18f49619e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>375a3fa7db20401015e3dd18f49619e1</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f35a3fa7db20401015e3dd18f49619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{eb9b0681-0171-44a3-b972-efa7f8c17edf.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>375a3fa7db20401015e3dd18f49619e1</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>b75a3fa7db20401015e3dd18f49619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>7b5a3fa7db20401015e3dd18f49619ad</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7b5a3fa7db20401015e3dd18f49619ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7b5a3fa7db20401015e3dd18f49619ad</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f75a3fa7db20401015e3dd18f49619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>b75a3fa7db20401015e3dd18f49619a8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b75a3fa7db20401015e3dd18f49619a8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b75a3fa7db20401015e3dd18f49619a8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>3f5a3fa7db20401015e3dd18f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b75a3fa7db20401015e3dd18f49619a8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>ff5a3fa7db20401015e3dd18f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2b5a3fa7db20401015e3dd18f4961971^sys_idNOT IN635a3fa7db20401015e3dd18f4961972"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2b5a3fa7db20401015e3dd18f4961971</id>
+        <name>Zabbix - Create Host Group</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>635a3fa7db20401015e3dd18f4961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=2b5a3fa7db20401015e3dd18f4961971^sys_idNOT IN3b5a3fa7db20401015e3dd18f496198b,3f5a3fa7db20401015e3dd18f496199e,45b29773dba4801015e3dd18f4961961,a75a3fa7db20401015e3dd18f4961973"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lab_code</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Lab Code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</model>
+        <model_id>2b5a3fa7db20401015e3dd18f4961971</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>3b5a3fa7db20401015e3dd18f496198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>zabbix_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Zabbix IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</model>
+        <model_id>2b5a3fa7db20401015e3dd18f4961971</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>3f5a3fa7db20401015e3dd18f496199e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower_private_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower Private IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</model>
+        <model_id>2b5a3fa7db20401015e3dd18f4961971</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-24 14:27:39</sys_created_on>
+        <sys_id>45b29773dba4801015e3dd18f4961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</model>
+        <model_id>2b5a3fa7db20401015e3dd18f4961971</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>a75a3fa7db20401015e3dd18f4961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2b5a3fa7db20401015e3dd18f4961971^sys_idNOT IN335a3fa7db20401015e3dd18f49619da,375a3fa7db20401015e3dd18f49619e1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Zabbix - Create Host Group">c769e563dba0001015e3dd18f4961935</action_type>
+        <action_type_parent display_value="Zabbix - Create Host Group">94bad37edb2c8cd0a9ed3967f4961990</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c769e563dba0001015e3dd18f4961935</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>335a3fa7db20401015e3dd18f49619da</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>eb9b0681-0171-44a3-b972-efa7f8c17edf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=335a3fa7db20401015e3dd18f49619da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>335a3fa7db20401015e3dd18f49619da</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>3b5a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <value/>
+        <variable display_value="">c769e563dba0001015e3dd18f496193b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>335a3fa7db20401015e3dd18f49619da</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>bf5a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>Aw3s0m31</value>
+        <variable display_value="">c769e563dba0001015e3dd18f496197f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>335a3fa7db20401015e3dd18f49619da</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>fb5a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>admin</value>
+        <variable display_value="">0369e563dba0001015e3dd18f4961962</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=335a3fa7db20401015e3dd18f49619da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lab_code</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f75a3fa7db20401015e3dd18f49619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.lab_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_private_ip</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>bb5a3fa7db20401015e3dd18f49619db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower_private_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tower_public_ip</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f35a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_ip</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>b75a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value>{{subflow.zabbix_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_password</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>335a3fa7db20401015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>zabbix_user</field>
+        <id>335a3fa7db20401015e3dd18f49619da</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>7f5a3fa7db20401015e3dd18f49619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c769e563dba0001015e3dd18f4961935</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>375a3fa7db20401015e3dd18f49619e1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=375a3fa7db20401015e3dd18f49619e1"/>
+    <sys_element_mapping action="delete_multiple" query="id=375a3fa7db20401015e3dd18f49619e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>375a3fa7db20401015e3dd18f49619e1</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f35a3fa7db20401015e3dd18f49619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{eb9b0681-0171-44a3-b972-efa7f8c17edf.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>375a3fa7db20401015e3dd18f49619e1</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>b75a3fa7db20401015e3dd18f49619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2b5a3fa7db20401015e3dd18f4961971^sys_idNOT IN7b5a3fa7db20401015e3dd18f49619ad,b75a3fa7db20401015e3dd18f49619a8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>7b5a3fa7db20401015e3dd18f49619ad</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7b5a3fa7db20401015e3dd18f49619ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7b5a3fa7db20401015e3dd18f49619ad</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>f75a3fa7db20401015e3dd18f49619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Zabbix - Create Host Group">2b5a3fa7db20401015e3dd18f4961971</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>b75a3fa7db20401015e3dd18f49619a8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:40</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b75a3fa7db20401015e3dd18f49619a8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b75a3fa7db20401015e3dd18f49619a8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>3f5a3fa7db20401015e3dd18f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b75a3fa7db20401015e3dd18f49619a8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:29</sys_created_on>
+        <sys_id>ff5a3fa7db20401015e3dd18f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:29</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971^sys_idNOT IN5db29773dba4801015e3dd18f4961965,7f5a3fa7db20401015e3dd18f496199c,fb5a3fa7db20401015e3dd18f4961978,fb5a3fa7db20401015e3dd18f49619a3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower_private_ip</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower Private IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-24 14:27:39</sys_created_on>
+        <sys_id>5db29773dba4801015e3dd18f4961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower Private IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971_ansible_tower_private_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:27:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>lab_code</element>
+        <help/>
+        <hint/>
+        <label>Lab Code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>7f5a3fa7db20401015e3dd18f496199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lab Code</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971_lab_code_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>fb5a3fa7db20401015e3dd18f4961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971_ansible_tower_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>zabbix_ip</element>
+        <help/>
+        <hint/>
+        <label>Zabbix IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-23 22:42:28</sys_created_on>
+        <sys_id>fb5a3fa7db20401015e3dd18f49619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Zabbix IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2b5a3fa7db20401015e3dd18f4961971_zabbix_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-23 22:42:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

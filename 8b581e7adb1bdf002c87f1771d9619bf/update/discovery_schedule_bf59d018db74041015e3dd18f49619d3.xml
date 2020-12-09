@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_schedule">
+    <discovery_schedule action="INSERT_OR_UPDATE">
+        <accel_config/>
+        <active>true</active>
+        <behavior/>
+        <business_calendar/>
+        <ci_id/>
+        <ci_type/>
+        <condition/>
+        <conditional>false</conditional>
+        <credential_aliases/>
+        <disco_run_type>on_demand</disco_run_type>
+        <discover>CIs</discover>
+        <entered_time/>
+        <even_if_canceled>true</even_if_canceled>
+        <include_alive>false</include_alive>
+        <location/>
+        <log_state_changes>false</log_state_changes>
+        <max_run/>
+        <mid_cluster/>
+        <mid_select_method>specific_mid</mid_select_method>
+        <mid_server display_value="MSP-MID-Auto">1989dc91db5dc0d08669db184b961965</mid_server>
+        <name>Site Depot Inf</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <quick_start>false</quick_start>
+        <run_after/>
+        <run_as display_value="John Depot">bf6562bedbb65300aaa8f9361d961953</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-10-25 14:14:53</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var rt = new global.DiscoveryScheduleRunType(current.disco_run_type + ''); if (rt.match() || new global.DiscoveryJob(job).isRunOnce()) { var dd = new global.Discovery(); dd.discoveryStartJob(); }]]></script>
+        <service_attributes/>
+        <service_discovery>ci_type</service_discovery>
+        <service_group_attributes/>
+        <service_group_table>cmdb_ci_service_group</service_group_table>
+        <service_table>cmdb_ci_service_discovered</service_table>
+        <shazzam_batch_size>1000</shazzam_batch_size>
+        <shazzam_cluster_support>true</shazzam_cluster_support>
+        <sys_class_name>discovery_schedule</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-25 14:15:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bf59d018db74041015e3dd18f49619d3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Site Depot Inf</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>discovery_schedule_bf59d018db74041015e3dd18f49619d3</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-11-19 19:55:28</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_snmp_version>v1_v2c</use_snmp_version>
+        <vm_run/>
+        <was_created_by_system>false</was_created_by_system>
+    </discovery_schedule>
+</record_update>

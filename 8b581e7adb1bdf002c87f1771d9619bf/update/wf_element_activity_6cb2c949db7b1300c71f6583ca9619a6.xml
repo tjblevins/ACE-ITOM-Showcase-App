@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category>Deprecated</category>
+        <checked_out_by display_value="Pat Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta/>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"","web_service_message_function":"","web_service_endpoint":"","parameters":"[]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"false","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables/>
+        <name>test</name>
+        <output_meta/>
+        <output_process_script/>
+        <output_transform/>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-06 15:45:56</sys_created_on>
+        <sys_id>6cb2c949db7b1300c71f6583ca9619a6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>wf_element_activity_6cb2c949db7b1300c71f6583ca9619a6</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 12:10:03</sys_updated_on>
+        <version_container_id>7eb2c949db7b1300c71f6583ca961931</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=6cb2c949db7b1300c71f6583ca9619a6"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out>2018-08-06 15:45:56</checked_out>
+        <checked_out_by display_value="Pat Administrator">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <published>false</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-06 15:45:56</sys_created_on>
+        <sys_id>72b2c949db7b1300c71f6583ca961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-06 15:45:56</sys_updated_on>
+        <valid_from/>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>7eb2c949db7b1300c71f6583ca961931</version_container_id>
+        <wf_element_definition display_value="test">6cb2c949db7b1300c71f6583ca9619a6</wf_element_definition>
+    </wf_versionable>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_action">
+    <sn_cmp_bp_action action="INSERT_OR_UPDATE">
+        <action_type>6</action_type>
+        <datasource/>
+        <name>TriggerChangeEvent UserGroup</name>
+        <order>10</order>
+        <rule display_value="TriggerChangeEvent UserGroup">70a3781adb2c88d0a9ed3967f496195f</rule>
+        <status>1</status>
+        <sys_class_name>sn_cmp_bp_action</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:01:47</sys_created_on>
+        <sys_id>3ca3781adb2c88d0a9ed3967f4961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TriggerChangeEvent UserGroup</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_action_3ca3781adb2c88d0a9ed3967f4961960</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:01:47</sys_updated_on>
+        <target_attr display_value="UserGroup">c793381adb2c88d0a9ed3967f496191d</target_attr>
+        <target_attribute>UserGroup</target_attribute>
+        <target_attribute_select/>
+        <value/>
+    </sn_cmp_bp_action>
+</record_update>

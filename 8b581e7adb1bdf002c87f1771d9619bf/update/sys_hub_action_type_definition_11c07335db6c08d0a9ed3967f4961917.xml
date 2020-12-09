@@ -1,0 +1,3109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>5c0d683ddb20449015e3dd18f496190d</copied_from>
+        <copied_from_name>CMP Return Action</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>cmp_return_actionitom</internal_name>
+        <label_cache>[{"name":"{{action.error}}","label":"action➛error","type":"action","ref":""},{"name":"{{action.log}}","label":"action➛log","type":"action","ref":""},{"name":"{{action.response}}","label":"action➛response","type":"action","ref":""},{"name":"{{action.correlationid}}","label":"action➛correlationid","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>8061b375db6c08d0a9ed3967f4961930</latest_snapshot>
+        <master_snapshot>c2e07735db6c08d0a9ed3967f49619ad</master_snapshot>
+        <name>CMP Return Action-ITOM</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>11c07335db6c08d0a9ed3967f4961917</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>CMP Return Action-ITOM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_11c07335db6c08d0a9ed3967f4961917</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:33:49</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=11c07335db6c08d0a9ed3967f4961917"/>
+    <sys_variable_value action="delete_multiple" query="document_key=11c07335db6c08d0a9ed3967f4961917"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=11c07335db6c08d0a9ed3967f4961917^sys_idNOT INa5c07335db6c08d0a9ed3967f4961936"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</action>
+        <cid>3238208c-2300-4ec4-9727-14dc3e28b0b1</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Provide Response to CMP</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>a5c07335db6c08d0a9ed3967f4961936</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a5c07335db6c08d0a9ed3967f4961936"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5c07335db6c08d0a9ed3967f4961936</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>21c07335db6c08d0a9ed3967f4961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+gs.info('****[CMP] Flow Inputs - '+ JSON.stringify(inputs));
+//populate result in the 'sn_cmp_flow_result table to process response if any
+new sn_cmp.CMPFlowDesignStepHandler().populateFlowResult(inputs.correlationid, inputs);
+  // do not use new sn_cmp_api.BPOrchestratorServiceScript().handleFlowResult(inputs.correlationid, inputs.output, inputs.error);
+  
+outputs.result = JSON.stringify(inputs);
+  gs.info('****[CMP] Flow outputs - '+ JSON.stringify(outputs.result));
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5c07335db6c08d0a9ed3967f4961936</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>6dc07335db6c08d0a9ed3967f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a5c07335db6c08d0a9ed3967f4961936"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>29c07335db6c08d0a9ed3967f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>correlationid</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>71c07335db6c08d0a9ed3967f4961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.correlationid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>35c07335db6c08d0a9ed3967f4961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>f5c07335db6c08d0a9ed3967f4961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.log}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>bdc07335db6c08d0a9ed3967f4961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>e9c07335db6c08d0a9ed3967f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a5c07335db6c08d0a9ed3967f4961936^sys_idNOT IN65c07335db6c08d0a9ed3967f496194c,69c07335db6c08d0a9ed3967f4961957,6dc07335db6c08d0a9ed3967f4961945,edc07335db6c08d0a9ed3967f4961951"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>log</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>65c07335db6c08d0a9ed3967f496194c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>correlationid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>69c07335db6c08d0a9ed3967f4961957</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>6dc07335db6c08d0a9ed3967f4961945</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>edc07335db6c08d0a9ed3967f4961951</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a5c07335db6c08d0a9ed3967f4961936^sys_idNOT IN2dc07335db6c08d0a9ed3967f496195d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>2dc07335db6c08d0a9ed3967f496195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=11c07335db6c08d0a9ed3967f4961917^sys_idNOT IN1dc07335db6c08d0a9ed3967f4961923,91c07335db6c08d0a9ed3967f496191d,a1c07335db6c08d0a9ed3967f496192f,d5c07335db6c08d0a9ed3967f4961929"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>log</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>log</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</model>
+        <model_id>11c07335db6c08d0a9ed3967f4961917</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>1dc07335db6c08d0a9ed3967f4961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</model>
+        <model_id>11c07335db6c08d0a9ed3967f4961917</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>91c07335db6c08d0a9ed3967f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>correlationid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>correlationid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</model>
+        <model_id>11c07335db6c08d0a9ed3967f4961917</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>a1c07335db6c08d0a9ed3967f496192f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:33:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</model>
+        <model_id>11c07335db6c08d0a9ed3967f4961917</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>d5c07335db6c08d0a9ed3967f4961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=11c07335db6c08d0a9ed3967f4961917^sys_idNOT INa5c07335db6c08d0a9ed3967f4961936"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</action>
+        <cid>3238208c-2300-4ec4-9727-14dc3e28b0b1</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Provide Response to CMP</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>a5c07335db6c08d0a9ed3967f4961936</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a5c07335db6c08d0a9ed3967f4961936"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5c07335db6c08d0a9ed3967f4961936</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>21c07335db6c08d0a9ed3967f4961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+gs.info('****[CMP] Flow Inputs - '+ JSON.stringify(inputs));
+//populate result in the 'sn_cmp_flow_result table to process response if any
+new sn_cmp.CMPFlowDesignStepHandler().populateFlowResult(inputs.correlationid, inputs);
+  // do not use new sn_cmp_api.BPOrchestratorServiceScript().handleFlowResult(inputs.correlationid, inputs.output, inputs.error);
+  
+outputs.result = JSON.stringify(inputs);
+  gs.info('****[CMP] Flow outputs - '+ JSON.stringify(outputs.result));
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a5c07335db6c08d0a9ed3967f4961936</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>6dc07335db6c08d0a9ed3967f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a5c07335db6c08d0a9ed3967f4961936"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>29c07335db6c08d0a9ed3967f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>correlationid</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>71c07335db6c08d0a9ed3967f4961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.correlationid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>35c07335db6c08d0a9ed3967f4961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>f5c07335db6c08d0a9ed3967f4961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.log}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>bdc07335db6c08d0a9ed3967f4961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</table>
+        <value>{{action.response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>a5c07335db6c08d0a9ed3967f4961936</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>e9c07335db6c08d0a9ed3967f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a5c07335db6c08d0a9ed3967f4961936^sys_idNOT IN65c07335db6c08d0a9ed3967f496194c,69c07335db6c08d0a9ed3967f4961957,6dc07335db6c08d0a9ed3967f4961945,edc07335db6c08d0a9ed3967f4961951"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>log</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>65c07335db6c08d0a9ed3967f496194c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>correlationid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>69c07335db6c08d0a9ed3967f4961957</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>6dc07335db6c08d0a9ed3967f4961945</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>edc07335db6c08d0a9ed3967f4961951</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a5c07335db6c08d0a9ed3967f4961936^sys_idNOT IN2dc07335db6c08d0a9ed3967f496195d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">a5c07335db6c08d0a9ed3967f4961936</model>
+        <model_id>a5c07335db6c08d0a9ed3967f4961936</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a5c07335db6c08d0a9ed3967f4961936</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:11</sys_created_on>
+        <sys_id>2dc07335db6c08d0a9ed3967f496195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917^sys_idNOT IN19c07335db6c08d0a9ed3967f4961928,5dc07335db6c08d0a9ed3967f4961922,adc07335db6c08d0a9ed3967f4961933,e1c07335db6c08d0a9ed3967f496192e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>log</element>
+        <help/>
+        <hint/>
+        <label>log</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>19c07335db6c08d0a9ed3967f4961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>log</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917_log_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>5dc07335db6c08d0a9ed3967f4961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>error</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917_error_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>correlationid</element>
+        <help/>
+        <hint/>
+        <label>correlationid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>adc07335db6c08d0a9ed3967f4961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>correlationid</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917_correlationid_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:10</sys_created_on>
+        <sys_id>e1c07335db6c08d0a9ed3967f496192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>response</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_11c07335db6c08d0a9ed3967f4961917_response_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=11c07335db6c08d0a9ed3967f4961917^sys_idNOT IN2ae0b735db6c08d0a9ed3967f4961941"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2ae0b735db6c08d0a9ed3967f4961941","name":"plan"}}</plan>
+        <snapshot>8061b375db6c08d0a9ed3967f4961930</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2ae0b735db6c08d0a9ed3967f4961941</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:33:51</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>cmp_return_actionitom</internal_name>
+        <label_cache>[{"name":"{{action.error}}","label":"action➛error","type":"action","ref":""},{"name":"{{action.log}}","label":"action➛log","type":"action","ref":""},{"name":"{{action.response}}","label":"action➛response","type":"action","ref":""},{"name":"{{action.correlationid}}","label":"action➛correlationid","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>CMP Return Action-ITOM</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="CMP Return Action-ITOM">11c07335db6c08d0a9ed3967f4961917</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c2e07735db6c08d0a9ed3967f49619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2e07735db6c08d0a9ed3967f49619ad"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c2e07735db6c08d0a9ed3967f49619ad"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=c2e07735db6c08d0a9ed3967f49619ad^sys_idNOT IN02e07735db6c08d0a9ed3967f49619c7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CMP Return Action-ITOM">c2e07735db6c08d0a9ed3967f49619ad</action>
+        <cid>3238208c-2300-4ec4-9727-14dc3e28b0b1</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Provide Response to CMP</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>02e07735db6c08d0a9ed3967f49619c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=02e07735db6c08d0a9ed3967f49619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>02e07735db6c08d0a9ed3967f49619c7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>12e07735db6c08d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>02e07735db6c08d0a9ed3967f49619c7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>d2e07735db6c08d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+gs.info('****[CMP] Flow Inputs - '+ JSON.stringify(inputs));
+//populate result in the 'sn_cmp_flow_result table to process response if any
+new sn_cmp.CMPFlowDesignStepHandler().populateFlowResult(inputs.correlationid, inputs);
+  // do not use new sn_cmp_api.BPOrchestratorServiceScript().handleFlowResult(inputs.correlationid, inputs.output, inputs.error);
+  
+outputs.result = JSON.stringify(inputs);
+  gs.info('****[CMP] Flow outputs - '+ JSON.stringify(outputs.result));
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=02e07735db6c08d0a9ed3967f49619c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>dae07735db6c08d0a9ed3967f49619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>correlationid</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>12e07735db6c08d0a9ed3967f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.correlationid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>d2e07735db6c08d0a9ed3967f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>96e07735db6c08d0a9ed3967f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.log}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>5ee07735db6c08d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>9ee07735db6c08d0a9ed3967f49619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=02e07735db6c08d0a9ed3967f49619c7^sys_idNOT IN0ee07735db6c08d0a9ed3967f49619c9,12e07735db6c08d0a9ed3967f49619e2,86e07735db6c08d0a9ed3967f49619dc,9ae07735db6c08d0a9ed3967f49619e7"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>0ee07735db6c08d0a9ed3967f49619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>output</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>12e07735db6c08d0a9ed3967f49619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>log</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>log</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>86e07735db6c08d0a9ed3967f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>correlationid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>correlationid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>9ae07735db6c08d0a9ed3967f49619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=02e07735db6c08d0a9ed3967f49619c7^sys_idNOT IN1ee07735db6c08d0a9ed3967f49619ed"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>1ee07735db6c08d0a9ed3967f49619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=c2e07735db6c08d0a9ed3967f49619ad^sys_idNOT IN4ee07735db6c08d0a9ed3967f49619bf,82e07735db6c08d0a9ed3967f49619ae,82e07735db6c08d0a9ed3967f49619ba,c6e07735db6c08d0a9ed3967f49619b4"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>correlationid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>correlationid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">c2e07735db6c08d0a9ed3967f49619ad</model>
+        <model_id>c2e07735db6c08d0a9ed3967f49619ad</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>4ee07735db6c08d0a9ed3967f49619bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:33:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">c2e07735db6c08d0a9ed3967f49619ad</model>
+        <model_id>c2e07735db6c08d0a9ed3967f49619ad</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>82e07735db6c08d0a9ed3967f49619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">c2e07735db6c08d0a9ed3967f49619ad</model>
+        <model_id>c2e07735db6c08d0a9ed3967f49619ad</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>82e07735db6c08d0a9ed3967f49619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>log</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>log</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CMP Return Action-ITOM">c2e07735db6c08d0a9ed3967f49619ad</model>
+        <model_id>c2e07735db6c08d0a9ed3967f49619ad</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>c6e07735db6c08d0a9ed3967f49619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=c2e07735db6c08d0a9ed3967f49619ad^sys_idNOT IN02e07735db6c08d0a9ed3967f49619c7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CMP Return Action-ITOM">c2e07735db6c08d0a9ed3967f49619ad</action>
+        <cid>3238208c-2300-4ec4-9727-14dc3e28b0b1</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Provide Response to CMP</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>02e07735db6c08d0a9ed3967f49619c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=02e07735db6c08d0a9ed3967f49619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>02e07735db6c08d0a9ed3967f49619c7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>12e07735db6c08d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>02e07735db6c08d0a9ed3967f49619c7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>d2e07735db6c08d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+gs.info('****[CMP] Flow Inputs - '+ JSON.stringify(inputs));
+//populate result in the 'sn_cmp_flow_result table to process response if any
+new sn_cmp.CMPFlowDesignStepHandler().populateFlowResult(inputs.correlationid, inputs);
+  // do not use new sn_cmp_api.BPOrchestratorServiceScript().handleFlowResult(inputs.correlationid, inputs.output, inputs.error);
+  
+outputs.result = JSON.stringify(inputs);
+  gs.info('****[CMP] Flow outputs - '+ JSON.stringify(outputs.result));
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=02e07735db6c08d0a9ed3967f49619c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>dae07735db6c08d0a9ed3967f49619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>correlationid</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>12e07735db6c08d0a9ed3967f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.correlationid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>d2e07735db6c08d0a9ed3967f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>96e07735db6c08d0a9ed3967f49619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.log}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>5ee07735db6c08d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</table>
+        <value>{{action.response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>02e07735db6c08d0a9ed3967f49619c7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>9ee07735db6c08d0a9ed3967f49619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=02e07735db6c08d0a9ed3967f49619c7^sys_idNOT IN0ee07735db6c08d0a9ed3967f49619c9,12e07735db6c08d0a9ed3967f49619e2,86e07735db6c08d0a9ed3967f49619dc,9ae07735db6c08d0a9ed3967f49619e7"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>0ee07735db6c08d0a9ed3967f49619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>output</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>12e07735db6c08d0a9ed3967f49619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>log</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>log</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>86e07735db6c08d0a9ed3967f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>correlationid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>correlationid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>9ae07735db6c08d0a9ed3967f49619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=02e07735db6c08d0a9ed3967f49619c7^sys_idNOT IN1ee07735db6c08d0a9ed3967f49619ed"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Provide Response to CMP">02e07735db6c08d0a9ed3967f49619c7</model>
+        <model_id>02e07735db6c08d0a9ed3967f49619c7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_02e07735db6c08d0a9ed3967f49619c7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:46</sys_created_on>
+        <sys_id>1ee07735db6c08d0a9ed3967f49619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad^sys_idNOT IN0ae07735db6c08d0a9ed3967f49619b3,4ae07735db6c08d0a9ed3967f49619c4,8ee07735db6c08d0a9ed3967f49619be,c2e07735db6c08d0a9ed3967f49619b9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>0ae07735db6c08d0a9ed3967f49619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>error</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad_error_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>correlationid</element>
+        <help/>
+        <hint/>
+        <label>correlationid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>4ae07735db6c08d0a9ed3967f49619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>correlationid</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad_correlationid_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>8ee07735db6c08d0a9ed3967f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>response</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad_response_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>log</element>
+        <help/>
+        <hint/>
+        <label>log</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 11:31:45</sys_created_on>
+        <sys_id>c2e07735db6c08d0a9ed3967f49619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>log</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c2e07735db6c08d0a9ed3967f49619ad_log_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 11:31:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

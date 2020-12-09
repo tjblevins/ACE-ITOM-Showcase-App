@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="DELETE">
+        <interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Interface">80b9c946db3ac4106846dd384b961925</interface>
+        <name>CloudAccount</name>
+        <operation display_value="Stop">2cb9c946db3ac4106846dd384b9619d2</operation>
+        <order>10</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:20:57</sys_created_on>
+        <sys_id>a0b9c946db3ac4106846dd384b9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_a0b9c946db3ac4106846dd384b9619d5</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:20:57</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>241fb1badb8c7f8007072f17d49619c5</instance_id>
+        <instance_name>tblevinsitomdemo</instance_name>
+        <name>sn_cmp_rb_op_param_a0b9c946db3ac4106846dd384b9619d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param"><sn_cmp_rb_op_param action="INSERT_OR_UPDATE"><interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Interface">80b9c946db3ac4106846dd384b961925</interface><name>CloudAccount</name><operation display_value="Stop">2cb9c946db3ac4106846dd384b9619d2</operation><order>10</order><sys_class_name>sn_cmp_rb_op_param</sys_class_name><sys_created_by>john.depot</sys_created_by><sys_created_on>2020-02-07 14:20:57</sys_created_on><sys_id>a0b9c946db3ac4106846dd384b9619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CloudAccount</sys_name><sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_rb_op_param_a0b9c946db3ac4106846dd384b9619d5</sys_update_name><sys_updated_by>john.depot</sys_updated_by><sys_updated_on>2020-02-07 14:20:57</sys_updated_on><type>1</type></sn_cmp_rb_op_param></record_update>]]></payload>
+        <payload_hash>1214303954</payload_hash>
+        <record_name>CloudAccount</record_name>
+        <reverted_from/>
+        <source>9c098ac1dbb600106846dd384b96192a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:20:57</sys_created_on>
+        <sys_id>6cb9c946db3ac4106846dd384b9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170200670de0000001</sys_recorded_at>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:20:57</sys_updated_on>
+        <type>OperationParameter</type>
+        <update_guid>64b9c946603ac4100fd22a5ae2bed3d9</update_guid>
+        <update_guid_history>64b9c946603ac4100fd22a5ae2bed3d9:1214303954</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CloudAccount">38b9c946db3ac4106846dd384b9619ff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:20:58</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_param">sn_cmp_rb_op_param</sys_db_object>
+        <sys_id>c002ab04744a466baa447d7806680489</sys_id>
+        <sys_metadata>a0b9c946db3ac4106846dd384b9619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_param_a0b9c946db3ac4106846dd384b9619d5</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_param_a0b9c946db3ac4106846dd384b9619d5">6cb9c946db3ac4106846dd384b9619d9</sys_update_version>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:20:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

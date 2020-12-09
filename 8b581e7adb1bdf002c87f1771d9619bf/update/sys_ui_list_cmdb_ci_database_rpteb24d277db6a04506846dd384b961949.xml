@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci_database" version="2" view="RPTeb24d277db6a04506846dd384b961949">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>install_date</element>
+            <list_id display_value="cmdb_ci_database" element="NULL" name="cmdb_ci_database" parent="NULL" relationship="NULL" sys_domain="global" view="8c341677db6a04506846dd384b961918">44341677db6a04506846dd384b96191a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-31 20:00:05</sys_created_on>
+            <sys_id>88341677db6a04506846dd384b96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-31 20:00:05</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci_database</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-01-31 20:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44341677db6a04506846dd384b96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_database</sys_name>
+            <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_ci_database_RPTeb24d277db6a04506846dd384b961949</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-01-31 20:00:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpteb24d277db6a04506846dd384b961949" name="RPTeb24d277db6a04506846dd384b961949">8c341677db6a04506846dd384b961918</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

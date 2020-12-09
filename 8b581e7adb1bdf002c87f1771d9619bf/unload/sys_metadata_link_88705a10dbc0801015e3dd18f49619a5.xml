@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>0dbc461cdb80801015e3dd18f496190c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_ci_query_based_service">
+    <cmdb_ci_query_based_service action="INSERT_OR_UPDATE">
+        <aliases/>
+        <asset/>
+        <asset_tag/>
+        <assigned/>
+        <assigned_to/>
+        <assignment_group/>
+        <attributes/>
+        <bucket>1</bucket>
+        <busines_criticality>4 - not critical</busines_criticality>
+        <business_contact/>
+        <business_need/>
+        <business_relation_manager/>
+        <can_print>false</can_print>
+        <category/>
+        <change_control/>
+        <checked_in/>
+        <checked_out/>
+        <comments/>
+        <company/>
+        <compatibility_dependencies/>
+        <correlation_id/>
+        <cost/>
+        <cost_cc>USD</cost_cc>
+        <cost_center/>
+        <csat_score/>
+        <delivery_date/>
+        <delivery_manager/>
+        <department/>
+        <discovery_source/>
+        <dns_domain/>
+        <due/>
+        <due_in/>
+        <duplicate_of/>
+        <end_date/>
+        <fault_count>0</fault_count>
+        <filter/>
+        <first_discovered/>
+        <fqdn/>
+        <gl_account/>
+        <hash>-2138493988,5631</hash>
+        <install_date/>
+        <install_status>1</install_status>
+        <invoice_number/>
+        <ip_address/>
+        <justification/>
+        <last_discovered/>
+        <last_review_date/>
+        <layer/>
+        <lease_id/>
+        <location/>
+        <mac_address/>
+        <maintenance_schedule/>
+        <managed_by/>
+        <manufacturer/>
+        <model_id/>
+        <model_number/>
+        <monitor>false</monitor>
+        <monitoring_requirements/>
+        <name>MSP Hosting Servers</name>
+        <number>BSN0001001</number>
+        <operational_status>1</operational_status>
+        <order_date/>
+        <owned_by display_value="David Loo">5137153cc611227c000bbd1bd8cd2007</owned_by>
+        <parent/>
+        <perf_score/>
+        <po_number/>
+        <portfolio_status>pipeline</portfolio_status>
+        <prerequisites/>
+        <price_model>per_unit</price_model>
+        <price_unit/>
+        <purchase_date/>
+        <schedule/>
+        <serial_number/>
+        <service_classification>Business Service</service_classification>
+        <service_level_requirement/>
+        <service_owner_delegate/>
+        <service_status>requirements</service_status>
+        <severity>5</severity>
+        <short_description/>
+        <skip_sync>false</skip_sync>
+        <sla/>
+        <spm_service_portfolio/>
+        <spm_taxonomy_node/>
+        <start_date/>
+        <subcategory/>
+        <support_group/>
+        <supported_by/>
+        <sys_class_name>cmdb_ci_query_based_service</sys_class_name>
+        <sys_class_path>/!!/#C/!!/!$</sys_class_path>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 15:53:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0dbc461cdb80801015e3dd18f496190c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 15:53:42</sys_updated_on>
+        <table>query_based_service_basic_view</table>
+        <unit_description/>
+        <unverified>false</unverified>
+        <update_in_process>false</update_in_process>
+        <used_for>Production</used_for>
+        <user_group/>
+        <vendor/>
+        <version/>
+        <view_result>108e26a393113100120074aff67ffba0</view_result>
+        <view_result_em>cde2203b9fd212003cb39b0cc32e70de</view_result_em>
+        <view_service>61e1cb757f23220002d31ccebefa9120</view_service>
+        <warranty_expiration/>
+    </cmdb_ci_query_based_service>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 16:07:59</sys_created_on>
+        <sys_id>88705a10dbc0801015e3dd18f49619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MSP Hosting Servers</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_metadata_link_88705a10dbc0801015e3dd18f49619a5</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-18 16:07:59</sys_updated_on>
+        <tablename>cmdb_ci_query_based_service</tablename>
+    </sys_metadata_link>
+</record_update>

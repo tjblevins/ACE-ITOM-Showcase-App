@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_cloud_template_version">
+    <sn_cmp_cloud_template_version action="INSERT_OR_UPDATE">
+        <attachment>691781cedbf6c4106846dd384b961968</attachment>
+        <body>AWSTemplateFormatVersion: '2010-09-09'
+Metadata: 
+  License: Apache-2.0
+Description: 'AWS CloudFormation Sample Template S3_Website_Bucket_With_Retain_On_Delete:
+  Sample template showing how to create a publicly accessible S3 bucket configured
+  for website access with a deletion policy of retain on delete. **WARNING** This
+  template creates an S3 bucket that will NOT be deleted when the stack is deleted.
+  You will be billed for the AWS resources used if you create a stack from this template.'
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+    DeletionPolicy: Retain
+Outputs:
+  WebsiteURL:
+    Value: !GetAtt [S3Bucket, WebsiteURL]
+    Description: URL for website hosted on S3
+  S3BucketSecureURL:
+    Value: !Join ['', ['https://', !GetAtt [S3Bucket, DomainName]]]
+    Description: Name of S3 bucket to hold website content</body>
+        <cloud_template_url/>
+        <config_installable/>
+        <config_installable_name/>
+        <format display_value="YAML">0fd3bffc872313008de7483cf6cb0b48</format>
+        <ingestion_method>upload</ingestion_method>
+        <short_description>S3_Website_Bucket_With_Retain_On_Delete.v1.yaml</short_description>
+        <state>published</state>
+        <status>success</status>
+        <status_message>Template is valid and saved.</status_message>
+        <sys_class_name>sn_cmp_cloud_template_version</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:08:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>35b60d8edbf6c4106846dd384b9619b4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_cloud_template_version_35b60d8edbf6c4106846dd384b9619b4</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:10:25</sys_updated_on>
+        <template display_value="AWS Create S3 Bucket">67a6c98edbf6c4106846dd384b9619fb</template>
+        <version>1</version>
+    </sn_cmp_cloud_template_version>
+</record_update>

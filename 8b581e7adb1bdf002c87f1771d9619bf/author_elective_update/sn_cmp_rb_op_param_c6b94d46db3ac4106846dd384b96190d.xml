@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="DELETE">
+        <interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Interface">80b9c946db3ac4106846dd384b961925</interface>
+        <name>resourceId</name>
+        <operation display_value="Start">c6b94d46db3ac4106846dd384b961901</operation>
+        <order>30</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:21:03</sys_created_on>
+        <sys_id>c6b94d46db3ac4106846dd384b96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resourceId</sys_name>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_c6b94d46db3ac4106846dd384b96190d</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:21:03</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>241fb1badb8c7f8007072f17d49619c5</instance_id>
+        <instance_name>tblevinsitomdemo</instance_name>
+        <name>sn_cmp_rb_op_param_c6b94d46db3ac4106846dd384b96190d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param"><sn_cmp_rb_op_param action="INSERT_OR_UPDATE"><interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Interface">80b9c946db3ac4106846dd384b961925</interface><name>resourceId</name><operation display_value="Start">c6b94d46db3ac4106846dd384b961901</operation><order>30</order><sys_class_name>sn_cmp_rb_op_param</sys_class_name><sys_created_by>john.depot</sys_created_by><sys_created_on>2020-02-07 14:21:03</sys_created_on><sys_id>c6b94d46db3ac4106846dd384b96190d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>resourceId</sys_name><sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_rb_op_param_c6b94d46db3ac4106846dd384b96190d</sys_update_name><sys_updated_by>john.depot</sys_updated_by><sys_updated_on>2020-02-07 14:21:03</sys_updated_on><type>1</type></sn_cmp_rb_op_param></record_update>]]></payload>
+        <payload_hash>1056650009</payload_hash>
+        <record_name>resourceId</record_name>
+        <reverted_from/>
+        <source>9c098ac1dbb600106846dd384b96192a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:21:03</sys_created_on>
+        <sys_id>4eb94d46db3ac4106846dd384b961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170200687420000001</sys_recorded_at>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:21:03</sys_updated_on>
+        <type>OperationParameter</type>
+        <update_guid>46b94d46593ac4104bb7bfcbea233b11</update_guid>
+        <update_guid_history>46b94d46593ac4104bb7bfcbea233b11:1056650009</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="resourceId">d6b94d46db3ac4106846dd384b961938</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:21:04</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_param">sn_cmp_rb_op_param</sys_db_object>
+        <sys_id>12136bc160664fd78988277a81072ed9</sys_id>
+        <sys_metadata>c6b94d46db3ac4106846dd384b96190d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resourceId</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_param_c6b94d46db3ac4106846dd384b96190d</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_param_c6b94d46db3ac4106846dd384b96190d">4eb94d46db3ac4106846dd384b961911</sys_update_version>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:21:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

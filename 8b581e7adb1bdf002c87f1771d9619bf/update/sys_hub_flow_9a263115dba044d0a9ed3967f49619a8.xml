@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Ansible Tower">53d08e15dbe044d0a9ed3967f49619b6</category>
+        <compiler_build/>
+        <copied_from>9fb4f760db2840d0a9ed3967f4961932</copied_from>
+        <copied_from_name>Deploy Virtual Host Config</copied_from_name>
+        <description/>
+        <internal_name>trigger_ansible_tower_discovery</internal_name>
+        <label_cache>[{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_finished","label":"3➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_started","label":"3➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_failed","label":"3➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_status","label":"3➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_id","label":"3➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.responce_body","label":"3➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.error_code","label":"3➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.status_code","label":"3➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.inventory_name","label":"Input➛Inventory Name","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.inventory_source","label":"2➛Inventory Source","reference_display":"Inventory Source","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.job_status","label":"2➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.job_id","label":"2➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.responce_body","label":"2➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.error_code","label":"2➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.status_code","label":"2➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.domain","label":"Input➛Domain","type":"string","base_type":"string"},{"name":"subflow.target_ip","label":"Input➛Target IP","type":"string","base_type":"string"},{"name":"subflow.apache_host_ip","label":"Input➛Apache Host IP","type":"string","base_type":"string"},{"name":"subflow.server_ip","label":"Input➛Apache Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.lab_code","label":"Input➛Lab Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.server_role","label":"Input➛Server Role","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.status_code","label":"2➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.error_code","label":"2➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.responce_body","label":"2➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_id","label":"2➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_status","label":"2➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_failed","label":"2➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_started","label":"2➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_finished","label":"2➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"a5a4085b-ca96-4abd-955e-ecf68691a99a.url","label":"1➛URL","reference_display":"URL","type":"string","base_type":"string"},{"name":"a5a4085b-ca96-4abd-955e-ecf68691a99a.hostname","label":"1➛HOSTNAME","reference_display":"HOSTNAME","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.status_code","label":"3.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.error_code","label":"3.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.responce_body","label":"3.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.error_message","label":"3.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_id","label":"3.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_status","label":"3.1➛Job Status","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_failed","label":"3.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_started","label":"3.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_finished","label":"3.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot>eb0df99ddba044d0a9ed3967f49619b6</latest_snapshot>
+        <master_snapshot>eb0df99ddba044d0a9ed3967f49619b6</master_snapshot>
+        <name>Ansible - Trigger Tower Discovery</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:18:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9a263115dba044d0a9ed3967f49619a8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Ansible - Trigger Tower Discovery</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_9a263115dba044d0a9ed3967f49619a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a263115dba044d0a9ed3967f49619a8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9a263115dba044d0a9ed3967f49619a8"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=9a263115dba044d0a9ed3967f49619a8^sys_idNOT IN190db99ddba044d0a9ed3967f496195f,7f86b915dba044d0a9ed3967f4961929,e679b159dba044d0a9ed3967f496195c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">510db99ddba044d0a9ed3967f496195f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:28</sys_created_on>
+        <sys_id>190db99ddba044d0a9ed3967f496195f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+        <ui_id>76786676-10a6-4cab-97da-c64bc53ff6c7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=190db99ddba044d0a9ed3967f496195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>190db99ddba044d0a9ed3967f496195f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:29</sys_created_on>
+        <sys_id>190db99ddba044d0a9ed3967f4961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:29</sys_updated_on>
+        <value>1970-01-01 00:00:20</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>190db99ddba044d0a9ed3967f496195f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:29</sys_created_on>
+        <sys_id>550db99ddba044d0a9ed3967f4961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:29</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Update Inventory Sources">25a535d1dba044d0a9ed3967f496196d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>25a535d1dba044d0a9ed3967f496196d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:14</sys_created_on>
+        <sys_id>7f86b915dba044d0a9ed3967f4961929</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+        <ui_id>dcf44d53-ecb5-4928-938e-93df25001c30</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7f86b915dba044d0a9ed3967f4961929"/>
+    <sys_element_mapping action="delete_multiple" query="id=7f86b915dba044d0a9ed3967f4961929"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ansible_tower</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:15</sys_created_on>
+        <sys_id>b786b915dba044d0a9ed3967f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:20:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_24c59959dbac04d0a9ed3967f496199d</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ansible_tower</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:36</sys_created_on>
+        <sys_id>430df99ddba044d0a9ed3967f4961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inventory_name</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:15</sys_created_on>
+        <sys_id>f386b915dba044d0a9ed3967f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:20:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_24c59959dbac04d0a9ed3967f496199d</table>
+        <value>{{subflow.inventory_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inventory_name</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:36</sys_created_on>
+        <sys_id>8f0df99ddba044d0a9ed3967f4961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.inventory_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:33:00</sys_created_on>
+        <sys_id>e679b159dba044d0a9ed3967f496195c</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+        <ui_id>a5a4085b-ca96-4abd-955e-ecf68691a99a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e679b159dba044d0a9ed3967f496195c"/>
+    <sys_element_mapping action="delete_multiple" query="id=e679b159dba044d0a9ed3967f496195c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>e679b159dba044d0a9ed3967f496195c</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:33:00</sys_created_on>
+        <sys_id>e279b159dba044d0a9ed3967f496195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:33:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_27e3dbbfdbd73f00f4d7d8b6f4961904</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>e679b159dba044d0a9ed3967f496195c</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:36</sys_created_on>
+        <sys_id>cb0d799ddba044d0a9ed3967f49619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d699ff7db1b3f00f4d7d8b6f49619aa</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9a263115dba044d0a9ed3967f49619a8^sys_idNOT IN9e263115dba044d0a9ed3967f49619a9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9a263115dba044d0a9ed3967f49619a8</id>
+        <name>Trigger Ansible Tower Discovery</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:18:31</sys_created_on>
+        <sys_id>9e263115dba044d0a9ed3967f49619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:18:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=9a263115dba044d0a9ed3967f49619a8^sys_idNOT IN9f86f515dba044d0a9ed3967f4961974,e6263115dba044d0a9ed3967f49619b0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inventory_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Inventory Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</model>
+        <model_id>9a263115dba044d0a9ed3967f49619a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9a263115dba044d0a9ed3967f49619a8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:13</sys_created_on>
+        <sys_id>9f86f515dba044d0a9ed3967f4961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:20:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</model>
+        <model_id>9a263115dba044d0a9ed3967f49619a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9a263115dba044d0a9ed3967f49619a8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:18:31</sys_created_on>
+        <sys_id>e6263115dba044d0a9ed3967f49619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:18:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9a263115dba044d0a9ed3967f49619a8^sys_idNOT IN7f86b915dba044d0a9ed3967f4961929,e679b159dba044d0a9ed3967f496195c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Update Inventory Sources">25a535d1dba044d0a9ed3967f496196d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>25a535d1dba044d0a9ed3967f496196d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:14</sys_created_on>
+        <sys_id>7f86b915dba044d0a9ed3967f4961929</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+        <ui_id>dcf44d53-ecb5-4928-938e-93df25001c30</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7f86b915dba044d0a9ed3967f4961929"/>
+    <sys_element_mapping action="delete_multiple" query="id=7f86b915dba044d0a9ed3967f4961929"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ansible_tower</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:15</sys_created_on>
+        <sys_id>b786b915dba044d0a9ed3967f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:20:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_24c59959dbac04d0a9ed3967f496199d</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ansible_tower</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:36</sys_created_on>
+        <sys_id>430df99ddba044d0a9ed3967f4961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inventory_name</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:15</sys_created_on>
+        <sys_id>f386b915dba044d0a9ed3967f496192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:20:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_24c59959dbac04d0a9ed3967f496199d</table>
+        <value>{{subflow.inventory_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inventory_name</field>
+        <id>7f86b915dba044d0a9ed3967f4961929</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:36</sys_created_on>
+        <sys_id>8f0df99ddba044d0a9ed3967f4961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.inventory_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:33:00</sys_created_on>
+        <sys_id>e679b159dba044d0a9ed3967f496195c</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+        <ui_id>a5a4085b-ca96-4abd-955e-ecf68691a99a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e679b159dba044d0a9ed3967f496195c"/>
+    <sys_element_mapping action="delete_multiple" query="id=e679b159dba044d0a9ed3967f496195c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>e679b159dba044d0a9ed3967f496195c</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:33:00</sys_created_on>
+        <sys_id>e279b159dba044d0a9ed3967f496195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:33:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_27e3dbbfdbd73f00f4d7d8b6f4961904</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>e679b159dba044d0a9ed3967f496195c</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:36</sys_created_on>
+        <sys_id>cb0d799ddba044d0a9ed3967f49619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d699ff7db1b3f00f4d7d8b6f49619aa</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9a263115dba044d0a9ed3967f49619a8^sys_idNOT IN190db99ddba044d0a9ed3967f496195f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">510db99ddba044d0a9ed3967f496195f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:28</sys_created_on>
+        <sys_id>190db99ddba044d0a9ed3967f496195f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+        <ui_id>76786676-10a6-4cab-97da-c64bc53ff6c7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=190db99ddba044d0a9ed3967f496195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>190db99ddba044d0a9ed3967f496195f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:29</sys_created_on>
+        <sys_id>190db99ddba044d0a9ed3967f4961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:29</sys_updated_on>
+        <value>1970-01-01 00:00:20</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>190db99ddba044d0a9ed3967f496195f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:29</sys_created_on>
+        <sys_id>550db99ddba044d0a9ed3967f4961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:29</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9a263115dba044d0a9ed3967f49619a8^sys_idNOT INd7867915dba044d0a9ed3967f49619f3,e6263115dba044d0a9ed3967f49619b5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inventory_name</element>
+        <help/>
+        <hint/>
+        <label>Inventory Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9a263115dba044d0a9ed3967f49619a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:20:13</sys_created_on>
+        <sys_id>d7867915dba044d0a9ed3967f49619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9a263115dba044d0a9ed3967f49619a8_inventory_name_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:20:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9a263115dba044d0a9ed3967f49619a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:18:31</sys_created_on>
+        <sys_id>e6263115dba044d0a9ed3967f49619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9a263115dba044d0a9ed3967f49619a8_ansible_tower_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:18:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9a263115dba044d0a9ed3967f49619a8^sys_idNOT INbf0d3d9ddba044d0a9ed3967f4961908"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@322f43</plan>
+        <plan_id display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</plan_id>
+        <snapshot>eb0df99ddba044d0a9ed3967f49619b6</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bf0d3d9ddba044d0a9ed3967f4961908</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:43</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Ansible Tower">53d08e15dbe044d0a9ed3967f49619b6</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>trigger_ansible_tower_discovery</internal_name>
+        <label_cache>[{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_finished","label":"3.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_started","label":"3.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_failed","label":"3.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_status","label":"3.1➛Job Status","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.job_id","label":"3.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.error_message","label":"3.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.responce_body","label":"3.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.error_code","label":"3.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"14f63e03-a75b-4f71-a3b5-053b65430f98.status_code","label":"3.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"a5a4085b-ca96-4abd-955e-ecf68691a99a.hostname","label":"1➛HOSTNAME","reference_display":"HOSTNAME","type":"string","base_type":"string"},{"name":"a5a4085b-ca96-4abd-955e-ecf68691a99a.url","label":"1➛URL","reference_display":"URL","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_finished","label":"2➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_started","label":"2➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_failed","label":"2➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_status","label":"2➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.job_id","label":"2➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.responce_body","label":"2➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.error_code","label":"2➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"cd15f94c-a916-45a4-8e79-76ee171f4aab.status_code","label":"2➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.server_role","label":"Input➛Server Role","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.lab_code","label":"Input➛Lab Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"subflow.server_ip","label":"Input➛Apache Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.apache_host_ip","label":"Input➛Apache Host IP","type":"string","base_type":"string"},{"name":"subflow.target_ip","label":"Input➛Target IP","type":"string","base_type":"string"},{"name":"subflow.domain","label":"Input➛Domain","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.status_code","label":"2➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.error_code","label":"2➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.responce_body","label":"2➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.job_id","label":"2➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.job_status","label":"2➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"dcf44d53-ecb5-4928-938e-93df25001c30.inventory_source","label":"2➛Inventory Source","reference_display":"Inventory Source","type":"string","base_type":"string"},{"name":"subflow.inventory_name","label":"Input➛Inventory Name","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.status_code","label":"3➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.error_code","label":"3➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.responce_body","label":"3➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_id","label":"3➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_status","label":"3➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_failed","label":"3➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_started","label":"3➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"c6dc3ae9-d2ae-4e5e-8599-3f29b907637d.job_finished","label":"3➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Ansible - Trigger Tower Discovery</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Ansible - Trigger Tower Discovery">9a263115dba044d0a9ed3967f49619a8</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>eb0df99ddba044d0a9ed3967f49619b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:41</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb0df99ddba044d0a9ed3967f49619b6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eb0df99ddba044d0a9ed3967f49619b6"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=eb0df99ddba044d0a9ed3967f49619b6^sys_idNOT IN670df99ddba044d0a9ed3967f49619db,670df99ddba044d0a9ed3967f49619e0,e70df99ddba044d0a9ed3967f49619d4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent display_value="NOW - Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</action_type_parent>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>670df99ddba044d0a9ed3967f49619db</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:41</sys_updated_on>
+        <ui_id>a5a4085b-ca96-4abd-955e-ecf68691a99a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=670df99ddba044d0a9ed3967f49619db"/>
+    <sys_element_mapping action="delete_multiple" query="id=670df99ddba044d0a9ed3967f49619db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>670df99ddba044d0a9ed3967f49619db</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>a70df99ddba044d0a9ed3967f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d699ff7db1b3f00f4d7d8b6f49619aa</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Update Inventory Sources">25a535d1dba044d0a9ed3967f496196d</action_type>
+        <action_type_parent display_value="Ansible - Update Inventory Sources">24c59959dbac04d0a9ed3967f496199d</action_type_parent>
+        <comment/>
+        <compiled_snapshot>25a535d1dba044d0a9ed3967f496196d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>670df99ddba044d0a9ed3967f49619e0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:41</sys_updated_on>
+        <ui_id>dcf44d53-ecb5-4928-938e-93df25001c30</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=670df99ddba044d0a9ed3967f49619e0"/>
+    <sys_element_mapping action="delete_multiple" query="id=670df99ddba044d0a9ed3967f49619e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ansible_tower</field>
+        <id>670df99ddba044d0a9ed3967f49619e0</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>e70df99ddba044d0a9ed3967f49619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inventory_name</field>
+        <id>670df99ddba044d0a9ed3967f49619e0</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>270df99ddba044d0a9ed3967f49619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.inventory_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">510db99ddba044d0a9ed3967f496195f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>e70df99ddba044d0a9ed3967f49619d4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:41</sys_updated_on>
+        <ui_id>76786676-10a6-4cab-97da-c64bc53ff6c7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e70df99ddba044d0a9ed3967f49619d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e70df99ddba044d0a9ed3967f49619d4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>2f0df99ddba044d0a9ed3967f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <value>1970-01-01 00:00:20</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e70df99ddba044d0a9ed3967f49619d4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>6b0df99ddba044d0a9ed3967f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eb0df99ddba044d0a9ed3967f49619b6^sys_idNOT IN270df99ddba044d0a9ed3967f49619b7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eb0df99ddba044d0a9ed3967f49619b6</id>
+        <name>Trigger Ansible Tower Discovery</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:37</sys_created_on>
+        <sys_id>270df99ddba044d0a9ed3967f49619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=eb0df99ddba044d0a9ed3967f49619b6^sys_idNOT IN230df99ddba044d0a9ed3967f49619cb,6b0df99ddba044d0a9ed3967f49619b8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inventory_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Inventory Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</model>
+        <model_id>eb0df99ddba044d0a9ed3967f49619b6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_eb0df99ddba044d0a9ed3967f49619b6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>230df99ddba044d0a9ed3967f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</model>
+        <model_id>eb0df99ddba044d0a9ed3967f49619b6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_eb0df99ddba044d0a9ed3967f49619b6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:37</sys_created_on>
+        <sys_id>6b0df99ddba044d0a9ed3967f49619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=eb0df99ddba044d0a9ed3967f49619b6^sys_idNOT IN670df99ddba044d0a9ed3967f49619db,670df99ddba044d0a9ed3967f49619e0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="NOW - Get Tower Info">6d699ff7db1b3f00f4d7d8b6f49619aa</action_type>
+        <action_type_parent display_value="NOW - Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</action_type_parent>
+        <comment/>
+        <compiled_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>670df99ddba044d0a9ed3967f49619db</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:41</sys_updated_on>
+        <ui_id>a5a4085b-ca96-4abd-955e-ecf68691a99a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=670df99ddba044d0a9ed3967f49619db"/>
+    <sys_element_mapping action="delete_multiple" query="id=670df99ddba044d0a9ed3967f49619db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>670df99ddba044d0a9ed3967f49619db</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>a70df99ddba044d0a9ed3967f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6d699ff7db1b3f00f4d7d8b6f49619aa</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Update Inventory Sources">25a535d1dba044d0a9ed3967f496196d</action_type>
+        <action_type_parent display_value="Ansible - Update Inventory Sources">24c59959dbac04d0a9ed3967f496199d</action_type_parent>
+        <comment/>
+        <compiled_snapshot>25a535d1dba044d0a9ed3967f496196d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>670df99ddba044d0a9ed3967f49619e0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:41</sys_updated_on>
+        <ui_id>dcf44d53-ecb5-4928-938e-93df25001c30</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=670df99ddba044d0a9ed3967f49619e0"/>
+    <sys_element_mapping action="delete_multiple" query="id=670df99ddba044d0a9ed3967f49619e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ansible_tower</field>
+        <id>670df99ddba044d0a9ed3967f49619e0</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>e70df99ddba044d0a9ed3967f49619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inventory_name</field>
+        <id>670df99ddba044d0a9ed3967f49619e0</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>270df99ddba044d0a9ed3967f49619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d</table>
+        <value>{{subflow.inventory_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=eb0df99ddba044d0a9ed3967f49619b6^sys_idNOT INe70df99ddba044d0a9ed3967f49619d4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">510db99ddba044d0a9ed3967f496195f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Ansible - Trigger Tower Discovery">eb0df99ddba044d0a9ed3967f49619b6</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>e70df99ddba044d0a9ed3967f49619d4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:46:41</sys_updated_on>
+        <ui_id>76786676-10a6-4cab-97da-c64bc53ff6c7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e70df99ddba044d0a9ed3967f49619d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e70df99ddba044d0a9ed3967f49619d4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>2f0df99ddba044d0a9ed3967f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <value>1970-01-01 00:00:20</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e70df99ddba044d0a9ed3967f49619d4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>6b0df99ddba044d0a9ed3967f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_eb0df99ddba044d0a9ed3967f49619b6^sys_idNOT IN230df99ddba044d0a9ed3967f49619d0,6f0df99ddba044d0a9ed3967f49619bd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>inventory_name</element>
+        <help/>
+        <hint/>
+        <label>Inventory Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eb0df99ddba044d0a9ed3967f49619b6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>230df99ddba044d0a9ed3967f49619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eb0df99ddba044d0a9ed3967f49619b6_inventory_name_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_eb0df99ddba044d0a9ed3967f49619b6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 13:48:38</sys_created_on>
+        <sys_id>6f0df99ddba044d0a9ed3967f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eb0df99ddba044d0a9ed3967f49619b6_ansible_tower_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 13:48:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

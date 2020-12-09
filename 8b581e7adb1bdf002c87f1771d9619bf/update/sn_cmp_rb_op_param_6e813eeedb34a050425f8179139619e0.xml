@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="INSERT_OR_UPDATE">
+        <interface display_value="Ansible Tower1 Resource Interface">42813eeedb34a050425f817913961984</interface>
+        <name>CreateResourceGroup</name>
+        <operation display_value="Provision">1e813eeedb34a050425f8179139619a6</operation>
+        <order>50</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-12-03 17:28:21</sys_created_on>
+        <sys_id>6e813eeedb34a050425f8179139619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CreateResourceGroup</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_6e813eeedb34a050425f8179139619e0</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:28:21</sys_updated_on>
+        <type>5</type>
+    </sn_cmp_rb_op_param>
+</record_update>

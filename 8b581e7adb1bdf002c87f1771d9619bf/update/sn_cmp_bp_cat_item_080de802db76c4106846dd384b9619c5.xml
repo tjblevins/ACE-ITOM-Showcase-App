@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_cat_item">
+    <sn_cmp_bp_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <blue_print display_value="AWS Create S3 Bucket">8d278dcedbf6c4106846dd384b961937</blue_print>
+        <catalog_type>1</catalog_type>
+        <category display_value="Compute">8641fe260b212200eff7ef9bb4673a3d</category>
+        <config_provider/>
+        <config_provider_name/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<div>AWS CloudFormation Sample Template S3_Website_Bucket_With_Retain_On_Delete:</div>
+<div>  Sample template showing how to create a publicly accessible S3 bucket configured</div>
+<div>  for website access with a deletion policy of retain on delete. **WARNING** This</div>
+<div>  template creates an S3 bucket that will NOT be deleted when the stack is deleted.</div>
+<div>  You will be billed for the AWS resources used if you create a stack from this template.</div>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>aa670142db3ac4106846dd384b961945</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AWS Create S3 Bucket</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture>ba770142db3ac4106846dd384b961988</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=080de802db76c4106846dd384b9619c5&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <provider_type display_value="Ansible Tower">8c50f6020bd50300a682aac125673a2e</provider_type>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <sc_catalogs>b029d6da0b212200eff7ef9bb4673a42</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Creates and Amazon S3 Bucket</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <source_type>template</source_type>
+        <stage_operation display_value="Provision">d3270102db3ac4106846dd384b9619ea</stage_operation>
+        <start_closed>false</start_closed>
+        <status>in_sync</status>
+        <sys_class_name>sn_cmp_bp_cat_item</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:07:46</sys_created_on>
+        <sys_id>080de802db76c4106846dd384b9619c5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>AWS Create S3 Bucket</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_cat_item_080de802db76c4106846dd384b9619c5</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:11:22</sys_updated_on>
+        <template/>
+        <template_id display_value="AWS Create S3 Bucket">67a6c98edbf6c4106846dd384b9619fb</template_id>
+        <template_type display_value="CloudFormation Template">932f81e49f00320048111f80a57fcf6e</template_type>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Blueprint Request">2cbfd46eeb352200979aa5115206fe99</workflow>
+    </sn_cmp_bp_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=080de802db76c4106846dd384b9619c5"/>
+    <fx_price action="delete_multiple" query="id=080de802db76c4106846dd384b9619c5"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>080de802db76c4106846dd384b9619c5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:07:47</sys_created_on>
+        <sys_id>6ba60d8edbf6c4106846dd384b961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:07:47</sys_updated_on>
+        <table>sn_cmp_bp_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>080de802db76c4106846dd384b9619c5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:07:47</sys_created_on>
+        <sys_id>2ba60d8edbf6c4106846dd384b961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:07:47</sys_updated_on>
+        <table>sn_cmp_bp_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ba4437</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <hash>218468b9a4c7663f966a1cc35f5ca03ab013bff142ab120aced5041fbc379397</hash>
+        <image_height>150</image_height>
+        <image_width>150</image_width>
+        <size_bytes>4775</size_bytes>
+        <size_compressed>4643</size_compressed>
+        <state>available</state>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:10:59</sys_created_on>
+        <sys_id>aa670142db3ac4106846dd384b961945</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:11:00</sys_updated_on>
+        <table_name>ZZ_YYsn_cmp_bp_cat_item</table_name>
+        <table_sys_id>080de802db76c4106846dd384b9619c5</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="aa670142db3ac4106846dd384b961945">aa670142db3ac4106846dd384b961945</sys_attachment>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:10:59</sys_created_on>
+        <sys_id>ea670142db3ac4106846dd384b961945</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6180</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="aa670142db3ac4106846dd384b961945">aa670142db3ac4106846dd384b961945</sys_attachment>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:10:59</sys_created_on>
+        <sys_id>6e670142db3ac4106846dd384b961945</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ba4437</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <hash>218468b9a4c7663f966a1cc35f5ca03ab013bff142ab120aced5041fbc379397</hash>
+        <image_height>150</image_height>
+        <image_width>150</image_width>
+        <size_bytes>4775</size_bytes>
+        <size_compressed>4643</size_compressed>
+        <state>available</state>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:11:16</sys_created_on>
+        <sys_id>ba770142db3ac4106846dd384b961988</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:11:16</sys_updated_on>
+        <table_name>ZZ_YYsn_cmp_bp_cat_item</table_name>
+        <table_sys_id>080de802db76c4106846dd384b9619c5</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="ba770142db3ac4106846dd384b961988">ba770142db3ac4106846dd384b961988</sys_attachment>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:11:16</sys_created_on>
+        <sys_id>fa770142db3ac4106846dd384b961988</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6180</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="ba770142db3ac4106846dd384b961988">ba770142db3ac4106846dd384b961988</sys_attachment>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:11:16</sys_created_on>
+        <sys_id>7e770142db3ac4106846dd384b961988</sys_id>
+    </sys_attachment_doc>
+</record_update>

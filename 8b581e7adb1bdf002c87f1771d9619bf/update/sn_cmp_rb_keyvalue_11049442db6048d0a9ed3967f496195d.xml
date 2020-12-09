@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_keyvalue">
+    <sn_cmp_rb_keyvalue action="INSERT_OR_UPDATE">
+        <action/>
+        <key>templateParameters</key>
+        <object_mapping>true</object_mapping>
+        <owner_instance/>
+        <owner_table/>
+        <step display_value="Stack Orchestration Interface.Create Stack">41049442db6048d0a9ed3967f4961949</step>
+        <sys_class_name>sn_cmp_rb_keyvalue</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 14:05:10</sys_created_on>
+        <sys_id>11049442db6048d0a9ed3967f496195d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>templateParameters</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_keyvalue_11049442db6048d0a9ed3967f496195d</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 14:05:10</sys_updated_on>
+        <value>${parameter.templateParameters}</value>
+    </sn_cmp_rb_keyvalue>
+</record_update>

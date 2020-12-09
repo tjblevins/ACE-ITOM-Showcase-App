@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop">
+    <sn_cmp_bp_global_prop action="INSERT_OR_UPDATE">
+        <bp_stage_operation display_value="Provision">ea9015c6db7ac4106846dd384b96197b</bp_stage_operation>
+        <bp_stage_res_op_attr display_value="dnsLabelPrefix">839055c6db7ac4106846dd384b961904</bp_stage_res_op_attr>
+        <mandatory>true</mandatory>
+        <name>Azure_VM_from_User_Image_dnsLabelPrefix</name>
+        <order>10</order>
+        <resource_op_unique_id>4814</resource_op_unique_id>
+        <sys_class_name>sn_cmp_bp_global_prop</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:51:09</sys_created_on>
+        <sys_id>8f9055c6db7ac4106846dd384b961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure_VM_from_User_Image_dnsLabelPrefix</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_global_prop_8f9055c6db7ac4106846dd384b961904</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:51:09</sys_updated_on>
+    </sn_cmp_bp_global_prop>
+</record_update>

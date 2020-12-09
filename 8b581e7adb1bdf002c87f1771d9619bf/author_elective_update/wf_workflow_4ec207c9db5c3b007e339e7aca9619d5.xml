@@ -1,0 +1,2902 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"subflows":["ce7e96fedb1bdf002c87f1771d96190f"],"activities":{},"stages":{},"ends":["a82d3a29dba1f7009b7ed8b6f49619a4"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>282d3a29dba1f7009b7ed8b6f49619bd,602d3a29dba1f7009b7ed8b6f49619a3,ac2d3a29dba1f7009b7ed8b6f49619bc,202d3a29dba1f7009b7ed8b6f49619a4,a42d3a29dba1f7009b7ed8b6f49619bf,642d3a29dba1f7009b7ed8b6f49619bc,602d3a29dba1f7009b7ed8b6f49619be,e82d3a29dba1f7009b7ed8b6f49619bb,e82d3a29dba1f7009b7ed8b6f49619ba,e82d3a29dba1f7009b7ed8b6f49619be,a02d3a29dba1f7009b7ed8b6f49619a5,a82d3a29dba1f7009b7ed8b6f49619a4</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>282d3a29dba1f7009b7ed8b6f49619bd,602d3a29dba1f7009b7ed8b6f49619a3,ac2d3a29dba1f7009b7ed8b6f49619bc,202d3a29dba1f7009b7ed8b6f49619a4,a42d3a29dba1f7009b7ed8b6f49619bf,642d3a29dba1f7009b7ed8b6f49619bc,602d3a29dba1f7009b7ed8b6f49619be,e82d3a29dba1f7009b7ed8b6f49619bb,e82d3a29dba1f7009b7ed8b6f49619ba,e82d3a29dba1f7009b7ed8b6f49619be,a02d3a29dba1f7009b7ed8b6f49619a5,e82d3a29dba1f7009b7ed8b6f49619aa,a82d3a29dba1f7009b7ed8b6f49619a4</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>ITOM - ZRetired-Initial Site Depot LAMP Stack</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">282d3a29dba1f7009b7ed8b6f49619bd</start>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>2c2d3a29dba1f7009b7ed8b6f49619a1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:59:52</sys_updated_on>
+        <table>global</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">4ec207c9db5c3b007e339e7aca9619d5</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>ITOM - ZRetired-Initial Site Depot LAMP Stack</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-18 17:47:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ec207c9db5c3b007e339e7aca9619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ITOM - ZRetired-Initial Site Depot LAMP Stack</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>wf_workflow_4ec207c9db5c3b007e339e7aca9619d5</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:59:42</sys_updated_on>
+        <table>global</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name/>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>530</x>
+        <y>143</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=e82d3a29dba1f7009b7ed8b6f49619aa"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>202d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>242d3a29dba1f7009b7ed8b6f49619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>282d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>2c2d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>602d3a29dba1f7009b7ed8b6f49619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>642d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>682d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>6c2d3a29dba1f7009b7ed8b6f49619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a02d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a42d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e02d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ec2d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>242d3a29dba1f7009b7ed8b6f49619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>6c2d3a29dba1f7009b7ed8b6f49619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a42d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>202d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ec2d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>2c2d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a02d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e02d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>282d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>642d3a29dba1f7009b7ed8b6f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>602d3a29dba1f7009b7ed8b6f49619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>e82d3a29dba1f7009b7ed8b6f49619aa</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>682d3a29dba1f7009b7ed8b6f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="">e82d3a29dba1f7009b7ed8b6f49619aa</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a02d3a29dba1f7009b7ed8b6f49619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>282d3a29dba1f7009b7ed8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=282d3a29dba1f7009b7ed8b6f49619bd"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">282d3a29dba1f7009b7ed8b6f49619bd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Branch">a246173ac0a8016400a47421cd41e42c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Branch</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>642d3a29dba1f7009b7ed8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>34</x>
+        <y>424</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=642d3a29dba1f7009b7ed8b6f49619bc"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Branch">642d3a29dba1f7009b7ed8b6f49619bc</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>282d3a29dba1f7009b7ed8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="AnC Demo - CMS - Server - Initial Config">8b293e01db5c3b007e339e7aca9619b7</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(6).hostname}","lab_code":"${data.get(4).u_lab_code}","server_role":"db","discovery_instance":"${data.get(3).u_instanceName}","temp_id":"26"}</input>
+        <is_parent>false</is_parent>
+        <name>DB Initial Config</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>602d3a29dba1f7009b7ed8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>282</x>
+        <y>208</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=602d3a29dba1f7009b7ed8b6f49619be"/>
+    <wf_condition action="DELETE">
+        <activity display_value="DB Initial Config">602d3a29dba1f7009b7ed8b6f49619be</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>642d3a29dba1f7009b7ed8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>a82d3a29dba1f7009b7ed8b6f49619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>971</x>
+        <y>275</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=a82d3a29dba1f7009b7ed8b6f49619a4"/>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Get Instance Name">5bd47073dbe7db00786ff1351d961997</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Get Instance Type</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>602d3a29dba1f7009b7ed8b6f49619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>21</x>
+        <y>106</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=602d3a29dba1f7009b7ed8b6f49619a3"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Get Instance Type">602d3a29dba1f7009b7ed8b6f49619a3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>e42d3a29dba1f7009b7ed8b6f49619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Get Lab Code">eebf4372db1fdf002c87f1771d961945</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{"u_uid":"john.depot"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Lab Code</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>17</x>
+        <y>182</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=ac2d3a29dba1f7009b7ed8b6f49619bc"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Get Lab Code">ac2d3a29dba1f7009b7ed8b6f49619bc</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a02d3a29dba1f7009b7ed8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Get Ansible Tower URL">00855690db7b5f00786ff1351d961901</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{"u_towername":"Tower1"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Tower URL</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>202d3a29dba1f7009b7ed8b6f49619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>21</x>
+        <y>261</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=202d3a29dba1f7009b7ed8b6f49619a4"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Get Tower URL">202d3a29dba1f7009b7ed8b6f49619a4</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>242d3a29dba1f7009b7ed8b6f49619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>ITOM - Intial SC Lab Config</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>a02d3a29dba1f7009b7ed8b6f49619a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>686</x>
+        <y>284</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=a02d3a29dba1f7009b7ed8b6f49619a5"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>a02d3a29dba1f7009b7ed8b6f49619a5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>682d3a29dba1f7009b7ed8b6f49619a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>e02d3a29dba1f7009b7ed8b6f49619a6</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>a02d3a29dba1f7009b7ed8b6f49619a5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>682d3a29dba1f7009b7ed8b6f49619a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>e02d3a29dba1f7009b7ed8b6f49619a6</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="ITOM - Intial SC Lab Config">a02d3a29dba1f7009b7ed8b6f49619a5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>202d3a29dba1f7009b7ed8b6f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Join">7c9a2ba9c0a801650021ada408de0ebd</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Join</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>522</x>
+        <y>41</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=e82d3a29dba1f7009b7ed8b6f49619be"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</activity>
+        <condition>activity.result == 'complete'</condition>
+        <condition_default display_value="Complete">6dd6ac3e0a6a803f16b5e594347ea01c</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Complete</name>
+        <order>1</order>
+        <short_description>All predecessor activities have transitioned to this activity</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>202d3a29dba1f7009b7ed8b6f49619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="DELETE">
+        <activity display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</activity>
+        <condition>activity.result == 'incomplete'</condition>
+        <condition_default display_value="Incomplete">6dd49ad30a6a803f03a5a18c4085b1c7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Incomplete</name>
+        <order>2</order>
+        <short_description>At least one predecessor activities did not transition to this activity</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="AnC Demo - CMS - Server - Initial Config">8b293e01db5c3b007e339e7aca9619b7</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(6).hostname}","lab_code":"${data.get(4).u_lab_code}","server_role":"lb","discovery_instance":"${data.get(3).u_instanceName}","temp_id":"25"}</input>
+        <is_parent>false</is_parent>
+        <name>LB Initial Config</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>283</x>
+        <y>2</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=e82d3a29dba1f7009b7ed8b6f49619bb"/>
+    <wf_condition action="DELETE">
+        <activity display_value="LB Initial Config">e82d3a29dba1f7009b7ed8b6f49619bb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ec2d3a29dba1f7009b7ed8b6f49619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Parse HostName from URL">0e435e10db7b5f00786ff1351d961954</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{"u_url":"${data.get(5).tower_url}"}</input>
+        <is_parent>false</is_parent>
+        <name>Parse URL</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a42d3a29dba1f7009b7ed8b6f49619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>25</x>
+        <y>338</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=a42d3a29dba1f7009b7ed8b6f49619bf"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Parse URL">a42d3a29dba1f7009b7ed8b6f49619bf</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a82d3a29dba1f7009b7ed8b6f49619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="AnC Demo - CMS - Server - Initial Config">8b293e01db5c3b007e339e7aca9619b7</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(6).hostname}","lab_code":"${data.get(4).u_lab_code}","server_role":"www","discovery_instance":"${data.get(3).u_instanceName}","temp_id":"15"}</input>
+        <is_parent>false</is_parent>
+        <name>WWW Initial Config</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+        <x>282</x>
+        <y>99</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=e82d3a29dba1f7009b7ed8b6f49619ba"/>
+    <wf_condition action="DELETE">
+        <activity display_value="WWW Initial Config">e82d3a29dba1f7009b7ed8b6f49619ba</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>642d3a29dba1f7009b7ed8b6f49619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">642d3a29dba1f7009b7ed8b6f49619bb</condition>
+        <from display_value="WWW Initial Config">e82d3a29dba1f7009b7ed8b6f49619ba</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>202d3a29dba1f7009b7ed8b6f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">282d3a29dba1f7009b7ed8b6f49619bc</condition>
+        <from display_value="Branch">642d3a29dba1f7009b7ed8b6f49619bc</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>242d3a29dba1f7009b7ed8b6f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="DB Initial Config">602d3a29dba1f7009b7ed8b6f49619be</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">ec2d3a29dba1f7009b7ed8b6f49619bb</condition>
+        <from display_value="LB Initial Config">e82d3a29dba1f7009b7ed8b6f49619bb</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>242d3a29dba1f7009b7ed8b6f49619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">282d3a29dba1f7009b7ed8b6f49619bc</condition>
+        <from display_value="Branch">642d3a29dba1f7009b7ed8b6f49619bc</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>282d3a29dba1f7009b7ed8b6f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="LB Initial Config">e82d3a29dba1f7009b7ed8b6f49619bb</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">a02d3a29dba1f7009b7ed8b6f49619bd</condition>
+        <from display_value="Get Lab Code">ac2d3a29dba1f7009b7ed8b6f49619bc</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>602d3a29dba1f7009b7ed8b6f49619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Get Tower URL">202d3a29dba1f7009b7ed8b6f49619a4</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">e42d3a29dba1f7009b7ed8b6f49619a3</condition>
+        <from display_value="Get Instance Type">602d3a29dba1f7009b7ed8b6f49619a3</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>6c2d3a29dba1f7009b7ed8b6f49619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Get Lab Code">ac2d3a29dba1f7009b7ed8b6f49619bc</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Incomplete">ac2d3a29dba1f7009b7ed8b6f49619be</condition>
+        <from display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>6c2d3a29dba1f7009b7ed8b6f49619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="">e82d3a29dba1f7009b7ed8b6f49619aa</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">a82d3a29dba1f7009b7ed8b6f49619bf</condition>
+        <from display_value="Parse URL">a42d3a29dba1f7009b7ed8b6f49619bf</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a02d3a29dba1f7009b7ed8b6f49619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Branch">642d3a29dba1f7009b7ed8b6f49619bc</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">282d3a29dba1f7009b7ed8b6f49619bc</condition>
+        <from display_value="Branch">642d3a29dba1f7009b7ed8b6f49619bc</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a42d3a29dba1f7009b7ed8b6f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="WWW Initial Config">e82d3a29dba1f7009b7ed8b6f49619ba</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">202d3a29dba1f7009b7ed8b6f49619a6</condition>
+        <from display_value="ITOM - Intial SC Lab Config">a02d3a29dba1f7009b7ed8b6f49619a5</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a82d3a29dba1f7009b7ed8b6f49619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="End">a82d3a29dba1f7009b7ed8b6f49619a4</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">642d3a29dba1f7009b7ed8b6f49619be</condition>
+        <from display_value="DB Initial Config">602d3a29dba1f7009b7ed8b6f49619be</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>a82d3a29dba1f7009b7ed8b6f49619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">a02d3a29dba1f7009b7ed8b6f49619ba</condition>
+        <from display_value="">e82d3a29dba1f7009b7ed8b6f49619aa</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">e82d3a29dba1f7009b7ed8b6f49619bd</condition>
+        <from display_value="Begin">282d3a29dba1f7009b7ed8b6f49619bd</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e42d3a29dba1f7009b7ed8b6f49619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Get Instance Type">602d3a29dba1f7009b7ed8b6f49619a3</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">242d3a29dba1f7009b7ed8b6f49619a4</condition>
+        <from display_value="Get Tower URL">202d3a29dba1f7009b7ed8b6f49619a4</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="Parse URL">a42d3a29dba1f7009b7ed8b6f49619bf</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Complete">202d3a29dba1f7009b7ed8b6f49619bf</condition>
+        <from display_value="Join">e82d3a29dba1f7009b7ed8b6f49619be</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>ec2d3a29dba1f7009b7ed8b6f49619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <to display_value="ITOM - Intial SC Lab Config">a02d3a29dba1f7009b7ed8b6f49619a5</to>
+    </wf_transition>
+    <sys_variable_value action="DELETE">
+        <document>wf_workflow_instance</document>
+        <document_key>e02d3a29dba1f7009b7ed8b6f49619a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>282d3a29dba1f7009b7ed8b6f49619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>anc-msp-lb1</value>
+        <variable display_value="">d4bb50d7dbdb13402c87f1771d9619bc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_workflow_instance</document>
+        <document_key>e02d3a29dba1f7009b7ed8b6f49619a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>642d3a29dba1f7009b7ed8b6f49619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <value>anc-${data.get(4).u_lab_code}-db</value>
+        <variable display_value="">dddbd0d7dbdb13402c87f1771d9619e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_workflow_instance</document>
+        <document_key>e02d3a29dba1f7009b7ed8b6f49619a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>a02d3a29dba1f7009b7ed8b6f49619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <value>anc-${data.get(4).u_lab_code}-www</value>
+        <variable display_value="">671c18d7dbdb13402c87f1771d961905</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_workflow_instance</document>
+        <document_key>e02d3a29dba1f7009b7ed8b6f49619a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:43</sys_created_on>
+        <sys_id>e82d3a29dba1f7009b7ed8b6f49619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:43</sys_updated_on>
+        <value>anc-${data.get(4).u_lab_code}-lb</value>
+        <variable display_value="">ad5b1c97dbdb13402c87f1771d9619ed</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_workflow_instance</document>
+        <document_key>e02d3a29dba1f7009b7ed8b6f49619a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>ec2d3a29dba1f7009b7ed8b6f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <value>ancsc01event</value>
+        <variable display_value="">b626d5fcdbeb9300786ff1351d961952</variable>
+    </sys_variable_value>
+    <wf_workflow_instance action="DELETE">
+        <activity display_value="ITOM - Intial SC Lab Config">a02d3a29dba1f7009b7ed8b6f49619a5</activity>
+        <return_map/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>e02d3a29dba1f7009b7ed8b6f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <workflow display_value="ITOM - ZRetired-Intial SC Lab Config">ce7e96fedb1bdf002c87f1771d96190f</workflow>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+    </wf_workflow_instance>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-21 09:58:42</sys_created_on>
+        <sys_id>ac2d3a29dba1f7009b7ed8b6f49619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-21 09:58:42</sys_updated_on>
+        <workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">2c2d3a29dba1f7009b7ed8b6f49619a1</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=4ec207c9db5c3b007e339e7aca9619d5^sys_id!=2c2d3a29dba1f7009b7ed8b6f49619a1">
+        <published>false</published>
+    </wf_workflow_version>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>wf_workflow_4ec207c9db5c3b007e339e7aca9619d5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;
+    &lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_stages&gt;{"subflows":["ce7e96fedb1bdf002c87f1771d96190f"],"activities":{},"stages":{},"ends":["a82d3a29dba1f7009b7ed8b6f49619a4"]}&lt;/activity_stages&gt;
+        &lt;after_business_rules&gt;false&lt;/after_business_rules&gt;
+        &lt;checked_out/&gt;
+        &lt;checked_out_by/&gt;
+        &lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;
+        &lt;condition/&gt;
+        &lt;condition_type/&gt;
+        &lt;description/&gt;
+        &lt;expected_sequences&gt;282d3a29dba1f7009b7ed8b6f49619bd,602d3a29dba1f7009b7ed8b6f49619a3,ac2d3a29dba1f7009b7ed8b6f49619bc,202d3a29dba1f7009b7ed8b6f49619a4,a42d3a29dba1f7009b7ed8b6f49619bf,642d3a29dba1f7009b7ed8b6f49619bc,602d3a29dba1f7009b7ed8b6f49619be,e82d3a29dba1f7009b7ed8b6f49619bb,e82d3a29dba1f7009b7ed8b6f49619ba,e82d3a29dba1f7009b7ed8b6f49619be,a02d3a29dba1f7009b7ed8b6f49619a5,a82d3a29dba1f7009b7ed8b6f49619a4&lt;/expected_sequences&gt;
+        &lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;
+        &lt;expected_time_type/&gt;
+        &lt;full_sequences&gt;282d3a29dba1f7009b7ed8b6f49619bd,602d3a29dba1f7009b7ed8b6f49619a3,ac2d3a29dba1f7009b7ed8b6f49619bc,202d3a29dba1f7009b7ed8b6f49619a4,a42d3a29dba1f7009b7ed8b6f49619bf,642d3a29dba1f7009b7ed8b6f49619bc,602d3a29dba1f7009b7ed8b6f49619be,e82d3a29dba1f7009b7ed8b6f49619bb,e82d3a29dba1f7009b7ed8b6f49619ba,e82d3a29dba1f7009b7ed8b6f49619be,a02d3a29dba1f7009b7ed8b6f49619a5,e82d3a29dba1f7009b7ed8b6f49619aa,a82d3a29dba1f7009b7ed8b6f49619a4&lt;/full_sequences&gt;
+        &lt;journal/&gt;
+        &lt;max_activity_count&gt;100&lt;/max_activity_count&gt;
+        &lt;name&gt;ITOM - ZRetired-Initial Site Depot LAMP Stack&lt;/name&gt;
+        &lt;not_cacheable&gt;false&lt;/not_cacheable&gt;
+        &lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;
+        &lt;published&gt;true&lt;/published&gt;
+        &lt;relative_duration display_value="2 business days by 4pm"&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/relative_duration&gt;
+        &lt;requires_ert&gt;true&lt;/requires_ert&gt;
+        &lt;run_multiple&gt;false&lt;/run_multiple&gt;
+        &lt;schedule/&gt;
+        &lt;stage_field/&gt;
+        &lt;stage_order&gt;computed&lt;/stage_order&gt;
+        &lt;start display_value="Begin"&gt;282d3a29dba1f7009b7ed8b6f49619bd&lt;/start&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:59:52&lt;/sys_updated_on&gt;
+        &lt;table&gt;global&lt;/table&gt;
+        &lt;timezone/&gt;
+        &lt;validated&gt;false&lt;/validated&gt;
+        &lt;workflow display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;4ec207c9db5c3b007e339e7aca9619d5&lt;/workflow&gt;
+    &lt;/wf_workflow_version&gt;
+    &lt;wf_workflow action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;description/&gt;
+        &lt;name&gt;ITOM - ZRetired-Initial Site Depot LAMP Stack&lt;/name&gt;
+        &lt;preview/&gt;
+        &lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-03-18 17:47:56&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;4ec207c9db5c3b007e339e7aca9619d5&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;ITOM - ZRetired-Initial Site Depot LAMP Stack&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;wf_workflow_4ec207c9db5c3b007e339e7aca9619d5&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:59:42&lt;/sys_updated_on&gt;
+        &lt;table&gt;global&lt;/table&gt;
+        &lt;template&gt;false&lt;/template&gt;
+        &lt;vars/&gt;
+    &lt;/wf_workflow&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Timer"&gt;3961a1da0a0a0b5c00ecd84822f70d85&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;12&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name/&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;530&lt;/x&gt;
+        &lt;y&gt;143&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=e82d3a29dba1f7009b7ed8b6f49619aa"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;500&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;202d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;220dc5a40a0a0b2109fbd28b8c4b6213&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;242d3a29dba1f7009b7ed8b6f49619ad&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21f80cd00a0a0b2101fcd5b5defc0810&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;282d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292b2f0e0a0a0b215aa2dd2cbc578dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2c2d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;1970-01-01 00:01:00&lt;/value&gt;
+        &lt;variable display_value=""&gt;c35dc0df0a0a0ba96248a7098d737925&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;602d3a29dba1f7009b7ed8b6f49619ad&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292c91070a0a0b212543d91ffde5014c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;642d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292bd15e0a0a0b215a040c701033e3c5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;3000&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;682d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;
+        &lt;variable display_value=""&gt;293493710a0a0b2115e3e5b4fce1d12a&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6c2d3a29dba1f7009b7ed8b6f49619aa&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cba34da0a0a0b5200798c86eafe1203&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a02d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21fd462c0a0a0b211c997276d7806c03&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a42d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cbfe48a0a0a0b5200cf8b82cc6685f1&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc6788c0a0a0b5200e6743c94001b16&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619b9&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc740fe0a0a0b520025dcf8e2ff78e7&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e02d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc836da0a0a0b520083ebc07da2f47c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;08fcd0830a0a0b2600079f56b1adb9ae&lt;/value&gt;
+        &lt;variable display_value=""&gt;4cc4a4030a0a0b52007334f001376dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ec2d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;
+        &lt;variable display_value=""&gt;220cd53d0a0a0b214103bdc2ec5c7ab4&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;242d3a29dba1f7009b7ed8b6f49619ad&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21f80cd00a0a0b2101fcd5b5defc0810&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6c2d3a29dba1f7009b7ed8b6f49619aa&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cba34da0a0a0b5200798c86eafe1203&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a42d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cbfe48a0a0a0b5200cf8b82cc6685f1&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;500&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;202d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;220dc5a40a0a0b2109fbd28b8c4b6213&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ec2d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;
+        &lt;variable display_value=""&gt;220cd53d0a0a0b214103bdc2ec5c7ab4&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2c2d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;1970-01-01 00:01:00&lt;/value&gt;
+        &lt;variable display_value=""&gt;c35dc0df0a0a0ba96248a7098d737925&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a02d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21fd462c0a0a0b211c997276d7806c03&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;08fcd0830a0a0b2600079f56b1adb9ae&lt;/value&gt;
+        &lt;variable display_value=""&gt;4cc4a4030a0a0b52007334f001376dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc6788c0a0a0b5200e6743c94001b16&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e02d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc836da0a0a0b520083ebc07da2f47c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619b9&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc740fe0a0a0b520025dcf8e2ff78e7&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;282d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292b2f0e0a0a0b215aa2dd2cbc578dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;642d3a29dba1f7009b7ed8b6f49619ac&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292bd15e0a0a0b215a040c701033e3c5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;602d3a29dba1f7009b7ed8b6f49619ad&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292c91070a0a0b212543d91ffde5014c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/document_key&gt;
+        &lt;order&gt;3000&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;682d3a29dba1f7009b7ed8b6f49619ab&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;
+        &lt;variable display_value=""&gt;293493710a0a0b2115e3e5b4fce1d12a&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value=""&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a02d3a29dba1f7009b7ed8b6f49619ba&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input/&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Begin&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;282d3a29dba1f7009b7ed8b6f49619bd&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width&gt;80&lt;/width&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;20&lt;/x&gt;
+        &lt;y&gt;20&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=282d3a29dba1f7009b7ed8b6f49619bd"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Begin"&gt;282d3a29dba1f7009b7ed8b6f49619bd&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619bd&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Branch"&gt;a246173ac0a8016400a47421cd41e42c&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;7&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Branch&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;642d3a29dba1f7009b7ed8b6f49619bc&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;34&lt;/x&gt;
+        &lt;y&gt;424&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=642d3a29dba1f7009b7ed8b6f49619bc"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Branch"&gt;642d3a29dba1f7009b7ed8b6f49619bc&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;282d3a29dba1f7009b7ed8b6f49619bc&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="AnC Demo - CMS - Server - Initial Config"&gt;8b293e01db5c3b007e339e7aca9619b7&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;10&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"tower":"${data.get(6).hostname}","lab_code":"${data.get(4).u_lab_code}","server_role":"db","discovery_instance":"${data.get(3).u_instanceName}","temp_id":"26"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;DB Initial Config&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;602d3a29dba1f7009b7ed8b6f49619be&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;282&lt;/x&gt;
+        &lt;y&gt;208&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=602d3a29dba1f7009b7ed8b6f49619be"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="DB Initial Config"&gt;602d3a29dba1f7009b7ed8b6f49619be&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;642d3a29dba1f7009b7ed8b6f49619be&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input/&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;End&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a82d3a29dba1f7009b7ed8b6f49619a4&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width&gt;80&lt;/width&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;971&lt;/x&gt;
+        &lt;y&gt;275&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=a82d3a29dba1f7009b7ed8b6f49619a4"/&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Get Instance Name"&gt;5bd47073dbe7db00786ff1351d961997&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Get Instance Type&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;602d3a29dba1f7009b7ed8b6f49619a3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;21&lt;/x&gt;
+        &lt;y&gt;106&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=602d3a29dba1f7009b7ed8b6f49619a3"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Get Instance Type"&gt;602d3a29dba1f7009b7ed8b6f49619a3&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e42d3a29dba1f7009b7ed8b6f49619a3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Get Lab Code"&gt;eebf4372db1fdf002c87f1771d961945&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;4&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"u_uid":"john.depot"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Get Lab Code&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619bc&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;17&lt;/x&gt;
+        &lt;y&gt;182&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=ac2d3a29dba1f7009b7ed8b6f49619bc"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Get Lab Code"&gt;ac2d3a29dba1f7009b7ed8b6f49619bc&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a02d3a29dba1f7009b7ed8b6f49619bd&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Get Ansible Tower URL"&gt;00855690db7b5f00786ff1351d961901&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;5&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"u_towername":"Tower1"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Get Tower URL&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;202d3a29dba1f7009b7ed8b6f49619a4&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;21&lt;/x&gt;
+        &lt;y&gt;261&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=202d3a29dba1f7009b7ed8b6f49619a4"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Get Tower URL"&gt;202d3a29dba1f7009b7ed8b6f49619a4&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;242d3a29dba1f7009b7ed8b6f49619a4&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Workflow"&gt;f1afb4010a0a0b2c00d8f55e2372c728&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;13&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input/&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;ITOM - Intial SC Lab Config&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a02d3a29dba1f7009b7ed8b6f49619a5&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;686&lt;/x&gt;
+        &lt;y&gt;284&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=a02d3a29dba1f7009b7ed8b6f49619a5"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;a02d3a29dba1f7009b7ed8b6f49619a5&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;682d3a29dba1f7009b7ed8b6f49619a5&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/value&gt;
+        &lt;variable display_value=""&gt;f25501290a0a0b2c005133d3fe2841b3&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;a02d3a29dba1f7009b7ed8b6f49619a5&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;682d3a29dba1f7009b7ed8b6f49619a5&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/value&gt;
+        &lt;variable display_value=""&gt;f25501290a0a0b2c005133d3fe2841b3&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="ITOM - Intial SC Lab Config"&gt;a02d3a29dba1f7009b7ed8b6f49619a5&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;202d3a29dba1f7009b7ed8b6f49619a6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Join"&gt;7c9a2ba9c0a801650021ada408de0ebd&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;11&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Join&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;522&lt;/x&gt;
+        &lt;y&gt;41&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=e82d3a29dba1f7009b7ed8b6f49619be"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/activity&gt;
+        &lt;condition&gt;activity.result == 'complete'&lt;/condition&gt;
+        &lt;condition_default display_value="Complete"&gt;6dd6ac3e0a6a803f16b5e594347ea01c&lt;/condition_default&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Complete&lt;/name&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;short_description&gt;All predecessor activities have transitioned to this activity&lt;/short_description&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;202d3a29dba1f7009b7ed8b6f49619bf&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/activity&gt;
+        &lt;condition&gt;activity.result == 'incomplete'&lt;/condition&gt;
+        &lt;condition_default display_value="Incomplete"&gt;6dd49ad30a6a803f03a5a18c4085b1c7&lt;/condition_default&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;false&lt;/is_positive&gt;
+        &lt;name&gt;Incomplete&lt;/name&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;short_description&gt;At least one predecessor activities did not transition to this activity&lt;/short_description&gt;
+        &lt;skip_during_generate&gt;true&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619be&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="AnC Demo - CMS - Server - Initial Config"&gt;8b293e01db5c3b007e339e7aca9619b7&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;8&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"tower":"${data.get(6).hostname}","lab_code":"${data.get(4).u_lab_code}","server_role":"lb","discovery_instance":"${data.get(3).u_instanceName}","temp_id":"25"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;LB Initial Config&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619bb&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;283&lt;/x&gt;
+        &lt;y&gt;2&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=e82d3a29dba1f7009b7ed8b6f49619bb"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="LB Initial Config"&gt;e82d3a29dba1f7009b7ed8b6f49619bb&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ec2d3a29dba1f7009b7ed8b6f49619bb&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Parse HostName from URL"&gt;0e435e10db7b5f00786ff1351d961954&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;6&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"u_url":"${data.get(5).tower_url}"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Parse URL&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a42d3a29dba1f7009b7ed8b6f49619bf&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;25&lt;/x&gt;
+        &lt;y&gt;338&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=a42d3a29dba1f7009b7ed8b6f49619bf"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Parse URL"&gt;a42d3a29dba1f7009b7ed8b6f49619bf&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a82d3a29dba1f7009b7ed8b6f49619bf&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="AnC Demo - CMS - Server - Initial Config"&gt;8b293e01db5c3b007e339e7aca9619b7&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;9&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"tower":"${data.get(6).hostname}","lab_code":"${data.get(4).u_lab_code}","server_role":"www","discovery_instance":"${data.get(3).u_instanceName}","temp_id":"15"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;WWW Initial Config&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619ba&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+        &lt;x&gt;282&lt;/x&gt;
+        &lt;y&gt;99&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=e82d3a29dba1f7009b7ed8b6f49619ba"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="WWW Initial Config"&gt;e82d3a29dba1f7009b7ed8b6f49619ba&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;642d3a29dba1f7009b7ed8b6f49619bb&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;642d3a29dba1f7009b7ed8b6f49619bb&lt;/condition&gt;
+        &lt;from display_value="WWW Initial Config"&gt;e82d3a29dba1f7009b7ed8b6f49619ba&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;202d3a29dba1f7009b7ed8b6f49619c1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;282d3a29dba1f7009b7ed8b6f49619bc&lt;/condition&gt;
+        &lt;from display_value="Branch"&gt;642d3a29dba1f7009b7ed8b6f49619bc&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;242d3a29dba1f7009b7ed8b6f49619c1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="DB Initial Config"&gt;602d3a29dba1f7009b7ed8b6f49619be&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;ec2d3a29dba1f7009b7ed8b6f49619bb&lt;/condition&gt;
+        &lt;from display_value="LB Initial Config"&gt;e82d3a29dba1f7009b7ed8b6f49619bb&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;242d3a29dba1f7009b7ed8b6f49619c2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;282d3a29dba1f7009b7ed8b6f49619bc&lt;/condition&gt;
+        &lt;from display_value="Branch"&gt;642d3a29dba1f7009b7ed8b6f49619bc&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;282d3a29dba1f7009b7ed8b6f49619c1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="LB Initial Config"&gt;e82d3a29dba1f7009b7ed8b6f49619bb&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;a02d3a29dba1f7009b7ed8b6f49619bd&lt;/condition&gt;
+        &lt;from display_value="Get Lab Code"&gt;ac2d3a29dba1f7009b7ed8b6f49619bc&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;602d3a29dba1f7009b7ed8b6f49619c2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Get Tower URL"&gt;202d3a29dba1f7009b7ed8b6f49619a4&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;e42d3a29dba1f7009b7ed8b6f49619a3&lt;/condition&gt;
+        &lt;from display_value="Get Instance Type"&gt;602d3a29dba1f7009b7ed8b6f49619a3&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6c2d3a29dba1f7009b7ed8b6f49619c0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Get Lab Code"&gt;ac2d3a29dba1f7009b7ed8b6f49619bc&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Incomplete"&gt;ac2d3a29dba1f7009b7ed8b6f49619be&lt;/condition&gt;
+        &lt;from display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6c2d3a29dba1f7009b7ed8b6f49619c2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value=""&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;a82d3a29dba1f7009b7ed8b6f49619bf&lt;/condition&gt;
+        &lt;from display_value="Parse URL"&gt;a42d3a29dba1f7009b7ed8b6f49619bf&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a02d3a29dba1f7009b7ed8b6f49619c3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Branch"&gt;642d3a29dba1f7009b7ed8b6f49619bc&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;282d3a29dba1f7009b7ed8b6f49619bc&lt;/condition&gt;
+        &lt;from display_value="Branch"&gt;642d3a29dba1f7009b7ed8b6f49619bc&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a42d3a29dba1f7009b7ed8b6f49619c1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="WWW Initial Config"&gt;e82d3a29dba1f7009b7ed8b6f49619ba&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;202d3a29dba1f7009b7ed8b6f49619a6&lt;/condition&gt;
+        &lt;from display_value="ITOM - Intial SC Lab Config"&gt;a02d3a29dba1f7009b7ed8b6f49619a5&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a82d3a29dba1f7009b7ed8b6f49619c0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="End"&gt;a82d3a29dba1f7009b7ed8b6f49619a4&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;642d3a29dba1f7009b7ed8b6f49619be&lt;/condition&gt;
+        &lt;from display_value="DB Initial Config"&gt;602d3a29dba1f7009b7ed8b6f49619be&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a82d3a29dba1f7009b7ed8b6f49619c2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;a02d3a29dba1f7009b7ed8b6f49619ba&lt;/condition&gt;
+        &lt;from display_value=""&gt;e82d3a29dba1f7009b7ed8b6f49619aa&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619c1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;e82d3a29dba1f7009b7ed8b6f49619bd&lt;/condition&gt;
+        &lt;from display_value="Begin"&gt;282d3a29dba1f7009b7ed8b6f49619bd&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e42d3a29dba1f7009b7ed8b6f49619c2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Get Instance Type"&gt;602d3a29dba1f7009b7ed8b6f49619a3&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;242d3a29dba1f7009b7ed8b6f49619a4&lt;/condition&gt;
+        &lt;from display_value="Get Tower URL"&gt;202d3a29dba1f7009b7ed8b6f49619a4&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619c1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="Parse URL"&gt;a42d3a29dba1f7009b7ed8b6f49619bf&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Complete"&gt;202d3a29dba1f7009b7ed8b6f49619bf&lt;/condition&gt;
+        &lt;from display_value="Join"&gt;e82d3a29dba1f7009b7ed8b6f49619be&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ec2d3a29dba1f7009b7ed8b6f49619c2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;to display_value="ITOM - Intial SC Lab Config"&gt;a02d3a29dba1f7009b7ed8b6f49619a5&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_workflow_instance&lt;/document&gt;
+        &lt;document_key&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;282d3a29dba1f7009b7ed8b6f49619a7&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;anc-msp-lb1&lt;/value&gt;
+        &lt;variable display_value=""&gt;d4bb50d7dbdb13402c87f1771d9619bc&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_workflow_instance&lt;/document&gt;
+        &lt;document_key&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;642d3a29dba1f7009b7ed8b6f49619a7&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;value&gt;anc-${data.get(4).u_lab_code}-db&lt;/value&gt;
+        &lt;variable display_value=""&gt;dddbd0d7dbdb13402c87f1771d9619e3&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_workflow_instance&lt;/document&gt;
+        &lt;document_key&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a02d3a29dba1f7009b7ed8b6f49619a7&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;value&gt;anc-${data.get(4).u_lab_code}-www&lt;/value&gt;
+        &lt;variable display_value=""&gt;671c18d7dbdb13402c87f1771d961905&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_workflow_instance&lt;/document&gt;
+        &lt;document_key&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:43&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e82d3a29dba1f7009b7ed8b6f49619a7&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:43&lt;/sys_updated_on&gt;
+        &lt;value&gt;anc-${data.get(4).u_lab_code}-lb&lt;/value&gt;
+        &lt;variable display_value=""&gt;ad5b1c97dbdb13402c87f1771d9619ed&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_workflow_instance&lt;/document&gt;
+        &lt;document_key&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ec2d3a29dba1f7009b7ed8b6f49619a6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;value&gt;ancsc01event&lt;/value&gt;
+        &lt;variable display_value=""&gt;b626d5fcdbeb9300786ff1351d961952&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_workflow_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="ITOM - Intial SC Lab Config"&gt;a02d3a29dba1f7009b7ed8b6f49619a5&lt;/activity&gt;
+        &lt;return_map/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e02d3a29dba1f7009b7ed8b6f49619a6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;workflow display_value="ITOM - ZRetired-Intial SC Lab Config"&gt;ce7e96fedb1bdf002c87f1771d96190f&lt;/workflow&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+    &lt;/wf_workflow_instance&gt;
+    &lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;
+        &lt;estimated_run_time/&gt;
+        &lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;
+        &lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-05-21 09:58:42&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ac2d3a29dba1f7009b7ed8b6f49619a1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-05-21 09:58:42&lt;/sys_updated_on&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack"&gt;2c2d3a29dba1f7009b7ed8b6f49619a1&lt;/workflow_version&gt;
+    &lt;/wf_estimated_runtime_config&gt;
+    &lt;wf_workflow_version action="update_multiple" query="workflow=4ec207c9db5c3b007e339e7aca9619d5^sys_id!=2c2d3a29dba1f7009b7ed8b6f49619a1"&gt;
+        &lt;published&gt;false&lt;/published&gt;
+    &lt;/wf_workflow_version&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>91887908</payload_hash>
+        <record_name>ITOM - ZRetired-Initial Site Depot LAMP Stack</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-10 18:38:42</sys_created_on>
+        <sys_id>31366535dbfbb70015e3dd18f4961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d1c7882990000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-10 18:38:42</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>fd36653520fbb700a7f1395270b9bc5f</update_guid>
+        <update_guid_history>fd36653520fbb700a7f1395270b9bc5f:91887908</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">01091480db988450a9ed3967f49619ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-29 23:03:27</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>6f1b6234e0154a629f193d75009da7d9</sys_id>
+        <sys_metadata>4ec207c9db5c3b007e339e7aca9619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOM - ZRetired-Initial Site Depot LAMP Stack</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>wf_workflow_4ec207c9db5c3b007e339e7aca9619d5</sys_update_name>
+        <sys_update_version display_value="wf_workflow_4ec207c9db5c3b007e339e7aca9619d5">31366535dbfbb70015e3dd18f4961960</sys_update_version>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-29 23:03:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

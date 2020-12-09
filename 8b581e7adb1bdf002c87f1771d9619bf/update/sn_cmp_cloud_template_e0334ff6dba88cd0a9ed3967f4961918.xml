@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_cloud_template">
+    <sn_cmp_cloud_template action="INSERT_OR_UPDATE">
+        <body>AWSTemplateFormatVersion: 2010-09-09
+Description: &gt;-
+  AWS CloudFormation Template ACE-Initial-Wordpress-Lab: A Template for
+  provisioning the Apache Proxy Server, Web Server and MySQL Server used in the
+  ACE ITOM End To End Demo. **WARNING** This template creates 3 Amazon EC2
+  instances. You will be billed for the AWS resources used if you create a stack
+  from this template.
+Parameters:
+  LABCODE:
+    Description: Users LAB Code
+    Type: String
+  SubNet:
+    Description: VPC Subnet
+    Type: String
+  SecGroup:
+    Description: Security Group
+    Type: String
+    Default: sg-0d93dcf2e42ac18a8
+  LBAMI:
+    Description: LB AMI
+    Type: String
+    Default: ami-0c79066ea26c1b5b2
+  LBNAME:
+    Description: LB VM Name
+    Type: String
+    Default: ACE-SD-LB-
+  WWWAMI:
+    Description: Word Press AMI
+    Type: String
+    Default: ami-0092d6a99a2167204
+  WWWNAME:
+    Description: Word Press VM Name
+    Type: String
+    Default: ACE-SD-LB-
+  DBAMI:
+    Description: Word Press AMI
+    Type: String
+    Default: ami-0d26697a47ed29087
+  DBNAME:
+    Description: Word Press VM Name
+    Type: String
+    Default: ACE-SD-LB-
+Metadata:
+  'AWS::CloudFormation::Designer':
+    7747812d-9490-4007-aa73-f3109454b202:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 280
+        'y': 190
+      z: 0
+      embeds: []
+    dd65b9fa-6064-4d48-b03c-e012a61ba6c1:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 370
+        'y': 190
+      z: 0
+      embeds: []
+    8065f357-0075-4395-9107-7545b8bc8638:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 460
+        'y': 190
+      z: 0
+      embeds: []
+Resources:
+  LoadBalancer:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.small
+      ImageId: !Ref LBAMI
+      SubnetId: !Ref SubNet
+      SecurityGroupIds:
+        - !Ref SecGroup
+      KeyName: ACE-Linux-SSH
+      Tags:
+        - Key: Name
+          Value: !Join 
+            - ''
+            - - !Ref LBNAME
+              - !Ref LABCODE
+        - Key: OSType
+          Value: Linux
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7747812d-9490-4007-aa73-f3109454b202
+  Wordpress:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.small
+      ImageId: !Ref WWWAMI
+      SubnetId: !Ref SubNet
+      SecurityGroupIds:
+        - !Ref SecGroup
+      KeyName: ACE-Linux-SSH
+      Tags:
+        - Key: Name
+          Value: !Join 
+            - ''
+            - - !Ref WWWNAME
+              - !Ref LABCODE
+        - Key: OSType
+          Value: Linux
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: dd65b9fa-6064-4d48-b03c-e012a61ba6c1
+  MySQL:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.small
+      ImageId: !Ref DBAMI
+      SubnetId: !Ref SubNet
+      SecurityGroupIds:
+        - !Ref SecGroup
+      KeyName: ACE-Linux-SSH
+      Tags:
+        - Key: Name
+          Value: !Join 
+            - ''
+            - - !Ref DBNAME
+              - !Ref LABCODE
+        - Key: OSType
+          Value: Linux
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 8065f357-0075-4395-9107-7545b8bc8638
+</body>
+        <format display_value="YAML">0fd3bffc872313008de7483cf6cb0b48</format>
+        <name>AWS LAMP Stack</name>
+        <published>true</published>
+        <resource_block display_value="AWS LAMP Stack">faf3077adba88cd0a9ed3967f4961938</resource_block>
+        <short_description/>
+        <sys_class_name>sn_cmp_cloud_template</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-21 10:45:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e0334ff6dba88cd0a9ed3967f4961918</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AWS LAMP Stack</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_cloud_template_e0334ff6dba88cd0a9ed3967f4961918</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-21 10:49:38</sys_updated_on>
+        <template_url/>
+        <type display_value="CloudFormation Template">932f81e49f00320048111f80a57fcf6e</type>
+        <use_template_body>true</use_template_body>
+    </sn_cmp_cloud_template>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_bp_stage_model">
+    <sn_cmp_bp_stage_model action="INSERT_OR_UPDATE">
+        <blueprint display_value="AWS EC2 Instance">a863bcd6db2c88d0a9ed3967f49619d3</blueprint>
+        <blueprint_template/>
+        <intent>ServiceNowCloudTemplate:
+  name: AWS EC2 Instance
+  layer: Application
+  status: Draft
+  category: Compute
+  deploymentModel:
+    resources:
+    - resource: AWS EC2 Instance
+      resourceblock: ServiceNow::AWS EC2 Instance
+      host: AWS Datacenter
+    - resource: AWS Datacenter
+      resourceblock: ServiceNow::AWS Datacenter</intent>
+        <stage display_value="Default">a74383b20b2222003ad5c73ef6673a1d</stage>
+        <sys_class_name>sn_cmp_bp_stage_model</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:01:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2f73b01adb2c88d0a9ed3967f49619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_model_2f73b01adb2c88d0a9ed3967f49619b1</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:01:11</sys_updated_on>
+    </sn_cmp_bp_stage_model>
+</record_update>

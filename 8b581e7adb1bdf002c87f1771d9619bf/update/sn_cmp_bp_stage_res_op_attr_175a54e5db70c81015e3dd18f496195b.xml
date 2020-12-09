@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_attr">
+    <sn_cmp_bp_stage_res_op_attr action="INSERT_OR_UPDATE">
+        <default_value>${parameter.flowcorrelationid}</default_value>
+        <name>flowcorrelationid</name>
+        <rb_operation_attribute display_value="flowcorrelationid">5b5a90e5db70c81015e3dd18f496194f</rb_operation_attribute>
+        <stage_resource_operation display_value="Site Depot Wordpress.Deprovision">c594c49ddbb8481015e3dd18f4961949</stage_resource_operation>
+        <sys_class_name>sn_cmp_bp_stage_res_op_attr</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 11:31:37</sys_created_on>
+        <sys_id>175a54e5db70c81015e3dd18f496195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>flowcorrelationid</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_attr_175a54e5db70c81015e3dd18f496195b</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 11:31:37</sys_updated_on>
+        <type_of_map/>
+        <use_in_operation>false</use_in_operation>
+    </sn_cmp_bp_stage_res_op_attr>
+</record_update>

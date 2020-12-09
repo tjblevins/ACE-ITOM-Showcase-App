@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0c2009eddb74c81015e3dd18f49619c0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="em_mapping_rule">
+    <em_mapping_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <event_class>Trap From Enterprise 20006</event_class>
+        <from_field>nSvcDesc</from_field>
+        <mapping_type>1</mapping_type>
+        <name>Nagios-Resource</name>
+        <order>100</order>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:17:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0c2009eddb74c81015e3dd18f49619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:17:09</sys_updated_on>
+        <to_field>resource</to_field>
+        <value/>
+    </em_mapping_rule>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:06:14</sys_created_on>
+        <sys_id>34f62de1dbb8c81015e3dd18f4961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nagios-Resource</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_metadata_link_34f62de1dbb8c81015e3dd18f4961973</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:06:14</sys_updated_on>
+        <tablename>em_mapping_rule</tablename>
+    </sys_metadata_link>
+</record_update>

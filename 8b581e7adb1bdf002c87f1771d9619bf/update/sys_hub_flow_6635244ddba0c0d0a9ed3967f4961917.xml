@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Monitoring">c842e809dba0c0d0a9ed3967f4961939</category>
+        <compiler_build/>
+        <copied_from>2b02a409dba0c0d0a9ed3967f496194f</copied_from>
+        <copied_from_name>Repair Volatile FileSystems afte</copied_from_name>
+        <description/>
+        <internal_name>add_new_trap_host</internal_name>
+        <label_cache>[{"name":"subflow.domain","label":"Input➛Domain","type":"string","base_type":"string"},{"name":"subflow.target_ip","label":"Input➛Target IP","type":"string","base_type":"string"},{"name":"subflow.apache_host_ip","label":"Input➛Apache Host IP","type":"string","base_type":"string"},{"name":"subflow.server_ip","label":"Input➛Apache Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.lab_code","label":"Input➛Lab Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.server_role","label":"Input➛Server Role","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot>c82832afdb68001015e3dd18f49619b5</latest_snapshot>
+        <master_snapshot>e1e5a48ddba0c0d0a9ed3967f49619c1</master_snapshot>
+        <name>Nagios - Add New Trap Host</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6635244ddba0c0d0a9ed3967f4961917</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Nagios - Add New Trap Host</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_6635244ddba0c0d0a9ed3967f4961917</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6635244ddba0c0d0a9ed3967f4961917"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6635244ddba0c0d0a9ed3967f4961917"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=6635244ddba0c0d0a9ed3967f4961917^sys_idNOT IN7a35244ddba0c0d0a9ed3967f4961926,8ed5648ddba0c0d0a9ed3967f4961903,b235244ddba0c0d0a9ed3967f4961934,f235244ddba0c0d0a9ed3967f496192b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>7a35244ddba0c0d0a9ed3967f4961926</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7a35244ddba0c0d0a9ed3967f4961926"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7a35244ddba0c0d0a9ed3967f4961926</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>3635244ddba0c0d0a9ed3967f496192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7a35244ddba0c0d0a9ed3967f4961926</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>f635244ddba0c0d0a9ed3967f496192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Nagios - Add New Trap Host">dc15ac0ddba0c0d0a9ed3967f49619d6</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>dc15ac0ddba0c0d0a9ed3967f49619d6</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>8ed5648ddba0c0d0a9ed3967f4961903</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
+        <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8ed5648ddba0c0d0a9ed3967f4961903"/>
+    <sys_element_mapping action="delete_multiple" query="id=8ed5648ddba0c0d0a9ed3967f4961903"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_ip</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>06d5648ddba0c0d0a9ed3967f4961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7eb4e00ddba0c0d0a9ed3967f49619c1</table>
+        <value>{{subflow.target_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_ip</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:20</sys_created_on>
+        <sys_id>d9e5a48ddba0c0d0a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.target_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>c6d5648ddba0c0d0a9ed3967f4961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7eb4e00ddba0c0d0a9ed3967f49619c1</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:20</sys_created_on>
+        <sys_id>9de5a48ddba0c0d0a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>b235244ddba0c0d0a9ed3967f4961934</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b235244ddba0c0d0a9ed3967f4961934"/>
+    <sys_element_mapping action="delete_multiple" query="id=b235244ddba0c0d0a9ed3967f4961934"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>b235244ddba0c0d0a9ed3967f4961934</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>7635244ddba0c0d0a9ed3967f4961935</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{36747632-8902-4824-9370-718ccc7ffdc2.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>b235244ddba0c0d0a9ed3967f4961934</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>3a35244ddba0c0d0a9ed3967f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>f235244ddba0c0d0a9ed3967f496192b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f235244ddba0c0d0a9ed3967f496192b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f235244ddba0c0d0a9ed3967f496192b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>fa35244ddba0c0d0a9ed3967f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6635244ddba0c0d0a9ed3967f4961917^sys_idNOT IN6a35244ddba0c0d0a9ed3967f4961918"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6635244ddba0c0d0a9ed3967f4961917</id>
+        <name>Add New Trap Host</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:25</sys_created_on>
+        <sys_id>6a35244ddba0c0d0a9ed3967f4961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=6635244ddba0c0d0a9ed3967f4961917^sys_idNOT IN7635244ddba0c0d0a9ed3967f496191e,cad5a08ddba0c0d0a9ed3967f4961959"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</model>
+        <model_id>6635244ddba0c0d0a9ed3967f4961917</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6635244ddba0c0d0a9ed3967f4961917</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>7635244ddba0c0d0a9ed3967f496191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>target_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Target IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</model>
+        <model_id>6635244ddba0c0d0a9ed3967f4961917</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6635244ddba0c0d0a9ed3967f4961917</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>cad5a08ddba0c0d0a9ed3967f4961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6635244ddba0c0d0a9ed3967f4961917^sys_idNOT IN8ed5648ddba0c0d0a9ed3967f4961903,b235244ddba0c0d0a9ed3967f4961934"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Nagios - Add New Trap Host">dc15ac0ddba0c0d0a9ed3967f49619d6</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>dc15ac0ddba0c0d0a9ed3967f49619d6</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>8ed5648ddba0c0d0a9ed3967f4961903</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
+        <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8ed5648ddba0c0d0a9ed3967f4961903"/>
+    <sys_element_mapping action="delete_multiple" query="id=8ed5648ddba0c0d0a9ed3967f4961903"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_ip</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>06d5648ddba0c0d0a9ed3967f4961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7eb4e00ddba0c0d0a9ed3967f49619c1</table>
+        <value>{{subflow.target_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_ip</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:20</sys_created_on>
+        <sys_id>d9e5a48ddba0c0d0a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.target_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>c6d5648ddba0c0d0a9ed3967f4961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7eb4e00ddba0c0d0a9ed3967f49619c1</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>8ed5648ddba0c0d0a9ed3967f4961903</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:20</sys_created_on>
+        <sys_id>9de5a48ddba0c0d0a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>b235244ddba0c0d0a9ed3967f4961934</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b235244ddba0c0d0a9ed3967f4961934"/>
+    <sys_element_mapping action="delete_multiple" query="id=b235244ddba0c0d0a9ed3967f4961934"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>b235244ddba0c0d0a9ed3967f4961934</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>7635244ddba0c0d0a9ed3967f4961935</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{36747632-8902-4824-9370-718ccc7ffdc2.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>b235244ddba0c0d0a9ed3967f4961934</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>3a35244ddba0c0d0a9ed3967f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6635244ddba0c0d0a9ed3967f4961917^sys_idNOT IN7a35244ddba0c0d0a9ed3967f4961926,f235244ddba0c0d0a9ed3967f496192b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>7a35244ddba0c0d0a9ed3967f4961926</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7a35244ddba0c0d0a9ed3967f4961926"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7a35244ddba0c0d0a9ed3967f4961926</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>3635244ddba0c0d0a9ed3967f496192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7a35244ddba0c0d0a9ed3967f4961926</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>f635244ddba0c0d0a9ed3967f496192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>f235244ddba0c0d0a9ed3967f496192b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f235244ddba0c0d0a9ed3967f496192b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f235244ddba0c0d0a9ed3967f496192b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>fa35244ddba0c0d0a9ed3967f496192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6635244ddba0c0d0a9ed3967f4961917^sys_idNOT IN4ad5248ddba0c0d0a9ed3967f49619fd,7635244ddba0c0d0a9ed3967f4961923"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>target_ip</element>
+        <help/>
+        <hint/>
+        <label>Target IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6635244ddba0c0d0a9ed3967f4961917</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:07</sys_created_on>
+        <sys_id>4ad5248ddba0c0d0a9ed3967f49619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6635244ddba0c0d0a9ed3967f4961917_target_ip_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6635244ddba0c0d0a9ed3967f4961917</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:46:26</sys_created_on>
+        <sys_id>7635244ddba0c0d0a9ed3967f4961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6635244ddba0c0d0a9ed3967f4961917_ansible_tower_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:46:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6635244ddba0c0d0a9ed3967f4961917^sys_idNOT IN39e5e48ddba0c0d0a9ed3967f4961935"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"39e5e48ddba0c0d0a9ed3967f4961935","name":"plan"}}</plan>
+        <plan_id display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</plan_id>
+        <snapshot>c82832afdb68001015e3dd18f49619b5</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>39e5e48ddba0c0d0a9ed3967f4961935</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Monitoring">c842e809dba0c0d0a9ed3967f4961939</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>add_new_trap_host</internal_name>
+        <label_cache>[{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.server_role","label":"Input➛Server Role","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.lab_code","label":"Input➛Lab Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"subflow.server_ip","label":"Input➛Apache Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.apache_host_ip","label":"Input➛Apache Host IP","type":"string","base_type":"string"},{"name":"subflow.target_ip","label":"Input➛Target IP","type":"string","base_type":"string"},{"name":"subflow.domain","label":"Input➛Domain","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Nagios - Add New Trap Host</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e1e5a48ddba0c0d0a9ed3967f49619c1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e1e5a48ddba0c0d0a9ed3967f49619c1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e1e5a48ddba0c0d0a9ed3967f49619c1"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=e1e5a48ddba0c0d0a9ed3967f49619c1^sys_idNOT IN31e5a48ddba0c0d0a9ed3967f49619eb,6de5a48ddba0c0d0a9ed3967f49619e5,7de5a48ddba0c0d0a9ed3967f49619f6,b5e5a48ddba0c0d0a9ed3967f49619f1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>31e5a48ddba0c0d0a9ed3967f49619eb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=31e5a48ddba0c0d0a9ed3967f49619eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>31e5a48ddba0c0d0a9ed3967f49619eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>bde5a48ddba0c0d0a9ed3967f49619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>6de5a48ddba0c0d0a9ed3967f49619e5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6de5a48ddba0c0d0a9ed3967f49619e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6de5a48ddba0c0d0a9ed3967f49619e5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>a5e5a48ddba0c0d0a9ed3967f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6de5a48ddba0c0d0a9ed3967f49619e5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>e1e5a48ddba0c0d0a9ed3967f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>7de5a48ddba0c0d0a9ed3967f49619f6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7de5a48ddba0c0d0a9ed3967f49619f6"/>
+    <sys_element_mapping action="delete_multiple" query="id=7de5a48ddba0c0d0a9ed3967f49619f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>7de5a48ddba0c0d0a9ed3967f49619f6</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>3de5a48ddba0c0d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{36747632-8902-4824-9370-718ccc7ffdc2.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>7de5a48ddba0c0d0a9ed3967f49619f6</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>fde5a48ddba0c0d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Nagios - Add New Trap Host">dc15ac0ddba0c0d0a9ed3967f49619d6</action_type>
+        <action_type_parent display_value="Nagios - Add New Trap Host">7eb4e00ddba0c0d0a9ed3967f49619c1</action_type_parent>
+        <comment/>
+        <compiled_snapshot>dc15ac0ddba0c0d0a9ed3967f49619d6</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>b5e5a48ddba0c0d0a9ed3967f49619f1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b5e5a48ddba0c0d0a9ed3967f49619f1"/>
+    <sys_element_mapping action="delete_multiple" query="id=b5e5a48ddba0c0d0a9ed3967f49619f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_ip</field>
+        <id>b5e5a48ddba0c0d0a9ed3967f49619f1</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>75e5a48ddba0c0d0a9ed3967f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.target_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>b5e5a48ddba0c0d0a9ed3967f49619f1</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>39e5a48ddba0c0d0a9ed3967f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e1e5a48ddba0c0d0a9ed3967f49619c1^sys_idNOT IN6de5a48ddba0c0d0a9ed3967f49619c1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e1e5a48ddba0c0d0a9ed3967f49619c1</id>
+        <name>Add New Trap Host</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:21</sys_created_on>
+        <sys_id>6de5a48ddba0c0d0a9ed3967f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=e1e5a48ddba0c0d0a9ed3967f49619c1^sys_idNOT INa1e5a48ddba0c0d0a9ed3967f49619c3,e5e5a48ddba0c0d0a9ed3967f49619dc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ansible_tower</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Ansible Tower</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</model>
+        <model_id>e1e5a48ddba0c0d0a9ed3967f49619c1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e1e5a48ddba0c0d0a9ed3967f49619c1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:21</sys_created_on>
+        <sys_id>a1e5a48ddba0c0d0a9ed3967f49619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>target_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Target IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</model>
+        <model_id>e1e5a48ddba0c0d0a9ed3967f49619c1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e1e5a48ddba0c0d0a9ed3967f49619c1</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:21</sys_created_on>
+        <sys_id>e5e5a48ddba0c0d0a9ed3967f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e1e5a48ddba0c0d0a9ed3967f49619c1^sys_idNOT IN7de5a48ddba0c0d0a9ed3967f49619f6,b5e5a48ddba0c0d0a9ed3967f49619f1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action_type>
+        <action_type_parent display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d08b7a52db3f3b00a9ed3967f496193b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <order>2.1</order>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>7de5a48ddba0c0d0a9ed3967f49619f6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7de5a48ddba0c0d0a9ed3967f49619f6"/>
+    <sys_element_mapping action="delete_multiple" query="id=7de5a48ddba0c0d0a9ed3967f49619f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>job_id2</field>
+        <id>7de5a48ddba0c0d0a9ed3967f49619f6</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>3de5a48ddba0c0d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{36747632-8902-4824-9370-718ccc7ffdc2.job_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>7de5a48ddba0c0d0a9ed3967f49619f6</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>fde5a48ddba0c0d0a9ed3967f49619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Nagios - Add New Trap Host">dc15ac0ddba0c0d0a9ed3967f49619d6</action_type>
+        <action_type_parent display_value="Nagios - Add New Trap Host">7eb4e00ddba0c0d0a9ed3967f49619c1</action_type_parent>
+        <comment/>
+        <compiled_snapshot>dc15ac0ddba0c0d0a9ed3967f49619d6</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>b5e5a48ddba0c0d0a9ed3967f49619f1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b5e5a48ddba0c0d0a9ed3967f49619f1"/>
+    <sys_element_mapping action="delete_multiple" query="id=b5e5a48ddba0c0d0a9ed3967f49619f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_ip</field>
+        <id>b5e5a48ddba0c0d0a9ed3967f49619f1</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>75e5a48ddba0c0d0a9ed3967f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.target_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>b5e5a48ddba0c0d0a9ed3967f49619f1</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>39e5a48ddba0c0d0a9ed3967f49619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_dc15ac0ddba0c0d0a9ed3967f49619d6</table>
+        <value>{{subflow.ansible_tower}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e1e5a48ddba0c0d0a9ed3967f49619c1^sys_idNOT IN31e5a48ddba0c0d0a9ed3967f49619eb,6de5a48ddba0c0d0a9ed3967f49619e5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">87dc9650db68cc90a9ed3967f49619c0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>31e5a48ddba0c0d0a9ed3967f49619eb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=31e5a48ddba0c0d0a9ed3967f49619eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>31e5a48ddba0c0d0a9ed3967f49619eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>bde5a48ddba0c0d0a9ed3967f49619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <value>{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=successful^NQ{{99591286-b818-4b1f-ac7a-4551f4120dd8.job_status}}=failed</value>
+        <variable display_value="">d7138f0473031300612c273ffff6a78c</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">47dc9650db68cc90a9ed3967f49619bb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Nagios - Add New Trap Host">e1e5a48ddba0c0d0a9ed3967f49619c1</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>2.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>6de5a48ddba0c0d0a9ed3967f49619e5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
+        <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6de5a48ddba0c0d0a9ed3967f49619e5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6de5a48ddba0c0d0a9ed3967f49619e5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>a5e5a48ddba0c0d0a9ed3967f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6de5a48ddba0c0d0a9ed3967f49619e5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>e1e5a48ddba0c0d0a9ed3967f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e1e5a48ddba0c0d0a9ed3967f49619c1^sys_idNOT INa1e5a48ddba0c0d0a9ed3967f49619c8,e5e5a48ddba0c0d0a9ed3967f49619e1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ansible_tower</element>
+        <help/>
+        <hint/>
+        <label>Ansible Tower</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e1e5a48ddba0c0d0a9ed3967f49619c1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:21</sys_created_on>
+        <sys_id>a1e5a48ddba0c0d0a9ed3967f49619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e1e5a48ddba0c0d0a9ed3967f49619c1_ansible_tower_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>target_ip</element>
+        <help/>
+        <hint/>
+        <label>Target IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e1e5a48ddba0c0d0a9ed3967f49619c1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-15 12:49:22</sys_created_on>
+        <sys_id>e5e5a48ddba0c0d0a9ed3967f49619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target IP</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e1e5a48ddba0c0d0a9ed3967f49619c1_target_ip_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-15 12:49:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

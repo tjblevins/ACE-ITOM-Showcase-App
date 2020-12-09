@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>0</order>
+        <sc_cat_item display_value="ModifyLease">8ca4c89ddbb8481015e3dd18f49619ce</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-28 15:18:10</sys_created_on>
+        <sys_id>84a4c89ddbb8481015e3dd18f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General Info.ModifyLease</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>io_set_item_84a4c89ddbb8481015e3dd18f49619e4</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-28 15:18:10</sys_updated_on>
+        <variable_set display_value="General Info">4ca4c89ddbb8481015e3dd18f49619e3</variable_set>
+    </io_set_item>
+</record_update>

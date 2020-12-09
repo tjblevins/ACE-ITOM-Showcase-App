@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="INSERT_OR_UPDATE">
+        <interface display_value="AWS Deploy Monitoring Servers Resource Interface">2604d442db6048d0a9ed3967f49619ac</interface>
+        <name>LeaseEndDate</name>
+        <operation display_value="ModifyLease">ec145842db6048d0a9ed3967f49619d4</operation>
+        <order>40</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 14:05:24</sys_created_on>
+        <sys_id>34149842db6048d0a9ed3967f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LeaseEndDate</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_34149842db6048d0a9ed3967f4961908</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 14:05:24</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+</record_update>

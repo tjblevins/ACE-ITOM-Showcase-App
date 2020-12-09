@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_guest_interface">
+    <sn_cmp_rb_guest_interface action="INSERT_OR_UPDATE">
+        <guestinterface display_value="AWS Ubuntu Server 16 LTS Interface">cc9d4d4edb3ac4106846dd384b96199f</guestinterface>
+        <resource display_value="AWS Ubuntu Server 16 LTS">4c9d4d4edb3ac4106846dd384b9619a1</resource>
+        <sys_class_name>sn_cmp_rb_guest_interface</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:37:51</sys_created_on>
+        <sys_id>c89d058edb3ac4106846dd384b9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4c9d4d4edb3ac4106846dd384b9619a1</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_guest_interface_c89d058edb3ac4106846dd384b9619b0</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:37:51</sys_updated_on>
+    </sn_cmp_rb_guest_interface>
+</record_update>

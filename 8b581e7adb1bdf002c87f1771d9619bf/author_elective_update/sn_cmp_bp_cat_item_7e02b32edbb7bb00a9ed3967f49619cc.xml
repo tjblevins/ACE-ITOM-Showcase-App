@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_cat_item">
+    <sn_cmp_bp_cat_item action="DELETE">
+        <active>false</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <blue_print/>
+        <catalog_type>1</catalog_type>
+        <category/>
+        <config_provider/>
+        <config_provider_name/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>This deploys a VPC with (3) Subnets and (3) VMs for the ACE ITOM End to End AIOps Demo.</p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong>VPC Info</strong></span></p>
+<p>Name: ACE-ITOM-Showcase_LABCODE</p>
+<p>CIDR Block: 172.25.0.0/16</p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong>Subnet A</strong></span></p>
+<p>Name: MSPHosting_LABCODE</p>
+<p>CIDR Block: 172.25.1.0/24</p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong>Subnet B</strong></span></p>
+<p>Name: SiteDepot_LABCODE</p>
+<p>CIDR Block: 172.25.2.0/24</p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong>Subnet C</strong></span></p>
+<p>Name: WebStore_LABCODE</p>
+<p>CIDR Block: 172.25.3.0/24</p>
+<p> </p>
+<p><span style="text-decoration: underline;"><strong>VM(s)</strong></span></p>
+<p><strong>MID</strong></p>
+<p>Name: ACE-MSP-MID_LABCODE</p>
+<p> </p>
+<p><strong>JUMPHOST</strong></p>
+<p>Name: ACE-MSP-JUMPHOST_LABCODE</p>
+<p> </p>
+<p><strong>AnsibleTower</strong></p>
+<p>Name: ACE-MSP-Tower_LABCODE</p>
+<p>Elastic IP is Provisioned</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AWS VPC with Management VMs</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=7e02b32edbb7bb00a9ed3967f49619cc&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <provider_type display_value="Ansible Tower">8c50f6020bd50300a682aac125673a2e</provider_type>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>AWS VPC with Management VMs</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <source_type>template</source_type>
+        <stage_operation/>
+        <start_closed>false</start_closed>
+        <status>in_sync</status>
+        <sys_class_name>sn_cmp_bp_cat_item</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-13 12:57:07</sys_created_on>
+        <sys_id>7e02b32edbb7bb00a9ed3967f49619cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AWS VPC with Management VMs</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_cat_item_7e02b32edbb7bb00a9ed3967f49619cc</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-16 17:18:37</sys_updated_on>
+        <template/>
+        <template_id/>
+        <template_type display_value="ARM Template">612f41e49f00320048111f80a57fcf82</template_type>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Blueprint Request">2cbfd46eeb352200979aa5115206fe99</workflow>
+    </sn_cmp_bp_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=7e02b32edbb7bb00a9ed3967f49619cc"/>
+    <fx_price action="DELETE" query="id=7e02b32edbb7bb00a9ed3967f49619cc"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>7e02b32edbb7bb00a9ed3967f49619cc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-13 12:57:08</sys_created_on>
+        <sys_id>d3c47762dbf7bb00a9ed3967f49619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-13 12:57:08</sys_updated_on>
+        <table>sn_cmp_bp_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>7e02b32edbb7bb00a9ed3967f49619cc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-13 12:57:08</sys_created_on>
+        <sys_id>97c47762dbf7bb00a9ed3967f49619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-13 12:57:08</sys_updated_on>
+        <table>sn_cmp_bp_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sn_cmp_bp_cat_item_7e02b32edbb7bb00a9ed3967f49619cc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_cmp_bp_cat_item"&gt;&lt;sn_cmp_bp_cat_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;blue_print/&gt;&lt;catalog_type&gt;1&lt;/catalog_type&gt;&lt;category/&gt;&lt;config_provider/&gt;&lt;config_provider_name/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[&lt;p&gt;This deploys a VPC with (3) Subnets and (3) VMs for the ACE ITOM End to End AIOps Demo.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;VPC Info&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Name: ACE-ITOM-Showcase_LABCODE&lt;/p&gt;
+&lt;p&gt;CIDR Block: 172.25.0.0/16&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Subnet A&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Name: MSPHosting_LABCODE&lt;/p&gt;
+&lt;p&gt;CIDR Block: 172.25.1.0/24&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Subnet B&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Name: SiteDepot_LABCODE&lt;/p&gt;
+&lt;p&gt;CIDR Block: 172.25.2.0/24&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Subnet C&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Name: WebStore_LABCODE&lt;/p&gt;
+&lt;p&gt;CIDR Block: 172.25.3.0/24&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;VM(s)&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MID&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Name: ACE-MSP-MID_LABCODE&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JUMPHOST&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Name: ACE-MSP-JUMPHOST_LABCODE&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AnsibleTower&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Name: ACE-MSP-Tower_LABCODE&lt;/p&gt;
+&lt;p&gt;Elastic IP is Provisioned&lt;/p&gt;]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;AWS VPC with Management VMs&lt;/name&gt;&lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=7e02b32edbb7bb00a9ed3967f49619cc&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;provider_type display_value="Ansible Tower"&gt;8c50f6020bd50300a682aac125673a2e&lt;/provider_type&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;request_method/&gt;&lt;roles&gt;snc_internal&lt;/roles&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;short_description&gt;AWS VPC with Management VMs&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;source_type&gt;template&lt;/source_type&gt;&lt;stage_operation/&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;status&gt;in_sync&lt;/status&gt;&lt;sys_class_name&gt;sn_cmp_bp_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-13 12:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;7e02b32edbb7bb00a9ed3967f49619cc&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;AWS VPC with Management VMs&lt;/sys_name&gt;&lt;sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_cmp_bp_cat_item_7e02b32edbb7bb00a9ed3967f49619cc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-16 17:18:37&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;template_id/&gt;&lt;template_type display_value="ARM Template"&gt;612f41e49f00320048111f80a57fcf82&lt;/template_type&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow display_value="Blueprint Request"&gt;2cbfd46eeb352200979aa5115206fe99&lt;/workflow&gt;&lt;/sn_cmp_bp_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7e02b32edbb7bb00a9ed3967f49619cc"/&gt;&lt;fx_price action="delete_multiple" query="id=7e02b32edbb7bb00a9ed3967f49619cc"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;7e02b32edbb7bb00a9ed3967f49619cc&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-13 12:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;d3c47762dbf7bb00a9ed3967f49619ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-13 12:57:08&lt;/sys_updated_on&gt;&lt;table&gt;sn_cmp_bp_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;7e02b32edbb7bb00a9ed3967f49619cc&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-13 12:57:08&lt;/sys_created_on&gt;&lt;sys_id&gt;97c47762dbf7bb00a9ed3967f49619ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-13 12:57:08&lt;/sys_updated_on&gt;&lt;table&gt;sn_cmp_bp_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-888965686</payload_hash>
+        <record_name>AWS VPC with Management VMs</record_name>
+        <reverted_from/>
+        <source>8766a179dbf33700261616370596198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-16 17:18:38</sys_created_on>
+        <sys_id>5b6d8c3fdbfbff00a9ed3967f4961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d3b155b8b0000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-16 17:18:38</sys_updated_on>
+        <type>Cloud Catalog Item</type>
+        <update_guid>4b6d8c3fd6fbff0055ffdcac0b82af37</update_guid>
+        <update_guid_history>4b6d8c3fd6fbff0055ffdcac0b82af37:547481703,4b6d8c3fd6fbff0055ffdcac0b82af37:547481703,2fc477624bf7bb0043061dcac56958c7:154928647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AWS VPC with Management VMs">676d8c3fdbfbff00a9ed3967f496195e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-16 17:18:39</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_cat_item">sn_cmp_bp_cat_item</sys_db_object>
+        <sys_id>2136d63f4ed8401a89e882b60a9b39a4</sys_id>
+        <sys_metadata>7e02b32edbb7bb00a9ed3967f49619cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS VPC with Management VMs</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_cat_item_7e02b32edbb7bb00a9ed3967f49619cc</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_cat_item_7e02b32edbb7bb00a9ed3967f49619cc">5b6d8c3fdbfbff00a9ed3967f4961945</sys_update_version>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-16 17:18:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

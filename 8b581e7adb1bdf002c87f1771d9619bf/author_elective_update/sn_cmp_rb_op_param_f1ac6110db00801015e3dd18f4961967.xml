@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="DELETE">
+        <interface display_value="AWS VPC with Subnets Interface">c0acaddcdbcc401015e3dd18f4961917</interface>
+        <name>providerAPIParameters</name>
+        <operation display_value="Provision">a5ac6110db00801015e3dd18f4961931</operation>
+        <order>40</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 13:31:38</sys_created_on>
+        <sys_id>f1ac6110db00801015e3dd18f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>providerAPIParameters</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_f1ac6110db00801015e3dd18f4961967</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-18 13:31:38</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sn_cmp_rb_op_param_f1ac6110db00801015e3dd18f4961967</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param"><sn_cmp_rb_op_param action="INSERT_OR_UPDATE"><interface display_value="AWS VPC with Subnets Interface">c0acaddcdbcc401015e3dd18f4961917</interface><name>providerAPIParameters</name><operation display_value="Provision">a5ac6110db00801015e3dd18f4961931</operation><order>40</order><sys_class_name>sn_cmp_rb_op_param</sys_class_name><sys_created_by>tomb</sys_created_by><sys_created_on>2019-09-18 13:31:38</sys_created_on><sys_id>f1ac6110db00801015e3dd18f4961967</sys_id><sys_mod_count>0</sys_mod_count><sys_name>providerAPIParameters</sys_name><sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_rb_op_param_f1ac6110db00801015e3dd18f4961967</sys_update_name><sys_updated_by>tomb</sys_updated_by><sys_updated_on>2019-09-18 13:31:38</sys_updated_on><type>1</type></sn_cmp_rb_op_param></record_update>]]></payload>
+        <payload_hash>-1618043607</payload_hash>
+        <record_name>providerAPIParameters</record_name>
+        <reverted_from/>
+        <source>8766a179dbf33700261616370596198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 13:31:39</sys_created_on>
+        <sys_id>f1ac6110db00801015e3dd18f4961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d449242990000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-18 13:31:39</sys_updated_on>
+        <type>OperationParameter</type>
+        <update_guid>f9ac61103d0080102ac1b4c709a8bb68</update_guid>
+        <update_guid_history>f9ac61103d0080102ac1b4c709a8bb68:-1618043607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="providerAPIParameters">d6aca110db00801015e3dd18f4961904</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 13:31:41</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_param">sn_cmp_rb_op_param</sys_db_object>
+        <sys_id>284b92e4a39f41d5bbb9fffadc38bee1</sys_id>
+        <sys_metadata>f1ac6110db00801015e3dd18f4961967</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>providerAPIParameters</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_param_f1ac6110db00801015e3dd18f4961967</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_param_f1ac6110db00801015e3dd18f4961967">f1ac6110db00801015e3dd18f4961969</sys_update_version>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-18 13:31:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

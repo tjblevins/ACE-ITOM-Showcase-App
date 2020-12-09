@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_template_to_bp">
+    <sn_cmp_template_to_bp action="INSERT_OR_UPDATE">
+        <blueprint display_value="Azure Microsoft Windows Server">ee9e4142db7ac4106846dd384b96190f</blueprint>
+        <sys_class_name>sn_cmp_template_to_bp</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:42:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7faec542db7ac4106846dd384b9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_template_to_bp_7faec542db7ac4106846dd384b9619d9</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:42:45</sys_updated_on>
+        <template display_value="Azure Microsoft Windows Server">343e8dcedb3ac4106846dd384b96198a</template>
+    </sn_cmp_template_to_bp>
+</record_update>

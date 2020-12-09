@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>look_up_vm_ips</internal_name>
+        <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child}}","label":"step➛Find Interface from VM Instance Name➛CI Relationship Record➛Child","type":"step","ref":"cmdb_ci"},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record.public_ip}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record➛Public IP","type":"step","ref":""},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record➛Private IP","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record➛Sys ID","type":"step","ref":""},{"name":"{{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child.name}}","label":"step➛Find Interface from VM Instance Name➛CI Relationship Record➛Child➛Name","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record","type":"step","ref":"cmdb_ci_vm_instance"},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record","type":"step","ref":"cmdb_ci_nic"}]</label_cache>
+        <latest_snapshot>746875cedbbec4106846dd384b961925</latest_snapshot>
+        <master_snapshot>96defc19db508c50a9ed3967f49619ed</master_snapshot>
+        <name>Look Up VM - IPs</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-03 20:13:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>88681459db5c4c50a9ed3967f4961991</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>Look Up VM - IPs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_88681459db5c4c50a9ed3967f4961991</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=88681459db5c4c50a9ed3967f4961991"/>
+    <sys_variable_value action="delete_multiple" query="document_key=88681459db5c4c50a9ed3967f4961991"/>
+    <sys_element_mapping action="delete_multiple" query="id=88681459db5c4c50a9ed3967f4961991"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>privateip</field>
+        <id>88681459db5c4c50a9ed3967f4961991</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:37:53</sys_created_on>
+        <sys_id>e189fc11db508c50a9ed3967f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:37:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</table>
+        <value>{{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>publicip</field>
+        <id>88681459db5c4c50a9ed3967f4961991</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:37:53</sys_created_on>
+        <sys_id>2189fc11db508c50a9ed3967f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:37:53</sys_updated_on>
+        <table>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</table>
+        <value>{{step[7460017e-3597-45d6-989a-8784132d5440].record.public_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>88681459db5c4c50a9ed3967f4961991</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:40:44</sys_created_on>
+        <sys_id>8b67354edbbec4106846dd384b96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</table>
+        <value>{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=88681459db5c4c50a9ed3967f4961991^sys_idNOT IN4f28fc9ddb108c50a9ed3967f49619aa,50e7718edbbec4106846dd384b96195f,57fb3815db508c50a9ed3967f49619e2,8728fc9ddb108c50a9ed3967f4961995"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>7460017e-3597-45d6-989a-8784132d5440</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Lookup NIC and IPs</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>4f28fc9ddb108c50a9ed3967f49619aa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:55:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4f28fc9ddb108c50a9ed3967f49619aa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4f28fc9ddb108c50a9ed3967f49619aa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:35:22</sys_created_on>
+        <sys_id>7cf87011db508c50a9ed3967f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:35:22</sys_updated_on>
+        <value>cmdb_ci_nic</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4f28fc9ddb108c50a9ed3967f49619aa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4f28fc9ddb108c50a9ed3967f49619aa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:35:22</sys_created_on>
+        <sys_id>f8f87011db508c50a9ed3967f49619c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:55:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>4f28fc9ddb108c50a9ed3967f49619aa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:35:22</sys_created_on>
+        <sys_id>38f87011db508c50a9ed3967f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:35:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>4fa21892-6d1d-480c-9d8c-8fb657c29a1b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>50e7718edbbec4106846dd384b96195f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=50e7718edbbec4106846dd384b96195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>50e7718edbbec4106846dd384b96195f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>54e7718edbbec4106846dd384b961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:42:44</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=50e7718edbbec4106846dd384b96195f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>50e7718edbbec4106846dd384b96195f</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>d0e7718edbbec4106846dd384b961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:42:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>50e7718edbbec4106846dd384b96195f</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>5ce7718edbbec4106846dd384b961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:42:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>50e7718edbbec4106846dd384b96195f</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>10e7718edbbec4106846dd384b961964</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>private_ip_address={{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>b2cc0932-7042-4900-8582-f3ce990b1797</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Get VM Sys_ID</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>57fb3815db508c50a9ed3967f49619e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57fb3815db508c50a9ed3967f49619e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>57fb3815db508c50a9ed3967f49619e2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>93fb7815db508c50a9ed3967f49619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:48:39</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57fb3815db508c50a9ed3967f49619e2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>57fb3815db508c50a9ed3967f49619e2</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>13fb7815db508c50a9ed3967f49619ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.name}}^install_status=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>57fb3815db508c50a9ed3967f49619e2</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>5ffb7815db508c50a9ed3967f49619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:48:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>56f536fa-3a98-45e6-b3f9-cf84600bd0e7</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Find Interface from VM Instance Name</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>8728fc9ddb108c50a9ed3967f4961995</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:50:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8728fc9ddb108c50a9ed3967f4961995"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8728fc9ddb108c50a9ed3967f4961995</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>4328fc9ddb108c50a9ed3967f49619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:31:58</sys_updated_on>
+        <value>cmdb_rel_ci</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8728fc9ddb108c50a9ed3967f4961995"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8728fc9ddb108c50a9ed3967f4961995</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>cf28fc9ddb108c50a9ed3967f49619a8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:50:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>parent={{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}^type=e7490a74532221007c949096a11c08b2^childSTARTSWITHeni</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>8728fc9ddb108c50a9ed3967f4961995</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>8728fc9ddb108c50a9ed3967f49619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:31:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=88681459db5c4c50a9ed3967f4961991^sys_idNOT IN3228fc9ddb108c50a9ed3967f496198b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0bdc2ced-7368-4e95-a1b3-e73765fb195d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</model>
+        <model_id>88681459db5c4c50a9ed3967f4961991</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_88681459db5c4c50a9ed3967f4961991</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>3228fc9ddb108c50a9ed3967f496198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=88681459db5c4c50a9ed3967f4961991^sys_idNOT IN98b9628adb9c8090a9ed3967f49619be,cf67f14edbbec4106846dd384b9619fc,dcb9628adb9c8090a9ed3967f49619a1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>IPV6)=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=ip_addr,uiTypeLabel=IP Address (Validated IPV4, IPV6),uiUniqueId=732765c4-67dc-411f-87aa-60e8bb29a40c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>privateip</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">ip_addr</internal_type>
+        <label>Private IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</model>
+        <model_id>88681459db5c4c50a9ed3967f4961991</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:24</sys_created_on>
+        <sys_id>98b9628adb9c8090a9ed3967f49619be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=12707163-0108-4732-a739-becf27d5c9aa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype display_value="Record" element="record" name="var__m_sys_flow_step_definition_output_dc9c26043b23220057a4a2e334efc447">d3e627913b23220057a4a2e334efc45e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>VM Instance</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</model>
+        <model_id>88681459db5c4c50a9ed3967f4961991</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci_vm_instance">cmdb_ci_vm_instance</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:40:44</sys_created_on>
+        <sys_id>cf67f14edbbec4106846dd384b9619fc</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>IPV6)=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=ip_addr,uiTypeLabel=IP Address (Validated IPV4, IPV6),uiUniqueId=b3244d95-3c6d-46ae-84d2-6e4088a7c282</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>publicip</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">ip_addr</internal_type>
+        <label>Public IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</model>
+        <model_id>88681459db5c4c50a9ed3967f4961991</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:24</sys_created_on>
+        <sys_id>dcb9628adb9c8090a9ed3967f49619a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=88681459db5c4c50a9ed3967f4961991^sys_idNOT IN4f28fc9ddb108c50a9ed3967f49619aa,50e7718edbbec4106846dd384b96195f,57fb3815db508c50a9ed3967f49619e2,8728fc9ddb108c50a9ed3967f4961995"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>7460017e-3597-45d6-989a-8784132d5440</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Lookup NIC and IPs</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>4f28fc9ddb108c50a9ed3967f49619aa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:55:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4f28fc9ddb108c50a9ed3967f49619aa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4f28fc9ddb108c50a9ed3967f49619aa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:35:22</sys_created_on>
+        <sys_id>7cf87011db508c50a9ed3967f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:35:22</sys_updated_on>
+        <value>cmdb_ci_nic</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4f28fc9ddb108c50a9ed3967f49619aa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4f28fc9ddb108c50a9ed3967f49619aa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:35:22</sys_created_on>
+        <sys_id>f8f87011db508c50a9ed3967f49619c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:55:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>4f28fc9ddb108c50a9ed3967f49619aa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:35:22</sys_created_on>
+        <sys_id>38f87011db508c50a9ed3967f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:35:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>4fa21892-6d1d-480c-9d8c-8fb657c29a1b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>50e7718edbbec4106846dd384b96195f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=50e7718edbbec4106846dd384b96195f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>50e7718edbbec4106846dd384b96195f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>54e7718edbbec4106846dd384b961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:42:44</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=50e7718edbbec4106846dd384b96195f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>50e7718edbbec4106846dd384b96195f</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>d0e7718edbbec4106846dd384b961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:42:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>50e7718edbbec4106846dd384b96195f</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>5ce7718edbbec4106846dd384b961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:42:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>50e7718edbbec4106846dd384b96195f</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:42:44</sys_created_on>
+        <sys_id>10e7718edbbec4106846dd384b961964</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>private_ip_address={{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>b2cc0932-7042-4900-8582-f3ce990b1797</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Get VM Sys_ID</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>57fb3815db508c50a9ed3967f49619e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57fb3815db508c50a9ed3967f49619e2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>57fb3815db508c50a9ed3967f49619e2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>93fb7815db508c50a9ed3967f49619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:48:39</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57fb3815db508c50a9ed3967f49619e2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>57fb3815db508c50a9ed3967f49619e2</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>13fb7815db508c50a9ed3967f49619ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.name}}^install_status=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>57fb3815db508c50a9ed3967f49619e2</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:48:39</sys_created_on>
+        <sys_id>5ffb7815db508c50a9ed3967f49619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:48:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action>
+        <cid>56f536fa-3a98-45e6-b3f9-cf84600bd0e7</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Find Interface from VM Instance Name</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>8728fc9ddb108c50a9ed3967f4961995</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:50:46</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8728fc9ddb108c50a9ed3967f4961995"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>8728fc9ddb108c50a9ed3967f4961995</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>4328fc9ddb108c50a9ed3967f49619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:31:58</sys_updated_on>
+        <value>cmdb_rel_ci</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8728fc9ddb108c50a9ed3967f4961995"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8728fc9ddb108c50a9ed3967f4961995</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>cf28fc9ddb108c50a9ed3967f49619a8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:50:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>parent={{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}^type=e7490a74532221007c949096a11c08b2^childSTARTSWITHeni</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>8728fc9ddb108c50a9ed3967f4961995</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>8728fc9ddb108c50a9ed3967f49619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:31:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_88681459db5c4c50a9ed3967f4961991^sys_idNOT IN8328fc9ddb108c50a9ed3967f4961993"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <help/>
+        <hint/>
+        <label>Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_88681459db5c4c50a9ed3967f4961991</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 22:31:58</sys_created_on>
+        <sys_id>8328fc9ddb108c50a9ed3967f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 22:31:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991^sys_idNOT IN0767354edbbec4106846dd384b961902,54b9628adb9c8090a9ed3967f49619c3,dcb9628adb9c8090a9ed3967f49619a6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>VM Instance</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:40:44</sys_created_on>
+        <sys_id>0767354edbbec4106846dd384b961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>privateip</element>
+        <help/>
+        <hint/>
+        <label>Private IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:24</sys_created_on>
+        <sys_id>54b9628adb9c8090a9ed3967f49619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 14:43:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>publicip</element>
+        <help/>
+        <hint/>
+        <label>Public IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_88681459db5c4c50a9ed3967f4961991</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:24</sys_created_on>
+        <sys_id>dcb9628adb9c8090a9ed3967f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 14:43:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=88681459db5c4c50a9ed3967f4961991^sys_idNOT INf6de3059db508c50a9ed3967f4961993"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f6de3059db508c50a9ed3967f4961993","name":"plan"}}</plan>
+        <snapshot>746875cedbbec4106846dd384b961925</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f6de3059db508c50a9ed3967f4961993</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:45:00</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>look_up_vm_ips</internal_name>
+        <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child}}","label":"step➛Find Interface from VM Instance Name➛CI Relationship Record➛Child","type":"step","ref":"cmdb_ci"},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record.public_ip}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record➛Public IP","type":"step","ref":""},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record➛Private IP","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record➛Sys ID","type":"step","ref":""},{"name":"{{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child.name}}","label":"step➛Find Interface from VM Instance Name➛CI Relationship Record➛Child➛Name","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record","type":"step","ref":"cmdb_ci_vm_instance"},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record","type":"step","ref":"cmdb_ci_nic"}]</label_cache>
+        <master>true</master>
+        <name>Look Up VM - IPs</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Look Up VM - IPs">88681459db5c4c50a9ed3967f4961991</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>96defc19db508c50a9ed3967f49619ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=96defc19db508c50a9ed3967f49619ed"/>
+    <sys_variable_value action="delete_multiple" query="document_key=96defc19db508c50a9ed3967f49619ed"/>
+    <sys_element_mapping action="delete_multiple" query="id=96defc19db508c50a9ed3967f49619ed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>privateip</field>
+        <id>96defc19db508c50a9ed3967f49619ed</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>5ade3059db508c50a9ed3967f4961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</table>
+        <value>{{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>publicip</field>
+        <id>96defc19db508c50a9ed3967f49619ed</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>96de3059db508c50a9ed3967f4961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</table>
+        <value>{{step[7460017e-3597-45d6-989a-8784132d5440].record.public_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>96defc19db508c50a9ed3967f49619ed</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:40:51</sys_created_on>
+        <sys_id>3877754edbbec4106846dd384b961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</table>
+        <value>{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=96defc19db508c50a9ed3967f49619ed^sys_idNOT IN016875cedbbec4106846dd384b961976,1adefc19db508c50a9ed3967f49619fa,d2de3059db508c50a9ed3967f4961900,dadefc19db508c50a9ed3967f49619f4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>4fa21892-6d1d-480c-9d8c-8fb657c29a1b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>016875cedbbec4106846dd384b961976</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=016875cedbbec4106846dd384b961976"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>016875cedbbec4106846dd384b961976</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>456875cedbbec4106846dd384b96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=016875cedbbec4106846dd384b961976"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>016875cedbbec4106846dd384b961976</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>c16875cedbbec4106846dd384b96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>016875cedbbec4106846dd384b961976</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>4d6875cedbbec4106846dd384b961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>016875cedbbec4106846dd384b961976</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>016875cedbbec4106846dd384b96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>private_ip_address={{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>56f536fa-3a98-45e6-b3f9-cf84600bd0e7</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Find Interface from VM Instance Name</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>1adefc19db508c50a9ed3967f49619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1adefc19db508c50a9ed3967f49619fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1adefc19db508c50a9ed3967f49619fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>92defc19db508c50a9ed3967f49619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <value>cmdb_rel_ci</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1adefc19db508c50a9ed3967f49619fa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1adefc19db508c50a9ed3967f49619fa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>12defc19db508c50a9ed3967f49619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>parent={{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}^type=e7490a74532221007c949096a11c08b2^childSTARTSWITHeni</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>1adefc19db508c50a9ed3967f49619fa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>5edefc19db508c50a9ed3967f49619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>7460017e-3597-45d6-989a-8784132d5440</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Lookup NIC and IPs</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>d2de3059db508c50a9ed3967f4961900</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d2de3059db508c50a9ed3967f4961900"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d2de3059db508c50a9ed3967f4961900</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>5ede3059db508c50a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <value>cmdb_ci_nic</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d2de3059db508c50a9ed3967f4961900"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d2de3059db508c50a9ed3967f4961900</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>dade3059db508c50a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>d2de3059db508c50a9ed3967f4961900</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>1ade3059db508c50a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>b2cc0932-7042-4900-8582-f3ce990b1797</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Get VM Sys_ID</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>dadefc19db508c50a9ed3967f49619f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dadefc19db508c50a9ed3967f49619f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dadefc19db508c50a9ed3967f49619f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>d6defc19db508c50a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dadefc19db508c50a9ed3967f49619f4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>dadefc19db508c50a9ed3967f49619f4</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>56defc19db508c50a9ed3967f49619f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.name}}^install_status=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>dadefc19db508c50a9ed3967f49619f4</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>92defc19db508c50a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=96defc19db508c50a9ed3967f49619ed^sys_idNOT IN92defc19db508c50a9ed3967f49619ee"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0bdc2ced-7368-4e95-a1b3-e73765fb195d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</model>
+        <model_id>96defc19db508c50a9ed3967f49619ed</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_96defc19db508c50a9ed3967f49619ed</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>92defc19db508c50a9ed3967f49619ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=96defc19db508c50a9ed3967f49619ed^sys_idNOT IN3877754edbbec4106846dd384b961987,4eb9e28adb9c8090a9ed3967f49619c7,dab9e28adb9c8090a9ed3967f49619d7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=12707163-0108-4732-a739-becf27d5c9aa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype display_value="Record" element="record" name="var__m_sys_flow_step_definition_output_dc9c26043b23220057a4a2e334efc447">d3e627913b23220057a4a2e334efc45e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>VM Instance</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</model>
+        <model_id>96defc19db508c50a9ed3967f49619ed</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci_vm_instance">cmdb_ci_vm_instance</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:40:51</sys_created_on>
+        <sys_id>3877754edbbec4106846dd384b961987</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>IPV6)=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=ip_addr,uiTypeLabel=IP Address (Validated IPV4,uiUniqueId=b3244d95-3c6d-46ae-84d2-6e4088a7c282</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>publicip</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">ip_addr</internal_type>
+        <label>Public IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</model>
+        <model_id>96defc19db508c50a9ed3967f49619ed</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:31</sys_created_on>
+        <sys_id>4eb9e28adb9c8090a9ed3967f49619c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>IPV6)=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=ip_addr,uiTypeLabel=IP Address (Validated IPV4,uiUniqueId=732765c4-67dc-411f-87aa-60e8bb29a40c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>privateip</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">ip_addr</internal_type>
+        <label>Private IP</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</model>
+        <model_id>96defc19db508c50a9ed3967f49619ed</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:32</sys_created_on>
+        <sys_id>dab9e28adb9c8090a9ed3967f49619d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=96defc19db508c50a9ed3967f49619ed^sys_idNOT IN016875cedbbec4106846dd384b961976,1adefc19db508c50a9ed3967f49619fa,d2de3059db508c50a9ed3967f4961900,dadefc19db508c50a9ed3967f49619f4"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>4fa21892-6d1d-480c-9d8c-8fb657c29a1b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>016875cedbbec4106846dd384b961976</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=016875cedbbec4106846dd384b961976"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>016875cedbbec4106846dd384b961976</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>456875cedbbec4106846dd384b96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=016875cedbbec4106846dd384b961976"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>016875cedbbec4106846dd384b961976</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>c16875cedbbec4106846dd384b96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>016875cedbbec4106846dd384b961976</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>4d6875cedbbec4106846dd384b961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>016875cedbbec4106846dd384b961976</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:44:58</sys_created_on>
+        <sys_id>016875cedbbec4106846dd384b96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:44:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>private_ip_address={{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>56f536fa-3a98-45e6-b3f9-cf84600bd0e7</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Find Interface from VM Instance Name</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>1adefc19db508c50a9ed3967f49619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1adefc19db508c50a9ed3967f49619fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1adefc19db508c50a9ed3967f49619fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>92defc19db508c50a9ed3967f49619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <value>cmdb_rel_ci</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1adefc19db508c50a9ed3967f49619fa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1adefc19db508c50a9ed3967f49619fa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>12defc19db508c50a9ed3967f49619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>parent={{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}^type=e7490a74532221007c949096a11c08b2^childSTARTSWITHeni</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>1adefc19db508c50a9ed3967f49619fa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>5edefc19db508c50a9ed3967f49619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>7460017e-3597-45d6-989a-8784132d5440</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Lookup NIC and IPs</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>d2de3059db508c50a9ed3967f4961900</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d2de3059db508c50a9ed3967f4961900"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d2de3059db508c50a9ed3967f4961900</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>5ede3059db508c50a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <value>cmdb_ci_nic</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d2de3059db508c50a9ed3967f4961900"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d2de3059db508c50a9ed3967f4961900</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>dade3059db508c50a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child.name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>d2de3059db508c50a9ed3967f4961900</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:09</sys_created_on>
+        <sys_id>1ade3059db508c50a9ed3967f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:09</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Look Up VM - IPs">96defc19db508c50a9ed3967f49619ed</action>
+        <cid>b2cc0932-7042-4900-8582-f3ce990b1797</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Get VM Sys_ID</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>dadefc19db508c50a9ed3967f49619f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dadefc19db508c50a9ed3967f49619f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dadefc19db508c50a9ed3967f49619f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>d6defc19db508c50a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dadefc19db508c50a9ed3967f49619f4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>dadefc19db508c50a9ed3967f49619f4</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>56defc19db508c50a9ed3967f49619f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-12 13:35:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.name}}^install_status=1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>dadefc19db508c50a9ed3967f49619f4</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>92defc19db508c50a9ed3967f49619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_96defc19db508c50a9ed3967f49619ed^sys_idNOT IN12defc19db508c50a9ed3967f49619f3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <help/>
+        <hint/>
+        <label>Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_96defc19db508c50a9ed3967f49619ed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-03 23:01:08</sys_created_on>
+        <sys_id>12defc19db508c50a9ed3967f49619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-03 23:01:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed^sys_idNOT IN7477754edbbec4106846dd384b96198c,96b9e28adb9c8090a9ed3967f49619dc,d6b9e28adb9c8090a9ed3967f49619cc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>VM Instance</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 17:40:51</sys_created_on>
+        <sys_id>7477754edbbec4106846dd384b96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 17:40:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>privateip</element>
+        <help/>
+        <hint/>
+        <label>Private IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:32</sys_created_on>
+        <sys_id>96b9e28adb9c8090a9ed3967f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 14:43:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>publicip</element>
+        <help/>
+        <hint/>
+        <label>Public IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_96defc19db508c50a9ed3967f49619ed</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:43:31</sys_created_on>
+        <sys_id>d6b9e28adb9c8090a9ed3967f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 14:43:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

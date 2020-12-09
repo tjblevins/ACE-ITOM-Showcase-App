@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop">
+    <sn_cmp_bp_global_prop action="DELETE">
+        <bp_stage_operation display_value="Provision">2773b01adb2c88d0a9ed3967f49619b5</bp_stage_operation>
+        <bp_stage_res_op_attr display_value="LABCODE">5d26745edb2c88d0a9ed3967f4961976</bp_stage_res_op_attr>
+        <mandatory>true</mandatory>
+        <name>AWS_EC2_Instance_LABCODE2</name>
+        <order>810</order>
+        <resource_op_unique_id>6345</resource_op_unique_id>
+        <sys_class_name>sn_cmp_bp_global_prop</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:12:45</sys_created_on>
+        <sys_id>9926745edb2c88d0a9ed3967f4961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS_EC2_Instance_LABCODE2</sys_name>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_global_prop_9926745edb2c88d0a9ed3967f4961977</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:12:45</sys_updated_on>
+    </sn_cmp_bp_global_prop>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sn_cmp_bp_global_prop_9926745edb2c88d0a9ed3967f4961977</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop"><sn_cmp_bp_global_prop action="INSERT_OR_UPDATE"><bp_stage_operation display_value="Provision">2773b01adb2c88d0a9ed3967f49619b5</bp_stage_operation><bp_stage_res_op_attr display_value="LABCODE">5d26745edb2c88d0a9ed3967f4961976</bp_stage_res_op_attr><mandatory>true</mandatory><name>AWS_EC2_Instance_LABCODE2</name><order>810</order><resource_op_unique_id>6345</resource_op_unique_id><sys_class_name>sn_cmp_bp_global_prop</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2019-10-19 11:12:45</sys_created_on><sys_id>9926745edb2c88d0a9ed3967f4961977</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AWS_EC2_Instance_LABCODE2</sys_name><sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_bp_global_prop_9926745edb2c88d0a9ed3967f4961977</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2019-10-19 11:12:45</sys_updated_on></sn_cmp_bp_global_prop></record_update>]]></payload>
+        <payload_hash>736573292</payload_hash>
+        <record_name>AWS_EC2_Instance_LABCODE2</record_name>
+        <reverted_from/>
+        <source>8766a179dbf33700261616370596198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:12:45</sys_created_on>
+        <sys_id>a926745edb2c88d0a9ed3967f496198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16de3b83f4a0000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:12:45</sys_updated_on>
+        <type>Global Property</type>
+        <update_guid>e926745eca2c88d0daad985933ad287f</update_guid>
+        <update_guid_history>e926745eca2c88d0daad985933ad287f:736573292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AWS_EC2_Instance_LABCODE2">e1b9b4d2db6c88d0a9ed3967f4961986</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:28:19</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_global_prop">sn_cmp_bp_global_prop</sys_db_object>
+        <sys_id>a7a934ce73e244b880629fa14be8a624</sys_id>
+        <sys_metadata>9926745edb2c88d0a9ed3967f4961977</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS_EC2_Instance_LABCODE2</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_global_prop_9926745edb2c88d0a9ed3967f4961977</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_global_prop_9926745edb2c88d0a9ed3967f4961977">a926745edb2c88d0a9ed3967f496198c</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:28:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

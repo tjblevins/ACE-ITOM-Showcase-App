@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_graph">
+    <sn_cmp_bp_stage_res_op_graph action="INSERT_OR_UPDATE">
+        <blueprint_stage_op display_value="Provision">1f84449ddbb8481015e3dd18f49619a5</blueprint_stage_op>
+        <child_operation display_value="Blueprint Container Resource.Provision">8894849ddbb8481015e3dd18f496193f</child_operation>
+        <in_degree>0</in_degree>
+        <parent_operation display_value="Site Depot Wordpress.PostProvision">b594089ddbb8481015e3dd18f4961943</parent_operation>
+        <status>true</status>
+        <sys_class_name>sn_cmp_bp_stage_res_op_graph</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-28 15:18:01</sys_created_on>
+        <sys_id>fd94089ddbb8481015e3dd18f496196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_graph_fd94089ddbb8481015e3dd18f496196b</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-28 15:18:01</sys_updated_on>
+    </sn_cmp_bp_stage_res_op_graph>
+</record_update>

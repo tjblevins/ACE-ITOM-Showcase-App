@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_msp_lb" label="u_msp_lb" language="en" table="var__m_var_dictionary_a38e4b54db2d33009b7ed8b6f4961943">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_msp_lb</element>
+            <help/>
+            <hint/>
+            <label>u_msp_lb</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_a38e4b54db2d33009b7ed8b6f4961943</name>
+            <plural>u_msp_lb</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.depot</sys_created_by>
+            <sys_created_on>2019-05-17 14:02:27</sys_created_on>
+            <sys_id>409e0f54db2d33009b7ed8b6f49619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_msp_lb</sys_name>
+            <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_a38e4b54db2d33009b7ed8b6f4961943_u_msp_lb_en</sys_update_name>
+            <sys_updated_by>john.depot</sys_updated_by>
+            <sys_updated_on>2019-05-17 14:02:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

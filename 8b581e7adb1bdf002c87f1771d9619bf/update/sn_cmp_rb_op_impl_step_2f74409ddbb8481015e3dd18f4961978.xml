@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step">
+    <sn_cmp_rb_op_impl_step action="INSERT_OR_UPDATE">
+        <capi_interface/>
+        <capi_method/>
+        <capi_version/>
+        <condition/>
+        <depends_on/>
+        <enabled>true</enabled>
+        <flow_type/>
+        <force_async>false</force_async>
+        <interface display_value="Stack Orchestration Interface">64271337d722220097eb6ccf6e6103f5</interface>
+        <interface_operation display_value="Create Stack">32af8788d732220097eb6ccf6e61032f</interface_operation>
+        <name>Stack Orchestration Interface.Create Stack</name>
+        <operationimpl display_value="Provision">5774409ddbb8481015e3dd18f496196a</operationimpl>
+        <order>1</order>
+        <owner_type>2</owner_type>
+        <parent_step/>
+        <parentstep/>
+        <product_type/>
+        <provider/>
+        <provider_ref/>
+        <provider_type/>
+        <resource_interface display_value="Stack Orchestration Interface">64271337d722220097eb6ccf6e6103f5</resource_interface>
+        <sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-28 15:17:35</sys_created_on>
+        <sys_id>2f74409ddbb8481015e3dd18f4961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stack Orchestration Interface.Create Stack</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_step_2f74409ddbb8481015e3dd18f4961978</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-28 15:17:35</sys_updated_on>
+        <target_entity_flow/>
+    </sn_cmp_rb_op_impl_step>
+</record_update>

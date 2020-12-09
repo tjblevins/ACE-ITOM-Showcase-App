@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE">
+        <applicable_to/>
+        <datasource>1</datasource>
+        <datasourcevalue>${Stack.items[Site Depot Wordpress].attributes[object_id]}</datasourcevalue>
+        <defaultvalue>${Stack.items[Site Depot Wordpress].attributes[object_id]}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>false</ismandatory>
+        <name>StackID</name>
+        <op_param display_value="StackID">3674009ddbb8481015e3dd18f49619d0</op_param>
+        <operation display_value="Deprovision">2274009ddbb8481015e3dd18f496199d</operation>
+        <order>1</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step display_value="Stack Orchestration Interface.Delete Stack">7674009ddbb8481015e3dd18f49619cb</step>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-28 15:17:32</sys_created_on>
+        <sys_id>7674009ddbb8481015e3dd18f49619cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_7674009ddbb8481015e3dd18f49619cf</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-28 15:17:32</sys_updated_on>
+        <ui_data_type/>
+        <value>${Stack.items[Site Depot Wordpress].attributes[object_id]}</value>
+        <visibilty>false</visibilty>
+    </sn_cmp_rb_op_impl_param>
+</record_update>

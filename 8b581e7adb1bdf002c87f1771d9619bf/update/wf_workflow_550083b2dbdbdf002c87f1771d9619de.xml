@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"activities":{},"stages":{},"ends":["b8c242b5db06d490425f81791396195b"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description>Quick Discovery</description>
+        <expected_sequences>f0c242b5db06d490425f81791396195c,bcc242b5db06d490425f81791396195a,b8c242b5db06d490425f81791396195b</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>f0c242b5db06d490425f81791396195c,bcc242b5db06d490425f81791396195a,b8c242b5db06d490425f81791396195b</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>ITOMQuickDiscover</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">f0c242b5db06d490425f81791396195c</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>f8c242b5db06d490425f817913961959</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:16:20</sys_updated_on>
+        <table>global</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="ITOMQuickDiscover">550083b2dbdbdf002c87f1771d9619de</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Quick Discovery</description>
+        <name>ITOMQuickDiscover</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-07-18 14:51:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>550083b2dbdbdf002c87f1771d9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOMQuickDiscover</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>wf_workflow_550083b2dbdbdf002c87f1771d9619de</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-07-18 14:51:17</sys_updated_on>
+        <table>global</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>f0c242b5db06d490425f81791396195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:15:52</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOMQuickDiscover">f8c242b5db06d490425f817913961959</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f0c242b5db06d490425f81791396195c"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">f0c242b5db06d490425f81791396195c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>38c242b5db06d490425f81791396195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:15:52</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>b8c242b5db06d490425f81791396195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:15:52</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOMQuickDiscover">f8c242b5db06d490425f817913961959</workflow_version>
+        <x>446</x>
+        <y>48</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b8c242b5db06d490425f81791396195b"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Quick Discovery">7aca077edbdbdf002c87f1771d961966</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{"target_ip":"10.0.0.4","target_mid":"${workflow.inputs.u_mid}"}</input>
+        <is_parent>false</is_parent>
+        <name>Quick Discovery</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>bcc242b5db06d490425f81791396195a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:16:02</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOMQuickDiscover">f8c242b5db06d490425f817913961959</workflow_version>
+        <x>242</x>
+        <y>273</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=bcc242b5db06d490425f81791396195a"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Quick Discovery">bcc242b5db06d490425f81791396195a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>34c242b5db06d490425f81791396195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:15:52</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">34c242b5db06d490425f81791396195b</condition>
+        <from display_value="Quick Discovery">bcc242b5db06d490425f81791396195a</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>38c242b5db06d490425f8179139619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:15:52</sys_updated_on>
+        <to display_value="End">b8c242b5db06d490425f81791396195b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">38c242b5db06d490425f81791396195c</condition>
+        <from display_value="Begin">f0c242b5db06d490425f81791396195c</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>3cc242b5db06d490425f8179139619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:15:52</sys_updated_on>
+        <to display_value="Quick Discovery">bcc242b5db06d490425f81791396195a</to>
+    </wf_transition>
+    <var_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>u_ip</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>u_ip</label>
+        <mandatory>true</mandatory>
+        <max_length>100</max_length>
+        <model_id>550083b2dbdbdf002c87f1771d9619de</model_id>
+        <model_table>wf_workflow</model_table>
+        <name>var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>var_dictionary</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-07-18 14:53:02</sys_created_on>
+        <sys_id>7220c7b2dbdbdf002c87f1771d96195e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_ip</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>var_dictionary_7220c7b2dbdbdf002c87f1771d96195e</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-07-18 14:53:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </var_dictionary>
+    <var_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>u_mid</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_mid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>u_mid</label>
+        <mandatory>false</mandatory>
+        <max_length>100</max_length>
+        <model_id>550083b2dbdbdf002c87f1771d9619de</model_id>
+        <model_table>wf_workflow</model_table>
+        <name>var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>var_dictionary</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-07-18 14:53:31</sys_created_on>
+        <sys_id>8d70cbb2dbdbdf002c87f1771d961987</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_mid</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>var_dictionary_8d70cbb2dbdbdf002c87f1771d961987</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-07-18 14:53:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </var_dictionary>
+    <sys_documentation element="u_ip" language="en" table="var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_ip</element>
+            <help/>
+            <hint/>
+            <label>u_ip</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de</name>
+            <plural>u_ip</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.depot</sys_created_by>
+            <sys_created_on>2018-07-18 14:53:02</sys_created_on>
+            <sys_id>b6608bb2dbdbdf002c87f1771d961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ip</sys_name>
+            <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de_u_ip_en</sys_update_name>
+            <sys_updated_by>john.depot</sys_updated_by>
+            <sys_updated_on>2018-07-18 14:53:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_documentation element="u_mid" language="en" table="var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_mid</element>
+            <help/>
+            <hint/>
+            <label>u_mid</label>
+            <language>en</language>
+            <name>var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de</name>
+            <plural>u_mid</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.depot</sys_created_by>
+            <sys_created_on>2018-07-18 14:53:31</sys_created_on>
+            <sys_id>f980cbb2dbdbdf002c87f1771d961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_mid</sys_name>
+            <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+            <sys_update_name>sys_documentation_var__m_var_dictionary_550083b2dbdbdf002c87f1771d9619de_u_mid_en</sys_update_name>
+            <sys_updated_by>john.depot</sys_updated_by>
+            <sys_updated_on>2018-07-18 14:53:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-17 13:15:52</sys_created_on>
+        <sys_id>7cc242b5db06d490425f817913961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-17 13:15:52</sys_updated_on>
+        <workflow_version display_value="ITOMQuickDiscover">f8c242b5db06d490425f817913961959</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=550083b2dbdbdf002c87f1771d9619de^sys_id!=f8c242b5db06d490425f817913961959">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

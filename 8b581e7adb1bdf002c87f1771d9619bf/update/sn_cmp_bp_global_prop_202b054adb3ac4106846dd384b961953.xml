@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop">
+    <sn_cmp_bp_global_prop action="INSERT_OR_UPDATE">
+        <bp_stage_operation display_value="Start">9f1b814adb3ac4106846dd384b9619f5</bp_stage_operation>
+        <bp_stage_res_op_attr display_value="StackID">242b054adb3ac4106846dd384b961952</bp_stage_res_op_attr>
+        <mandatory>false</mandatory>
+        <name>StackID</name>
+        <order>40</order>
+        <resource_op_unique_id>2352</resource_op_unique_id>
+        <sys_class_name>sn_cmp_bp_global_prop</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:27:14</sys_created_on>
+        <sys_id>202b054adb3ac4106846dd384b961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_global_prop_202b054adb3ac4106846dd384b961953</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:27:14</sys_updated_on>
+    </sn_cmp_bp_global_prop>
+</record_update>

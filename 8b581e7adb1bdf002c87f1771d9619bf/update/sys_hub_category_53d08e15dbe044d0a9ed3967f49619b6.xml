@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Ansible Tower</name>
+        <order>10</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-16 14:05:28</sys_created_on>
+        <sys_id>53d08e15dbe044d0a9ed3967f49619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ansible Tower</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_category_53d08e15dbe044d0a9ed3967f49619b6</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:05:28</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=53d08e15dbe044d0a9ed3967f49619b6"/>
+</record_update>

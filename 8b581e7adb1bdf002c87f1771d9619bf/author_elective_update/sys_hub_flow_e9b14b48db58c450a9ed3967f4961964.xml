@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Other">21bddfacdb6440d0a9ed3967f49619a0</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Updates The MID Server IP Range and Ansible Tower Record with your Servers Info</description>
+        <internal_name>update_tower_records</internal_name>
+        <label_cache>[{"name":"d7b7136e-aee2-4371-bcdf-937a3b56ed97.Record","label":"1➛MID Server IP Range Record","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range","type":"reference","base_type":"reference"},{"name":"d7b7136e-aee2-4371-bcdf-937a3b56ed97.Table","label":"1➛MID Server IP Range Table","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range Table","type":"table_name","base_type":"table_name"},{"name":"75a35256-82f9-4d3b-a88e-1d1e85313e8e.record","label":"2➛MID Server IP Range Record","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range","type":"reference","base_type":"reference"},{"name":"75a35256-82f9-4d3b-a88e-1d1e85313e8e.table_name","label":"2➛MID Server IP Range Table","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range","type":"table_name","base_type":"table_name"},{"name":"subflow.tower_ip","label":"Input➛Tower IP","reference":"","reference_display":"","type":"ip_addr","base_type":"ip_addr","column_name":""},{"name":"5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Record","label":"2➛Ansible Tower Record","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Record","type":"reference","base_type":"reference"},{"name":"5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Table","label":"2➛Ansible Tower Table","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Table","type":"table_name","base_type":"table_name"},{"name":"73f9398b-2ce8-46bc-b84e-99beeb89e60c.record","label":"3➛Ansible Tower Record","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Record","type":"reference","base_type":"reference"},{"name":"73f9398b-2ce8-46bc-b84e-99beeb89e60c.table_name","label":"3➛Ansible Tower Table","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Table","type":"table_name","base_type":"table_name"},{"name":"e57c911b-4ab9-454b-856c-a86d966f1baf.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"e57c911b-4ab9-454b-856c-a86d966f1baf.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Update Tower Records-Copy To Global</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:20:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e9b14b48db58c450a9ed3967f4961964</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Update Tower Records-Copy To Global</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_e9b14b48db58c450a9ed3967f4961964</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-14 12:55:45</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=e9b14b48db58c450a9ed3967f4961964"/>
+    <sys_variable_value action="DELETE" query="document_key=e9b14b48db58c450a9ed3967f4961964"/>
+    <sys_hub_flow_component action="DELETE" query="flow=e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN52748b4cdb58c450a9ed3967f4961986,5a748b4cdb58c450a9ed3967f4961978,97801686db1c8090a9ed3967f496197d,d6748b4cdb58c450a9ed3967f4961982"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>52748b4cdb58c450a9ed3967f4961986</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>73f9398b-2ce8-46bc-b84e-99beeb89e60c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=52748b4cdb58c450a9ed3967f4961986"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52748b4cdb58c450a9ed3967f4961986</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>9a748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <value>sn_cfg_ansible_tower</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=52748b4cdb58c450a9ed3967f4961986"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>52748b4cdb58c450a9ed3967f4961986</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>56748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>52748b4cdb58c450a9ed3967f4961986</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>92748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>52748b4cdb58c450a9ed3967f4961986</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>1a748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>url=https://{{subflow.tower_ip}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>5a748b4cdb58c450a9ed3967f4961978</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>d7b7136e-aee2-4371-bcdf-937a3b56ed97</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=5a748b4cdb58c450a9ed3967f4961978"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a748b4cdb58c450a9ed3967f4961978</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>52748b4cdb58c450a9ed3967f496197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a748b4cdb58c450a9ed3967f4961978</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>5a748b4cdb58c450a9ed3967f496197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>name=ACE-Tower1</value>
+        <variable display_value="">39309e810b30030085c083eb37673a59</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>97801686db1c8090a9ed3967f496197d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>e57c911b-4ab9-454b-856c-a86d966f1baf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=97801686db1c8090a9ed3967f496197d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97801686db1c8090a9ed3967f496197d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>df801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=97801686db1c8090a9ed3967f496197d"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>97801686db1c8090a9ed3967f496197d</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>9b801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{d7b7136e-aee2-4371-bcdf-937a3b56ed97.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>97801686db1c8090a9ed3967f496197d</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>d7801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>97801686db1c8090a9ed3967f496197d</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>5f801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>range={{subflow.tower_ip}}/32</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>d6748b4cdb58c450a9ed3967f4961982</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>5f8e0288-1dcc-4f19-99c9-526d7592a2ac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d6748b4cdb58c450a9ed3967f4961982"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6748b4cdb58c450a9ed3967f4961982</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>16748b4cdb58c450a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>sn_cfg_ansible_tower</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6748b4cdb58c450a9ed3967f4961982</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>52748b4cdb58c450a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>name=Tower1</value>
+        <variable display_value="">39309e810b30030085c083eb37673a59</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=e9b14b48db58c450a9ed3967f4961964^sys_idNOT INadb14b48db58c450a9ed3967f4961967"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>e9b14b48db58c450a9ed3967f4961964</id>
+        <name>Update Tower Records</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:20:30</sys_created_on>
+        <sys_id>adb14b48db58c450a9ed3967f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:20:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="DELETE" query="model=e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN8e74074cdb58c450a9ed3967f49619ec"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>IPV6)=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=ip_addr,uiTypeLabel=IP Address (Validated IPV4, IPV6)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tower_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">ip_addr</internal_type>
+        <label>Tower IP</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</model>
+        <model_id>e9b14b48db58c450a9ed3967f4961964</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>8e74074cdb58c450a9ed3967f49619ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:48:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="DELETE" query="flow=e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN52748b4cdb58c450a9ed3967f4961986,5a748b4cdb58c450a9ed3967f4961978,97801686db1c8090a9ed3967f496197d,d6748b4cdb58c450a9ed3967f4961982"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>52748b4cdb58c450a9ed3967f4961986</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>73f9398b-2ce8-46bc-b84e-99beeb89e60c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=52748b4cdb58c450a9ed3967f4961986"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52748b4cdb58c450a9ed3967f4961986</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>9a748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <value>sn_cfg_ansible_tower</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=52748b4cdb58c450a9ed3967f4961986"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>52748b4cdb58c450a9ed3967f4961986</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>56748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>52748b4cdb58c450a9ed3967f4961986</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>92748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>52748b4cdb58c450a9ed3967f4961986</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:34</sys_created_on>
+        <sys_id>1a748b4cdb58c450a9ed3967f4961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>url=https://{{subflow.tower_ip}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>5a748b4cdb58c450a9ed3967f4961978</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>d7b7136e-aee2-4371-bcdf-937a3b56ed97</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=5a748b4cdb58c450a9ed3967f4961978"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a748b4cdb58c450a9ed3967f4961978</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>52748b4cdb58c450a9ed3967f496197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a748b4cdb58c450a9ed3967f4961978</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>5a748b4cdb58c450a9ed3967f496197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>name=ACE-Tower1</value>
+        <variable display_value="">39309e810b30030085c083eb37673a59</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>97801686db1c8090a9ed3967f496197d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>e57c911b-4ab9-454b-856c-a86d966f1baf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=97801686db1c8090a9ed3967f496197d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97801686db1c8090a9ed3967f496197d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>df801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=97801686db1c8090a9ed3967f496197d"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>97801686db1c8090a9ed3967f496197d</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>9b801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{d7b7136e-aee2-4371-bcdf-937a3b56ed97.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>97801686db1c8090a9ed3967f496197d</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>d7801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>97801686db1c8090a9ed3967f496197d</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 12:53:33</sys_created_on>
+        <sys_id>5f801686db1c8090a9ed3967f496197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>range={{subflow.tower_ip}}/32</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Tower Records-Copy To Global">e9b14b48db58c450a9ed3967f4961964</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>d6748b4cdb58c450a9ed3967f4961982</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 12:53:33</sys_updated_on>
+        <ui_id>5f8e0288-1dcc-4f19-99c9-526d7592a2ac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d6748b4cdb58c450a9ed3967f4961982"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6748b4cdb58c450a9ed3967f4961982</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>16748b4cdb58c450a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>sn_cfg_ansible_tower</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6748b4cdb58c450a9ed3967f4961982</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>52748b4cdb58c450a9ed3967f4961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <value>name=Tower1</value>
+        <variable display_value="">39309e810b30030085c083eb37673a59</variable>
+    </sys_variable_value>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN06748b4cdb58c450a9ed3967f4961972"/>
+    <sys_documentation action="DELETE">
+        <element>tower_ip</element>
+        <help/>
+        <hint/>
+        <label>Tower IP</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-30 11:32:33</sys_created_on>
+        <sys_id>06748b4cdb58c450a9ed3967f4961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tower IP</sys_name>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964_tower_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-30 11:32:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sys_hub_flow_e9b14b48db58c450a9ed3967f4961964</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category display_value="Other"&gt;21bddfacdb6440d0a9ed3967f49619a0&lt;/category&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;Updates The MID Server IP Range and Ansible Tower Record with your Servers Info&lt;/description&gt;&lt;internal_name&gt;update_tower_records&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"d7b7136e-aee2-4371-bcdf-937a3b56ed97.Record","label":"1➛MID Server IP Range Record","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range","type":"reference","base_type":"reference"},{"name":"d7b7136e-aee2-4371-bcdf-937a3b56ed97.Table","label":"1➛MID Server IP Range Table","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range Table","type":"table_name","base_type":"table_name"},{"name":"75a35256-82f9-4d3b-a88e-1d1e85313e8e.record","label":"2➛MID Server IP Range Record","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range","type":"reference","base_type":"reference"},{"name":"75a35256-82f9-4d3b-a88e-1d1e85313e8e.table_name","label":"2➛MID Server IP Range Table","reference":"ecc_agent_ip_range","reference_display":"MID Server IP Range","type":"table_name","base_type":"table_name"},{"name":"subflow.tower_ip","label":"Input➛Tower IP","reference":"","reference_display":"","type":"ip_addr","base_type":"ip_addr","column_name":""},{"name":"5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Record","label":"2➛Ansible Tower Record","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Record","type":"reference","base_type":"reference"},{"name":"5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Table","label":"2➛Ansible Tower Table","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Table","type":"table_name","base_type":"table_name"},{"name":"73f9398b-2ce8-46bc-b84e-99beeb89e60c.record","label":"3➛Ansible Tower Record","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Record","type":"reference","base_type":"reference"},{"name":"73f9398b-2ce8-46bc-b84e-99beeb89e60c.table_name","label":"3➛Ansible Tower Table","reference":"sn_cfg_ansible_tower","reference_display":"Ansible Tower Table","type":"table_name","base_type":"table_name"},{"name":"e57c911b-4ab9-454b-856c-a86d966f1baf.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"e57c911b-4ab9-454b-856c-a86d966f1baf.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Update Tower Records-Copy To Global&lt;/name&gt;&lt;outputs/&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:20:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;e9b14b48db58c450a9ed3967f4961964&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Tower Records-Copy To Global&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_e9b14b48db58c450a9ed3967f4961964&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;david.loo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-14 12:55:45&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e9b14b48db58c450a9ed3967f4961964"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=e9b14b48db58c450a9ed3967f4961964"/&gt;&lt;sys_hub_flow_component action="delete_multiple" query="flow=e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN52748b4cdb58c450a9ed3967f4961986,5a748b4cdb58c450a9ed3967f4961978,97801686db1c8090a9ed3967f496197d,d6748b4cdb58c450a9ed3967f4961982"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;73f9398b-2ce8-46bc-b84e-99beeb89e60c&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=52748b4cdb58c450a9ed3967f4961986"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;52748b4cdb58c450a9ed3967f4961986&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;9a748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;value&gt;sn_cfg_ansible_tower&lt;/value&gt;&lt;variable display_value=""&gt;1fd27c8cc3c632002841b63b12d3aeb9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=52748b4cdb58c450a9ed3967f4961986"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;56748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;{{5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;92748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;1a748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;url=https://{{subflow.tower_ip}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5a748b4cdb58c450a9ed3967f4961978&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;d7b7136e-aee2-4371-bcdf-937a3b56ed97&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5a748b4cdb58c450a9ed3967f4961978"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;5a748b4cdb58c450a9ed3967f4961978&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;52748b4cdb58c450a9ed3967f496197c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;ecc_agent_ip_range&lt;/value&gt;&lt;variable display_value=""&gt;79305e810b30030085c083eb37673a85&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;5a748b4cdb58c450a9ed3967f4961978&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5a748b4cdb58c450a9ed3967f496197b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;name=ACE-Tower1&lt;/value&gt;&lt;variable display_value=""&gt;39309e810b30030085c083eb37673a59&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;97801686db1c8090a9ed3967f496197d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;e57c911b-4ab9-454b-856c-a86d966f1baf&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=97801686db1c8090a9ed3967f496197d"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;97801686db1c8090a9ed3967f496197d&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;df801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;value&gt;ecc_agent_ip_range&lt;/value&gt;&lt;variable display_value=""&gt;1fd27c8cc3c632002841b63b12d3aeb9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=97801686db1c8090a9ed3967f496197d"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;97801686db1c8090a9ed3967f496197d&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;9b801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;{{d7b7136e-aee2-4371-bcdf-937a3b56ed97.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;97801686db1c8090a9ed3967f496197d&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d7801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;97801686db1c8090a9ed3967f496197d&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5f801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;range={{subflow.tower_ip}}/32&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d6748b4cdb58c450a9ed3967f4961982&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;5f8e0288-1dcc-4f19-99c9-526d7592a2ac&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d6748b4cdb58c450a9ed3967f4961982"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d6748b4cdb58c450a9ed3967f4961982&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;16748b4cdb58c450a9ed3967f4961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;sn_cfg_ansible_tower&lt;/value&gt;&lt;variable display_value=""&gt;79305e810b30030085c083eb37673a85&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d6748b4cdb58c450a9ed3967f4961982&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;52748b4cdb58c450a9ed3967f4961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;name=Tower1&lt;/value&gt;&lt;variable display_value=""&gt;39309e810b30030085c083eb37673a59&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=e9b14b48db58c450a9ed3967f4961964^sys_idNOT INadb14b48db58c450a9ed3967f4961967"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;e9b14b48db58c450a9ed3967f4961964&lt;/id&gt;&lt;name&gt;Update Tower Records&lt;/name&gt;&lt;sys_class_name&gt;sys_flow_cat_variable_model&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:20:30&lt;/sys_created_on&gt;&lt;sys_id&gt;adb14b48db58c450a9ed3967f4961967&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:20:30&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN8e74074cdb58c450a9ed3967f49619ec"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;IPV6)=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=ip_addr,uiTypeLabel=IP Address (Validated IPV4, IPV6)&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;tower_ip&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;ip_addr&lt;/internal_type&gt;&lt;label&gt;Tower IP&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/model&gt;&lt;model_id&gt;e9b14b48db58c450a9ed3967f4961964&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;8e74074cdb58c450a9ed3967f49619ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:48:18&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN52748b4cdb58c450a9ed3967f4961986,5a748b4cdb58c450a9ed3967f4961978,97801686db1c8090a9ed3967f496197d,d6748b4cdb58c450a9ed3967f4961982"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;73f9398b-2ce8-46bc-b84e-99beeb89e60c&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=52748b4cdb58c450a9ed3967f4961986"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;52748b4cdb58c450a9ed3967f4961986&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;9a748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;value&gt;sn_cfg_ansible_tower&lt;/value&gt;&lt;variable display_value=""&gt;1fd27c8cc3c632002841b63b12d3aeb9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=52748b4cdb58c450a9ed3967f4961986"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;56748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;{{5f8e0288-1dcc-4f19-99c9-526d7592a2ac.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;92748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;52748b4cdb58c450a9ed3967f4961986&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:34&lt;/sys_created_on&gt;&lt;sys_id&gt;1a748b4cdb58c450a9ed3967f4961987&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:34&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;url=https://{{subflow.tower_ip}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5a748b4cdb58c450a9ed3967f4961978&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;d7b7136e-aee2-4371-bcdf-937a3b56ed97&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5a748b4cdb58c450a9ed3967f4961978"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;5a748b4cdb58c450a9ed3967f4961978&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;52748b4cdb58c450a9ed3967f496197c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;ecc_agent_ip_range&lt;/value&gt;&lt;variable display_value=""&gt;79305e810b30030085c083eb37673a85&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;5a748b4cdb58c450a9ed3967f4961978&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5a748b4cdb58c450a9ed3967f496197b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;name=ACE-Tower1&lt;/value&gt;&lt;variable display_value=""&gt;39309e810b30030085c083eb37673a59&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;97801686db1c8090a9ed3967f496197d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;e57c911b-4ab9-454b-856c-a86d966f1baf&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=97801686db1c8090a9ed3967f496197d"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;97801686db1c8090a9ed3967f496197d&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;df801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;value&gt;ecc_agent_ip_range&lt;/value&gt;&lt;variable display_value=""&gt;1fd27c8cc3c632002841b63b12d3aeb9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=97801686db1c8090a9ed3967f496197d"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;97801686db1c8090a9ed3967f496197d&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;9b801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;{{d7b7136e-aee2-4371-bcdf-937a3b56ed97.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;97801686db1c8090a9ed3967f496197d&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d7801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;97801686db1c8090a9ed3967f496197d&lt;/id&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-06 12:53:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5f801686db1c8090a9ed3967f496197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4&lt;/table&gt;&lt;value&gt;range={{subflow.tower_ip}}/32&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Update Tower Records-Copy To Global"&gt;e9b14b48db58c450a9ed3967f4961964&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d6748b4cdb58c450a9ed3967f4961982&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-06 12:53:33&lt;/sys_updated_on&gt;&lt;ui_id&gt;5f8e0288-1dcc-4f19-99c9-526d7592a2ac&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d6748b4cdb58c450a9ed3967f4961982"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d6748b4cdb58c450a9ed3967f4961982&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;16748b4cdb58c450a9ed3967f4961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;sn_cfg_ansible_tower&lt;/value&gt;&lt;variable display_value=""&gt;79305e810b30030085c083eb37673a85&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;d6748b4cdb58c450a9ed3967f4961982&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;52748b4cdb58c450a9ed3967f4961984&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;value&gt;name=Tower1&lt;/value&gt;&lt;variable display_value=""&gt;39309e810b30030085c083eb37673a59&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964^sys_idNOT IN06748b4cdb58c450a9ed3967f4961972"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;tower_ip&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Tower IP&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tomb&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 11:32:33&lt;/sys_created_on&gt;&lt;sys_id&gt;06748b4cdb58c450a9ed3967f4961972&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tower IP&lt;/sys_name&gt;&lt;sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACE ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_sys_hub_flow_input_e9b14b48db58c450a9ed3967f4961964_tower_ip_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tomb&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 11:32:33&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1861082988</payload_hash>
+        <record_name>Update Tower Records-Copy To Global</record_name>
+        <reverted_from/>
+        <source>8766a179dbf33700261616370596198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-14 12:55:46</sys_created_on>
+        <sys_id>2dcd13ecdb6440d0a9ed3967f49619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dca56c11f0000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-14 12:55:46</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>25cd13ecb06440d0a7ad6524006459ff</update_guid>
+        <update_guid_history>25cd13ecb06440d0a7ad6524006459ff:1861082988,84a09686c41c8090df532baebfeafe20:910750829,278016862c1c8090c048a7ed0ffd3f9f:-164829047,ee5f8606291c809075f78897f966060b:-1822097129,da69c7445b98c450550d3b7a1744fe22:-389614916,6b664f00a798c45009a08393b5b61f81:-627232530,a6748b4ce658c450af3d1fc3734175a8:-1889508342,39b14b488158c4509a9c7d3c6c8e4bcf:-1704637358</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-23 11:29:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>2e14d851624b4804984427d9d3c6f090</sys_id>
+        <sys_metadata>e9b14b48db58c450a9ed3967f4961964</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Tower Records-Copy To Global</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_e9b14b48db58c450a9ed3967f4961964</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_e9b14b48db58c450a9ed3967f4961964">2dcd13ecdb6440d0a9ed3967f49619ff</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:29:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

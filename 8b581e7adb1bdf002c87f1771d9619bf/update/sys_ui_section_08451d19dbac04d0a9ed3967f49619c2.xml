@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New Section" section_id="08451d19dbac04d0a9ed3967f49619c2" sys_domain="global" table="sn_cfg_ansible_tower" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ui_ng_relation_formatter.xml</element>
+            <position>0</position>
+            <sys_created_by>david.loo</sys_created_by>
+            <sys_created_on>2019-10-16 10:54:45</sys_created_on>
+            <sys_id>68455d19dbac04d0a9ed3967f496197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="sn_cfg_ansible_tower" sys_domain="global" view="Default view">08451d19dbac04d0a9ed3967f49619c2</sys_ui_section>
+            <sys_updated_by>david.loo</sys_updated_by>
+            <sys_updated_on>2019-10-16 10:54:45</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>sn_cfg_ansible_tower</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>david.loo</sys_created_by>
+            <sys_created_on>2019-10-16 10:54:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08451d19dbac04d0a9ed3967f49619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_cfg_ansible_tower</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+            <sys_update_name>sys_ui_section_08451d19dbac04d0a9ed3967f49619c2</sys_update_name>
+            <sys_updated_by>david.loo</sys_updated_by>
+            <sys_updated_on>2019-10-16 10:54:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

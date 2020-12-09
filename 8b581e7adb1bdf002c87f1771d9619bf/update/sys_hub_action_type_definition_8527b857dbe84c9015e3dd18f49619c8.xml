@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>update_mid_server_ip_range</internal_name>
+        <label_cache>[{"name":"{{action.mid_range_name}}","label":"action➛MID Range Name","type":"action","ref":""},{"name":"{{action.ip_range}}","label":"action➛IP Range","type":"action","ref":""},{"name":"{{step[cd8cfe95-4dc3-49ce-ad94-34689b677099].record}}","label":"step➛Look Up Record step➛MID Server IP Range Record","type":"step","ref":"ecc_agent_ip_range"}]</label_cache>
+        <latest_snapshot>e904051fdb2c4c9015e3dd18f496199f</latest_snapshot>
+        <master_snapshot>ad04051fdb2c4c9015e3dd18f49619b8</master_snapshot>
+        <name>Update MID Server IP Range</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:51:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8527b857dbe84c9015e3dd18f49619c8</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Update MID Server IP Range</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_8527b857dbe84c9015e3dd18f49619c8</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=8527b857dbe84c9015e3dd18f49619c8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8527b857dbe84c9015e3dd18f49619c8"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=8527b857dbe84c9015e3dd18f49619c8^sys_idNOT INb3d7b4d7dbe84c9015e3dd18f496198b,f0973c97dbe84c9015e3dd18f49619e0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</action>
+        <cid>3bf3c1cd-7466-4404-9f1b-3f707f419d2b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>b3d7b4d7dbe84c9015e3dd18f496198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b3d7b4d7dbe84c9015e3dd18f496198b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b3d7b4d7dbe84c9015e3dd18f496198b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>b7d7b4d7dbe84c9015e3dd18f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3d7b4d7dbe84c9015e3dd18f496198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b3d7b4d7dbe84c9015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>37d7b4d7dbe84c9015e3dd18f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[cd8cfe95-4dc3-49ce-ad94-34689b677099].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b3d7b4d7dbe84c9015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>bfd7b4d7dbe84c9015e3dd18f496198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>b3d7b4d7dbe84c9015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>73d7b4d7dbe84c9015e3dd18f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>range={{action.ip_range}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</action>
+        <cid>cd8cfe95-4dc3-49ce-ad94-34689b677099</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>f0973c97dbe84c9015e3dd18f49619e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0973c97dbe84c9015e3dd18f49619e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f0973c97dbe84c9015e3dd18f49619e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>fc973c97dbe84c9015e3dd18f49619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f0973c97dbe84c9015e3dd18f49619e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f0973c97dbe84c9015e3dd18f49619e0</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>7c973c97dbe84c9015e3dd18f49619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.mid_range_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>f0973c97dbe84c9015e3dd18f49619e0</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>b4973c97dbe84c9015e3dd18f49619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=8527b857dbe84c9015e3dd18f49619c8^sys_idNOT IN20973c97dbe84c9015e3dd18f49619d3,68973c97dbe84c9015e3dd18f49619d9"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_range_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Range Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</model>
+        <model_id>8527b857dbe84c9015e3dd18f49619c8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_8527b857dbe84c9015e3dd18f49619c8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>20973c97dbe84c9015e3dd18f49619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ip_range</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>IP Range</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</model>
+        <model_id>8527b857dbe84c9015e3dd18f49619c8</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_8527b857dbe84c9015e3dd18f49619c8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>68973c97dbe84c9015e3dd18f49619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=8527b857dbe84c9015e3dd18f49619c8^sys_idNOT INb3d7b4d7dbe84c9015e3dd18f496198b,f0973c97dbe84c9015e3dd18f49619e0"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</action>
+        <cid>3bf3c1cd-7466-4404-9f1b-3f707f419d2b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>b3d7b4d7dbe84c9015e3dd18f496198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b3d7b4d7dbe84c9015e3dd18f496198b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b3d7b4d7dbe84c9015e3dd18f496198b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>b7d7b4d7dbe84c9015e3dd18f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3d7b4d7dbe84c9015e3dd18f496198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b3d7b4d7dbe84c9015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>37d7b4d7dbe84c9015e3dd18f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[cd8cfe95-4dc3-49ce-ad94-34689b677099].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b3d7b4d7dbe84c9015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>bfd7b4d7dbe84c9015e3dd18f496198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>b3d7b4d7dbe84c9015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:54:13</sys_created_on>
+        <sys_id>73d7b4d7dbe84c9015e3dd18f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:54:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>range={{action.ip_range}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</action>
+        <cid>cd8cfe95-4dc3-49ce-ad94-34689b677099</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>f0973c97dbe84c9015e3dd18f49619e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0973c97dbe84c9015e3dd18f49619e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f0973c97dbe84c9015e3dd18f49619e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>fc973c97dbe84c9015e3dd18f49619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f0973c97dbe84c9015e3dd18f49619e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f0973c97dbe84c9015e3dd18f49619e0</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>7c973c97dbe84c9015e3dd18f49619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.mid_range_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>f0973c97dbe84c9015e3dd18f49619e0</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>b4973c97dbe84c9015e3dd18f49619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_8527b857dbe84c9015e3dd18f49619c8^sys_idNOT IN60973c97dbe84c9015e3dd18f49619de,a8973c97dbe84c9015e3dd18f49619d8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ip_range</element>
+        <help/>
+        <hint/>
+        <label>IP Range</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_8527b857dbe84c9015e3dd18f49619c8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>60973c97dbe84c9015e3dd18f49619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Range</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8527b857dbe84c9015e3dd18f49619c8_ip_range_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_range_name</element>
+        <help/>
+        <hint/>
+        <label>MID Range Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_8527b857dbe84c9015e3dd18f49619c8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-22 13:52:54</sys_created_on>
+        <sys_id>a8973c97dbe84c9015e3dd18f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Range Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8527b857dbe84c9015e3dd18f49619c8_mid_range_name_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-22 13:52:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=8527b857dbe84c9015e3dd18f49619c8^sys_idNOT IN4204451fdb2c4c9015e3dd18f4961916"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"4204451fdb2c4c9015e3dd18f4961916","name":"plan"}}</plan>
+        <snapshot>e904051fdb2c4c9015e3dd18f496199f</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4204451fdb2c4c9015e3dd18f4961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:20</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_mid_server_ip_range</internal_name>
+        <label_cache>[{"name":"{{action.mid_range_name}}","label":"action➛MID Range Name","type":"action","ref":""},{"name":"{{action.ip_range}}","label":"action➛IP Range","type":"action","ref":""},{"name":"{{step[cd8cfe95-4dc3-49ce-ad94-34689b677099].record}}","label":"step➛Look Up Record step➛MID Server IP Range Record","type":"step","ref":"ecc_agent_ip_range"}]</label_cache>
+        <master>true</master>
+        <name>Update MID Server IP Range</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Update MID Server IP Range">8527b857dbe84c9015e3dd18f49619c8</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ad04051fdb2c4c9015e3dd18f49619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad04051fdb2c4c9015e3dd18f49619b8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ad04051fdb2c4c9015e3dd18f49619b8"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=ad04051fdb2c4c9015e3dd18f49619b8^sys_idNOT IN2504051fdb2c4c9015e3dd18f49619cb,e504051fdb2c4c9015e3dd18f49619c5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">ad04051fdb2c4c9015e3dd18f49619b8</action>
+        <cid>3bf3c1cd-7466-4404-9f1b-3f707f419d2b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>2504051fdb2c4c9015e3dd18f49619cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2504051fdb2c4c9015e3dd18f49619cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2504051fdb2c4c9015e3dd18f49619cb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>6904051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2504051fdb2c4c9015e3dd18f49619cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2504051fdb2c4c9015e3dd18f49619cb</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>e504051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[cd8cfe95-4dc3-49ce-ad94-34689b677099].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2504051fdb2c4c9015e3dd18f49619cb</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>6104051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>2504051fdb2c4c9015e3dd18f49619cb</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>2504051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>range={{action.ip_range}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">ad04051fdb2c4c9015e3dd18f49619b8</action>
+        <cid>cd8cfe95-4dc3-49ce-ad94-34689b677099</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>e504051fdb2c4c9015e3dd18f49619c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e504051fdb2c4c9015e3dd18f49619c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e504051fdb2c4c9015e3dd18f49619c5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>e104051fdb2c4c9015e3dd18f49619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e504051fdb2c4c9015e3dd18f49619c5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e504051fdb2c4c9015e3dd18f49619c5</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>6104051fdb2c4c9015e3dd18f49619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.mid_range_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>e504051fdb2c4c9015e3dd18f49619c5</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>ad04051fdb2c4c9015e3dd18f49619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=ad04051fdb2c4c9015e3dd18f49619b8^sys_idNOT IN6d04051fdb2c4c9015e3dd18f49619b9,a504051fdb2c4c9015e3dd18f49619bf"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>mid_range_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MID Range Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update MID Server IP Range">ad04051fdb2c4c9015e3dd18f49619b8</model>
+        <model_id>ad04051fdb2c4c9015e3dd18f49619b8</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_ad04051fdb2c4c9015e3dd18f49619b8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:18</sys_created_on>
+        <sys_id>6d04051fdb2c4c9015e3dd18f49619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ip_range</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>IP Range</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update MID Server IP Range">ad04051fdb2c4c9015e3dd18f49619b8</model>
+        <model_id>ad04051fdb2c4c9015e3dd18f49619b8</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_ad04051fdb2c4c9015e3dd18f49619b8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:18</sys_created_on>
+        <sys_id>a504051fdb2c4c9015e3dd18f49619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=ad04051fdb2c4c9015e3dd18f49619b8^sys_idNOT IN2504051fdb2c4c9015e3dd18f49619cb,e504051fdb2c4c9015e3dd18f49619c5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">ad04051fdb2c4c9015e3dd18f49619b8</action>
+        <cid>3bf3c1cd-7466-4404-9f1b-3f707f419d2b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>2504051fdb2c4c9015e3dd18f49619cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2504051fdb2c4c9015e3dd18f49619cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2504051fdb2c4c9015e3dd18f49619cb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>6904051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2504051fdb2c4c9015e3dd18f49619cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2504051fdb2c4c9015e3dd18f49619cb</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>e504051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[cd8cfe95-4dc3-49ce-ad94-34689b677099].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2504051fdb2c4c9015e3dd18f49619cb</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>6104051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>2504051fdb2c4c9015e3dd18f49619cb</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>2504051fdb2c4c9015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>range={{action.ip_range}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Update MID Server IP Range">ad04051fdb2c4c9015e3dd18f49619b8</action>
+        <cid>cd8cfe95-4dc3-49ce-ad94-34689b677099</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>e504051fdb2c4c9015e3dd18f49619c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e504051fdb2c4c9015e3dd18f49619c5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e504051fdb2c4c9015e3dd18f49619c5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>e104051fdb2c4c9015e3dd18f49619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <value>ecc_agent_ip_range</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e504051fdb2c4c9015e3dd18f49619c5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e504051fdb2c4c9015e3dd18f49619c5</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>6104051fdb2c4c9015e3dd18f49619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>name={{action.mid_range_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>e504051fdb2c4c9015e3dd18f49619c5</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>ad04051fdb2c4c9015e3dd18f49619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ad04051fdb2c4c9015e3dd18f49619b8^sys_idNOT INa904051fdb2c4c9015e3dd18f49619c3,e904051fdb2c4c9015e3dd18f49619be"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ip_range</element>
+        <help/>
+        <hint/>
+        <label>IP Range</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ad04051fdb2c4c9015e3dd18f49619b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:19</sys_created_on>
+        <sys_id>a904051fdb2c4c9015e3dd18f49619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IP Range</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ad04051fdb2c4c9015e3dd18f49619b8_ip_range_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>mid_range_name</element>
+        <help/>
+        <hint/>
+        <label>MID Range Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ad04051fdb2c4c9015e3dd18f49619b8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-22 14:47:18</sys_created_on>
+        <sys_id>e904051fdb2c4c9015e3dd18f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MID Range Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ad04051fdb2c4c9015e3dd18f49619b8_mid_range_name_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-22 14:47:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Start">c1a44c9ddbb8481015e3dd18f496192c</catalog_item>
+        <catalog_variable>IO:59a44c9ddbb8481015e3dd18f496192f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-28 15:18:15</sys_created_on>
+        <sys_id>95a44c9ddbb8481015e3dd18f496193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cloudTaskWorkflowInput</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_95a44c9ddbb8481015e3dd18f496193a</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-28 15:18:15</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Start UI policy">1da44c9ddbb8481015e3dd18f4961937</ui_policy>
+        <variable>cloudTaskWorkflowInput</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

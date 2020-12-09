@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_itom_shocase_answer_purpose</description>
+        <name>x_snc_itom_shocase_answer_purpose</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:44:33</sys_created_on>
+        <sys_id>b0d70481db502010425f81791396190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_itom_shocase_answer_purpose</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_security_acl_b0d70481db502010425f81791396190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:44:33</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

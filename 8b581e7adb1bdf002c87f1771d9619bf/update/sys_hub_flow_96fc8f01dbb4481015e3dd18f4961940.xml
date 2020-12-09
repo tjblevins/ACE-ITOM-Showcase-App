@@ -1,0 +1,3433 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Demo Configuration">7e423a86dbdc8090a9ed3967f49619a0</category>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3b-10-23-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>maint__clean_out_iaas_demo_cis</internal_name>
+        <label_cache>[{"name":"5673a1bb-0cd2-49ac-b077-09ad43a03029.Table","label":"3.3.1➛TCP Endpoint Table","reference":"cmdb_ci_endpoint_tcp","reference_display":"TCP Endpoint","type":"table_name","base_type":"table_name"},{"name":"5673a1bb-0cd2-49ac-b077-09ad43a03029.Record","label":"3.3.1➛TCP Endpoint Record","reference":"cmdb_ci_endpoint_tcp","reference_display":"TCP Endpoint","type":"reference","base_type":"reference"},{"name":"c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Table","label":"3.1.1➛Linux Server Table","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"table_name","base_type":"table_name"},{"name":"c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Record","label":"3.1.1➛Linux Server Record","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"reference","base_type":"reference"},{"name":"711d678f-0ff7-4c67-bc88-0b19b043f3ed.Count","label":"3.1.1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"711d678f-0ff7-4c67-bc88-0b19b043f3ed.Table","label":"3.1.1➛Linux Server Table","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"table_name","base_type":"table_name"},{"name":"711d678f-0ff7-4c67-bc88-0b19b043f3ed.Records","label":"3.1.1➛Linux Server Records","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"records","base_type":"records"},{"name":"subflow.vm_instance_name","label":"Input➛VM Instance Name","type":"string","base_type":"string"},{"name":"c7a2709b-a725-43ad-b079-48726cd7a1c7.Table","label":"3.2.1➛Virtual Machine Instance Table","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"table_name","base_type":"table_name"},{"name":"c7a2709b-a725-43ad-b079-48726cd7a1c7.Record","label":"3.2.1➛Virtual Machine Instance Record","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"reference","base_type":"reference"},{"name":"b90526ac-eff2-4da1-8eb8-3343777c089c.Table","label":"3.2.1➛Linux Server Table","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"table_name","base_type":"table_name"},{"name":"b90526ac-eff2-4da1-8eb8-3343777c089c.Record","label":"3.2.1➛Linux Server Record","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"reference","base_type":"reference"},{"name":"subflow.host_ip","label":"Input➛host ip","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"0c1e8b4d-7d45-45c3-9ccc-fd483ee46dbd.Table","label":"3.1.1➛TCP Endpoint Table","reference":"cmdb_ci_endpoint_tcp","reference_display":"TCP Endpoint","type":"table_name","base_type":"table_name"},{"name":"0c1e8b4d-7d45-45c3-9ccc-fd483ee46dbd.Record","label":"3.1.1➛TCP Endpoint Record","reference":"cmdb_ci_endpoint_tcp","reference_display":"TCP Endpoint","type":"reference","base_type":"reference"},{"name":"subflow.hostname","label":"Input➛hostname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"b809c82a-f1f2-4d77-8d61-865b521dbc16.Table","label":"1➛Apache Web Server Table","reference":"cmdb_ci_apache_web_server","reference_display":"Apache Web Server","type":"table_name","base_type":"table_name"},{"name":"b809c82a-f1f2-4d77-8d61-865b521dbc16.Record","label":"1➛Apache Web Server Record","reference":"cmdb_ci_apache_web_server","reference_display":"Apache Web Server","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>5158a339db7ce810425f8179139619b7</latest_snapshot>
+        <master_snapshot>2dd2d709dbb4481015e3dd18f49619ca</master_snapshot>
+        <name>Maint - Clean out IAAS Demo CIs</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:15:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>96fc8f01dbb4481015e3dd18f4961940</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Maint - Clean out IAAS Demo CIs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_96fc8f01dbb4481015e3dd18f4961940</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=96fc8f01dbb4481015e3dd18f4961940"/>
+    <sys_variable_value action="delete_multiple" query="document_key=96fc8f01dbb4481015e3dd18f4961940"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=96fc8f01dbb4481015e3dd18f4961940^sys_idNOT IN1d3e3c2ddb74c81015e3dd18f49619ec,37c29709dbb4481015e3dd18f496198b,3bc29709dbb4481015e3dd18f49619b4,52e2a065dbb0c81015e3dd18f49619ca,56e2a065dbb0c81015e3dd18f49619ce,b3c29709dbb4481015e3dd18f4961961,c53e3c2ddb74c81015e3dd18f49619e8,c8d29709dbb4481015e3dd18f49619b5,ccd29709dbb4481015e3dd18f49619b6,d6e2a065dbb0c81015e3dd18f49619d0,d93e7c2ddb74c81015e3dd18f4961907,ed2634a9db34c81015e3dd18f496192d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.3.2</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>1d3e3c2ddb74c81015e3dd18f49619ec</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>26a01d18-f4ac-47ed-8ca5-25724ff66dc6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1d3e3c2ddb74c81015e3dd18f49619ec"/>
+    <sys_element_mapping action="delete_multiple" query="id=1d3e3c2ddb74c81015e3dd18f49619ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1d3e3c2ddb74c81015e3dd18f49619ec</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>5d3e3c2ddb74c81015e3dd18f49619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{5673a1bb-0cd2-49ac-b077-09ad43a03029.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>37c29709dbb4481015e3dd18f496198b</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>746bcb08-4868-4c7c-a8ce-f69ce91deb67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=37c29709dbb4481015e3dd18f496198b"/>
+    <sys_element_mapping action="delete_multiple" query="id=37c29709dbb4481015e3dd18f496198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>37c29709dbb4481015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>b7c29709dbb4481015e3dd18f496198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{b809c82a-f1f2-4d77-8d61-865b521dbc16.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>37c29709dbb4481015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>89d2d709dbb4481015e3dd18f4961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{b809c82a-f1f2-4d77-8d61-865b521dbc16.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.1.2</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>3bc29709dbb4481015e3dd18f49619b4</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>1194c98d-3ded-4657-aa8a-ecc2c0ec53fa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3bc29709dbb4481015e3dd18f49619b4"/>
+    <sys_element_mapping action="delete_multiple" query="id=3bc29709dbb4481015e3dd18f49619b4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3bc29709dbb4481015e3dd18f49619b4</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>44d29709dbb4481015e3dd18f49619b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3bc29709dbb4481015e3dd18f49619b4</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>4dd2d709dbb4481015e3dd18f496195f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>52e2a065dbb0c81015e3dd18f49619ca</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>c7a2709b-a725-43ad-b079-48726cd7a1c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=52e2a065dbb0c81015e3dd18f49619ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>12e2a065dbb0c81015e3dd18f49619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>5ee2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>96e2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">1948b59587003300663ca1bb36cb0b19</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>b7e22465dbb0c81015e3dd18f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=52e2a065dbb0c81015e3dd18f49619ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>52e2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>name={{subflow.vm_instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>73e22465dbb0c81015e3dd18f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>name={{subflow.vm_instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>9ee2a065dbb0c81015e3dd18f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_type</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>dae2a065dbb0c81015e3dd18f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>16e2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>37e22465dbb0c81015e3dd18f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.2.2</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>56e2a065dbb0c81015e3dd18f49619ce</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>4dbe3dbe-3c8f-4266-96c8-bd291e171aaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56e2a065dbb0c81015e3dd18f49619ce"/>
+    <sys_element_mapping action="delete_multiple" query="id=56e2a065dbb0c81015e3dd18f49619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>56e2a065dbb0c81015e3dd18f49619ce</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>d6e2a065dbb0c81015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{c7a2709b-a725-43ad-b079-48726cd7a1c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>56e2a065dbb0c81015e3dd18f49619ce</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>bfe22465dbb0c81015e3dd18f4961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7a2709b-a725-43ad-b079-48726cd7a1c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>b3c29709dbb4481015e3dd18f4961961</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>b809c82a-f1f2-4d77-8d61-865b521dbc16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b3c29709dbb4481015e3dd18f4961961"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b3c29709dbb4481015e3dd18f4961961</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>41d2d709dbb4481015e3dd18f4961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <value>cmdb_ci_apache_web_server</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b3c29709dbb4481015e3dd18f4961961</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>f7c29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <value>name</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b3c29709dbb4481015e3dd18f4961961</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>ffc29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <value>cmdb_ci_apache_web_server</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3c29709dbb4481015e3dd18f4961961"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>b3c29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>nameSTARTSWITHApache server@^nameLIKE{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>0dd2d709dbb4481015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITHApache server@^nameLIKE{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>fbc29709dbb4481015e3dd18f4961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>77c29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>cdd2d709dbb4481015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.3.1</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>c53e3c2ddb74c81015e3dd18f49619e8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>5673a1bb-0cd2-49ac-b077-09ad43a03029</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c53e3c2ddb74c81015e3dd18f49619e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c53e3c2ddb74c81015e3dd18f49619e8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>113e3c2ddb74c81015e3dd18f49619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <value>name</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c53e3c2ddb74c81015e3dd18f49619e8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>d53e3c2ddb74c81015e3dd18f49619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <value>cmdb_ci_endpoint_tcp</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c53e3c2ddb74c81015e3dd18f49619e8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>c53e3c2ddb74c81015e3dd18f49619e8</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>d93e3c2ddb74c81015e3dd18f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>nameSTARTSWITH{{subflow.host_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>c53e3c2ddb74c81015e3dd18f49619e8</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>153e3c2ddb74c81015e3dd18f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>c53e3c2ddb74c81015e3dd18f49619e8</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>9d3e3c2ddb74c81015e3dd18f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">08d29709dbb4481015e3dd18f49619b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>c8d29709dbb4481015e3dd18f49619b5</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c8d29709dbb4481015e3dd18f49619b5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0cd29709dbb4481015e3dd18f49619b6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>ccd29709dbb4481015e3dd18f49619b6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ccd29709dbb4481015e3dd18f49619b6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1ee2a065dbb0c81015e3dd18f49619cf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>d6e2a065dbb0c81015e3dd18f49619d0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d6e2a065dbb0c81015e3dd18f49619d0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">913e3c2ddb74c81015e3dd18f49619ee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>d93e7c2ddb74c81015e3dd18f4961907</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d93e7c2ddb74c81015e3dd18f4961907"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>ed2634a9db34c81015e3dd18f496192d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>c7cd6de5-fdb8-42c3-a77f-4b278a45eea3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed2634a9db34c81015e3dd18f496192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed2634a9db34c81015e3dd18f496192d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>212634a9db34c81015e3dd18f496193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <value>name</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed2634a9db34c81015e3dd18f496192d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>292634a9db34c81015e3dd18f496193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ed2634a9db34c81015e3dd18f496192d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ed2634a9db34c81015e3dd18f496192d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>e92634a9db34c81015e3dd18f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>nameSTARTSWITH{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>ed2634a9db34c81015e3dd18f496192d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>252634a9db34c81015e3dd18f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ed2634a9db34c81015e3dd18f496192d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>ad2634a9db34c81015e3dd18f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=96fc8f01dbb4481015e3dd18f4961940^sys_idNOT IN1afc8f01dbb4481015e3dd18f4961941"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>96fc8f01dbb4481015e3dd18f4961940</id>
+        <name>Maint - Clean out IAAS Demo CIs</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:15:01</sys_created_on>
+        <sys_id>1afc8f01dbb4481015e3dd18f4961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:15:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=96fc8f01dbb4481015e3dd18f4961940^sys_idNOT IN3bc25fc5dbb4481015e3dd18f4961927,40be4781dbb4481015e3dd18f4961992,8ee2a065dbb0c81015e3dd18f49619b2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>host_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>host ip</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</model>
+        <model_id>96fc8f01dbb4481015e3dd18f4961940</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:30</sys_created_on>
+        <sys_id>3bc25fc5dbb4481015e3dd18f4961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>hostname</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>hostname</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</model>
+        <model_id>96fc8f01dbb4481015e3dd18f4961940</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:22:30</sys_created_on>
+        <sys_id>40be4781dbb4481015e3dd18f4961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:22:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>vm_instance_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>VM Instance Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</model>
+        <model_id>96fc8f01dbb4481015e3dd18f4961940</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>8ee2a065dbb0c81015e3dd18f49619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=96fc8f01dbb4481015e3dd18f4961940^sys_idNOT IN1d3e3c2ddb74c81015e3dd18f49619ec,37c29709dbb4481015e3dd18f496198b,3bc29709dbb4481015e3dd18f49619b4,52e2a065dbb0c81015e3dd18f49619ca,56e2a065dbb0c81015e3dd18f49619ce,b3c29709dbb4481015e3dd18f4961961,c53e3c2ddb74c81015e3dd18f49619e8,ed2634a9db34c81015e3dd18f496192d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.3.2</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>1d3e3c2ddb74c81015e3dd18f49619ec</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>26a01d18-f4ac-47ed-8ca5-25724ff66dc6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1d3e3c2ddb74c81015e3dd18f49619ec"/>
+    <sys_element_mapping action="delete_multiple" query="id=1d3e3c2ddb74c81015e3dd18f49619ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1d3e3c2ddb74c81015e3dd18f49619ec</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>5d3e3c2ddb74c81015e3dd18f49619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{5673a1bb-0cd2-49ac-b077-09ad43a03029.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>37c29709dbb4481015e3dd18f496198b</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>746bcb08-4868-4c7c-a8ce-f69ce91deb67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=37c29709dbb4481015e3dd18f496198b"/>
+    <sys_element_mapping action="delete_multiple" query="id=37c29709dbb4481015e3dd18f496198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>37c29709dbb4481015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>b7c29709dbb4481015e3dd18f496198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{b809c82a-f1f2-4d77-8d61-865b521dbc16.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>37c29709dbb4481015e3dd18f496198b</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>89d2d709dbb4481015e3dd18f4961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{b809c82a-f1f2-4d77-8d61-865b521dbc16.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.1.2</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>3bc29709dbb4481015e3dd18f49619b4</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>1194c98d-3ded-4657-aa8a-ecc2c0ec53fa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3bc29709dbb4481015e3dd18f49619b4"/>
+    <sys_element_mapping action="delete_multiple" query="id=3bc29709dbb4481015e3dd18f49619b4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3bc29709dbb4481015e3dd18f49619b4</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>44d29709dbb4481015e3dd18f49619b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3bc29709dbb4481015e3dd18f49619b4</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>4dd2d709dbb4481015e3dd18f496195f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>52e2a065dbb0c81015e3dd18f49619ca</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>c7a2709b-a725-43ad-b079-48726cd7a1c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=52e2a065dbb0c81015e3dd18f49619ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>12e2a065dbb0c81015e3dd18f49619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>5ee2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <value>sys_created_on</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>96e2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <value>sort_desc</value>
+        <variable display_value="">1948b59587003300663ca1bb36cb0b19</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>52e2a065dbb0c81015e3dd18f49619ca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>b7e22465dbb0c81015e3dd18f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=52e2a065dbb0c81015e3dd18f49619ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>52e2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>name={{subflow.vm_instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>73e22465dbb0c81015e3dd18f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>name={{subflow.vm_instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>9ee2a065dbb0c81015e3dd18f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_type</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>dae2a065dbb0c81015e3dd18f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>16e2a065dbb0c81015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>52e2a065dbb0c81015e3dd18f49619ca</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>37e22465dbb0c81015e3dd18f4961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.2.2</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>56e2a065dbb0c81015e3dd18f49619ce</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>4dbe3dbe-3c8f-4266-96c8-bd291e171aaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56e2a065dbb0c81015e3dd18f49619ce"/>
+    <sys_element_mapping action="delete_multiple" query="id=56e2a065dbb0c81015e3dd18f49619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>56e2a065dbb0c81015e3dd18f49619ce</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>d6e2a065dbb0c81015e3dd18f49619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a8f274c8c3c232002841b63b12d3aee9</table>
+        <value>{{c7a2709b-a725-43ad-b079-48726cd7a1c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>56e2a065dbb0c81015e3dd18f49619ce</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:04</sys_created_on>
+        <sys_id>bfe22465dbb0c81015e3dd18f4961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7a2709b-a725-43ad-b079-48726cd7a1c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>b3c29709dbb4481015e3dd18f4961961</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>b809c82a-f1f2-4d77-8d61-865b521dbc16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b3c29709dbb4481015e3dd18f4961961"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b3c29709dbb4481015e3dd18f4961961</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>41d2d709dbb4481015e3dd18f4961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <value>cmdb_ci_apache_web_server</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b3c29709dbb4481015e3dd18f4961961</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>f7c29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <value>name</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b3c29709dbb4481015e3dd18f4961961</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>ffc29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <value>cmdb_ci_apache_web_server</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b3c29709dbb4481015e3dd18f4961961"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>b3c29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>nameSTARTSWITHApache server@^nameLIKE{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>0dd2d709dbb4481015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITHApache server@^nameLIKE{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>fbc29709dbb4481015e3dd18f4961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>77c29709dbb4481015e3dd18f4961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b3c29709dbb4481015e3dd18f4961961</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:36</sys_created_on>
+        <sys_id>cdd2d709dbb4481015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.3.1</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>c53e3c2ddb74c81015e3dd18f49619e8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>5673a1bb-0cd2-49ac-b077-09ad43a03029</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c53e3c2ddb74c81015e3dd18f49619e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c53e3c2ddb74c81015e3dd18f49619e8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>113e3c2ddb74c81015e3dd18f49619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <value>name</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c53e3c2ddb74c81015e3dd18f49619e8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>d53e3c2ddb74c81015e3dd18f49619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <value>cmdb_ci_endpoint_tcp</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c53e3c2ddb74c81015e3dd18f49619e8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>c53e3c2ddb74c81015e3dd18f49619e8</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>d93e3c2ddb74c81015e3dd18f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>nameSTARTSWITH{{subflow.host_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>c53e3c2ddb74c81015e3dd18f49619e8</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>153e3c2ddb74c81015e3dd18f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>c53e3c2ddb74c81015e3dd18f49619e8</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>9d3e3c2ddb74c81015e3dd18f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>ed2634a9db34c81015e3dd18f496192d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+        <ui_id>c7cd6de5-fdb8-42c3-a77f-4b278a45eea3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ed2634a9db34c81015e3dd18f496192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed2634a9db34c81015e3dd18f496192d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>212634a9db34c81015e3dd18f496193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <value>name</value>
+        <variable display_value="">d148b59587003300663ca1bb36cb0b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ed2634a9db34c81015e3dd18f496192d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>292634a9db34c81015e3dd18f496193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ed2634a9db34c81015e3dd18f496192d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ed2634a9db34c81015e3dd18f496192d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>e92634a9db34c81015e3dd18f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>nameSTARTSWITH{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>ed2634a9db34c81015e3dd18f496192d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>252634a9db34c81015e3dd18f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ed2634a9db34c81015e3dd18f496192d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:01</sys_created_on>
+        <sys_id>ad2634a9db34c81015e3dd18f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=96fc8f01dbb4481015e3dd18f4961940^sys_idNOT INc8d29709dbb4481015e3dd18f49619b5,ccd29709dbb4481015e3dd18f49619b6,d6e2a065dbb0c81015e3dd18f49619d0,d93e7c2ddb74c81015e3dd18f4961907"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">08d29709dbb4481015e3dd18f49619b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>c8d29709dbb4481015e3dd18f49619b5</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c8d29709dbb4481015e3dd18f49619b5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0cd29709dbb4481015e3dd18f49619b6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:31</sys_created_on>
+        <sys_id>ccd29709dbb4481015e3dd18f49619b6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ccd29709dbb4481015e3dd18f49619b6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1ee2a065dbb0c81015e3dd18f49619cf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>d6e2a065dbb0c81015e3dd18f49619d0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d6e2a065dbb0c81015e3dd18f49619d0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">913e3c2ddb74c81015e3dd18f49619ee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:13</sys_created_on>
+        <sys_id>d93e7c2ddb74c81015e3dd18f4961907</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:25</sys_updated_on>
+        <ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d93e7c2ddb74c81015e3dd18f4961907"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940^sys_idNOT IN82e2a065dbb0c81015e3dd18f49619b8,88be4781dbb4481015e3dd18f4961999,b3c29709dbb4481015e3dd18f496195b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>vm_instance_name</element>
+        <help/>
+        <hint/>
+        <label>VM Instance Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:08:57</sys_created_on>
+        <sys_id>82e2a065dbb0c81015e3dd18f49619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VM Instance Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940_vm_instance_name_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:08:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>hostname</element>
+        <help/>
+        <hint/>
+        <label>hostname</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:22:30</sys_created_on>
+        <sys_id>88be4781dbb4481015e3dd18f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hostname</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940_hostname_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:22:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>host_ip</element>
+        <help/>
+        <hint/>
+        <label>host ip</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:30</sys_created_on>
+        <sys_id>b3c29709dbb4481015e3dd18f496195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>host ip</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_96fc8f01dbb4481015e3dd18f4961940_host_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=96fc8f01dbb4481015e3dd18f4961940^sys_idNOT IN35d21b09dbb4481015e3dd18f4961946"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"35d21b09dbb4481015e3dd18f4961946","name":"plan"}}</plan>
+        <plan_id display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</plan_id>
+        <snapshot>5158a339db7ce810425f8179139619b7</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>35d21b09dbb4481015e3dd18f4961946</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:24</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Demo Configuration">7e423a86dbdc8090a9ed3967f49619a0</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>maint__clean_out_iaas_demo_cis</internal_name>
+        <label_cache>[{"name":"b90526ac-eff2-4da1-8eb8-3343777c089c.Table","label":"1.3.1➛Linux Server Table","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"table_name","base_type":"table_name"},{"name":"b90526ac-eff2-4da1-8eb8-3343777c089c.Record","label":"1.3.1➛Linux Server Record","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"reference","base_type":"reference"},{"name":"subflow.host_ip","label":"Input➛host ip","type":"string","base_type":"string"},{"name":"0c1e8b4d-7d45-45c3-9ccc-fd483ee46dbd.Table","label":"1.2.1➛TCP Endpoint Table","reference":"cmdb_ci_endpoint_tcp","reference_display":"TCP Endpoint","type":"table_name","base_type":"table_name"},{"name":"0c1e8b4d-7d45-45c3-9ccc-fd483ee46dbd.Record","label":"1.2.1➛TCP Endpoint Record","reference":"cmdb_ci_endpoint_tcp","reference_display":"TCP Endpoint","type":"reference","base_type":"reference"},{"name":"subflow.hostname","label":"Input➛hostname","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"b809c82a-f1f2-4d77-8d61-865b521dbc16.Table","label":"1.1.1➛Apache Web Server Table","reference":"cmdb_ci_apache_web_server","reference_display":"Apache Web Server","type":"table_name","base_type":"table_name"},{"name":"b809c82a-f1f2-4d77-8d61-865b521dbc16.Record","label":"1.1.1➛Apache Web Server Record","reference":"cmdb_ci_apache_web_server","reference_display":"Apache Web Server","type":"reference","base_type":"reference"}]</label_cache>
+        <master>true</master>
+        <name>Maint - Clean out IAAS Demo CIs</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Maint - Clean out IAAS Demo CIs">96fc8f01dbb4481015e3dd18f4961940</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2dd2d709dbb4481015e3dd18f49619ca</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2dd2d709dbb4481015e3dd18f49619ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2dd2d709dbb4481015e3dd18f49619ca"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2dd2d709dbb4481015e3dd18f49619ca^sys_idNOT IN133efc2ddb74c81015e3dd18f49619db,1f3efc2ddb74c81015e3dd18f49619d6,25d21b09dbb4481015e3dd18f4961915,65d21b09dbb4481015e3dd18f4961919,69d21b09dbb4481015e3dd18f4961927,ab3efc2ddb74c81015e3dd18f49619e2,b4f26465dbb0c81015e3dd18f49619aa,b8f26465dbb0c81015e3dd18f49619a7,bcf26465dbb0c81015e3dd18f49619ca,e136f4a9db34c81015e3dd18f49619a5,e5d21b09dbb4481015e3dd18f496191c,edd21b09dbb4481015e3dd18f4961913"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>a8f274c8c3c232002841b63b12d3aee9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.3.2</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>133efc2ddb74c81015e3dd18f49619db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>26a01d18-f4ac-47ed-8ca5-25724ff66dc6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=133efc2ddb74c81015e3dd18f49619db"/>
+    <sys_element_mapping action="delete_multiple" query="id=133efc2ddb74c81015e3dd18f49619db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>133efc2ddb74c81015e3dd18f49619db</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>e33efc2ddb74c81015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{5673a1bb-0cd2-49ac-b077-09ad43a03029.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>b93f42810b30030085c083eb37673a63</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.3.1</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>1f3efc2ddb74c81015e3dd18f49619d6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>5673a1bb-0cd2-49ac-b077-09ad43a03029</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f3efc2ddb74c81015e3dd18f49619d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f3efc2ddb74c81015e3dd18f49619d6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>1b3efc2ddb74c81015e3dd18f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <value>cmdb_ci_endpoint_tcp</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f3efc2ddb74c81015e3dd18f49619d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1f3efc2ddb74c81015e3dd18f49619d6</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>d33efc2ddb74c81015e3dd18f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITH{{subflow.host_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1f3efc2ddb74c81015e3dd18f49619d6</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>973efc2ddb74c81015e3dd18f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0cd29709dbb4481015e3dd18f49619b6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>25d21b09dbb4481015e3dd18f4961915</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=25d21b09dbb4481015e3dd18f4961915"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>65d21b09dbb4481015e3dd18f4961919</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>b809c82a-f1f2-4d77-8d61-865b521dbc16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=65d21b09dbb4481015e3dd18f4961919"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>65d21b09dbb4481015e3dd18f4961919</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>e9d21b09dbb4481015e3dd18f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <value>cmdb_ci_apache_web_server</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=65d21b09dbb4481015e3dd18f4961919"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>65d21b09dbb4481015e3dd18f4961919</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>a5d21b09dbb4481015e3dd18f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITHApache server@^nameLIKE{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>65d21b09dbb4481015e3dd18f4961919</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>69d21b09dbb4481015e3dd18f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.1.2</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>69d21b09dbb4481015e3dd18f4961927</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>1194c98d-3ded-4657-aa8a-ecc2c0ec53fa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=69d21b09dbb4481015e3dd18f4961927"/>
+    <sys_element_mapping action="delete_multiple" query="id=69d21b09dbb4481015e3dd18f4961927"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>69d21b09dbb4481015e3dd18f4961927</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>29d21b09dbb4481015e3dd18f4961928</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">913e3c2ddb74c81015e3dd18f49619ee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>ab3efc2ddb74c81015e3dd18f49619e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ab3efc2ddb74c81015e3dd18f49619e2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.2.2</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>b4f26465dbb0c81015e3dd18f49619aa</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>4dbe3dbe-3c8f-4266-96c8-bd291e171aaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b4f26465dbb0c81015e3dd18f49619aa"/>
+    <sys_element_mapping action="delete_multiple" query="id=b4f26465dbb0c81015e3dd18f49619aa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b4f26465dbb0c81015e3dd18f49619aa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>74f26465dbb0c81015e3dd18f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7a2709b-a725-43ad-b079-48726cd7a1c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>b8f26465dbb0c81015e3dd18f49619a7</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>c7a2709b-a725-43ad-b079-48726cd7a1c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8f26465dbb0c81015e3dd18f49619a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8f26465dbb0c81015e3dd18f49619a7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>30f26465dbb0c81015e3dd18f49619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b8f26465dbb0c81015e3dd18f49619a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b8f26465dbb0c81015e3dd18f49619a7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>f8f26465dbb0c81015e3dd18f49619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>name={{subflow.vm_instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b8f26465dbb0c81015e3dd18f49619a7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>bcf26465dbb0c81015e3dd18f49619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1ee2a065dbb0c81015e3dd18f49619cf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>bcf26465dbb0c81015e3dd18f49619ca</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bcf26465dbb0c81015e3dd18f49619ca"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>b93f42810b30030085c083eb37673a63</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>e136f4a9db34c81015e3dd18f49619a5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>c7cd6de5-fdb8-42c3-a77f-4b278a45eea3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e136f4a9db34c81015e3dd18f49619a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e136f4a9db34c81015e3dd18f49619a5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>ed36f4a9db34c81015e3dd18f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e136f4a9db34c81015e3dd18f49619a5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e136f4a9db34c81015e3dd18f49619a5</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>a936f4a9db34c81015e3dd18f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITH{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e136f4a9db34c81015e3dd18f49619a5</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>6d36f4a9db34c81015e3dd18f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>e5d21b09dbb4481015e3dd18f496191c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>746bcb08-4868-4c7c-a8ce-f69ce91deb67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e5d21b09dbb4481015e3dd18f496191c"/>
+    <sys_element_mapping action="delete_multiple" query="id=e5d21b09dbb4481015e3dd18f496191c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e5d21b09dbb4481015e3dd18f496191c</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>a5d21b09dbb4481015e3dd18f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{b809c82a-f1f2-4d77-8d61-865b521dbc16.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">08d29709dbb4481015e3dd18f49619b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>edd21b09dbb4481015e3dd18f4961913</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=edd21b09dbb4481015e3dd18f4961913"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2dd2d709dbb4481015e3dd18f49619ca^sys_idNOT IN25d2d709dbb4481015e3dd18f49619cb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2dd2d709dbb4481015e3dd18f49619ca</id>
+        <name>Maint - Clean out IAAS Demo CIs</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:37</sys_created_on>
+        <sys_id>25d2d709dbb4481015e3dd18f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=2dd2d709dbb4481015e3dd18f49619ca^sys_idNOT IN25d21b09dbb4481015e3dd18f4961907,60f26465dbb0c81015e3dd18f4961942,e5d2d709dbb4481015e3dd18f49619e5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>host_ip</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>host ip</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</model>
+        <model_id>2dd2d709dbb4481015e3dd18f49619ca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>25d21b09dbb4481015e3dd18f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>vm_instance_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>VM Instance Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</model>
+        <model_id>2dd2d709dbb4481015e3dd18f49619ca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:07</sys_created_on>
+        <sys_id>60f26465dbb0c81015e3dd18f4961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>hostname</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>hostname</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</model>
+        <model_id>2dd2d709dbb4481015e3dd18f49619ca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:37</sys_created_on>
+        <sys_id>e5d2d709dbb4481015e3dd18f49619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2dd2d709dbb4481015e3dd18f49619ca^sys_idNOT IN133efc2ddb74c81015e3dd18f49619db,1f3efc2ddb74c81015e3dd18f49619d6,65d21b09dbb4481015e3dd18f4961919,69d21b09dbb4481015e3dd18f4961927,b4f26465dbb0c81015e3dd18f49619aa,b8f26465dbb0c81015e3dd18f49619a7,e136f4a9db34c81015e3dd18f49619a5,e5d21b09dbb4481015e3dd18f496191c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>a8f274c8c3c232002841b63b12d3aee9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.3.2</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>133efc2ddb74c81015e3dd18f49619db</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>26a01d18-f4ac-47ed-8ca5-25724ff66dc6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=133efc2ddb74c81015e3dd18f49619db"/>
+    <sys_element_mapping action="delete_multiple" query="id=133efc2ddb74c81015e3dd18f49619db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>133efc2ddb74c81015e3dd18f49619db</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>e33efc2ddb74c81015e3dd18f49619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{5673a1bb-0cd2-49ac-b077-09ad43a03029.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>b93f42810b30030085c083eb37673a63</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.3.1</order>
+        <parent_ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>1f3efc2ddb74c81015e3dd18f49619d6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>5673a1bb-0cd2-49ac-b077-09ad43a03029</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f3efc2ddb74c81015e3dd18f49619d6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1f3efc2ddb74c81015e3dd18f49619d6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>1b3efc2ddb74c81015e3dd18f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <value>cmdb_ci_endpoint_tcp</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f3efc2ddb74c81015e3dd18f49619d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1f3efc2ddb74c81015e3dd18f49619d6</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>d33efc2ddb74c81015e3dd18f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITH{{subflow.host_ip}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1f3efc2ddb74c81015e3dd18f49619d6</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>973efc2ddb74c81015e3dd18f49619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>65d21b09dbb4481015e3dd18f4961919</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>b809c82a-f1f2-4d77-8d61-865b521dbc16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=65d21b09dbb4481015e3dd18f4961919"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>65d21b09dbb4481015e3dd18f4961919</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>e9d21b09dbb4481015e3dd18f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <value>cmdb_ci_apache_web_server</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=65d21b09dbb4481015e3dd18f4961919"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>65d21b09dbb4481015e3dd18f4961919</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>a5d21b09dbb4481015e3dd18f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITHApache server@^nameLIKE{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>65d21b09dbb4481015e3dd18f4961919</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>69d21b09dbb4481015e3dd18f496191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.1.2</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>69d21b09dbb4481015e3dd18f4961927</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>1194c98d-3ded-4657-aa8a-ecc2c0ec53fa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=69d21b09dbb4481015e3dd18f4961927"/>
+    <sys_element_mapping action="delete_multiple" query="id=69d21b09dbb4481015e3dd18f4961927"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>69d21b09dbb4481015e3dd18f4961927</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>29d21b09dbb4481015e3dd18f4961928</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7cd6de5-fdb8-42c3-a77f-4b278a45eea3.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.2.2</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>b4f26465dbb0c81015e3dd18f49619aa</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>4dbe3dbe-3c8f-4266-96c8-bd291e171aaa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b4f26465dbb0c81015e3dd18f49619aa"/>
+    <sys_element_mapping action="delete_multiple" query="id=b4f26465dbb0c81015e3dd18f49619aa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b4f26465dbb0c81015e3dd18f49619aa</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>74f26465dbb0c81015e3dd18f49619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{c7a2709b-a725-43ad-b079-48726cd7a1c7.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>b8f26465dbb0c81015e3dd18f49619a7</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>c7a2709b-a725-43ad-b079-48726cd7a1c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8f26465dbb0c81015e3dd18f49619a7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8f26465dbb0c81015e3dd18f49619a7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>30f26465dbb0c81015e3dd18f49619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <value>cmdb_ci_vm_instance</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b8f26465dbb0c81015e3dd18f49619a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b8f26465dbb0c81015e3dd18f49619a7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>f8f26465dbb0c81015e3dd18f49619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>name={{subflow.vm_instance_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b8f26465dbb0c81015e3dd18f49619a7</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>bcf26465dbb0c81015e3dd18f49619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>b93f42810b30030085c083eb37673a63</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>e136f4a9db34c81015e3dd18f49619a5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>c7cd6de5-fdb8-42c3-a77f-4b278a45eea3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e136f4a9db34c81015e3dd18f49619a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e136f4a9db34c81015e3dd18f49619a5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>ed36f4a9db34c81015e3dd18f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e136f4a9db34c81015e3dd18f49619a5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e136f4a9db34c81015e3dd18f49619a5</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>a936f4a9db34c81015e3dd18f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>nameSTARTSWITH{{subflow.hostname}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e136f4a9db34c81015e3dd18f49619a5</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 13:33:17</sys_created_on>
+        <sys_id>6d36f4a9db34c81015e3dd18f49619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:33:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>e5d21b09dbb4481015e3dd18f496191c</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>746bcb08-4868-4c7c-a8ce-f69ce91deb67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e5d21b09dbb4481015e3dd18f496191c"/>
+    <sys_element_mapping action="delete_multiple" query="id=e5d21b09dbb4481015e3dd18f496191c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e5d21b09dbb4481015e3dd18f496191c</id>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>a5d21b09dbb4481015e3dd18f496191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{b809c82a-f1f2-4d77-8d61-865b521dbc16.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2dd2d709dbb4481015e3dd18f49619ca^sys_idNOT IN25d21b09dbb4481015e3dd18f4961915,ab3efc2ddb74c81015e3dd18f49619e2,bcf26465dbb0c81015e3dd18f49619ca,edd21b09dbb4481015e3dd18f4961913"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0cd29709dbb4481015e3dd18f49619b6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Do the following in Parallel">5d31e5dedfe50300b61ecae83df26326</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>25d21b09dbb4481015e3dd18f4961915</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=25d21b09dbb4481015e3dd18f4961915"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">913e3c2ddb74c81015e3dd18f49619ee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 14:08:22</sys_created_on>
+        <sys_id>ab3efc2ddb74c81015e3dd18f49619e2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>98bc3e07-5f32-4ce3-8a38-f539d18605a0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ab3efc2ddb74c81015e3dd18f49619e2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1ee2a065dbb0c81015e3dd18f49619cf</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:08</sys_created_on>
+        <sys_id>bcf26465dbb0c81015e3dd18f49619ca</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>c64d4315-63d8-4293-9a7b-d9c524b391c5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bcf26465dbb0c81015e3dd18f49619ca"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">08d29709dbb4481015e3dd18f49619b5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Maint - Clean out IAAS Demo CIs">2dd2d709dbb4481015e3dd18f49619ca</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>764e108c-1b36-4c30-8f4d-a44b554ec0dd</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>edd21b09dbb4481015e3dd18f4961913</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 14:08:23</sys_updated_on>
+        <ui_id>5669633b-7258-4d79-89e2-1d9679a5556b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=edd21b09dbb4481015e3dd18f4961913"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca^sys_idNOT IN29d21b09dbb4481015e3dd18f496190c,60f26465dbb0c81015e3dd18f4961947,e9d2d709dbb4481015e3dd18f49619ea"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>host_ip</element>
+        <help/>
+        <hint/>
+        <label>host ip</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>29d21b09dbb4481015e3dd18f496190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>host ip</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca_host_ip_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>vm_instance_name</element>
+        <help/>
+        <hint/>
+        <label>VM Instance Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-29 12:09:07</sys_created_on>
+        <sys_id>60f26465dbb0c81015e3dd18f4961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VM Instance Name</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca_vm_instance_name_en</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-29 12:09:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>hostname</element>
+        <help/>
+        <hint/>
+        <label>hostname</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-28 11:40:38</sys_created_on>
+        <sys_id>e9d2d709dbb4481015e3dd18f49619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hostname</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2dd2d709dbb4481015e3dd18f49619ca_hostname_en</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-28 11:40:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

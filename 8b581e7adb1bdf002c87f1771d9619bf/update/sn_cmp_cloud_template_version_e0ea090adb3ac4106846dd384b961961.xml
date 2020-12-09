@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_cloud_template_version">
+    <sn_cmp_cloud_template_version action="INSERT_OR_UPDATE">
+        <attachment>1cfa090adb3ac4106846dd384b96196a</attachment>
+        <body>AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  License: Apache-2.0
+  'AWS::CloudFormation::Designer':
+    32d0c13b-af8e-4c5a-9132-42812f1ff0d9:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 50
+        'y': 90
+      z: 1
+      embeds: []
+Description: &gt;-
+  AWS CloudFormation Sample Template EC2InstanceWithSecurityGroupSample: Create
+  an Amazon EC2 instance running the Amazon Linux AMI. The AMI is chosen based
+  on the region in which the stack is run. This example creates an EC2 security
+  group for the instance to give you SSH access. **WARNING** This template
+  creates an Amazon EC2 instance. You will be billed for the AWS resources used
+  if you create a stack from this template.
+Parameters:
+  KeyName:
+    Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
+    Type: 'AWS::EC2::KeyPair::KeyName'
+    ConstraintDescription: must be the name of an existing EC2 KeyPair.
+  InstanceType:
+    Description: WebServer EC2 instance type
+    Type: String
+    Default: t3.small
+    AllowedValues:
+      - t2.nano
+      - t2.micro
+      - t2.small
+      - t2.medium
+      - t2.large
+      - t2.xlarge
+      - t2.2xlarge
+      - t3.nano
+      - t3.micro
+      - t3.small
+      - t3.medium
+      - t3.large
+      - t3.xlarge
+      - t3.2xlarge
+      - m4.large
+      - m4.xlarge
+      - m4.2xlarge
+      - m4.4xlarge
+      - m4.10xlarge
+      - m5.large
+      - m5.xlarge
+      - m5.2xlarge
+      - m5.4xlarge
+      - c5.large
+      - c5.xlarge
+      - c5.2xlarge
+      - c5.4xlarge
+      - c5.9xlarge
+      - g3.8xlarge
+      - r5.large
+      - r5.xlarge
+      - r5.2xlarge
+      - r5.4xlarge
+      - r3.12xlarge
+      - i3.xlarge
+      - i3.2xlarge
+      - i3.4xlarge
+      - i3.8xlarge
+      - d2.xlarge
+      - d2.2xlarge
+      - d2.4xlarge
+      - d2.8xlarge
+    ConstraintDescription: must be a valid EC2 instance type.
+  LatestAmiId:
+    Description: Virtual Machine Image
+    Type: String
+  SubNet:
+    Description: VPC Subnet
+    Type: String
+  VMName:
+    Description: Name of EC2 Instance
+    Type: String
+Resources:
+  EC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyName
+      ImageId: !Ref LatestAmiId
+      SubnetId: !Ref SubNet
+      Tags:
+        - Key: Name
+          Value: !Ref VMName
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 32d0c13b-af8e-4c5a-9132-42812f1ff0d9
+Outputs:
+  InstanceId:
+    Description: InstanceId of the newly created EC2 instance
+    Value: !Ref EC2Instance
+  AZ:
+    Description: Availability Zone of the newly created EC2 instance
+    Value: !GetAtt 
+      - EC2Instance
+      - AvailabilityZone
+  PublicDNS:
+    Description: Public DNSName of the newly created EC2 instance
+    Value: !GetAtt 
+      - EC2Instance
+      - PublicDnsName
+  PublicIP:
+    Description: Public IP address of the newly created EC2 instance
+    Value: !GetAtt 
+      - EC2Instance
+      - PublicIp
+</body>
+        <cloud_template_url/>
+        <config_installable/>
+        <config_installable_name/>
+        <format display_value="YAML">0fd3bffc872313008de7483cf6cb0b48</format>
+        <ingestion_method>upload</ingestion_method>
+        <short_description>ec2-secGroup-template.v4.yaml</short_description>
+        <state>published</state>
+        <status>success</status>
+        <status_message>Template is valid and saved.</status_message>
+        <sys_class_name>sn_cmp_cloud_template_version</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:26:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e0ea090adb3ac4106846dd384b961961</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_cloud_template_version_e0ea090adb3ac4106846dd384b961961</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:27:39</sys_updated_on>
+        <template display_value="AWS Red Hat Enterprise Linux 7">dabacdc6db3ac4106846dd384b9619e5</template>
+        <version>1</version>
+    </sn_cmp_cloud_template_version>
+</record_update>

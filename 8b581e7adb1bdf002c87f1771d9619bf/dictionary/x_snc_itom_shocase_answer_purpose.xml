@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Answer Purpose" max_length="40" name="x_snc_itom_shocase_answer_purpose" sizeclass="0" type="collection"/>
+</database>

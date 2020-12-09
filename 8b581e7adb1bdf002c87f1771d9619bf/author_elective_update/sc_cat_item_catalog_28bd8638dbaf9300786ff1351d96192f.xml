@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Initial Demo Env Provisioning">0b3c02f4dbaf9300786ff1351d9619c7</sc_cat_item>
+        <sc_catalog display_value="ITOM Demo Catalog">ea0b42b4dbaf9300786ff1351d961971</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-24 16:19:17</sys_created_on>
+        <sys_id>28bd8638dbaf9300786ff1351d96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOM Demo Catalog.Initial Demo Env Provisioning</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_28bd8638dbaf9300786ff1351d96192f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-24 16:19:17</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sc_cat_item_catalog_28bd8638dbaf9300786ff1351d96192f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Initial Demo Env Provisioning">0b3c02f4dbaf9300786ff1351d9619c7</sc_cat_item>
+        <sc_catalog display_value="ITOM Demo Catalog">ea0b42b4dbaf9300786ff1351d961971</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-24 16:19:17</sys_created_on>
+        <sys_id>28bd8638dbaf9300786ff1351d96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOM Demo Catalog.Initial Demo Env Provisioning</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_28bd8638dbaf9300786ff1351d96192f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-24 16:19:17</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>1414199378</payload_hash>
+        <record_name>ITOM Demo Catalog.Initial Demo Env Provisioning</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-10 18:37:46</sys_created_on>
+        <sys_id>c806a1f1dbfbb70015e3dd18f4961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d1c77a51c0000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-10 18:37:46</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>8806a1f150fbb700da5a5a841e79ab59</update_guid>
+        <update_guid_history>8806a1f150fbb700da5a5a841e79ab59:1414199378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITOM Demo Catalog.Initial Demo Env Provisioning">3c85debcdb7cc41015e3dd18f4961980</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-27 12:34:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>eb82d8dbfc434108aeb3a62887af7404</sys_id>
+        <sys_metadata>28bd8638dbaf9300786ff1351d96192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOM Demo Catalog.Initial Demo Env Provisioning</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent display_value="">0b3c02f4dbaf9300786ff1351d9619c7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_28bd8638dbaf9300786ff1351d96192f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_28bd8638dbaf9300786ff1351d96192f">c806a1f1dbfbb70015e3dd18f4961959</sys_update_version>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-27 12:34:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

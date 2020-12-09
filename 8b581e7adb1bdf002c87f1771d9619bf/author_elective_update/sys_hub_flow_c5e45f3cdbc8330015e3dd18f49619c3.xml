@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>0db811f1dbbfd300e243b6d1ba961949</copied_from>
+        <copied_from_name>Clean out Terminated VMs</copied_from_name>
+        <description>This will Clean out Terminated VMs to keep Demo Clean</description>
+        <internal_name>clean_out_terminated_vms-copy_to_global</internal_name>
+        <label_cache>[{"name":"1054cdfa-2514-4a0e-ba38-31dd16df2100.Records","label":"1➛Virtual Machine Instance Records","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"records","base_type":"records"},{"name":"1054cdfa-2514-4a0e-ba38-31dd16df2100.Table","label":"1➛Virtual Machine Instance Table","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"table_name","base_type":"table_name"},{"name":"1054cdfa-2514-4a0e-ba38-31dd16df2100.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"3bb31f21-d003-4594-99dc-0f54f99810aa.item","label":"2➛Virtual Machine Instance Record","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>be00049edbb1b3809b7ed8b6f496199d</latest_snapshot>
+        <master_snapshot>f9e13d9bdb45f7409b7ed8b6f4961914</master_snapshot>
+        <name>Clean out Terminated VMs-Copy to Global</name>
+        <outputs/>
+        <remote_trigger_id>cee13d9bdb45f7409b7ed8b6f496195b</remote_trigger_id>
+        <run_as/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-05 14:12:52</sys_created_on>
+        <sys_id>c5e45f3cdbc8330015e3dd18f49619c3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Clean out Terminated VMs-Copy to Global</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_c5e45f3cdbc8330015e3dd18f49619c3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-04 14:23:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=c5e45f3cdbc8330015e3dd18f49619c3"/>
+    <sys_variable_value action="DELETE" query="document_key=c5e45f3cdbc8330015e3dd18f49619c3"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sys_hub_flow_c5e45f3cdbc8330015e3dd18f49619c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>0db811f1dbbfd300e243b6d1ba961949</copied_from>
+        <copied_from_name>Clean out Terminated VMs</copied_from_name>
+        <description>This will Clean out Terminated VMs to keep Demo Clean</description>
+        <internal_name>clean_out_terminated_vms-copy_to_global</internal_name>
+        <label_cache>[{"name":"1054cdfa-2514-4a0e-ba38-31dd16df2100.Records","label":"1➛Virtual Machine Instance Records","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"records","base_type":"records"},{"name":"1054cdfa-2514-4a0e-ba38-31dd16df2100.Table","label":"1➛Virtual Machine Instance Table","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"table_name","base_type":"table_name"},{"name":"1054cdfa-2514-4a0e-ba38-31dd16df2100.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"3bb31f21-d003-4594-99dc-0f54f99810aa.item","label":"2➛Virtual Machine Instance Record","reference":"cmdb_ci_vm_instance","reference_display":"Virtual Machine Instance","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>be00049edbb1b3809b7ed8b6f496199d</latest_snapshot>
+        <master_snapshot>f9e13d9bdb45f7409b7ed8b6f4961914</master_snapshot>
+        <name>Clean out Terminated VMs-Copy to Global</name>
+        <outputs/>
+        <remote_trigger_id>cee13d9bdb45f7409b7ed8b6f496195b</remote_trigger_id>
+        <run_as/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-05 14:12:52</sys_created_on>
+        <sys_id>c5e45f3cdbc8330015e3dd18f49619c3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Clean out Terminated VMs-Copy to Global</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_c5e45f3cdbc8330015e3dd18f49619c3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-04 14:23:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5e45f3cdbc8330015e3dd18f49619c3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c5e45f3cdbc8330015e3dd18f49619c3"/>
+</record_update>]]></payload>
+        <payload_hash>722147744</payload_hash>
+        <record_name>Clean out Terminated VMs-Copy to Global</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-10 18:38:14</sys_created_on>
+        <sys_id>3616a9f1dbfbb70015e3dd18f4961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d1c7812a60000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-10 18:38:14</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>f216a9f1a7fbb700aee9ded4ef696871</update_guid>
+        <update_guid_history>f216a9f1a7fbb700aee9ded4ef696871:722147744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:14:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>49aa24ed12904d4899ea9ba12ba325e4</sys_id>
+        <sys_metadata>c5e45f3cdbc8330015e3dd18f49619c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clean out Terminated VMs-Copy to Global</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_c5e45f3cdbc8330015e3dd18f49619c3</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_c5e45f3cdbc8330015e3dd18f49619c3">3616a9f1dbfbb70015e3dd18f4961971</sys_update_version>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:14:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

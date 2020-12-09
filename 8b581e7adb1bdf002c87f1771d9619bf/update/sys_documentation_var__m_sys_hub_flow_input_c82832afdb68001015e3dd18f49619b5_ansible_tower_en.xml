@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ansible_tower" label="Ansible Tower" language="en" table="var__m_sys_hub_flow_input_c82832afdb68001015e3dd18f49619b5">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ansible_tower</element>
+            <help/>
+            <hint/>
+            <label>Ansible Tower</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_c82832afdb68001015e3dd18f49619b5</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-23 17:53:03</sys_created_on>
+            <sys_id>9c2832afdb68001015e3dd18f49619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Ansible Tower</sys_name>
+            <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c82832afdb68001015e3dd18f49619b5_ansible_tower_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-23 17:53:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

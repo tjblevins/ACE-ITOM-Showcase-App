@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_ip_range">
+    <ecc_agent_ip_range action="DELETE">
+        <name>ACE-SiteDepot</name>
+        <range>172.25.2.0/24</range>
+        <sys_class_name>ecc_agent_ip_range</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:27:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70e52606db9c8090a9ed3967f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACE-SiteDepot</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>ecc_agent_ip_range_70e52606db9c8090a9ed3967f49619cb</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 14:27:07</sys_updated_on>
+        <type>include</type>
+    </ecc_agent_ip_range>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>ecc_agent_ip_range_70e52606db9c8090a9ed3967f49619cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_ip_range"><ecc_agent_ip_range action="INSERT_OR_UPDATE"><name>ACE-SiteDepot</name><range>172.25.2.0/24</range><sys_class_name>ecc_agent_ip_range</sys_class_name><sys_created_by>tomb</sys_created_by><sys_created_on>2019-10-06 14:27:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>70e52606db9c8090a9ed3967f49619cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ACE-SiteDepot</sys_name><sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>ecc_agent_ip_range_70e52606db9c8090a9ed3967f49619cb</sys_update_name><sys_updated_by>tomb</sys_updated_by><sys_updated_on>2019-10-06 14:27:07</sys_updated_on><type>include</type></ecc_agent_ip_range></record_update>]]></payload>
+        <payload_hash>-1060780933</payload_hash>
+        <record_name>ACE-SiteDepot</record_name>
+        <reverted_from/>
+        <source>8766a179dbf33700261616370596198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:27:07</sys_created_on>
+        <sys_id>75f5aac2db9c8090a9ed3967f4961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16da17784e40000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 14:27:07</sys_updated_on>
+        <type>MID Server IP Range</type>
+        <update_guid>7df5aac2439c80908255a1eee1a73c23</update_guid>
+        <update_guid_history>7df5aac2439c80908255a1eee1a73c23:-1060780933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ACE-SiteDepot">9c56ae06db9c8090a9ed3967f49619ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-10-06 14:28:39</sys_created_on>
+        <sys_db_object display_value="" name="ecc_agent_ip_range">ecc_agent_ip_range</sys_db_object>
+        <sys_id>06bfc763a16142b680303fcda6c9d019</sys_id>
+        <sys_metadata>70e52606db9c8090a9ed3967f49619cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACE-SiteDepot</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>ecc_agent_ip_range_70e52606db9c8090a9ed3967f49619cb</sys_update_name>
+        <sys_update_version display_value="ecc_agent_ip_range_70e52606db9c8090a9ed3967f49619cb">75f5aac2db9c8090a9ed3967f4961924</sys_update_version>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-06 14:28:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

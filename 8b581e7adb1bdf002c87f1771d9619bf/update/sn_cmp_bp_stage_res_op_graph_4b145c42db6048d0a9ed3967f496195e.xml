@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_graph">
+    <sn_cmp_bp_stage_res_op_graph action="INSERT_OR_UPDATE">
+        <blueprint_stage_op display_value="Deprovision">c5149842db6048d0a9ed3967f496196e</blueprint_stage_op>
+        <child_operation/>
+        <in_degree>0</in_degree>
+        <parent_operation display_value="AWS Deploy Monitoring Servers.Deprovision">03145c42db6048d0a9ed3967f496195a</parent_operation>
+        <status>true</status>
+        <sys_class_name>sn_cmp_bp_stage_res_op_graph</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-18 14:05:33</sys_created_on>
+        <sys_id>4b145c42db6048d0a9ed3967f496195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_graph_4b145c42db6048d0a9ed3967f496195e</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-18 14:05:33</sys_updated_on>
+    </sn_cmp_bp_stage_res_op_graph>
+</record_update>

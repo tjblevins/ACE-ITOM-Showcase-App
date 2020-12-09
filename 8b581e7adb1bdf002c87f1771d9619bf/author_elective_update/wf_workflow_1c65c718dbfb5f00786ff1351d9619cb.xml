@@ -1,0 +1,2796 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"activities":{},"stages":{},"ends":["2d3cee0fdbb93b809b7ed8b6f496198f"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>253cee0fdbb93b809b7ed8b6f4961991,653cee0fdbb93b809b7ed8b6f4961993,6d3cee0fdbb93b809b7ed8b6f496198d,2d3cee0fdbb93b809b7ed8b6f496198e,613c6a0fdbb93b809b7ed8b6f4961909,293cee0fdbb93b809b7ed8b6f4961997,253c6a0fdbb93b809b7ed8b6f4961906,253cee0fdbb93b809b7ed8b6f4961992,293cee0fdbb93b809b7ed8b6f4961990,a13c6a0fdbb93b809b7ed8b6f496190a,2d3cee0fdbb93b809b7ed8b6f4961996,2d3c6a0fdbb93b809b7ed8b6f4961907,2d3cee0fdbb93b809b7ed8b6f496198f</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>253cee0fdbb93b809b7ed8b6f4961991,653cee0fdbb93b809b7ed8b6f4961993,6d3cee0fdbb93b809b7ed8b6f496198d,2d3cee0fdbb93b809b7ed8b6f496198e,613c6a0fdbb93b809b7ed8b6f4961909,293cee0fdbb93b809b7ed8b6f4961997,253c6a0fdbb93b809b7ed8b6f4961906,253cee0fdbb93b809b7ed8b6f4961992,293cee0fdbb93b809b7ed8b6f4961990,a13c6a0fdbb93b809b7ed8b6f496190a,2d3cee0fdbb93b809b7ed8b6f4961996,2d3c6a0fdbb93b809b7ed8b6f4961907,2d3cee0fdbb93b809b7ed8b6f496198f</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>ITOM - ZRetired - Rem - Restart MySQL</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">253cee0fdbb93b809b7ed8b6f4961991</start>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>693c6a0fdbb93b809b7ed8b6f4961904</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:52:15</sys_updated_on>
+        <table>em_remediation_task</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="ITOM - ZRetired - Rem - Restart MySQL">1c65c718dbfb5f00786ff1351d9619cb</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>ITOM - ZRetired - Rem - Restart MySQL</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-04 17:21:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c65c718dbfb5f00786ff1351d9619cb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ITOM - ZRetired - Rem - Restart MySQL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>wf_workflow_1c65c718dbfb5f00786ff1351d9619cb</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:52:11</sys_updated_on>
+        <table>em_remediation_task</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>253cee0fdbb93b809b7ed8b6f4961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=253cee0fdbb93b809b7ed8b6f4961991"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">253cee0fdbb93b809b7ed8b6f4961991</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e93cee0fdbb93b809b7ed8b6f4961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3cee0fdbb93b809b7ed8b6f496198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>1054</x>
+        <y>245</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=2d3cee0fdbb93b809b7ed8b6f496198f"/>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Get CI IP">3a2697b6db1fdf002c87f1771d96193a</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{"ciName":"${data.get(5).hostname}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get DB IP</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>613c6a0fdbb93b809b7ed8b6f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>321</x>
+        <y>126</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=613c6a0fdbb93b809b7ed8b6f4961909"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Get DB IP">613c6a0fdbb93b809b7ed8b6f4961909</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>693c6a0fdbb93b809b7ed8b6f4961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Parse Host from Application CI">d6074798dbfb5f00786ff1351d96190a</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{"appci":"${current.cmdb_ci.name}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get Server Hostname From Application CI</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3cee0fdbb93b809b7ed8b6f496198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>81</x>
+        <y>308</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=2d3cee0fdbb93b809b7ed8b6f496198e"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Get Server Hostname From Application CI">2d3cee0fdbb93b809b7ed8b6f496198e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a53cee0fdbb93b809b7ed8b6f496198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Get Ansible Tower URL">00855690db7b5f00786ff1351d961901</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{"u_towername":"Tower1"}</input>
+        <is_parent>false</is_parent>
+        <name>Get URL for "Tower1"</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>293cee0fdbb93b809b7ed8b6f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>319</x>
+        <y>210</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=293cee0fdbb93b809b7ed8b6f4961997"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Get URL for &quot;Tower1&quot;">293cee0fdbb93b809b7ed8b6f4961997</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>213cee0fdbb93b809b7ed8b6f4961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Mark Remediation Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3c6a0fdbb93b809b7ed8b6f4961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>834</x>
+        <y>301</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=2d3c6a0fdbb93b809b7ed8b6f4961907"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>2d3c6a0fdbb93b809b7ed8b6f4961907</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>253c6a0fdbb93b809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>state=3^work_notes=Remediation Completed Successfully!^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>2d3c6a0fdbb93b809b7ed8b6f4961907</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>253c6a0fdbb93b809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>state=3^work_notes=Remediation Completed Successfully!^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Mark Remediation Complete">2d3c6a0fdbb93b809b7ed8b6f4961907</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a93c6a0fdbb93b809b7ed8b6f4961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Mark Remediation Work in Progress</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>6d3cee0fdbb93b809b7ed8b6f496198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>74</x>
+        <y>209</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=6d3cee0fdbb93b809b7ed8b6f496198d"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6d3cee0fdbb93b809b7ed8b6f496198d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ed3cee0fdbb93b809b7ed8b6f496198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>state=2^work_notes=Attempting to Remediate issue by Restarting MySQL^short_description=Automated Remediation - Restarting MySQL^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>6d3cee0fdbb93b809b7ed8b6f496198d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ed3cee0fdbb93b809b7ed8b6f496198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>state=2^work_notes=Attempting to Remediate issue by Restarting MySQL^short_description=Automated Remediation - Restarting MySQL^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Mark Remediation Work in Progress">6d3cee0fdbb93b809b7ed8b6f496198d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e13cee0fdbb93b809b7ed8b6f496198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Linux - Start Service">901cce18db3b5f00786ff1351d9619e6</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(8).hostname}","host_ip":"${data.get(6).u_ip}","service":"mysqld"}</input>
+        <is_parent>false</is_parent>
+        <name>Start MySQL</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a13c6a0fdbb93b809b7ed8b6f496190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>583</x>
+        <y>308</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=a13c6a0fdbb93b809b7ed8b6f496190a"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Start MySQL">a13c6a0fdbb93b809b7ed8b6f496190a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a53cee0fdbb93b809b7ed8b6f496198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Linux - Stop Service">756e4e98db3b5f00786ff1351d96195f</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{"tower":"${data.get(8).hostname}","host_ip":"${data.get(6).u_ip}","service":"mysqld"}</input>
+        <is_parent>false</is_parent>
+        <name>Stop Mysql</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>253cee0fdbb93b809b7ed8b6f4961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>568</x>
+        <y>130</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=253cee0fdbb93b809b7ed8b6f4961992"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Stop Mysql">253cee0fdbb93b809b7ed8b6f4961992</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3cee0fdbb93b809b7ed8b6f4961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Parse HostName from URL">0e435e10db7b5f00786ff1351d961954</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{"u_url":"${data.get(7).tower_url}"}</input>
+        <is_parent>false</is_parent>
+        <name>Tower IP</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>253c6a0fdbb93b809b7ed8b6f4961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>327</x>
+        <y>309</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=253c6a0fdbb93b809b7ed8b6f4961906"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Tower IP">253c6a0fdbb93b809b7ed8b6f4961906</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3c6a0fdbb93b809b7ed8b6f4961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Work Notes</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>293cee0fdbb93b809b7ed8b6f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>573</x>
+        <y>221</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=293cee0fdbb93b809b7ed8b6f4961990"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>293cee0fdbb93b809b7ed8b6f4961990</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a93cee0fdbb93b809b7ed8b6f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>work_notes=MySQL Stopped^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>293cee0fdbb93b809b7ed8b6f4961990</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a93cee0fdbb93b809b7ed8b6f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>work_notes=MySQL Stopped^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Update Work Notes">293cee0fdbb93b809b7ed8b6f4961990</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3cee0fdbb93b809b7ed8b6f4961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Work Notes</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3cee0fdbb93b809b7ed8b6f4961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>822</x>
+        <y>152</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=2d3cee0fdbb93b809b7ed8b6f4961996"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>2d3cee0fdbb93b809b7ed8b6f4961996</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3cee0fdbb93b809b7ed8b6f4961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>work_notes=MySQL Started^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>2d3cee0fdbb93b809b7ed8b6f4961996</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3cee0fdbb93b809b7ed8b6f4961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>work_notes=MySQL Started^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Update Work Notes">2d3cee0fdbb93b809b7ed8b6f4961996</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a13cee0fdbb93b809b7ed8b6f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait a tic</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>653cee0fdbb93b809b7ed8b6f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+        <x>74</x>
+        <y>125</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=653cee0fdbb93b809b7ed8b6f4961993"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>213cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>293cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>613cee0fdbb93b809b7ed8b6f4961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>653cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>693cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>6d3cee0fdbb93b809b7ed8b6f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a13cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a53cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>1970-01-01 00:00:01</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a93cee0fdbb93b809b7ed8b6f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e13cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e53cee0fdbb93b809b7ed8b6f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e93cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ed3cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e53cee0fdbb93b809b7ed8b6f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>213cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a93cee0fdbb93b809b7ed8b6f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>693cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a53cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>1970-01-01 00:00:01</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>653cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>293cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>613cee0fdbb93b809b7ed8b6f4961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>6d3cee0fdbb93b809b7ed8b6f4961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e93cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a13cee0fdbb93b809b7ed8b6f4961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ed3cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>653cee0fdbb93b809b7ed8b6f4961993</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e13cee0fdbb93b809b7ed8b6f4961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Wait a tic">653cee0fdbb93b809b7ed8b6f4961993</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>653cee0fdbb93b809b7ed8b6f4961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">a93c6a0fdbb93b809b7ed8b6f4961908</condition>
+        <from display_value="Mark Remediation Complete">2d3c6a0fdbb93b809b7ed8b6f4961907</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>213cee0fdbb93b809b7ed8b6f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="End">2d3cee0fdbb93b809b7ed8b6f496198f</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">ad3cee0fdbb93b809b7ed8b6f4961990</condition>
+        <from display_value="Update Work Notes">293cee0fdbb93b809b7ed8b6f4961990</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>293cee0fdbb93b809b7ed8b6f496199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Start MySQL">a13c6a0fdbb93b809b7ed8b6f496190a</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">ad3c6a0fdbb93b809b7ed8b6f4961906</condition>
+        <from display_value="Tower IP">253c6a0fdbb93b809b7ed8b6f4961906</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3cee0fdbb93b809b7ed8b6f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Stop Mysql">253cee0fdbb93b809b7ed8b6f4961992</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">653cee0fdbb93b809b7ed8b6f4961996</condition>
+        <from display_value="Wait a tic">653cee0fdbb93b809b7ed8b6f4961993</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>613cee0fdbb93b809b7ed8b6f496199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Mark Remediation Work in Progress">6d3cee0fdbb93b809b7ed8b6f496198d</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">e13cee0fdbb93b809b7ed8b6f496198e</condition>
+        <from display_value="Mark Remediation Work in Progress">6d3cee0fdbb93b809b7ed8b6f496198d</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>653cee0fdbb93b809b7ed8b6f496199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Get Server Hostname From Application CI">2d3cee0fdbb93b809b7ed8b6f496198e</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">a53cee0fdbb93b809b7ed8b6f496198d</condition>
+        <from display_value="Start MySQL">a13c6a0fdbb93b809b7ed8b6f496190a</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>693cee0fdbb93b809b7ed8b6f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Update Work Notes">2d3cee0fdbb93b809b7ed8b6f4961996</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">213cee0fdbb93b809b7ed8b6f4961998</condition>
+        <from display_value="Get URL for &quot;Tower1&quot;">293cee0fdbb93b809b7ed8b6f4961997</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a13cee0fdbb93b809b7ed8b6f496199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Tower IP">253c6a0fdbb93b809b7ed8b6f4961906</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">a13cee0fdbb93b809b7ed8b6f4961997</condition>
+        <from display_value="Update Work Notes">2d3cee0fdbb93b809b7ed8b6f4961996</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>a53cee0fdbb93b809b7ed8b6f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Mark Remediation Complete">2d3c6a0fdbb93b809b7ed8b6f4961907</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">a53cee0fdbb93b809b7ed8b6f496198f</condition>
+        <from display_value="Get Server Hostname From Application CI">2d3cee0fdbb93b809b7ed8b6f496198e</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ad3cee0fdbb93b809b7ed8b6f496199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Get DB IP">613c6a0fdbb93b809b7ed8b6f4961909</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">e93cee0fdbb93b809b7ed8b6f4961991</condition>
+        <from display_value="Begin">253cee0fdbb93b809b7ed8b6f4961991</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e13cee0fdbb93b809b7ed8b6f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Wait a tic">653cee0fdbb93b809b7ed8b6f4961993</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">ad3cee0fdbb93b809b7ed8b6f4961992</condition>
+        <from display_value="Stop Mysql">253cee0fdbb93b809b7ed8b6f4961992</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>e93cee0fdbb93b809b7ed8b6f496199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Update Work Notes">293cee0fdbb93b809b7ed8b6f4961990</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">693c6a0fdbb93b809b7ed8b6f4961909</condition>
+        <from display_value="Get DB IP">613c6a0fdbb93b809b7ed8b6f4961909</from>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>ed3cee0fdbb93b809b7ed8b6f4961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <to display_value="Get URL for &quot;Tower1&quot;">293cee0fdbb93b809b7ed8b6f4961997</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-06-07 10:51:22</sys_created_on>
+        <sys_id>2d3c6a0fdbb93b809b7ed8b6f4961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-06-07 10:51:22</sys_updated_on>
+        <workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL">693c6a0fdbb93b809b7ed8b6f4961904</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=1c65c718dbfb5f00786ff1351d9619cb^sys_id!=693c6a0fdbb93b809b7ed8b6f4961904">
+        <published>false</published>
+    </wf_workflow_version>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>wf_workflow_1c65c718dbfb5f00786ff1351d9619cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;
+    &lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;activity_stages&gt;{"subflows":[],"activities":{},"stages":{},"ends":["2d3cee0fdbb93b809b7ed8b6f496198f"]}&lt;/activity_stages&gt;
+        &lt;after_business_rules&gt;false&lt;/after_business_rules&gt;
+        &lt;checked_out/&gt;
+        &lt;checked_out_by/&gt;
+        &lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;
+        &lt;condition/&gt;
+        &lt;condition_type&gt;run_match&lt;/condition_type&gt;
+        &lt;description/&gt;
+        &lt;expected_sequences&gt;253cee0fdbb93b809b7ed8b6f4961991,653cee0fdbb93b809b7ed8b6f4961993,6d3cee0fdbb93b809b7ed8b6f496198d,2d3cee0fdbb93b809b7ed8b6f496198e,613c6a0fdbb93b809b7ed8b6f4961909,293cee0fdbb93b809b7ed8b6f4961997,253c6a0fdbb93b809b7ed8b6f4961906,253cee0fdbb93b809b7ed8b6f4961992,293cee0fdbb93b809b7ed8b6f4961990,a13c6a0fdbb93b809b7ed8b6f496190a,2d3cee0fdbb93b809b7ed8b6f4961996,2d3c6a0fdbb93b809b7ed8b6f4961907,2d3cee0fdbb93b809b7ed8b6f496198f&lt;/expected_sequences&gt;
+        &lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;
+        &lt;expected_time_type/&gt;
+        &lt;full_sequences&gt;253cee0fdbb93b809b7ed8b6f4961991,653cee0fdbb93b809b7ed8b6f4961993,6d3cee0fdbb93b809b7ed8b6f496198d,2d3cee0fdbb93b809b7ed8b6f496198e,613c6a0fdbb93b809b7ed8b6f4961909,293cee0fdbb93b809b7ed8b6f4961997,253c6a0fdbb93b809b7ed8b6f4961906,253cee0fdbb93b809b7ed8b6f4961992,293cee0fdbb93b809b7ed8b6f4961990,a13c6a0fdbb93b809b7ed8b6f496190a,2d3cee0fdbb93b809b7ed8b6f4961996,2d3c6a0fdbb93b809b7ed8b6f4961907,2d3cee0fdbb93b809b7ed8b6f496198f&lt;/full_sequences&gt;
+        &lt;journal/&gt;
+        &lt;max_activity_count&gt;100&lt;/max_activity_count&gt;
+        &lt;name&gt;ITOM - ZRetired - Rem - Restart MySQL&lt;/name&gt;
+        &lt;not_cacheable&gt;false&lt;/not_cacheable&gt;
+        &lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;
+        &lt;published&gt;true&lt;/published&gt;
+        &lt;relative_duration display_value="2 business days by 4pm"&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/relative_duration&gt;
+        &lt;requires_ert&gt;true&lt;/requires_ert&gt;
+        &lt;run_multiple&gt;false&lt;/run_multiple&gt;
+        &lt;schedule/&gt;
+        &lt;stage_field/&gt;
+        &lt;stage_order&gt;computed&lt;/stage_order&gt;
+        &lt;start display_value="Begin"&gt;253cee0fdbb93b809b7ed8b6f4961991&lt;/start&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:52:15&lt;/sys_updated_on&gt;
+        &lt;table&gt;em_remediation_task&lt;/table&gt;
+        &lt;timezone/&gt;
+        &lt;validated&gt;false&lt;/validated&gt;
+        &lt;workflow display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;1c65c718dbfb5f00786ff1351d9619cb&lt;/workflow&gt;
+    &lt;/wf_workflow_version&gt;
+    &lt;wf_workflow action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;description/&gt;
+        &lt;name&gt;ITOM - ZRetired - Rem - Restart MySQL&lt;/name&gt;
+        &lt;preview/&gt;
+        &lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-08-04 17:21:18&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;1c65c718dbfb5f00786ff1351d9619cb&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;ITOM - ZRetired - Rem - Restart MySQL&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="ITOM Showcase"&gt;8b581e7adb1bdf002c87f1771d9619bf&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;wf_workflow_1c65c718dbfb5f00786ff1351d9619cb&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:52:11&lt;/sys_updated_on&gt;
+        &lt;table&gt;em_remediation_task&lt;/table&gt;
+        &lt;template&gt;false&lt;/template&gt;
+        &lt;vars/&gt;
+    &lt;/wf_workflow&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input/&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Begin&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;253cee0fdbb93b809b7ed8b6f4961991&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width&gt;80&lt;/width&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;20&lt;/x&gt;
+        &lt;y&gt;20&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=253cee0fdbb93b809b7ed8b6f4961991"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Begin"&gt;253cee0fdbb93b809b7ed8b6f4961991&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e93cee0fdbb93b809b7ed8b6f4961991&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input/&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;End&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3cee0fdbb93b809b7ed8b6f496198f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width&gt;80&lt;/width&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;1054&lt;/x&gt;
+        &lt;y&gt;245&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=2d3cee0fdbb93b809b7ed8b6f496198f"/&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Get CI IP"&gt;3a2697b6db1fdf002c87f1771d96193a&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;6&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"ciName":"${data.get(5).hostname}"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Get DB IP&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;613c6a0fdbb93b809b7ed8b6f4961909&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;321&lt;/x&gt;
+        &lt;y&gt;126&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=613c6a0fdbb93b809b7ed8b6f4961909"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Get DB IP"&gt;613c6a0fdbb93b809b7ed8b6f4961909&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;693c6a0fdbb93b809b7ed8b6f4961909&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Parse Host from Application CI"&gt;d6074798dbfb5f00786ff1351d96190a&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;5&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"appci":"${current.cmdb_ci.name}"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Get Server Hostname From Application CI&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3cee0fdbb93b809b7ed8b6f496198e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;81&lt;/x&gt;
+        &lt;y&gt;308&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=2d3cee0fdbb93b809b7ed8b6f496198e"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Get Server Hostname From Application CI"&gt;2d3cee0fdbb93b809b7ed8b6f496198e&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a53cee0fdbb93b809b7ed8b6f496198f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Get Ansible Tower URL"&gt;00855690db7b5f00786ff1351d961901&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;7&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"u_towername":"Tower1"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Get URL for "Tower1"&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;293cee0fdbb93b809b7ed8b6f4961997&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;319&lt;/x&gt;
+        &lt;y&gt;210&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=293cee0fdbb93b809b7ed8b6f4961997"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Get URL for &amp;quot;Tower1&amp;quot;"&gt;293cee0fdbb93b809b7ed8b6f4961997&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;213cee0fdbb93b809b7ed8b6f4961998&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;12&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Mark Remediation Complete&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3c6a0fdbb93b809b7ed8b6f4961907&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;834&lt;/x&gt;
+        &lt;y&gt;301&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=2d3c6a0fdbb93b809b7ed8b6f4961907"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;2d3c6a0fdbb93b809b7ed8b6f4961907&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;253c6a0fdbb93b809b7ed8b6f4961908&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;state=3^work_notes=Remediation Completed Successfully!^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;2d3c6a0fdbb93b809b7ed8b6f4961907&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;253c6a0fdbb93b809b7ed8b6f4961908&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;state=3^work_notes=Remediation Completed Successfully!^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Mark Remediation Complete"&gt;2d3c6a0fdbb93b809b7ed8b6f4961907&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a93c6a0fdbb93b809b7ed8b6f4961908&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;4&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Mark Remediation Work in Progress&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6d3cee0fdbb93b809b7ed8b6f496198d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;74&lt;/x&gt;
+        &lt;y&gt;209&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=6d3cee0fdbb93b809b7ed8b6f496198d"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;6d3cee0fdbb93b809b7ed8b6f496198d&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ed3cee0fdbb93b809b7ed8b6f496198d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;state=2^work_notes=Attempting to Remediate issue by Restarting MySQL^short_description=Automated Remediation - Restarting MySQL^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;6d3cee0fdbb93b809b7ed8b6f496198d&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ed3cee0fdbb93b809b7ed8b6f496198d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;state=2^work_notes=Attempting to Remediate issue by Restarting MySQL^short_description=Automated Remediation - Restarting MySQL^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Mark Remediation Work in Progress"&gt;6d3cee0fdbb93b809b7ed8b6f496198d&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e13cee0fdbb93b809b7ed8b6f496198e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Linux - Start Service"&gt;901cce18db3b5f00786ff1351d9619e6&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;11&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"tower":"${data.get(8).hostname}","host_ip":"${data.get(6).u_ip}","service":"mysqld"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Start MySQL&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a13c6a0fdbb93b809b7ed8b6f496190a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;583&lt;/x&gt;
+        &lt;y&gt;308&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=a13c6a0fdbb93b809b7ed8b6f496190a"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Start MySQL"&gt;a13c6a0fdbb93b809b7ed8b6f496190a&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a53cee0fdbb93b809b7ed8b6f496198d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Linux - Stop Service"&gt;756e4e98db3b5f00786ff1351d96195f&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;9&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"tower":"${data.get(8).hostname}","host_ip":"${data.get(6).u_ip}","service":"mysqld"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Stop Mysql&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;253cee0fdbb93b809b7ed8b6f4961992&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;568&lt;/x&gt;
+        &lt;y&gt;130&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=253cee0fdbb93b809b7ed8b6f4961992"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Stop Mysql"&gt;253cee0fdbb93b809b7ed8b6f4961992&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3cee0fdbb93b809b7ed8b6f4961992&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Parse HostName from URL"&gt;0e435e10db7b5f00786ff1351d961954&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;8&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{"u_url":"${data.get(7).tower_url}"}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Tower IP&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;253c6a0fdbb93b809b7ed8b6f4961906&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;327&lt;/x&gt;
+        &lt;y&gt;309&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=253c6a0fdbb93b809b7ed8b6f4961906"/&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Tower IP"&gt;253c6a0fdbb93b809b7ed8b6f4961906&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3c6a0fdbb93b809b7ed8b6f4961906&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;10&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Update Work Notes&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;293cee0fdbb93b809b7ed8b6f4961990&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;573&lt;/x&gt;
+        &lt;y&gt;221&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=293cee0fdbb93b809b7ed8b6f4961990"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;293cee0fdbb93b809b7ed8b6f4961990&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a93cee0fdbb93b809b7ed8b6f4961990&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;work_notes=MySQL Stopped^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;293cee0fdbb93b809b7ed8b6f4961990&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a93cee0fdbb93b809b7ed8b6f4961990&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;work_notes=MySQL Stopped^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Update Work Notes"&gt;293cee0fdbb93b809b7ed8b6f4961990&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3cee0fdbb93b809b7ed8b6f4961990&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;13&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Update Work Notes&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3cee0fdbb93b809b7ed8b6f4961996&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;822&lt;/x&gt;
+        &lt;y&gt;152&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=2d3cee0fdbb93b809b7ed8b6f4961996"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;2d3cee0fdbb93b809b7ed8b6f4961996&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3cee0fdbb93b809b7ed8b6f4961996&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;work_notes=MySQL Started^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;2d3cee0fdbb93b809b7ed8b6f4961996&lt;/document_key&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3cee0fdbb93b809b7ed8b6f4961996&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;work_notes=MySQL Started^EQ&lt;/value&gt;
+        &lt;variable display_value=""&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Update Work Notes"&gt;2d3cee0fdbb93b809b7ed8b6f4961996&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a13cee0fdbb93b809b7ed8b6f4961997&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_activity action="INSERT_OR_UPDATE"&gt;
+        &lt;activity_definition display_value="Timer"&gt;3961a1da0a0a0b5c00ecd84822f70d85&lt;/activity_definition&gt;
+        &lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;
+        &lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;
+        &lt;height/&gt;
+        &lt;input&gt;{}&lt;/input&gt;
+        &lt;is_parent&gt;false&lt;/is_parent&gt;
+        &lt;name&gt;Wait a tic&lt;/name&gt;
+        &lt;new_activity_definition/&gt;
+        &lt;notes/&gt;
+        &lt;out_of_date&gt;false&lt;/out_of_date&gt;
+        &lt;parent/&gt;
+        &lt;pinned&gt;false&lt;/pinned&gt;
+        &lt;pinned_version/&gt;
+        &lt;stage/&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;
+        &lt;vars/&gt;
+        &lt;width/&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+        &lt;x&gt;74&lt;/x&gt;
+        &lt;y&gt;125&lt;/y&gt;
+    &lt;/wf_activity&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=653cee0fdbb93b809b7ed8b6f4961993"/&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;213cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cbfe48a0a0a0b5200cf8b82cc6685f1&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;293cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc6788c0a0a0b5200e6743c94001b16&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21fd462c0a0a0b211c997276d7806c03&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;613cee0fdbb93b809b7ed8b6f4961996&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc740fe0a0a0b520025dcf8e2ff78e7&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;653cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;08fcd0830a0a0b2600079f56b1adb9ae&lt;/value&gt;
+        &lt;variable display_value=""&gt;4cc4a4030a0a0b52007334f001376dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;693cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;
+        &lt;variable display_value=""&gt;220cd53d0a0a0b214103bdc2ec5c7ab4&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6d3cee0fdbb93b809b7ed8b6f4961993&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc836da0a0a0b520083ebc07da2f47c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a13cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292b2f0e0a0a0b215aa2dd2cbc578dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a53cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;1970-01-01 00:00:01&lt;/value&gt;
+        &lt;variable display_value=""&gt;c35dc0df0a0a0ba96248a7098d737925&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;500&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a93cee0fdbb93b809b7ed8b6f4961993&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;220dc5a40a0a0b2109fbd28b8c4b6213&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21f80cd00a0a0b2101fcd5b5defc0810&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;3000&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e13cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;
+        &lt;variable display_value=""&gt;293493710a0a0b2115e3e5b4fce1d12a&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e53cee0fdbb93b809b7ed8b6f4961993&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cba34da0a0a0b5200798c86eafe1203&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e93cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292c91070a0a0b212543d91ffde5014c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ed3cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292bd15e0a0a0b215a040c701033e3c5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21f80cd00a0a0b2101fcd5b5defc0810&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e53cee0fdbb93b809b7ed8b6f4961993&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cba34da0a0a0b5200798c86eafe1203&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;213cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cbfe48a0a0a0b5200cf8b82cc6685f1&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;500&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a93cee0fdbb93b809b7ed8b6f4961993&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;220dc5a40a0a0b2109fbd28b8c4b6213&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;693cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;
+        &lt;variable display_value=""&gt;220cd53d0a0a0b214103bdc2ec5c7ab4&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;21fd462c0a0a0b211c997276d7806c03&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1310&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a53cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;1970-01-01 00:00:01&lt;/value&gt;
+        &lt;variable display_value=""&gt;c35dc0df0a0a0ba96248a7098d737925&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;653cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;08fcd0830a0a0b2600079f56b1adb9ae&lt;/value&gt;
+        &lt;variable display_value=""&gt;4cc4a4030a0a0b52007334f001376dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1320&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;293cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc6788c0a0a0b5200e6743c94001b16&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;613cee0fdbb93b809b7ed8b6f4961996&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc740fe0a0a0b520025dcf8e2ff78e7&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1350&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;6d3cee0fdbb93b809b7ed8b6f4961993&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;4cc836da0a0a0b520083ebc07da2f47c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e93cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292c91070a0a0b212543d91ffde5014c&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a13cee0fdbb93b809b7ed8b6f4961995&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292b2f0e0a0a0b215aa2dd2cbc578dc5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;1360&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ed3cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value/&gt;
+        &lt;variable display_value=""&gt;292bd15e0a0a0b215a040c701033e3c5&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;
+        &lt;document&gt;wf_activity&lt;/document&gt;
+        &lt;document_key&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/document_key&gt;
+        &lt;order&gt;3000&lt;/order&gt;
+        &lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e13cee0fdbb93b809b7ed8b6f4961994&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;
+        &lt;variable display_value=""&gt;293493710a0a0b2115e3e5b4fce1d12a&lt;/variable&gt;
+    &lt;/sys_variable_value&gt;
+    &lt;wf_condition action="INSERT_OR_UPDATE"&gt;
+        &lt;activity display_value="Wait a tic"&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/activity&gt;
+        &lt;condition&gt;true&lt;/condition&gt;
+        &lt;condition_default/&gt;
+        &lt;condition_type&gt;standard&lt;/condition_type&gt;
+        &lt;else_flag&gt;false&lt;/else_flag&gt;
+        &lt;error&gt;false&lt;/error&gt;
+        &lt;event&gt;false&lt;/event&gt;
+        &lt;event_name/&gt;
+        &lt;is_positive&gt;true&lt;/is_positive&gt;
+        &lt;name&gt;Always&lt;/name&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;short_description/&gt;
+        &lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;653cee0fdbb93b809b7ed8b6f4961996&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+    &lt;/wf_condition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;a93c6a0fdbb93b809b7ed8b6f4961908&lt;/condition&gt;
+        &lt;from display_value="Mark Remediation Complete"&gt;2d3c6a0fdbb93b809b7ed8b6f4961907&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;213cee0fdbb93b809b7ed8b6f4961999&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="End"&gt;2d3cee0fdbb93b809b7ed8b6f496198f&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;ad3cee0fdbb93b809b7ed8b6f4961990&lt;/condition&gt;
+        &lt;from display_value="Update Work Notes"&gt;293cee0fdbb93b809b7ed8b6f4961990&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;293cee0fdbb93b809b7ed8b6f496199a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Start MySQL"&gt;a13c6a0fdbb93b809b7ed8b6f496190a&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;ad3c6a0fdbb93b809b7ed8b6f4961906&lt;/condition&gt;
+        &lt;from display_value="Tower IP"&gt;253c6a0fdbb93b809b7ed8b6f4961906&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3cee0fdbb93b809b7ed8b6f4961999&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Stop Mysql"&gt;253cee0fdbb93b809b7ed8b6f4961992&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;653cee0fdbb93b809b7ed8b6f4961996&lt;/condition&gt;
+        &lt;from display_value="Wait a tic"&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;613cee0fdbb93b809b7ed8b6f496199b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Mark Remediation Work in Progress"&gt;6d3cee0fdbb93b809b7ed8b6f496198d&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;e13cee0fdbb93b809b7ed8b6f496198e&lt;/condition&gt;
+        &lt;from display_value="Mark Remediation Work in Progress"&gt;6d3cee0fdbb93b809b7ed8b6f496198d&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;653cee0fdbb93b809b7ed8b6f496199a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Get Server Hostname From Application CI"&gt;2d3cee0fdbb93b809b7ed8b6f496198e&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;a53cee0fdbb93b809b7ed8b6f496198d&lt;/condition&gt;
+        &lt;from display_value="Start MySQL"&gt;a13c6a0fdbb93b809b7ed8b6f496190a&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;693cee0fdbb93b809b7ed8b6f4961999&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Update Work Notes"&gt;2d3cee0fdbb93b809b7ed8b6f4961996&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;213cee0fdbb93b809b7ed8b6f4961998&lt;/condition&gt;
+        &lt;from display_value="Get URL for &amp;quot;Tower1&amp;quot;"&gt;293cee0fdbb93b809b7ed8b6f4961997&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a13cee0fdbb93b809b7ed8b6f496199a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Tower IP"&gt;253c6a0fdbb93b809b7ed8b6f4961906&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;a13cee0fdbb93b809b7ed8b6f4961997&lt;/condition&gt;
+        &lt;from display_value="Update Work Notes"&gt;2d3cee0fdbb93b809b7ed8b6f4961996&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;a53cee0fdbb93b809b7ed8b6f4961999&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Mark Remediation Complete"&gt;2d3c6a0fdbb93b809b7ed8b6f4961907&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;a53cee0fdbb93b809b7ed8b6f496198f&lt;/condition&gt;
+        &lt;from display_value="Get Server Hostname From Application CI"&gt;2d3cee0fdbb93b809b7ed8b6f496198e&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ad3cee0fdbb93b809b7ed8b6f496199a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Get DB IP"&gt;613c6a0fdbb93b809b7ed8b6f4961909&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;e93cee0fdbb93b809b7ed8b6f4961991&lt;/condition&gt;
+        &lt;from display_value="Begin"&gt;253cee0fdbb93b809b7ed8b6f4961991&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e13cee0fdbb93b809b7ed8b6f4961999&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Wait a tic"&gt;653cee0fdbb93b809b7ed8b6f4961993&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;ad3cee0fdbb93b809b7ed8b6f4961992&lt;/condition&gt;
+        &lt;from display_value="Stop Mysql"&gt;253cee0fdbb93b809b7ed8b6f4961992&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e93cee0fdbb93b809b7ed8b6f496199a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Update Work Notes"&gt;293cee0fdbb93b809b7ed8b6f4961990&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_transition action="INSERT_OR_UPDATE"&gt;
+        &lt;condition display_value="Always"&gt;693c6a0fdbb93b809b7ed8b6f4961909&lt;/condition&gt;
+        &lt;from display_value="Get DB IP"&gt;613c6a0fdbb93b809b7ed8b6f4961909&lt;/from&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ed3cee0fdbb93b809b7ed8b6f4961999&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;to display_value="Get URL for &amp;quot;Tower1&amp;quot;"&gt;293cee0fdbb93b809b7ed8b6f4961997&lt;/to&gt;
+    &lt;/wf_transition&gt;
+    &lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;
+        &lt;estimated_run_time/&gt;
+        &lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;
+        &lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;
+        &lt;sys_created_by&gt;john.depot&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-07 10:51:22&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;2d3c6a0fdbb93b809b7ed8b6f4961904&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;john.depot&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-07 10:51:22&lt;/sys_updated_on&gt;
+        &lt;workflow_version display_value="ITOM - ZRetired - Rem - Restart MySQL"&gt;693c6a0fdbb93b809b7ed8b6f4961904&lt;/workflow_version&gt;
+    &lt;/wf_estimated_runtime_config&gt;
+    &lt;wf_workflow_version action="update_multiple" query="workflow=1c65c718dbfb5f00786ff1351d9619cb^sys_id!=693c6a0fdbb93b809b7ed8b6f4961904"&gt;
+        &lt;published&gt;false&lt;/published&gt;
+    &lt;/wf_workflow_version&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-263174901</payload_hash>
+        <record_name>ITOM - ZRetired - Rem - Restart MySQL</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-10 18:38:34</sys_created_on>
+        <sys_id>f3262135dbfbb70015e3dd18f49619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d1c7861960000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-10 18:38:34</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>7f262135a7fbb700482324ef209e05a7</update_guid>
+        <update_guid_history>7f262135a7fbb700482324ef209e05a7:-263174901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITOM - ZRetired - Rem - Restart MySQL">df789440db988450a9ed3967f49619f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-29 23:01:09</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>585daf8efa1c493ab1e25122dba77fc1</sys_id>
+        <sys_metadata>1c65c718dbfb5f00786ff1351d9619cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITOM - ZRetired - Rem - Restart MySQL</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>wf_workflow_1c65c718dbfb5f00786ff1351d9619cb</sys_update_name>
+        <sys_update_version display_value="wf_workflow_1c65c718dbfb5f00786ff1351d9619cb">f3262135dbfbb70015e3dd18f49619cd</sys_update_version>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-29 23:01:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

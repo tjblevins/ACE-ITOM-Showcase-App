@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>057aada2dbbe130059595f135e961902</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="core_company">
+    <core_company action="INSERT_OR_UPDATE">
+        <apple_icon/>
+        <banner_image/>
+        <banner_image_light/>
+        <banner_text/>
+        <city/>
+        <contact/>
+        <country>USA</country>
+        <customer>true</customer>
+        <discount/>
+        <fax_phone/>
+        <fiscal_year/>
+        <lat_long_error/>
+        <latitude/>
+        <longitude/>
+        <manufacturer>false</manufacturer>
+        <market_cap>0</market_cap>
+        <name>Site Depot</name>
+        <notes/>
+        <num_employees/>
+        <parent/>
+        <phone/>
+        <primary>false</primary>
+        <profits>0</profits>
+        <publicly_traded>false</publicly_traded>
+        <rank_tier/>
+        <revenue_per_year>0</revenue_per_year>
+        <state/>
+        <stock_price/>
+        <stock_symbol/>
+        <street/>
+        <sys_class_name>core_company</sys_class_name>
+        <sys_created_by>tom.blevins@snc</sys_created_by>
+        <sys_created_on>2018-06-22 17:28:01</sys_created_on>
+        <sys_id>057aada2dbbe130059595f135e961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins@snc</sys_updated_by>
+        <sys_updated_on>2018-06-22 17:28:01</sys_updated_on>
+        <theme/>
+        <vendor>false</vendor>
+        <vendor_manager/>
+        <vendor_type/>
+        <website/>
+        <zip/>
+    </core_company>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-09-24 15:04:22</sys_created_on>
+        <sys_id>ae6b7c1edbccc41015e3dd18f49619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Site Depot</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_metadata_link_ae6b7c1edbccc41015e3dd18f49619cc</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-09-24 15:04:22</sys_updated_on>
+        <tablename>core_company</tablename>
+    </sys_metadata_link>
+</record_update>

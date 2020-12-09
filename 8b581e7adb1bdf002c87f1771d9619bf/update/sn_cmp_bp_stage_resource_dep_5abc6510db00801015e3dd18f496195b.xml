@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_dep">
+    <sn_cmp_bp_stage_resource_dep action="INSERT_OR_UPDATE">
+        <bp_stage_model display_value="">0ebc6510db00801015e3dd18f496192f</bp_stage_model>
+        <deployment_type>1</deployment_type>
+        <endpoint/>
+        <guest_association_name>Blueprint Container Resource</guest_association_name>
+        <guest_resource display_value="AWS VPC with Subnets Blueprint Resource">5faca110db00801015e3dd18f49619bb</guest_resource>
+        <host_association_name>AWS VPC with Subnets</host_association_name>
+        <host_resource display_value="AWS VPC with Subnets">c0ac2110db00801015e3dd18f4961949</host_resource>
+        <sys_class_name>sn_cmp_bp_stage_resource_dep</sys_class_name>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-18 13:31:57</sys_created_on>
+        <sys_id>5abc6510db00801015e3dd18f496195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_dep_5abc6510db00801015e3dd18f496195b</sys_update_name>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-18 13:31:57</sys_updated_on>
+    </sn_cmp_bp_stage_resource_dep>
+</record_update>

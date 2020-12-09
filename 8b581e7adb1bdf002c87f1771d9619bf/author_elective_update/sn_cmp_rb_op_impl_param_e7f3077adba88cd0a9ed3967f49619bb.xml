@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="DELETE">
+        <applicable_to/>
+        <datasource>1</datasource>
+        <datasourcevalue/>
+        <defaultvalue>${parameter.CloudAccount}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>false</ismandatory>
+        <name>CloudAccount</name>
+        <op_param/>
+        <operation display_value="Stop">a3f3077adba88cd0a9ed3967f49619b9</operation>
+        <order>10</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step/>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-21 10:49:27</sys_created_on>
+        <sys_id>e7f3077adba88cd0a9ed3967f49619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_e7f3077adba88cd0a9ed3967f49619bb</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-21 10:49:27</sys_updated_on>
+        <ui_data_type/>
+        <value/>
+        <visibilty>false</visibilty>
+    </sn_cmp_rb_op_impl_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sn_cmp_rb_op_impl_param_e7f3077adba88cd0a9ed3967f49619bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param"><sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE"><applicable_to/><datasource>1</datasource><datasourcevalue/><defaultvalue>${parameter.CloudAccount}</defaultvalue><error_text/><help_text/><host/><ismandatory>false</ismandatory><name>CloudAccount</name><op_param/><operation display_value="Stop">a3f3077adba88cd0a9ed3967f49619b9</operation><order>10</order><read_only>false</read_only><regex/><step/><sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2019-10-21 10:49:27</sys_created_on><sys_id>e7f3077adba88cd0a9ed3967f49619bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CloudAccount</sys_name><sys_package display_value="ACE ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package><sys_policy/><sys_scope display_value="ACE ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope><sys_update_name>sn_cmp_rb_op_impl_param_e7f3077adba88cd0a9ed3967f49619bb</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2019-10-21 10:49:27</sys_updated_on><ui_data_type/><value/><visibilty>false</visibilty></sn_cmp_rb_op_impl_param></record_update>]]></payload>
+        <payload_hash>180592617</payload_hash>
+        <record_name>CloudAccount</record_name>
+        <reverted_from/>
+        <source>8766a179dbf33700261616370596198c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-21 10:49:27</sys_created_on>
+        <sys_id>6ff3077adba88cd0a9ed3967f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dedefa0880000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-21 10:49:27</sys_updated_on>
+        <type>Operation Parameter</type>
+        <update_guid>67f3077a89a88cd0ee623bca933c46bd</update_guid>
+        <update_guid_history>67f3077a89a88cd0ee623bca933c46bd:180592617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CloudAccount">0804477adba88cd0a9ed3967f4961931</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-21 10:49:29</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_param">sn_cmp_rb_op_impl_param</sys_db_object>
+        <sys_id>2b4fc51ebd364be1a288afc953951b51</sys_id>
+        <sys_metadata>e7f3077adba88cd0a9ed3967f49619bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_param_e7f3077adba88cd0a9ed3967f49619bb</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_param_e7f3077adba88cd0a9ed3967f49619bb">6ff3077adba88cd0a9ed3967f49619bd</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-21 10:49:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

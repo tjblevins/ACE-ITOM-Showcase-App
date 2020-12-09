@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>now__resolve_incident</internal_name>
+        <label_cache>[{"name":"{{action.incident_number}}","label":"action➛Incident Number","type":"action","ref":""},{"name":"{{action.resolution_notes}}","label":"action➛Resolution Notes","type":"action","ref":""},{"name":"{{step[556a882a-7867-48d4-8057-127742e7a39b].record}}","label":"step➛Look Up Record step➛Incident Record","type":"step","ref":"incident"}]</label_cache>
+        <latest_snapshot>22afed61dbf8c81015e3dd18f49619fa</latest_snapshot>
+        <master_snapshot>26af21a1dbf8c81015e3dd18f496193a</master_snapshot>
+        <name>NOW - Resolve Incident</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:41:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>abfee521dbf8c81015e3dd18f496197f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>NOW - Resolve Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_abfee521dbf8c81015e3dd18f496197f</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=abfee521dbf8c81015e3dd18f496197f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=abfee521dbf8c81015e3dd18f496197f"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=abfee521dbf8c81015e3dd18f496197f^sys_idNOT IN75afed61dbf8c81015e3dd18f4961999,b1afed61dbf8c81015e3dd18f4961991"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</action>
+        <cid>0871df88-1afd-4e78-b3c3-b792040f3655</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>75afed61dbf8c81015e3dd18f4961999</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=75afed61dbf8c81015e3dd18f4961999"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>75afed61dbf8c81015e3dd18f4961999</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>f9afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=75afed61dbf8c81015e3dd18f4961999"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>75afed61dbf8c81015e3dd18f4961999</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>79afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[556a882a-7867-48d4-8057-127742e7a39b].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>75afed61dbf8c81015e3dd18f4961999</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>f1afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>75afed61dbf8c81015e3dd18f4961999</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>b5afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>close_notes={{action.resolution_notes}}^close_code=Solved (Permanently)^state=6</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</action>
+        <cid>556a882a-7867-48d4-8057-127742e7a39b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>b1afed61dbf8c81015e3dd18f4961991</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b1afed61dbf8c81015e3dd18f4961991"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1afed61dbf8c81015e3dd18f4961991</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>3dafed61dbf8c81015e3dd18f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b1afed61dbf8c81015e3dd18f4961991"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b1afed61dbf8c81015e3dd18f4961991</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>b9afed61dbf8c81015e3dd18f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>number={{action.incident_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>b1afed61dbf8c81015e3dd18f4961991</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>f1afed61dbf8c81015e3dd18f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=abfee521dbf8c81015e3dd18f496197f^sys_idNOT IN75afed61dbf8c81015e3dd18f4961971,a1afe161dbf8c81015e3dd18f496199c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>resolution_notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Resolution Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</model>
+        <model_id>abfee521dbf8c81015e3dd18f496197f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_abfee521dbf8c81015e3dd18f496197f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>75afed61dbf8c81015e3dd18f4961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>incident_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Incident Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</model>
+        <model_id>abfee521dbf8c81015e3dd18f496197f</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_abfee521dbf8c81015e3dd18f496197f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>a1afe161dbf8c81015e3dd18f496199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=abfee521dbf8c81015e3dd18f496197f^sys_idNOT IN75afed61dbf8c81015e3dd18f4961999,b1afed61dbf8c81015e3dd18f4961991"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</action>
+        <cid>0871df88-1afd-4e78-b3c3-b792040f3655</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>75afed61dbf8c81015e3dd18f4961999</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=75afed61dbf8c81015e3dd18f4961999"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>75afed61dbf8c81015e3dd18f4961999</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>f9afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=75afed61dbf8c81015e3dd18f4961999"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>75afed61dbf8c81015e3dd18f4961999</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>79afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[556a882a-7867-48d4-8057-127742e7a39b].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>75afed61dbf8c81015e3dd18f4961999</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>f1afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>75afed61dbf8c81015e3dd18f4961999</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>b5afed61dbf8c81015e3dd18f496199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>close_notes={{action.resolution_notes}}^close_code=Solved (Permanently)^state=6</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</action>
+        <cid>556a882a-7867-48d4-8057-127742e7a39b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>b1afed61dbf8c81015e3dd18f4961991</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b1afed61dbf8c81015e3dd18f4961991"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1afed61dbf8c81015e3dd18f4961991</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>3dafed61dbf8c81015e3dd18f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b1afed61dbf8c81015e3dd18f4961991"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b1afed61dbf8c81015e3dd18f4961991</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>b9afed61dbf8c81015e3dd18f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>number={{action.incident_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>b1afed61dbf8c81015e3dd18f4961991</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>f1afed61dbf8c81015e3dd18f4961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_abfee521dbf8c81015e3dd18f496197f^sys_idNOT IN71afed61dbf8c81015e3dd18f4961976,b5afed61dbf8c81015e3dd18f4961970"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>resolution_notes</element>
+        <help/>
+        <hint/>
+        <label>Resolution Notes</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_abfee521dbf8c81015e3dd18f496197f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>71afed61dbf8c81015e3dd18f4961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolution Notes</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_abfee521dbf8c81015e3dd18f496197f_resolution_notes_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>incident_number</element>
+        <help/>
+        <hint/>
+        <label>Incident Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_abfee521dbf8c81015e3dd18f496197f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:15</sys_created_on>
+        <sys_id>b5afed61dbf8c81015e3dd18f4961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Number</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_abfee521dbf8c81015e3dd18f496197f_incident_number_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=abfee521dbf8c81015e3dd18f496197f^sys_idNOT IN43af21a1dbf8c81015e3dd18f49619b2"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"43af21a1dbf8c81015e3dd18f49619b2","name":"plan"}}</plan>
+        <snapshot>22afed61dbf8c81015e3dd18f49619fa</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>43af21a1dbf8c81015e3dd18f49619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:20</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceNow">ab1f46bddbc0a740e243b6d1ba961956</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>now__resolve_incident</internal_name>
+        <label_cache>[{"name":"{{action.incident_number}}","label":"action➛Incident Number","type":"action","ref":""},{"name":"{{action.resolution_notes}}","label":"action➛Resolution Notes","type":"action","ref":""},{"name":"{{step[556a882a-7867-48d4-8057-127742e7a39b].record}}","label":"step➛Look Up Record step➛Incident Record","type":"step","ref":"incident"}]</label_cache>
+        <master>true</master>
+        <name>NOW - Resolve Incident</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="NOW - Resolve Incident">abfee521dbf8c81015e3dd18f496197f</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>26af21a1dbf8c81015e3dd18f496193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=26af21a1dbf8c81015e3dd18f496193a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=26af21a1dbf8c81015e3dd18f496193a"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=26af21a1dbf8c81015e3dd18f496193a^sys_idNOT IN26af21a1dbf8c81015e3dd18f496194e,e6af21a1dbf8c81015e3dd18f4961948"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">26af21a1dbf8c81015e3dd18f496193a</action>
+        <cid>0871df88-1afd-4e78-b3c3-b792040f3655</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>26af21a1dbf8c81015e3dd18f496194e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=26af21a1dbf8c81015e3dd18f496194e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>26af21a1dbf8c81015e3dd18f496194e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>6aaf21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=26af21a1dbf8c81015e3dd18f496194e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>26af21a1dbf8c81015e3dd18f496194e</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>e6af21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[556a882a-7867-48d4-8057-127742e7a39b].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>26af21a1dbf8c81015e3dd18f496194e</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>62af21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>26af21a1dbf8c81015e3dd18f496194e</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>26af21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>close_notes={{action.resolution_notes}}^close_code=Solved (Permanently)^state=6</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">26af21a1dbf8c81015e3dd18f496193a</action>
+        <cid>556a882a-7867-48d4-8057-127742e7a39b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>e6af21a1dbf8c81015e3dd18f4961948</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e6af21a1dbf8c81015e3dd18f4961948"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6af21a1dbf8c81015e3dd18f4961948</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>e2af21a1dbf8c81015e3dd18f496194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e6af21a1dbf8c81015e3dd18f4961948"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e6af21a1dbf8c81015e3dd18f4961948</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>62af21a1dbf8c81015e3dd18f496194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>number={{action.incident_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>e6af21a1dbf8c81015e3dd18f4961948</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>aeaf21a1dbf8c81015e3dd18f496194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=26af21a1dbf8c81015e3dd18f496193a^sys_idNOT IN26af21a1dbf8c81015e3dd18f496193b,6aaf21a1dbf8c81015e3dd18f4961941"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>incident_number</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Incident Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Resolve Incident">26af21a1dbf8c81015e3dd18f496193a</model>
+        <model_id>26af21a1dbf8c81015e3dd18f496193a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_26af21a1dbf8c81015e3dd18f496193a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:18</sys_created_on>
+        <sys_id>26af21a1dbf8c81015e3dd18f496193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>resolution_notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Resolution Notes</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="NOW - Resolve Incident">26af21a1dbf8c81015e3dd18f496193a</model>
+        <model_id>26af21a1dbf8c81015e3dd18f496193a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_26af21a1dbf8c81015e3dd18f496193a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>6aaf21a1dbf8c81015e3dd18f4961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=26af21a1dbf8c81015e3dd18f496193a^sys_idNOT IN26af21a1dbf8c81015e3dd18f496194e,e6af21a1dbf8c81015e3dd18f4961948"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">26af21a1dbf8c81015e3dd18f496193a</action>
+        <cid>0871df88-1afd-4e78-b3c3-b792040f3655</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>26af21a1dbf8c81015e3dd18f496194e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=26af21a1dbf8c81015e3dd18f496194e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>26af21a1dbf8c81015e3dd18f496194e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>6aaf21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=26af21a1dbf8c81015e3dd18f496194e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>26af21a1dbf8c81015e3dd18f496194e</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>e6af21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[556a882a-7867-48d4-8057-127742e7a39b].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>26af21a1dbf8c81015e3dd18f496194e</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>62af21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>26af21a1dbf8c81015e3dd18f496194e</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>26af21a1dbf8c81015e3dd18f4961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>close_notes={{action.resolution_notes}}^close_code=Solved (Permanently)^state=6</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="NOW - Resolve Incident">26af21a1dbf8c81015e3dd18f496193a</action>
+        <cid>556a882a-7867-48d4-8057-127742e7a39b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>e6af21a1dbf8c81015e3dd18f4961948</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e6af21a1dbf8c81015e3dd18f4961948"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e6af21a1dbf8c81015e3dd18f4961948</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>e2af21a1dbf8c81015e3dd18f496194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e6af21a1dbf8c81015e3dd18f4961948"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e6af21a1dbf8c81015e3dd18f4961948</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>62af21a1dbf8c81015e3dd18f496194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>number={{action.incident_number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>e6af21a1dbf8c81015e3dd18f4961948</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>aeaf21a1dbf8c81015e3dd18f496194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_26af21a1dbf8c81015e3dd18f496193a^sys_idNOT IN66af21a1dbf8c81015e3dd18f4961946,aaaf21a1dbf8c81015e3dd18f4961940"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>resolution_notes</element>
+        <help/>
+        <hint/>
+        <label>Resolution Notes</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_26af21a1dbf8c81015e3dd18f496193a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>66af21a1dbf8c81015e3dd18f4961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolution Notes</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_26af21a1dbf8c81015e3dd18f496193a_resolution_notes_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>incident_number</element>
+        <help/>
+        <hint/>
+        <label>Incident Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_26af21a1dbf8c81015e3dd18f496193a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-10-29 17:44:19</sys_created_on>
+        <sys_id>aaaf21a1dbf8c81015e3dd18f4961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Number</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_26af21a1dbf8c81015e3dd18f496193a_incident_number_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-10-29 17:44:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

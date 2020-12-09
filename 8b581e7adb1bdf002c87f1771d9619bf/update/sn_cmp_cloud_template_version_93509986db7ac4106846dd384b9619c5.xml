@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_cloud_template_version">
+    <sn_cmp_cloud_template_version action="INSERT_OR_UPDATE">
+        <attachment>0b701d86db7ac4106846dd384b96190c</attachment>
+        <body>{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "customVmName": {
+      "type": "string",
+      "metadata": {
+        "description": "This is the name of the your VM"
+      }
+    },
+    "bootDiagnosticsStorageAccountName": {
+      "type": "string",
+      "metadata": {
+        "description": "This is the name of the your storage account"
+      }
+    },
+    "bootDiagnosticsStorageAccountResourceGroupName": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource group of the existing storage account"
+      }
+    },
+    "osDiskVhdUri": {
+      "type": "string",
+      "metadata": {
+        "description": "Uri of the your user image"
+      }
+    },
+    "dnsLabelPrefix": {
+      "type": "string",
+      "metadata": {
+        "description": "DNS Label for the Public IP. Must be lowercase. It should match with the following regular expression: ^[a-z][a-z0-9-]{1,61}[a-z0-9]$ or it will raise an error."
+      }
+    },
+    "adminUsername": {
+      "type": "string",
+      "metadata": {
+        "description": "User Name for the Virtual Machine"
+      }
+    },
+    "adminPassword": {
+      "type": "securestring",
+      "metadata": {
+        "description": "Password for the Virtual Machine"
+      }
+    },
+    "osType": {
+      "type": "string",
+      "allowedValues": [
+        "Windows",
+        "Linux"
+      ],
+      "metadata": {
+        "description": "This is the OS that your VM will be running"
+      }
+    },
+    "vmSize": {
+      "type": "string",
+      "metadata": {
+        "description": "This is the size of your VM"
+      }
+    },
+    "newOrExistingVnet": {
+      "allowedValues": [
+        "new",
+        "existing"
+      ],
+      "type": "string",
+      "metadata": {
+        "description": "Select if this template needs a new VNet or will reference an existing VNet"
+      }
+    },
+    "newOrExistingVnetName": {
+      "type": "string",
+      "defaultValue": "",
+      "metadata": {
+        "description": "New or Existing VNet Name"
+      }
+    },
+    "newOrExistingSubnetName": {
+      "type": "string",
+      "metadata": {
+        "description": "New or Existing subnet Name"
+      }
+    },
+    "existingVnetResourceGroupName": {
+      "type": "string",
+      "metadata": {
+        "description": "Resource group of the existing VNET"
+      }
+    },
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]",
+      "metadata": {
+        "description": "Location for all resources."
+      }
+    }
+  },
+  "variables": {
+    "imageName": "myCustomImage",
+    "publicIPAddressName": "[concat(parameters('customVmName'),'IP')]",
+    "vmName": "[parameters('customVmName')]",
+    "nicName": "[concat(parameters('customVmName'),'Nic')]",
+    "publicIPAddressType": "Dynamic",
+    "apiVersion": "2015-06-15",
+    "templatelink": "[concat('https://raw.githubusercontent.com/singhkay/azure-quickstart-templates/master/101-vm-from-user-image/',parameters('newOrExistingVnet'),'vnet.json')]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Compute/images",
+      "apiVersion": "2016-04-30-preview",
+      "name": "[variables('imageName')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "storageProfile": {
+          "osDisk": {
+            "osType": "[parameters('osType')]",
+            "osState": "Generalized",
+            "blobUri": "[parameters('osDiskVhdUri')]",
+            "storageAccountType": "Standard_LRS"
+          }
+        }
+      }
+    },
+    {
+      "apiVersion": "2015-01-01",
+      "name": "vnet-template",
+      "type": "Microsoft.Resources/deployments",
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[variables('templatelink')]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "virtualNetworkName": {
+            "value": "[parameters('newOrExistingVnetName')]"
+          },
+          "subnetName": {
+            "value": "[parameters('newOrExistingSubnetName')]"
+          },
+          "existingVnetResourceGroupName": {
+            "value": "[parameters('existingVnetResourceGroupName')]"
+          }
+        }
+      }
+    },
+    {
+      "apiVersion": "2015-06-15",
+      "type": "Microsoft.Network/publicIPAddresses",
+      "name": "[variables('publicIPAddressName')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
+        "dnsSettings": {
+          "domainNameLabel": "[parameters('dnsLabelPrefix')]"
+        }
+      }
+    },
+    {
+      "apiVersion": "2016-03-30",
+      "type": "Microsoft.Network/networkInterfaces",
+      "name": "[variables('nicName')]",
+      "location": "[parameters('location')]",
+      "dependsOn": [
+        "[concat('Microsoft.Network/publicIPAddresses/', variables('publicIPAddressName'))]",
+        "Microsoft.Resources/deployments/vnet-template"
+      ],
+      "properties": {
+        "ipConfigurations": [
+          {
+            "name": "ipconfig1",
+            "properties": {
+              "privateIPAllocationMethod": "Dynamic",
+              "publicIPAddress": {
+                "id": "[resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName'))]"
+              },
+              "subnet": {
+                "id": "[reference('vnet-template').outputs.subnet1Ref.value]"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "apiVersion": "2016-04-30-preview",
+      "type": "Microsoft.Compute/virtualMachines",
+      "name": "[variables('vmName')]",
+      "location": "[parameters('location')]",
+      "dependsOn": [
+        "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]",
+        "[variables('imageName')]"
+      ],
+      "properties": {
+        "hardwareProfile": {
+          "vmSize": "[parameters('vmSize')]"
+        },
+        "osProfile": {
+          "computerName": "[variables('vmName')]",
+          "adminUsername": "[parameters('adminUsername')]",
+          "adminPassword": "[parameters('adminPassword')]"
+        },
+        "storageProfile": {
+          "imageReference": {
+            "id": "[resourceId('Microsoft.Compute/images', variables('imageName'))]"
+          }
+        },
+        "networkProfile": {
+          "networkInterfaces": [
+            {
+              "id": "[resourceId('Microsoft.Network/networkInterfaces',variables('nicName'))]"
+            }
+          ]
+        },
+        "diagnosticsProfile": {
+          "bootDiagnostics": {
+            "enabled": true,
+            "storageUri": "[concat(reference(resourceId(parameters('bootDiagnosticsStorageAccountResourceGroupName'), 'Microsoft.Storage/storageAccounts/', parameters('bootDiagnosticsStorageAccountName')), variables('apiVersion')).primaryEndpoints.blob)]"
+          }
+        }
+      }
+    }
+  ]
+}
+</body>
+        <cloud_template_url/>
+        <config_installable/>
+        <config_installable_name/>
+        <format display_value="JSON">f1bd5cb0875f13008de7483cf6cb0bca</format>
+        <ingestion_method>upload</ingestion_method>
+        <short_description>101-vm-from-user-image.json</short_description>
+        <state>published</state>
+        <status>success</status>
+        <status_message>Template is valid and saved.</status_message>
+        <sys_class_name>sn_cmp_cloud_template_version</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:50:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>93509986db7ac4106846dd384b9619c5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_cloud_template_version_93509986db7ac4106846dd384b9619c5</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:51:44</sys_updated_on>
+        <template display_value="Azure VM from User Image">7b201186db7ac4106846dd384b9619b3</template>
+        <version>1</version>
+    </sn_cmp_cloud_template_version>
+</record_update>

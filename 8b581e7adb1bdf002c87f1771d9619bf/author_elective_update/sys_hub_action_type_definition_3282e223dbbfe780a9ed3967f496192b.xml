@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Used to Add Time in Minute to a Date/Time Field</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>f5c0add3db3ba780a9ed3967f496196e</copied_from>
+        <copied_from_name>Time Add (Minutes)-EM</copied_from_name>
+        <description>Used to Add Time in Minute to a Date/Time Field</description>
+        <internal_name>time_add_(minutes)-em-itomshowcase</internal_name>
+        <label_cache>[{"name":"{{action.datetime}}","label":"action➛DateTime","type":"action","ref":""},{"name":"{{action.minutes}}","label":"action➛Minutes","type":"action","ref":""},{"name":"{{action.tzoffset}}","label":"action➛TZOffSet","type":"action","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].n}}","label":"step➛Add Time do Date➛n","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].ne}}","label":"step➛Add Time do Date➛ne","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].new}}","label":"step➛Add Time do Date➛new","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].newd}}","label":"step➛Add Time do Date➛newd","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].newdatetime}}","label":"step➛Add Time do Date➛newdatetime","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].}}","label":"step➛Add Time do Date➛","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].d}}","label":"step➛Add Time do Date➛d","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dt}}","label":"step➛Add Time do Date➛dt","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dts}}","label":"step➛Add Time do Date➛dts","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtst}}","label":"step➛Add Time do Date➛dtst","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstr}}","label":"step➛Add Time do Date➛dtstr","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstri}}","label":"step➛Add Time do Date➛dtstri","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstrin}}","label":"step➛Add Time do Date➛dtstrin","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstring}}","label":"step➛Add Time do Date➛dtstring","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Time Add (Minutes)-EM-ITOMShowcase</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:30</sys_created_on>
+        <sys_id>3282e223dbbfe780a9ed3967f496192b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Time Add (Minutes)-EM-ITOMShowcase</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3282e223dbbfe780a9ed3967f496192b</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=3282e223dbbfe780a9ed3967f496192b"/>
+    <sys_variable_value action="DELETE" query="document_key=3282e223dbbfe780a9ed3967f496192b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3282e223dbbfe780a9ed3967f496192b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:40</sys_created_on>
+        <sys_id>5d926623dbbfe780a9ed3967f4961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <value/>
+        <variable display_value="">19922623dbbfe780a9ed3967f49619e4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=3282e223dbbfe780a9ed3967f496192b"/>
+    <sys_element_mapping action="DELETE">
+        <field>newdatetime</field>
+        <id>3282e223dbbfe780a9ed3967f496192b</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:40</sys_created_on>
+        <sys_id>19926623dbbfe780a9ed3967f4961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3282e223dbbfe780a9ed3967f496192b</table>
+        <value>{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].newdatetime}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>newdatetimestring</field>
+        <id>3282e223dbbfe780a9ed3967f496192b</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:40</sys_created_on>
+        <sys_id>d9926623dbbfe780a9ed3967f4961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3282e223dbbfe780a9ed3967f496192b</table>
+        <value>{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstring}}</value>
+    </sys_element_mapping>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sys_hub_action_type_definition_3282e223dbbfe780a9ed3967f496192b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Used to Add Time in Minute to a Date/Time Field</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>f5c0add3db3ba780a9ed3967f496196e</copied_from>
+        <copied_from_name>Time Add (Minutes)-EM</copied_from_name>
+        <description>Used to Add Time in Minute to a Date/Time Field</description>
+        <internal_name>time_add_(minutes)-em-itomshowcase</internal_name>
+        <label_cache>[{"name":"{{action.datetime}}","label":"action➛DateTime","type":"action","ref":""},{"name":"{{action.minutes}}","label":"action➛Minutes","type":"action","ref":""},{"name":"{{action.tzoffset}}","label":"action➛TZOffSet","type":"action","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].n}}","label":"step➛Add Time do Date➛n","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].ne}}","label":"step➛Add Time do Date➛ne","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].new}}","label":"step➛Add Time do Date➛new","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].newd}}","label":"step➛Add Time do Date➛newd","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].newdatetime}}","label":"step➛Add Time do Date➛newdatetime","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].}}","label":"step➛Add Time do Date➛","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].d}}","label":"step➛Add Time do Date➛d","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dt}}","label":"step➛Add Time do Date➛dt","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dts}}","label":"step➛Add Time do Date➛dts","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtst}}","label":"step➛Add Time do Date➛dtst","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstr}}","label":"step➛Add Time do Date➛dtstr","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstri}}","label":"step➛Add Time do Date➛dtstri","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstrin}}","label":"step➛Add Time do Date➛dtstrin","type":"step","ref":""},{"name":"{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstring}}","label":"step➛Add Time do Date➛dtstring","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Time Add (Minutes)-EM-ITOMShowcase</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:30</sys_created_on>
+        <sys_id>3282e223dbbfe780a9ed3967f496192b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Time Add (Minutes)-EM-ITOMShowcase</sys_name>
+        <sys_package display_value="ITOM Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITOM Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3282e223dbbfe780a9ed3967f496192b</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3282e223dbbfe780a9ed3967f496192b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3282e223dbbfe780a9ed3967f496192b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3282e223dbbfe780a9ed3967f496192b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:40</sys_created_on>
+        <sys_id>5d926623dbbfe780a9ed3967f4961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <value/>
+        <variable display_value="">19922623dbbfe780a9ed3967f49619e4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3282e223dbbfe780a9ed3967f496192b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>newdatetime</field>
+        <id>3282e223dbbfe780a9ed3967f496192b</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:40</sys_created_on>
+        <sys_id>19926623dbbfe780a9ed3967f4961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3282e223dbbfe780a9ed3967f496192b</table>
+        <value>{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].newdatetime}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>newdatetimestring</field>
+        <id>3282e223dbbfe780a9ed3967f496192b</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-03-01 13:20:40</sys_created_on>
+        <sys_id>d9926623dbbfe780a9ed3967f4961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-03-01 13:20:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3282e223dbbfe780a9ed3967f496192b</table>
+        <value>{{step[dd8452ff-fd8d-4774-956a-0833ab938a9a].dtstring}}</value>
+    </sys_element_mapping>
+</record_update>]]></payload>
+        <payload_hash>-68316045</payload_hash>
+        <record_name>Time Add (Minutes)-EM-ITOMShowcase</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>tomb</sys_created_by>
+        <sys_created_on>2019-09-10 18:38:12</sys_created_on>
+        <sys_id>5a1669f1dbfbb70015e3dd18f49619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d1c780c6b0000001</sys_recorded_at>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-09-10 18:38:12</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>1a1669f187fbb700498e3e2923e07fe4</update_guid>
+        <update_guid_history>1a1669f187fbb700498e3e2923e07fe4:-68316045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-04 20:27:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>45d264383158468fac1e46c11c3f5a29</sys_id>
+        <sys_metadata>3282e223dbbfe780a9ed3967f496192b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Add (Minutes)-EM-ITOMShowcase</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_scope_delete display_value="">52d7885bb29c4480b807ff4d5fd16400</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_3282e223dbbfe780a9ed3967f496192b</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_3282e223dbbfe780a9ed3967f496192b">5a1669f1dbfbb70015e3dd18f49619e4</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-04 20:27:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

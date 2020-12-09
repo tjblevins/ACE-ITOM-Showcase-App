@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_dep">
+    <sn_cmp_bp_stage_resource_dep action="INSERT_OR_UPDATE">
+        <bp_stage_model display_value="">2f73b01adb2c88d0a9ed3967f49619b1</bp_stage_model>
+        <deployment_type>1</deployment_type>
+        <endpoint/>
+        <guest_association_name>AWS EC2 Instance</guest_association_name>
+        <guest_resource display_value="AWS EC2 Instance">b233b8d6db2c88d0a9ed3967f4961923</guest_resource>
+        <host_association_name>AWS Datacenter</host_association_name>
+        <host_resource display_value="AWS Datacenter">0279b35e0be622009e620bcb15673a2e</host_resource>
+        <sys_class_name>sn_cmp_bp_stage_resource_dep</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2019-10-19 11:01:11</sys_created_on>
+        <sys_id>4c83f01adb2c88d0a9ed3967f4961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_dep_4c83f01adb2c88d0a9ed3967f4961905</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-19 11:01:11</sys_updated_on>
+    </sn_cmp_bp_stage_resource_dep>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_action">
+    <sn_cmp_bp_action action="INSERT_OR_UPDATE">
+        <action_type>6</action_type>
+        <datasource/>
+        <name>TriggerChangeEvent ResourceGroup</name>
+        <order>10</order>
+        <rule display_value="TriggerChangeEvent ResourceGroup">3a5f45c2db7ac4106846dd384b96192f</rule>
+        <status>1</status>
+        <sys_class_name>sn_cmp_bp_action</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:45:41</sys_created_on>
+        <sys_id>f25f45c2db7ac4106846dd384b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TriggerChangeEvent ResourceGroup</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_action_f25f45c2db7ac4106846dd384b961931</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:45:41</sys_updated_on>
+        <target_attr display_value="ResourceGroup">d55fc1c2db7ac4106846dd384b961999</target_attr>
+        <target_attribute>ResourceGroup</target_attribute>
+        <target_attribute_select/>
+        <value/>
+    </sn_cmp_bp_action>
+</record_update>

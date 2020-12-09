@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_com_profile_mapping">
+    <sn_cmp_com_profile_mapping action="INSERT_OR_UPDATE">
+        <cloud_account display_value="ACECloud">ecf32316db7c005015e3dd18f496197d</cloud_account>
+        <location display_value="us-west-2">5304198edb337700261616370596199b</location>
+        <price/>
+        <profile display_value="Tiny Tim">39de899cdbc9ac504cf6e8cd13961904</profile>
+        <sys_class_name>sn_cmp_com_profile_mapping</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-12-08 20:47:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>22eec99cdbc9ac504cf6e8cd13961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_com_profile_mapping_22eec99cdbc9ac504cf6e8cd13961937</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-12-08 20:47:06</sys_updated_on>
+        <template display_value="c1.medium">0732b7aedbb7f7002616163705961927</template>
+    </sn_cmp_com_profile_mapping>
+</record_update>

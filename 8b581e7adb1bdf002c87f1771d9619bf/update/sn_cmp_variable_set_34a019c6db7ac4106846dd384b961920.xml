@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_variable_set">
+    <sn_cmp_variable_set action="INSERT_OR_UPDATE">
+        <bp_cat_item display_value="Azure VM from User Image">b4101186db7ac4106846dd384b961939</bp_cat_item>
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>provision</internal_name>
+        <layout>2down</layout>
+        <name>Provision</name>
+        <order>10</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>sn_cmp_variable_set</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-02-07 14:51:17</sys_created_on>
+        <sys_id>34a019c6db7ac4106846dd384b961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Provision</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_variable_set_34a019c6db7ac4106846dd384b961920</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-02-07 14:51:17</sys_updated_on>
+        <title>Provision</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </sn_cmp_variable_set>
+</record_update>

@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3a-10-13-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>catalog__service_restart</internal_name>
+        <label_cache>[{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record.u_purpose","label":"2➛Linux Server Record➛Purpose","reference":"","reference_display":"Purpose","type":"choice","base_type":"choice","parent_table_name":"cmdb_ci_linux_server","column_name":"u_purpose"},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Table","label":"2➛Linux Server Table","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record","label":"2➛Linux Server Record","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"179bc89f-6506-4a30-b5f8-4dc76710c1d2.service","label":"1➛service","reference":"","reference_display":"service","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"179bc89f-6506-4a30-b5f8-4dc76710c1d2.server","label":"1➛server","reference":"","reference_display":"server","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"1f3081e6-7b8f-4587-a74f-dc59dfbbf981.answer","label":"3➛Purpose Record","reference":"x_snc_itom_shocase_purpose","reference_display":"Purpose","type":"reference","base_type":"reference","attributes":{}},{"name":"1f3081e6-7b8f-4587-a74f-dc59dfbbf981.table_name","label":"3➛Purpose Table","reference":"x_snc_itom_shocase_purpose","reference_display":"Purpose","type":"table_name","base_type":"table_name","attributes":{}}]</label_cache>
+        <latest_snapshot>33cc80c5dbd02010425f8179139619d7</latest_snapshot>
+        <master_snapshot>4656cc05db9cac504cf6e8cd139619a1</master_snapshot>
+        <name>CATALOG - Service Restart</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>0b560445db9cac504cf6e8cd1396196e</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-11-03 16:32:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f9f4800ddb5cac504cf6e8cd13961933</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>CATALOG - Service Restart</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_flow_f9f4800ddb5cac504cf6e8cd13961933</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9f4800ddb5cac504cf6e8cd13961933"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f9f4800ddb5cac504cf6e8cd13961933"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0b560445db9cac504cf6e8cd1396196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:11</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT IN83460c05db9cac504cf6e8cd13961901,8346c805db9cac504cf6e8cd139619ec,aa4a48c1db902010425f817913961944,ae4a48c1db902010425f81791396191f,ee4a48c1db902010425f817913961927"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>83460c05db9cac504cf6e8cd13961901</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:06:24</sys_updated_on>
+        <ui_id>c887e7e5-eebd-4674-83fc-13b55f1f2cfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=83460c05db9cac504cf6e8cd13961901"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>83460c05db9cac504cf6e8cd13961901</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8f460c05db9cac504cf6e8cd13961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=83460c05db9cac504cf6e8cd13961901"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>83460c05db9cac504cf6e8cd13961901</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>4b460c05db9cac504cf6e8cd13961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{179bc89f-6506-4a30-b5f8-4dc76710c1d2.server}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>83460c05db9cac504cf6e8cd13961901</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>0f460c05db9cac504cf6e8cd13961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8346c805db9cac504cf6e8cd139619ec</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:06:24</sys_updated_on>
+        <ui_id>179bc89f-6506-4a30-b5f8-4dc76710c1d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8346c805db9cac504cf6e8cd139619ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8346c805db9cac504cf6e8cd139619ec</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8f46c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <value>df5140cddb1cac504cf6e8cd139619aa</value>
+        <variable display_value="">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8346c805db9cac504cf6e8cd139619ec</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>cb46c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <value>3e81c8cddb1cac504cf6e8cd139619d2:item_option_new,ecf10041db5cac504cf6e8cd13961925:item_option_new</value>
+        <variable display_value="">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8346c805db9cac504cf6e8cd139619ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>8346c805db9cac504cf6e8cd139619ec</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>c346c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>8346c805db9cac504cf6e8cd139619ec</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>4b46c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>8346c805db9cac504cf6e8cd139619ec</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8746c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e24a48c1db902010425f817913961944</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>aa4a48c1db902010425f817913961944</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <ui_id>3596da6a-4644-4cb3-a966-ad6be465efc1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aa4a48c1db902010425f817913961944"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>aa4a48c1db902010425f817913961944</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>a24a48c1db902010425f817913961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>85c80049db502010425f817913961954</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a24a48c1db902010425f81791396191f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Purpose">16e8cc49db502010425f81791396195a</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>ae4a48c1db902010425f81791396191f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ae4a48c1db902010425f81791396191f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ae4a48c1db902010425f81791396191f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>664a48c1db902010425f817913961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>16e8cc49db502010425f81791396195a</value>
+        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ae4a48c1db902010425f81791396191f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>6e4a48c1db902010425f817913961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>x_snc_itom_shocase_purpose</value>
+        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae4a48c1db902010425f81791396191f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>ae4a48c1db902010425f81791396191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>264a48c1db902010425f817913961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>ae4a48c1db902010425f81791396191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>ea4a48c1db902010425f817913961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_purpose</field>
+        <id>ae4a48c1db902010425f81791396191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>624a48c1db902010425f817913961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <table>var__m_sys_decision_input_16e8cc49db502010425f81791396195a</table>
+        <value>{{c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record.u_purpose}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2a4a48c1db902010425f817913961927</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>ee4a48c1db902010425f817913961927</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <ui_id>4b8e45fb-eace-498d-8f9e-0749bdb0d09f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ee4a48c1db902010425f817913961927"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ee4a48c1db902010425f817913961927</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>6e4a48c1db902010425f817913961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>c7c84049db502010425f8179139619bb</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT IN0f46c805db9cac504cf6e8cd139619e7"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>0f46c805db9cac504cf6e8cd139619e7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0f46c805db9cac504cf6e8cd139619e7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT IN3df4800ddb5cac504cf6e8cd13961936"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f9f4800ddb5cac504cf6e8cd13961933</id>
+        <name>CATALOG - Service Restart</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-11-03 16:32:04</sys_created_on>
+        <sys_id>3df4800ddb5cac504cf6e8cd13961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:32:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT IN7ca54401db9cac504cf6e8cd13961973,7ca54401db9cac504cf6e8cd13961996"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</model>
+        <model_id>f9f4800ddb5cac504cf6e8cd13961933</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f9f4800ddb5cac504cf6e8cd13961933</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-11-03 16:35:01</sys_created_on>
+        <sys_id>7ca54401db9cac504cf6e8cd13961973</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</model>
+        <model_id>f9f4800ddb5cac504cf6e8cd13961933</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f9f4800ddb5cac504cf6e8cd13961933</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-11-03 16:35:01</sys_created_on>
+        <sys_id>7ca54401db9cac504cf6e8cd13961996</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT IN83460c05db9cac504cf6e8cd13961901,8346c805db9cac504cf6e8cd139619ec"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>83460c05db9cac504cf6e8cd13961901</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:06:24</sys_updated_on>
+        <ui_id>c887e7e5-eebd-4674-83fc-13b55f1f2cfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=83460c05db9cac504cf6e8cd13961901"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>83460c05db9cac504cf6e8cd13961901</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8f460c05db9cac504cf6e8cd13961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=83460c05db9cac504cf6e8cd13961901"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>83460c05db9cac504cf6e8cd13961901</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>4b460c05db9cac504cf6e8cd13961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{179bc89f-6506-4a30-b5f8-4dc76710c1d2.server}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>83460c05db9cac504cf6e8cd13961901</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>0f460c05db9cac504cf6e8cd13961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8346c805db9cac504cf6e8cd139619ec</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:06:24</sys_updated_on>
+        <ui_id>179bc89f-6506-4a30-b5f8-4dc76710c1d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8346c805db9cac504cf6e8cd139619ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8346c805db9cac504cf6e8cd139619ec</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8f46c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <value>df5140cddb1cac504cf6e8cd139619aa</value>
+        <variable display_value="">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8346c805db9cac504cf6e8cd139619ec</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>cb46c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <value>3e81c8cddb1cac504cf6e8cd139619d2:item_option_new,ecf10041db5cac504cf6e8cd13961925:item_option_new</value>
+        <variable display_value="">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8346c805db9cac504cf6e8cd139619ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>8346c805db9cac504cf6e8cd139619ec</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>c346c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>8346c805db9cac504cf6e8cd139619ec</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>4b46c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>8346c805db9cac504cf6e8cd139619ec</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:37:54</sys_created_on>
+        <sys_id>8746c805db9cac504cf6e8cd139619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:37:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT INaa4a48c1db902010425f817913961944,ae4a48c1db902010425f81791396191f,ee4a48c1db902010425f817913961927"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e24a48c1db902010425f817913961944</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>aa4a48c1db902010425f817913961944</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <ui_id>3596da6a-4644-4cb3-a966-ad6be465efc1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aa4a48c1db902010425f817913961944"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>aa4a48c1db902010425f817913961944</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>a24a48c1db902010425f817913961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>85c80049db502010425f817913961954</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a24a48c1db902010425f81791396191f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Purpose">16e8cc49db502010425f81791396195a</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>ae4a48c1db902010425f81791396191f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ae4a48c1db902010425f81791396191f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ae4a48c1db902010425f81791396191f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>664a48c1db902010425f817913961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>16e8cc49db502010425f81791396195a</value>
+        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ae4a48c1db902010425f81791396191f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>6e4a48c1db902010425f817913961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>x_snc_itom_shocase_purpose</value>
+        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ae4a48c1db902010425f81791396191f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>ae4a48c1db902010425f81791396191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>264a48c1db902010425f817913961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>ae4a48c1db902010425f81791396191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>ea4a48c1db902010425f817913961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_purpose</field>
+        <id>ae4a48c1db902010425f81791396191f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>624a48c1db902010425f817913961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <table>var__m_sys_decision_input_16e8cc49db502010425f81791396195a</table>
+        <value>{{c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record.u_purpose}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2a4a48c1db902010425f817913961927</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>ee4a48c1db902010425f817913961927</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <ui_id>4b8e45fb-eace-498d-8f9e-0749bdb0d09f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ee4a48c1db902010425f817913961927"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ee4a48c1db902010425f817913961927</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:20</sys_created_on>
+        <sys_id>6e4a48c1db902010425f817913961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:20</sys_updated_on>
+        <value>c7c84049db502010425f8179139619bb</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT IN34a54401db9cac504cf6e8cd13961995,70a54401db9cac504cf6e8cd139619b8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f9f4800ddb5cac504cf6e8cd13961933</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-11-03 16:35:01</sys_created_on>
+        <sys_id>34a54401db9cac504cf6e8cd13961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:35:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f9f4800ddb5cac504cf6e8cd13961933</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2020-11-03 16:35:01</sys_created_on>
+        <sys_id>70a54401db9cac504cf6e8cd139619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:35:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f9f4800ddb5cac504cf6e8cd13961933^sys_idNOT IN43560445db9cac504cf6e8cd1396196f"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"43560445db9cac504cf6e8cd1396196f","name":"plan"}}</plan>
+        <plan_id>f9f4800ddb5cac504cf6e8cd13961933</plan_id>
+        <snapshot>33cc80c5dbd02010425f8179139619d7</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>43560445db9cac504cf6e8cd1396196f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <trigger display_value="">0b560445db9cac504cf6e8cd1396196e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>catalog__service_restart</internal_name>
+        <label_cache>[{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record.u_purpose","label":"2➛Linux Server Record➛Purpose","reference":"","reference_display":"Purpose","type":"choice","base_type":"choice","parent_table_name":"cmdb_ci_linux_server","column_name":"u_purpose"},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Table","label":"2➛Linux Server Table","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record","label":"2➛Linux Server Record","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"179bc89f-6506-4a30-b5f8-4dc76710c1d2.service","label":"1➛service","reference":"","reference_display":"service","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"179bc89f-6506-4a30-b5f8-4dc76710c1d2.server","label":"1➛server","reference":"","reference_display":"server","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"1f3081e6-7b8f-4587-a74f-dc59dfbbf981.answer","label":"3➛Purpose Record","reference":"x_snc_itom_shocase_purpose","reference_display":"Purpose","type":"reference","base_type":"reference","attributes":{}},{"name":"1f3081e6-7b8f-4587-a74f-dc59dfbbf981.table_name","label":"3➛Purpose Table","reference":"x_snc_itom_shocase_purpose","reference_display":"Purpose","type":"table_name","base_type":"table_name","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>CATALOG - Service Restart</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="CATALOG - Service Restart">f9f4800ddb5cac504cf6e8cd13961933</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4656cc05db9cac504cf6e8cd139619a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:47</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4656cc05db9cac504cf6e8cd139619a1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4656cc05db9cac504cf6e8cd139619a1"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=4656cc05db9cac504cf6e8cd139619a1^sys_idNOT IN0e5a8005db902010425f817913961981,3256c045db9cac504cf6e8cd139619f9,4b560445db9cac504cf6e8cd13961910,c65a8005db902010425f817913961962,ca5a8005db902010425f817913961985"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2a4a48c1db902010425f817913961927</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>0e5a8005db902010425f817913961981</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:47</sys_updated_on>
+        <ui_id>4b8e45fb-eace-498d-8f9e-0749bdb0d09f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0e5a8005db902010425f817913961981"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0e5a8005db902010425f817913961981</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>8e5a8005db902010425f817913961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>c7c84049db502010425f8179139619bb</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>3256c045db9cac504cf6e8cd139619f9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:46</sys_updated_on>
+        <ui_id>179bc89f-6506-4a30-b5f8-4dc76710c1d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3256c045db9cac504cf6e8cd139619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3256c045db9cac504cf6e8cd139619f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>3e56c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <value>df5140cddb1cac504cf6e8cd139619aa</value>
+        <variable display_value="">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3256c045db9cac504cf6e8cd139619f9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>7a56c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <value>3e81c8cddb1cac504cf6e8cd139619d2:item_option_new,ecf10041db5cac504cf6e8cd13961925:item_option_new</value>
+        <variable display_value="">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3256c045db9cac504cf6e8cd139619f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>3256c045db9cac504cf6e8cd139619f9</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>7256c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>3256c045db9cac504cf6e8cd139619f9</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>f656c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>3256c045db9cac504cf6e8cd139619f9</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>3656c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>4b560445db9cac504cf6e8cd13961910</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:46</sys_updated_on>
+        <ui_id>c887e7e5-eebd-4674-83fc-13b55f1f2cfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b560445db9cac504cf6e8cd13961910"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4b560445db9cac504cf6e8cd13961910</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>47560445db9cac504cf6e8cd13961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4b560445db9cac504cf6e8cd13961910"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4b560445db9cac504cf6e8cd13961910</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>03560445db9cac504cf6e8cd13961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{179bc89f-6506-4a30-b5f8-4dc76710c1d2.server}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4b560445db9cac504cf6e8cd13961910</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>c3560445db9cac504cf6e8cd13961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a24a48c1db902010425f81791396191f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Purpose">16e8cc49db502010425f81791396195a</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>c65a8005db902010425f817913961962</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:47</sys_updated_on>
+        <ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c65a8005db902010425f817913961962"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c65a8005db902010425f817913961962</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>0e5a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>16e8cc49db502010425f81791396195a</value>
+        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c65a8005db902010425f817913961962</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>4a5a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>x_snc_itom_shocase_purpose</value>
+        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c65a8005db902010425f817913961962"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>c65a8005db902010425f817913961962</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>065a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>c65a8005db902010425f817913961962</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>c65a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_purpose</field>
+        <id>c65a8005db902010425f817913961962</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>025a8005db902010425f817913961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <table>var__m_sys_decision_input_16e8cc49db502010425f81791396195a</table>
+        <value>{{c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record.u_purpose}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e24a48c1db902010425f817913961944</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>ca5a8005db902010425f817913961985</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:47</sys_updated_on>
+        <ui_id>3596da6a-4644-4cb3-a966-ad6be465efc1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ca5a8005db902010425f817913961985"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ca5a8005db902010425f817913961985</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>c25a8005db902010425f817913961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>85c80049db502010425f817913961954</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4656cc05db9cac504cf6e8cd139619a1^sys_idNOT IN4b560445db9cac504cf6e8cd13961912"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>4b560445db9cac504cf6e8cd13961912</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:49</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b560445db9cac504cf6e8cd13961912"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4656cc05db9cac504cf6e8cd139619a1^sys_idNOT IN4656cc05db9cac504cf6e8cd139619a2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4656cc05db9cac504cf6e8cd139619a1</id>
+        <name>CATALOG - Service Restart</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:06</sys_created_on>
+        <sys_id>4656cc05db9cac504cf6e8cd139619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=4656cc05db9cac504cf6e8cd139619a1^sys_idNOT IN3a56c045db9cac504cf6e8cd139619c1,4e56cc05db9cac504cf6e8cd139619a3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</model>
+        <model_id>4656cc05db9cac504cf6e8cd139619a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4656cc05db9cac504cf6e8cd139619a1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:09</sys_created_on>
+        <sys_id>3a56c045db9cac504cf6e8cd139619c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</model>
+        <model_id>4656cc05db9cac504cf6e8cd139619a1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4656cc05db9cac504cf6e8cd139619a1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:06</sys_created_on>
+        <sys_id>4e56cc05db9cac504cf6e8cd139619a3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4656cc05db9cac504cf6e8cd139619a1^sys_idNOT IN3256c045db9cac504cf6e8cd139619f9,4b560445db9cac504cf6e8cd13961910"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>3256c045db9cac504cf6e8cd139619f9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:46</sys_updated_on>
+        <ui_id>179bc89f-6506-4a30-b5f8-4dc76710c1d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3256c045db9cac504cf6e8cd139619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3256c045db9cac504cf6e8cd139619f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>3e56c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <value>df5140cddb1cac504cf6e8cd139619aa</value>
+        <variable display_value="">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3256c045db9cac504cf6e8cd139619f9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>7a56c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <value>3e81c8cddb1cac504cf6e8cd139619d2:item_option_new,ecf10041db5cac504cf6e8cd13961925:item_option_new</value>
+        <variable display_value="">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3256c045db9cac504cf6e8cd139619f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>3256c045db9cac504cf6e8cd139619f9</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>7256c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>3256c045db9cac504cf6e8cd139619f9</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>f656c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>3256c045db9cac504cf6e8cd139619f9</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>3656c045db9cac504cf6e8cd139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>4b560445db9cac504cf6e8cd13961910</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:46</sys_updated_on>
+        <ui_id>c887e7e5-eebd-4674-83fc-13b55f1f2cfb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4b560445db9cac504cf6e8cd13961910"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4b560445db9cac504cf6e8cd13961910</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>47560445db9cac504cf6e8cd13961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <value>cmdb_ci_linux_server</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4b560445db9cac504cf6e8cd13961910"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4b560445db9cac504cf6e8cd13961910</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>03560445db9cac504cf6e8cd13961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{179bc89f-6506-4a30-b5f8-4dc76710c1d2.server}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4b560445db9cac504cf6e8cd13961910</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:10</sys_created_on>
+        <sys_id>c3560445db9cac504cf6e8cd13961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4656cc05db9cac504cf6e8cd139619a1^sys_idNOT IN0e5a8005db902010425f817913961981,c65a8005db902010425f817913961962,ca5a8005db902010425f817913961985"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2a4a48c1db902010425f817913961927</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>0e5a8005db902010425f817913961981</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:47</sys_updated_on>
+        <ui_id>4b8e45fb-eace-498d-8f9e-0749bdb0d09f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0e5a8005db902010425f817913961981"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0e5a8005db902010425f817913961981</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>8e5a8005db902010425f817913961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>c7c84049db502010425f8179139619bb</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a24a48c1db902010425f81791396191f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Purpose">16e8cc49db502010425f81791396195a</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>c65a8005db902010425f817913961962</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:47</sys_updated_on>
+        <ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c65a8005db902010425f817913961962"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c65a8005db902010425f817913961962</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>0e5a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>16e8cc49db502010425f81791396195a</value>
+        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c65a8005db902010425f817913961962</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>4a5a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>x_snc_itom_shocase_purpose</value>
+        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c65a8005db902010425f817913961962"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>c65a8005db902010425f817913961962</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>065a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>c65a8005db902010425f817913961962</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>c65a8005db902010425f817913961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_purpose</field>
+        <id>c65a8005db902010425f817913961962</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>025a8005db902010425f817913961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <table>var__m_sys_decision_input_16e8cc49db502010425f81791396195a</table>
+        <value>{{c887e7e5-eebd-4674-83fc-13b55f1f2cfb.Record.u_purpose}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e24a48c1db902010425f817913961944</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CATALOG - Service Restart">4656cc05db9cac504cf6e8cd139619a1</flow>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1f3081e6-7b8f-4587-a74f-dc59dfbbf981</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>ca5a8005db902010425f817913961985</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:05:47</sys_updated_on>
+        <ui_id>3596da6a-4644-4cb3-a966-ad6be465efc1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ca5a8005db902010425f817913961985"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ca5a8005db902010425f817913961985</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 16:55:34</sys_created_on>
+        <sys_id>c25a8005db902010425f817913961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:55:34</sys_updated_on>
+        <value>85c80049db502010425f817913961954</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4656cc05db9cac504cf6e8cd139619a1^sys_idNOT IN7e56c045db9cac504cf6e8cd139619e0,f256c045db9cac504cf6e8cd139619bc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4656cc05db9cac504cf6e8cd139619a1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:09</sys_created_on>
+        <sys_id>7e56c045db9cac504cf6e8cd139619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4656cc05db9cac504cf6e8cd139619a1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-11-03 16:38:09</sys_created_on>
+        <sys_id>f256c045db9cac504cf6e8cd139619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-11-03 16:38:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

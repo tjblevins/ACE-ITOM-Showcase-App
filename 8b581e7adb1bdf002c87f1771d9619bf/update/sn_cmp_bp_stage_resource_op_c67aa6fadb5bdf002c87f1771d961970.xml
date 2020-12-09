@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_op">
+    <sn_cmp_bp_stage_resource_op action="INSERT_OR_UPDATE">
+        <alias_name>DB Server.Bootstrap Node</alias_name>
+        <bp_stage_operation display_value="">1db510fadb53df002c87f1771d961981</bp_stage_operation>
+        <bp_stage_resource display_value="">02b550fadb53df002c87f1771d961923</bp_stage_resource>
+        <condition_text/>
+        <operation_order>6</operation_order>
+        <parent_id/>
+        <rb_operation_impl display_value="Bootstrap Node">d3c8cc690b513200f845c9bf15673ab8</rb_operation_impl>
+        <resource_block display_value="Virtual Server">6a4a735e0be622009e620bcb15673a04</resource_block>
+        <sys_class_name>sn_cmp_bp_stage_resource_op</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-18 13:17:08</sys_created_on>
+        <sys_id>c67aa6fadb5bdf002c87f1771d961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DB Server.Bootstrap Node</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_op_c67aa6fadb5bdf002c87f1771d961970</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-18 13:17:08</sys_updated_on>
+        <type/>
+        <unique_id>2502</unique_id>
+    </sn_cmp_bp_stage_resource_op>
+</record_update>

@@ -1,0 +1,1945 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>fe208ef5db80a740e243b6d1ba96197e</copied_from>
+        <copied_from_name>Stop Linux Service</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>start_linux_service</internal_name>
+        <label_cache>[{"name":"{{action.ci}}","label":"action➛CI","type":"action","ref":""},{"name":"{{action.service}}","label":"action➛Service","type":"action","ref":""},{"name":"{{action.instancename}}","label":"action➛InstanceName","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>aca03bf5db3633008669db184b96192f</latest_snapshot>
+        <master_snapshot>d0c69a39db04a740e243b6d1ba961969</master_snapshot>
+        <name>Start Linux Service</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1d861239db04a740e243b6d1ba961949</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Start Linux Service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_1d861239db04a740e243b6d1ba961949</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d861239db04a740e243b6d1ba961949"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1d861239db04a740e243b6d1ba961949"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=1d861239db04a740e243b6d1ba961949^sys_idNOT INf9861239db04a740e243b6d1ba9619c1"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Start Linux Service">1d861239db04a740e243b6d1ba961949</action>
+        <cid>efea8944-fcb2-429d-9106-2b9ec4e22270</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:10</sys_created_on>
+        <sys_id>f9861239db04a740e243b6d1ba9619c1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_step_instance_f9861239db04a740e243b6d1ba9619c1</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f9861239db04a740e243b6d1ba9619c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>39861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>a4210ab9db80a740e243b6d1ba96195b</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>71861239db04a740e243b6d1ba9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>75861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>b1861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>bd861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:40</sys_created_on>
+        <sys_id>dca03bf5db3633008669db184b961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:40</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>f9861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f9861239db04a740e243b6d1ba9619c1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>7d861239db04a740e243b6d1ba9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>fd861239db04a740e243b6d1ba9619d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>https://{{action.instancename}}.service-now.com/api/snc/restfulworkflow/ITOMStartLinuxService?u_ci={{action.ci}}&amp;u_service={{action.service}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>3d861239db04a740e243b6d1ba9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>31861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>f5861239db04a740e243b6d1ba9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>79861239db04a740e243b6d1ba9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>b9861239db04a740e243b6d1ba9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:40</sys_created_on>
+        <sys_id>d4a03bf5db3633008669db184b961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f9861239db04a740e243b6d1ba9619c1^sys_idNOT INb190f7f5db3633008669db184b961970"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>true</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">f9861239db04a740e243b6d1ba9619c1</model>
+        <model_id>f9861239db04a740e243b6d1ba9619c1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f9861239db04a740e243b6d1ba9619c1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:30</sys_created_on>
+        <sys_id>b190f7f5db3633008669db184b961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=1d861239db04a740e243b6d1ba961949^sys_idNOT IN19861239db04a740e243b6d1ba96194d,5d861239db04a740e243b6d1ba961967,dd861239db04a740e243b6d1ba961954"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ci</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CI</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Start Linux Service">1d861239db04a740e243b6d1ba961949</model>
+        <model_id>1d861239db04a740e243b6d1ba961949</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:09</sys_created_on>
+        <sys_id>19861239db04a740e243b6d1ba96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instancename</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>InstanceName</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Start Linux Service">1d861239db04a740e243b6d1ba961949</model>
+        <model_id>1d861239db04a740e243b6d1ba961949</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:09</sys_created_on>
+        <sys_id>5d861239db04a740e243b6d1ba961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>service</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Service</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Start Linux Service">1d861239db04a740e243b6d1ba961949</model>
+        <model_id>1d861239db04a740e243b6d1ba961949</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:09</sys_created_on>
+        <sys_id>dd861239db04a740e243b6d1ba961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=1d861239db04a740e243b6d1ba961949^sys_idNOT INf9861239db04a740e243b6d1ba9619c1"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Start Linux Service">1d861239db04a740e243b6d1ba961949</action>
+        <cid>efea8944-fcb2-429d-9106-2b9ec4e22270</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:10</sys_created_on>
+        <sys_id>f9861239db04a740e243b6d1ba9619c1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_step_instance_f9861239db04a740e243b6d1ba9619c1</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f9861239db04a740e243b6d1ba9619c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>39861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>a4210ab9db80a740e243b6d1ba96195b</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>71861239db04a740e243b6d1ba9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>75861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>b1861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>bd861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:40</sys_created_on>
+        <sys_id>dca03bf5db3633008669db184b961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:40</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f9861239db04a740e243b6d1ba9619c1</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>f9861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f9861239db04a740e243b6d1ba9619c1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>7d861239db04a740e243b6d1ba9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>fd861239db04a740e243b6d1ba9619d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>https://{{action.instancename}}.service-now.com/api/snc/restfulworkflow/ITOMStartLinuxService?u_ci={{action.ci}}&amp;u_service={{action.service}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>3d861239db04a740e243b6d1ba9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>31861239db04a740e243b6d1ba9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>f5861239db04a740e243b6d1ba9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>79861239db04a740e243b6d1ba9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:11</sys_created_on>
+        <sys_id>b9861239db04a740e243b6d1ba9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>f9861239db04a740e243b6d1ba9619c1</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:40</sys_created_on>
+        <sys_id>d4a03bf5db3633008669db184b961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f9861239db04a740e243b6d1ba9619c1^sys_idNOT INb190f7f5db3633008669db184b961970"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>true</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">f9861239db04a740e243b6d1ba9619c1</model>
+        <model_id>f9861239db04a740e243b6d1ba9619c1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f9861239db04a740e243b6d1ba9619c1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:30</sys_created_on>
+        <sys_id>b190f7f5db3633008669db184b961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949^sys_idNOT IN15861239db04a740e243b6d1ba961966,95861239db04a740e243b6d1ba961953,d9861239db04a740e243b6d1ba96196c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>service</element>
+        <help/>
+        <hint/>
+        <label>Service</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:09</sys_created_on>
+        <sys_id>15861239db04a740e243b6d1ba961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949_service_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ci</element>
+        <help/>
+        <hint/>
+        <label>CI</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:09</sys_created_on>
+        <sys_id>95861239db04a740e243b6d1ba961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CI</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949_ci_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instancename</element>
+        <help/>
+        <hint/>
+        <label>InstanceName</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:03:09</sys_created_on>
+        <sys_id>d9861239db04a740e243b6d1ba96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>InstanceName</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1d861239db04a740e243b6d1ba961949_instancename_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=1d861239db04a740e243b6d1ba961949^sys_idNOT INcda03bf5db3633008669db184b96198f"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Start Linux Service">1d861239db04a740e243b6d1ba961949</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"cda03bf5db3633008669db184b96198f","name":"plan"}}</plan>
+        <snapshot>aca03bf5db3633008669db184b96192f</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cda03bf5db3633008669db184b96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1d861239db04a740e243b6d1ba961949</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_plan_cda03bf5db3633008669db184b96198f</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:44</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>start_linux_service</internal_name>
+        <label_cache>[{"name":"{{action.ci}}","label":"action➛CI","type":"action","ref":""},{"name":"{{action.service}}","label":"action➛Service","type":"action","ref":""},{"name":"{{action.instancename}}","label":"action➛InstanceName","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Start Linux Service</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Start Linux Service">1d861239db04a740e243b6d1ba961949</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d0c69a39db04a740e243b6d1ba961969</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d0c69a39db04a740e243b6d1ba961969"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d0c69a39db04a740e243b6d1ba961969"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=d0c69a39db04a740e243b6d1ba961969^sys_idNOT IN58c69a39db04a740e243b6d1ba96198d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Start Linux Service">d0c69a39db04a740e243b6d1ba961969</action>
+        <cid>efea8944-fcb2-429d-9106-2b9ec4e22270</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>58c69a39db04a740e243b6d1ba96198d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_step_instance_58c69a39db04a740e243b6d1ba96198d</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=58c69a39db04a740e243b6d1ba96198d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>20c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>2cc69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>68c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>6cc69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>a4c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>e0c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>a4210ab9db80a740e243b6d1ba96195b</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:43</sys_created_on>
+        <sys_id>f4a03bf5db3633008669db184b961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=58c69a39db04a740e243b6d1ba96198d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>28c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>ecc69a39db04a740e243b6d1ba96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>https://{{action.instancename}}.service-now.com/api/snc/restfulworkflow/ITOMStartLinuxService?u_ci={{action.ci}}&amp;u_service={{action.service}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>2cc69a39db04a740e243b6d1ba96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>e8c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>a0c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>68c69a39db04a740e243b6d1ba96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>64c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:43</sys_created_on>
+        <sys_id>b0a03bf5db3633008669db184b961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=58c69a39db04a740e243b6d1ba96198d^sys_idNOT INb8a03bf5db3633008669db184b961964"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>true</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">58c69a39db04a740e243b6d1ba96198d</model>
+        <model_id>58c69a39db04a740e243b6d1ba96198d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_58c69a39db04a740e243b6d1ba96198d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:42</sys_created_on>
+        <sys_id>b8a03bf5db3633008669db184b961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=d0c69a39db04a740e243b6d1ba961969^sys_idNOT IN14c69a39db04a740e243b6d1ba961979,5cc69a39db04a740e243b6d1ba961972,9cc69a39db04a740e243b6d1ba96196b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instancename</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>InstanceName</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Start Linux Service">d0c69a39db04a740e243b6d1ba961969</model>
+        <model_id>d0c69a39db04a740e243b6d1ba961969</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:10</sys_created_on>
+        <sys_id>14c69a39db04a740e243b6d1ba961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>service</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Service</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Start Linux Service">d0c69a39db04a740e243b6d1ba961969</model>
+        <model_id>d0c69a39db04a740e243b6d1ba961969</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:10</sys_created_on>
+        <sys_id>5cc69a39db04a740e243b6d1ba961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ci</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CI</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Start Linux Service">d0c69a39db04a740e243b6d1ba961969</model>
+        <model_id>d0c69a39db04a740e243b6d1ba961969</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:10</sys_created_on>
+        <sys_id>9cc69a39db04a740e243b6d1ba96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=d0c69a39db04a740e243b6d1ba961969^sys_idNOT IN58c69a39db04a740e243b6d1ba96198d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Start Linux Service">d0c69a39db04a740e243b6d1ba961969</action>
+        <cid>efea8944-fcb2-429d-9106-2b9ec4e22270</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>58c69a39db04a740e243b6d1ba96198d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_step_instance_58c69a39db04a740e243b6d1ba96198d</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=58c69a39db04a740e243b6d1ba96198d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>20c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>2cc69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>68c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>6cc69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>a4c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>e0c69a39db04a740e243b6d1ba96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <value>a4210ab9db80a740e243b6d1ba96195b</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>58c69a39db04a740e243b6d1ba96198d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:43</sys_created_on>
+        <sys_id>f4a03bf5db3633008669db184b961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=58c69a39db04a740e243b6d1ba96198d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>28c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>ecc69a39db04a740e243b6d1ba96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>https://{{action.instancename}}.service-now.com/api/snc/restfulworkflow/ITOMStartLinuxService?u_ci={{action.ci}}&amp;u_service={{action.service}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>2cc69a39db04a740e243b6d1ba96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>e8c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>a0c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>68c69a39db04a740e243b6d1ba96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:11</sys_created_on>
+        <sys_id>64c69a39db04a740e243b6d1ba96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>58c69a39db04a740e243b6d1ba96198d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:43</sys_created_on>
+        <sys_id>b0a03bf5db3633008669db184b961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=58c69a39db04a740e243b6d1ba96198d^sys_idNOT INb8a03bf5db3633008669db184b961964"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>true</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">58c69a39db04a740e243b6d1ba96198d</model>
+        <model_id>58c69a39db04a740e243b6d1ba96198d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_58c69a39db04a740e243b6d1ba96198d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-07-23 11:40:42</sys_created_on>
+        <sys_id>b8a03bf5db3633008669db184b961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-07-23 11:40:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969^sys_idNOT IN14c69a39db04a740e243b6d1ba961971,58c69a39db04a740e243b6d1ba96198a,d8c69a39db04a740e243b6d1ba961977"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ci</element>
+        <help/>
+        <hint/>
+        <label>CI</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:10</sys_created_on>
+        <sys_id>14c69a39db04a740e243b6d1ba961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CI</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969_ci_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instancename</element>
+        <help/>
+        <hint/>
+        <label>InstanceName</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:10</sys_created_on>
+        <sys_id>58c69a39db04a740e243b6d1ba96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>InstanceName</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969_instancename_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>service</element>
+        <help/>
+        <hint/>
+        <label>Service</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-21 16:04:10</sys_created_on>
+        <sys_id>d8c69a39db04a740e243b6d1ba961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d0c69a39db04a740e243b6d1ba961969_service_en</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:04:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
