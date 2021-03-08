@@ -44,7 +44,7 @@
         <update_guid_history>59049442826048d0a307411202ed0557:1160685500</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="providerAPIParameters">f5049442db6048d0a9ed3967f49619eb</sys_audit_delete>
+        <sys_audit_delete display_value="">f5049442db6048d0a9ed3967f49619eb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-18 14:05:12</sys_created_on>

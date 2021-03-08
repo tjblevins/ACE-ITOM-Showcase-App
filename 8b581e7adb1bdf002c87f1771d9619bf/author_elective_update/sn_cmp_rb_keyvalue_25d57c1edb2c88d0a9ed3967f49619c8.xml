@@ -46,7 +46,7 @@
         <update_guid_history>e1d57c1ef22c88d01560d869771d5dc9:-997724572</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ansible_tower">29593c92db6c88d0a9ed3967f49619cc</sys_audit_delete>
+        <sys_audit_delete display_value="">29593c92db6c88d0a9ed3967f49619cc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:26:41</sys_created_on>

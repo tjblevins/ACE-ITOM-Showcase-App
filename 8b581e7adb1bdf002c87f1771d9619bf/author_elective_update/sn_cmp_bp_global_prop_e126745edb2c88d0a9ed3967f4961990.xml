@@ -45,7 +45,7 @@
         <update_guid_history>2d26745e3f2c88d0f00f8753b3d3e490:1938658850</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS_EC2_Instance_LABCODE_1">2db9b4d2db6c88d0a9ed3967f496198a</sys_audit_delete>
+        <sys_audit_delete display_value="">2db9b4d2db6c88d0a9ed3967f496198a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:28:19</sys_created_on>

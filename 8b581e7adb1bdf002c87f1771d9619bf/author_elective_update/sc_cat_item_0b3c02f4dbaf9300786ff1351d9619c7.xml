@@ -223,7 +223,7 @@
         <update_guid_history>cd851afc787cc4100890be632c5e008e:-2061741519,46f85ee6daac0cd05a692f10cdb5fbf7:-1857299074,602918802b988450cf9ad48ab7d3910f:0,27f5a1f1fafbb70053211261e2f6050d:0</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Initial Demo Env Provisioning">99851afcdb7cc41015e3dd18f49619b5</sys_audit_delete>
+        <sys_audit_delete display_value="">99851afcdb7cc41015e3dd18f49619b5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 12:34:15</sys_created_on>

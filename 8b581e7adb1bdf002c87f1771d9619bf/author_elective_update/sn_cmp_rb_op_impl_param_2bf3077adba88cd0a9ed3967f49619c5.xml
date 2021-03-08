@@ -57,7 +57,7 @@
         <update_guid_history>f3f3077a84a88cd05f00c607eaf5ccc7:1782875966</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="resourceId">3bf3077adba88cd0a9ed3967f49619eb</sys_audit_delete>
+        <sys_audit_delete display_value="">3bf3077adba88cd0a9ed3967f49619eb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-21 10:49:28</sys_created_on>

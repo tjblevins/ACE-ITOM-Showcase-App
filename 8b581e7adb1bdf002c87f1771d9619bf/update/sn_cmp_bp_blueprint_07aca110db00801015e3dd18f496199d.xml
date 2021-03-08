@@ -8,7 +8,7 @@
         <sm_checkpoint_id/>
         <source_sm_checkpoint_id/>
         <status>2</status>
-        <svc_layer display_value="AWS VPC with Subnets">dbaca110db00801015e3dd18f49619a3</svc_layer>
+        <svc_layer display_value="">dbaca110db00801015e3dd18f49619a3</svc_layer>
         <sys_class_name>sn_cmp_bp_blueprint</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-18 13:31:44</sys_created_on>

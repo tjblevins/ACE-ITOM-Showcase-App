@@ -28,6 +28,7 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 15:21:28</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>c2627686dbdc8090a9ed3967f49619fb</sys_id>
         <sys_mod_count>17</sys_mod_count>
         <sys_name>Ansible - Configure Tower</sys_name>
@@ -63,11 +64,7 @@
         <sys_created_on>2019-10-06 16:13:25</sys_created_on>
         <sys_id>7e4e3ac6db10c090a9ed3967f4961995</sys_id>
         <sys_mod_count>11</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:10</sys_updated_on>
         <ui_id>b11e27bd-f05c-4ae8-a9f3-21b0fdfbaf33</ui_id>
@@ -118,11 +115,7 @@
         <sys_created_on>2019-10-06 15:39:53</sys_created_on>
         <sys_id>bb967e0edbdc8090a9ed3967f4961994</sys_id>
         <sys_mod_count>40</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:10</sys_updated_on>
         <ui_id>f27fff1b-19a9-48fe-8f96-8f2b8b00a1f6</ui_id>
@@ -171,11 +164,7 @@
         <sys_created_on>2019-10-06 15:39:53</sys_created_on>
         <sys_id>bb96be0edbdc8090a9ed3967f4961990</sys_id>
         <sys_mod_count>40</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:10</sys_updated_on>
         <ui_id>399dfc3f-5108-4862-851d-48004d154e4b</ui_id>
@@ -225,11 +214,7 @@
         <sys_created_on>2019-10-06 16:09:45</sys_created_on>
         <sys_id>d17db686db10c090a9ed3967f49619f8</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:10</sys_updated_on>
         <ui_id>c04f9433-d019-4cc8-8dca-c3bcec1a5c3e</ui_id>
@@ -364,16 +349,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>c2627686dbdc8090a9ed3967f49619fb</id>
         <name>Demo - Configure Ansible Tower</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 15:21:28</sys_created_on>
         <sys_id>4a627686dbdc8090a9ed3967f49619fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-06 15:21:28</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -637,11 +617,7 @@
         <sys_created_on>2019-10-06 15:39:53</sys_created_on>
         <sys_id>bb967e0edbdc8090a9ed3967f4961994</sys_id>
         <sys_mod_count>40</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:10</sys_updated_on>
         <ui_id>f27fff1b-19a9-48fe-8f96-8f2b8b00a1f6</ui_id>
@@ -690,11 +666,7 @@
         <sys_created_on>2019-10-06 15:39:53</sys_created_on>
         <sys_id>bb96be0edbdc8090a9ed3967f4961990</sys_id>
         <sys_mod_count>40</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:10</sys_updated_on>
         <ui_id>399dfc3f-5108-4862-851d-48004d154e4b</ui_id>
@@ -744,11 +716,7 @@
         <sys_created_on>2019-10-06 16:09:45</sys_created_on>
         <sys_id>d17db686db10c090a9ed3967f49619f8</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:10</sys_updated_on>
         <ui_id>c04f9433-d019-4cc8-8dca-c3bcec1a5c3e</ui_id>
@@ -900,11 +868,7 @@
         <sys_created_on>2019-10-06 16:13:25</sys_created_on>
         <sys_id>7e4e3ac6db10c090a9ed3967f4961995</sys_id>
         <sys_mod_count>11</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:10</sys_updated_on>
         <ui_id>b11e27bd-f05c-4ae8-a9f3-21b0fdfbaf33</ui_id>
@@ -1015,18 +979,14 @@
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"6e5efac6db10c090a9ed3967f496192c","name":"plan"}}</plan>
         <plan_id display_value="Ansible - Configure Tower">c2627686dbdc8090a9ed3967f49619fb</plan_id>
         <snapshot>fff4c6addbc65490425f8179139619dd</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 16:13:40</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>6e5efac6db10c090a9ed3967f496192c</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:10</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -1056,6 +1016,7 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 16:13:37</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>425ebac6db10c090a9ed3967f4961950</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name/>
@@ -1091,11 +1052,7 @@
         <sys_created_on>2019-10-06 16:13:38</sys_created_on>
         <sys_id>1e5ebac6db10c090a9ed3967f49619da</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>b11e27bd-f05c-4ae8-a9f3-21b0fdfbaf33</ui_id>
@@ -1147,11 +1104,7 @@
         <sys_created_on>2019-10-06 16:13:39</sys_created_on>
         <sys_id>565ebac6db10c090a9ed3967f49619f6</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>c04f9433-d019-4cc8-8dca-c3bcec1a5c3e</ui_id>
@@ -1235,11 +1188,7 @@
         <sys_created_on>2019-10-06 16:13:38</sys_created_on>
         <sys_id>9a5ebac6db10c090a9ed3967f49619e1</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>f27fff1b-19a9-48fe-8f96-8f2b8b00a1f6</ui_id>
@@ -1274,11 +1223,7 @@
         <sys_created_on>2019-10-06 16:13:38</sys_created_on>
         <sys_id>9a5ebac6db10c090a9ed3967f49619f0</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>399dfc3f-5108-4862-851d-48004d154e4b</ui_id>
@@ -1302,16 +1247,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>425ebac6db10c090a9ed3967f4961950</id>
         <name>Demo - Configure Ansible Tower</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 16:13:37</sys_created_on>
         <sys_id>425ebac6db10c090a9ed3967f4961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-06 16:13:37</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -1576,11 +1516,7 @@
         <sys_created_on>2019-10-06 16:13:39</sys_created_on>
         <sys_id>565ebac6db10c090a9ed3967f49619f6</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>c04f9433-d019-4cc8-8dca-c3bcec1a5c3e</ui_id>
@@ -1664,11 +1600,7 @@
         <sys_created_on>2019-10-06 16:13:38</sys_created_on>
         <sys_id>9a5ebac6db10c090a9ed3967f49619e1</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>f27fff1b-19a9-48fe-8f96-8f2b8b00a1f6</ui_id>
@@ -1703,11 +1635,7 @@
         <sys_created_on>2019-10-06 16:13:38</sys_created_on>
         <sys_id>9a5ebac6db10c090a9ed3967f49619f0</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>399dfc3f-5108-4862-851d-48004d154e4b</ui_id>
@@ -1748,11 +1676,7 @@
         <sys_created_on>2019-10-06 16:13:38</sys_created_on>
         <sys_id>1e5ebac6db10c090a9ed3967f49619da</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:54:09</sys_updated_on>
         <ui_id>b11e27bd-f05c-4ae8-a9f3-21b0fdfbaf33</ui_id>

@@ -57,7 +57,7 @@
         <update_guid_history>663fc982757ac410ef2abd434fe445f8:-913499284</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="resourceId">b63f0d82db7ac4106846dd384b96191f</sys_audit_delete>
+        <sys_audit_delete display_value="">b63f0d82db7ac4106846dd384b96191f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:45:08</sys_created_on>

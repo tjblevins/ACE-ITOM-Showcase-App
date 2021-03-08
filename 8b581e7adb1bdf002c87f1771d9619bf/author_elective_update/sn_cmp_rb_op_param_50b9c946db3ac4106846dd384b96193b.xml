@@ -44,7 +44,7 @@
         <update_guid_history>5cb9c946e73ac4101e60e2acbd192b57:638859015</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Location">e0b9c946db3ac4106846dd384b9619ba</sys_audit_delete>
+        <sys_audit_delete display_value="">e0b9c946db3ac4106846dd384b9619ba</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:20:57</sys_created_on>

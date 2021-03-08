@@ -41,7 +41,7 @@
         <update_guid_history>746fc4ff63fbff00cfde41e1c8fa5dcd:-1880784040</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Compute.AWS VPC with Subnets">4685e194dbcc401015e3dd18f4961946</sys_audit_delete>
+        <sys_audit_delete display_value="">4685e194dbcc401015e3dd18f4961946</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-18 13:00:32</sys_created_on>

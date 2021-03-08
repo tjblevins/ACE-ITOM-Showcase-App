@@ -45,7 +45,7 @@
         <update_guid_history>b65734de6c2c88d038468c015c513549:1813526868</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS_EC2_Instance_u_ansible_tower">b3cb3c96db6c88d0a9ed3967f496199e</sys_audit_delete>
+        <sys_audit_delete display_value="">b3cb3c96db6c88d0a9ed3967f496199e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:37:30</sys_created_on>

@@ -201,7 +201,7 @@
         <update_guid_history>4b6d8c3fd6fbff0055ffdcac0b82af37:547481703,4b6d8c3fd6fbff0055ffdcac0b82af37:547481703,2fc477624bf7bb0043061dcac56958c7:154928647</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS VPC with Management VMs">676d8c3fdbfbff00a9ed3967f496195e</sys_audit_delete>
+        <sys_audit_delete display_value="">676d8c3fdbfbff00a9ed3967f496195e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-16 17:18:39</sys_created_on>

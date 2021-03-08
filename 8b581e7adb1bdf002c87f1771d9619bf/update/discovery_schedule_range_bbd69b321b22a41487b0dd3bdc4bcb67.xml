@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_schedule_range">
+    <discovery_schedule_range action="INSERT_OR_UPDATE">
+        <dscheduler display_value="Webstore Inf">1f96dbfe1bee641487b0dd3bdc4bcb02</dscheduler>
+        <range display_value="Webstore">79c5db3e1bee641487b0dd3bdc4bcbaf</range>
+        <sys_class_name>discovery_schedule_range</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2021-03-01 14:39:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bbd69b321b22a41487b0dd3bdc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Webstore.Webstore Inf</sys_name>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>discovery_schedule_range_bbd69b321b22a41487b0dd3bdc4bcb67</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2021-03-01 14:39:49</sys_updated_on>
+    </discovery_schedule_range>
+</record_update>

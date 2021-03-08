@@ -41,7 +41,7 @@
         <update_guid_history>1bc47762c4f7bb00a0f76565a19278be:-631046406</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cloud Service Catalog.AWS VPC with Management VMs">326d8c3fdbfbff00a9ed3967f496190a</sys_audit_delete>
+        <sys_audit_delete display_value="">326d8c3fdbfbff00a9ed3967f496190a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-16 17:18:37</sys_created_on>

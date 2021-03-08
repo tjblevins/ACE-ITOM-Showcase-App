@@ -28,6 +28,7 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 17:29:52</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>f2cf8f02db90c090a9ed3967f49619d4</sys_id>
         <sys_mod_count>25</sys_mod_count>
         <sys_name>NOW - Configure MID Server</sys_name>
@@ -63,11 +64,7 @@
         <sys_created_on>2019-10-06 18:45:43</sys_created_on>
         <sys_id>3d216f8adbd0c090a9ed3967f4961971</sys_id>
         <sys_mod_count>17</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
         <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
@@ -119,11 +116,7 @@
         <sys_created_on>2019-10-06 18:36:53</sys_created_on>
         <sys_id>602f1bc6dbd0c090a9ed3967f4961908</sys_id>
         <sys_mod_count>50</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
         <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
@@ -290,11 +283,7 @@
         <sys_created_on>2019-10-06 18:45:43</sys_created_on>
         <sys_id>71216f8adbd0c090a9ed3967f4961970</sys_id>
         <sys_mod_count>44</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
         <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
@@ -345,11 +334,7 @@
         <sys_created_on>2019-10-06 18:45:43</sys_created_on>
         <sys_id>7d216f8adbd0c090a9ed3967f4961975</sys_id>
         <sys_mod_count>17</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
         <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>
@@ -400,11 +385,7 @@
         <sys_created_on>2019-10-06 18:36:53</sys_created_on>
         <sys_id>e42f1bc6dbd0c090a9ed3967f4961902</sys_id>
         <sys_mod_count>50</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
         <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
@@ -442,16 +423,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>f2cf8f02db90c090a9ed3967f49619d4</id>
         <name>Demo - Configure MID Server</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 17:29:52</sys_created_on>
         <sys_id>becf8f02db90c090a9ed3967f49619d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-06 17:29:52</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -878,11 +854,7 @@
         <sys_created_on>2019-10-06 18:36:53</sys_created_on>
         <sys_id>602f1bc6dbd0c090a9ed3967f4961908</sys_id>
         <sys_mod_count>50</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
         <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
@@ -1049,11 +1021,7 @@
         <sys_created_on>2019-10-06 18:45:43</sys_created_on>
         <sys_id>71216f8adbd0c090a9ed3967f4961970</sys_id>
         <sys_mod_count>44</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
         <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
@@ -1099,11 +1067,7 @@
         <sys_created_on>2019-10-06 18:36:53</sys_created_on>
         <sys_id>e42f1bc6dbd0c090a9ed3967f4961902</sys_id>
         <sys_mod_count>50</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2020-07-16 18:47:18</sys_updated_on>
         <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
@@ -1158,11 +1122,7 @@
         <sys_created_on>2019-10-06 18:45:43</sys_created_on>
         <sys_id>3d216f8adbd0c090a9ed3967f4961971</sys_id>
         <sys_mod_count>17</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
         <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
@@ -1218,11 +1178,7 @@
         <sys_created_on>2019-10-06 18:45:43</sys_created_on>
         <sys_id>7d216f8adbd0c090a9ed3967f4961975</sys_id>
         <sys_mod_count>17</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
         <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>
@@ -1379,18 +1335,14 @@
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"71b1abcadbd0c090a9ed3967f4961932","name":"plan"}}</plan>
         <plan_id display_value="NOW - Configure MID Server">f2cf8f02db90c090a9ed3967f49619d4</plan_id>
         <snapshot>29054aaddbc65490425f8179139619d1</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 18:48:10</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>71b1abcadbd0c090a9ed3967f4961932</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:16</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -1420,6 +1372,7 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 18:48:07</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>99b16bcadbd0c090a9ed3967f4961975</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name/>
@@ -1451,11 +1404,7 @@
         <sys_created_on>2019-10-06 18:48:09</sys_created_on>
         <sys_id>2db16bcadbd0c090a9ed3967f49619e9</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
@@ -1502,11 +1451,7 @@
         <sys_created_on>2019-10-06 18:48:09</sys_created_on>
         <sys_id>61b16bcadbd0c090a9ed3967f49619e3</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
@@ -1600,11 +1545,7 @@
         <sys_created_on>2019-10-06 18:48:09</sys_created_on>
         <sys_id>69b16bcadbd0c090a9ed3967f49619d0</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:14</sys_updated_on>
         <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
@@ -1644,11 +1585,7 @@
         <sys_created_on>2019-10-06 18:48:08</sys_created_on>
         <sys_id>91b16bcadbd0c090a9ed3967f49619c7</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
@@ -1704,11 +1641,7 @@
         <sys_created_on>2019-10-06 18:48:08</sys_created_on>
         <sys_id>e1b16bcadbd0c090a9ed3967f49619cc</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>
@@ -1748,16 +1681,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>99b16bcadbd0c090a9ed3967f4961975</id>
         <name>Demo - Configure MID Server</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 18:48:07</sys_created_on>
         <sys_id>d5b16bcadbd0c090a9ed3967f4961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-06 18:48:07</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -2184,11 +2112,7 @@
         <sys_created_on>2019-10-06 18:48:09</sys_created_on>
         <sys_id>2db16bcadbd0c090a9ed3967f49619e9</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>14bec8cd-102b-4a07-ba7c-24160ce17a3a</ui_id>
@@ -2235,11 +2159,7 @@
         <sys_created_on>2019-10-06 18:48:09</sys_created_on>
         <sys_id>61b16bcadbd0c090a9ed3967f49619e3</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>266a9363-e4bf-48c1-8a22-c44f2bb6ca73</ui_id>
@@ -2333,11 +2253,7 @@
         <sys_created_on>2019-10-06 18:48:09</sys_created_on>
         <sys_id>69b16bcadbd0c090a9ed3967f49619d0</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:14</sys_updated_on>
         <ui_id>1d539706-52b9-466b-80ba-442658b393aa</ui_id>
@@ -2378,11 +2294,7 @@
         <sys_created_on>2019-10-06 18:48:08</sys_created_on>
         <sys_id>91b16bcadbd0c090a9ed3967f49619c7</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>f35353ac-d317-44cb-b401-31e77bc9df05</ui_id>
@@ -2438,11 +2350,7 @@
         <sys_created_on>2019-10-06 18:48:08</sys_created_on>
         <sys_id>e1b16bcadbd0c090a9ed3967f49619cc</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:55:15</sys_updated_on>
         <ui_id>3cd7ef1c-437c-4969-ad0c-d752c1f00818</ui_id>

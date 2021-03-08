@@ -8,7 +8,7 @@
         <sm_checkpoint_id/>
         <source_sm_checkpoint_id/>
         <status>2</status>
-        <svc_layer display_value="AWS Create S3 Bucket">d1278dcedbf6c4106846dd384b96193c</svc_layer>
+        <svc_layer display_value="">d1278dcedbf6c4106846dd384b96193c</svc_layer>
         <sys_class_name>sn_cmp_bp_blueprint</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:09:48</sys_created_on>

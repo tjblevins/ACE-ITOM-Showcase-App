@@ -44,7 +44,7 @@
         <update_guid_history>3643f8d6cb2c88d0f980f9e3d7a2b2fd:190844240</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="orchestrationTemplate">b4533cd6db2c88d0a9ed3967f49619e8</sys_audit_delete>
+        <sys_audit_delete display_value="">b4533cd6db2c88d0a9ed3967f49619e8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:00:25</sys_created_on>

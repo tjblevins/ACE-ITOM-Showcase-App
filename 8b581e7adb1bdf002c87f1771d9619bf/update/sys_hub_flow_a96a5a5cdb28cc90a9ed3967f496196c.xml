@@ -28,6 +28,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-13 13:22:54</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>a96a5a5cdb28cc90a9ed3967f496196c</sys_id>
         <sys_mod_count>24</sys_mod_count>
         <sys_name>Linux - Rename Server</sys_name>
@@ -63,11 +64,7 @@
         <sys_created_on>2019-10-13 13:33:39</sys_created_on>
         <sys_id>0fdc9650db68cc90a9ed3967f49619bb</sys_id>
         <sys_mod_count>21</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:50</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -119,11 +116,7 @@
         <sys_created_on>2019-10-13 13:33:39</sys_created_on>
         <sys_id>4bdc9650db68cc90a9ed3967f49619b9</sys_id>
         <sys_mod_count>56</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-10-24 11:53:27</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -198,11 +191,7 @@
         <sys_created_on>2019-10-13 13:33:40</sys_created_on>
         <sys_id>4bdc9650db68cc90a9ed3967f49619c0</sys_id>
         <sys_mod_count>21</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:50</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -245,11 +234,7 @@
         <sys_created_on>2019-10-24 11:30:39</sys_created_on>
         <sys_id>983aaa33db60801015e3dd18f4961903</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:50</sys_updated_on>
         <ui_id>d6a56655-4a43-4283-942f-a851de169b12</ui_id>
@@ -286,11 +271,7 @@
         <sys_created_on>2019-10-13 13:33:39</sys_created_on>
         <sys_id>c3dc9650db68cc90a9ed3967f49619b3</sys_id>
         <sys_mod_count>56</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-10-24 11:53:27</sys_updated_on>
         <ui_id>146f8ff9-3568-4353-86b9-32accd5c50a2</ui_id>
@@ -397,16 +378,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>a96a5a5cdb28cc90a9ed3967f496196c</id>
         <name>Demo - Linux - Rename Server</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-13 13:22:54</sys_created_on>
         <sys_id>2d6a5a5cdb28cc90a9ed3967f496196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-13 13:22:54</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -834,11 +810,7 @@
         <sys_created_on>2019-10-13 13:33:39</sys_created_on>
         <sys_id>4bdc9650db68cc90a9ed3967f49619b9</sys_id>
         <sys_mod_count>56</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-10-24 11:53:27</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -909,11 +881,7 @@
         <sys_created_on>2019-10-13 13:33:39</sys_created_on>
         <sys_id>c3dc9650db68cc90a9ed3967f49619b3</sys_id>
         <sys_mod_count>56</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-10-24 11:53:27</sys_updated_on>
         <ui_id>146f8ff9-3568-4353-86b9-32accd5c50a2</ui_id>
@@ -1037,11 +1005,7 @@
         <sys_created_on>2019-10-13 13:33:39</sys_created_on>
         <sys_id>0fdc9650db68cc90a9ed3967f49619bb</sys_id>
         <sys_mod_count>21</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:50</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -1097,11 +1061,7 @@
         <sys_created_on>2019-10-13 13:33:40</sys_created_on>
         <sys_id>4bdc9650db68cc90a9ed3967f49619c0</sys_id>
         <sys_mod_count>21</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:50</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -1144,11 +1104,7 @@
         <sys_created_on>2019-10-24 11:30:39</sys_created_on>
         <sys_id>983aaa33db60801015e3dd18f4961903</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:50</sys_updated_on>
         <ui_id>d6a56655-4a43-4283-942f-a851de169b12</ui_id>
@@ -1291,18 +1247,14 @@
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"83ec1a50db68cc90a9ed3967f49619e2","name":"plan"}}</plan>
         <plan_id display_value="Linux - Rename Server">a96a5a5cdb28cc90a9ed3967f496196c</plan_id>
         <snapshot>ad6fa27bdb60801015e3dd18f4961929</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-13 13:33:56</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>83ec1a50db68cc90a9ed3967f49619e2</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:50</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -1332,6 +1284,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-13 13:33:54</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>e6ec1a50db68cc90a9ed3967f4961976</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name/>
@@ -1368,11 +1321,7 @@
         <sys_created_on>2019-10-24 11:30:48</sys_created_on>
         <sys_id>2e3aea33db60801015e3dd18f49619e6</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>d6a56655-4a43-4283-942f-a851de169b12</ui_id>
@@ -1413,11 +1362,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>32ec1a50db68cc90a9ed3967f49619a9</sys_id>
         <sys_mod_count>15</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -1469,11 +1414,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>36ec1a50db68cc90a9ed3967f49619ba</sys_id>
         <sys_mod_count>30</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -1524,11 +1465,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>7eec1a50db68cc90a9ed3967f49619ad</sys_id>
         <sys_mod_count>15</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -1566,11 +1503,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>f2ec1a50db68cc90a9ed3967f49619b4</sys_id>
         <sys_mod_count>30</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>146f8ff9-3568-4353-86b9-32accd5c50a2</ui_id>
@@ -1629,16 +1562,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>e6ec1a50db68cc90a9ed3967f4961976</id>
         <name>Demo - Linux - Rename Server</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-13 13:33:54</sys_created_on>
         <sys_id>aeec1a50db68cc90a9ed3967f4961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-13 13:33:54</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -2066,11 +1994,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>36ec1a50db68cc90a9ed3967f49619ba</sys_id>
         <sys_mod_count>30</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -2117,11 +2041,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>f2ec1a50db68cc90a9ed3967f49619b4</sys_id>
         <sys_mod_count>30</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>146f8ff9-3568-4353-86b9-32accd5c50a2</ui_id>
@@ -2198,11 +2118,7 @@
         <sys_created_on>2019-10-24 11:30:48</sys_created_on>
         <sys_id>2e3aea33db60801015e3dd18f49619e6</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>d6a56655-4a43-4283-942f-a851de169b12</ui_id>
@@ -2243,11 +2159,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>32ec1a50db68cc90a9ed3967f49619a9</sys_id>
         <sys_mod_count>15</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -2303,11 +2215,7 @@
         <sys_created_on>2019-10-13 13:33:55</sys_created_on>
         <sys_id>7eec1a50db68cc90a9ed3967f49619ad</sys_id>
         <sys_mod_count>15</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-24 11:30:48</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>

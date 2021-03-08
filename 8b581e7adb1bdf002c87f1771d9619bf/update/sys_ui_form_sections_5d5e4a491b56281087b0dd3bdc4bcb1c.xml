@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="5d5e4a491b56281087b0dd3bdc4bcb1c" sys_domain="global" table="sn_cfg_ansible_tower" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 12:37:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d5e4a491b56281087b0dd3bdc4bcb1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_cfg_ansible_tower" name="sn_cfg_ansible_tower" sys_domain="global" view="Default view">5d5e4a491b56281087b0dd3bdc4bcb1c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_cfg_ansible_tower" sys_domain="global" view="Default view">c7524ce90ba81300e257aac125673a86</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 12:37:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 12:37:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>995e4a491b56281087b0dd3bdc4bcb1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_cfg_ansible_tower" name="sn_cfg_ansible_tower" sys_domain="global" view="Default view">5d5e4a491b56281087b0dd3bdc4bcb1c</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="sn_cfg_ansible_tower" sys_domain="global" view="Default view">08451d19dbac04d0a9ed3967f49619c2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 12:37:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_cfg_ansible_tower</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 12:37:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d5e4a491b56281087b0dd3bdc4bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_cfg_ansible_tower</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+            <sys_update_name>sys_ui_form_sections_5d5e4a491b56281087b0dd3bdc4bcb1c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 12:37:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

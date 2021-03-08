@@ -136,7 +136,7 @@
         <update_guid_history>a3f5a1f1a8fbb7002038ef164fe11601:181342097</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="London">7ea51286dbf3f700a9ed3967f496196b</sys_audit_delete>
+        <sys_audit_delete display_value="">7ea51286dbf3f700a9ed3967f496196b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-11 16:44:31</sys_created_on>

@@ -44,7 +44,7 @@
         <update_guid_history>84274dcea7f6c4105e2f6df88eb38608:1576892688</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="providerAPIParameters">d8274dcedbf6c4106846dd384b961984</sys_audit_delete>
+        <sys_audit_delete display_value="">d8274dcedbf6c4106846dd384b961984</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:09:45</sys_created_on>

@@ -147,7 +147,7 @@
         <update_guid_history>30c76393da4ad0d0a79a85b29d78cf64:0,5797af538d4ad0d0e4569119186a8bb1:1139202027</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWD Route 53 Record Update">45c76393db4ad0d0425f8179139619f3</sys_audit_delete>
+        <sys_audit_delete display_value="">45c76393db4ad0d0425f8179139619f3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-22 12:28:03</sys_created_on>

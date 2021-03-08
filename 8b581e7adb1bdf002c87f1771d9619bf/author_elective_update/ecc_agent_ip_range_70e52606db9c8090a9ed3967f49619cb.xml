@@ -44,7 +44,7 @@
         <update_guid_history>7df5aac2439c80908255a1eee1a73c23:-1060780933</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ACE-SiteDepot">9c56ae06db9c8090a9ed3967f49619ed</sys_audit_delete>
+        <sys_audit_delete display_value="">9c56ae06db9c8090a9ed3967f49619ed</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 14:28:39</sys_created_on>

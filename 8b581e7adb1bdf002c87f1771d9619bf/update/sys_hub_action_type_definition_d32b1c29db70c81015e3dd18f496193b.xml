@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>look_up_vm__ips__terminated</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child}}","label":"step➛Find Interface from VM Instance Name➛CI Relationship Record➛Child","type":"step","ref":"cmdb_ci"},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record.public_ip}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record➛Public IP","type":"step","ref":""},{"name":"{{step[7460017e-3597-45d6-989a-8784132d5440].record.private_ip}}","label":"step➛Lookup NIC and IPs➛Cloud Mgmt Network Interface Record➛Private IP","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record➛Sys ID","type":"step","ref":""},{"name":"{{step[56f536fa-3a98-45e6-b3f9-cf84600bd0e7].record.child.name}}","label":"step➛Find Interface from VM Instance Name➛CI Relationship Record➛Child➛Name","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record","type":"step","ref":"cmdb_ci_vm_instance"},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.ip_address}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record➛IP Address","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.private_ip_address}}","label":"step➛Get VM Sys_ID➛Virtual Machine Instance Record➛Primary Private IP Address","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>81d8b102dbfec4106846dd384b96196d</latest_snapshot>
+        <latest_snapshot>a21c7bfedbee60d084237608f4961909</latest_snapshot>
         <master_snapshot>37eb90a9db70c81015e3dd18f4961966</master_snapshot>
         <name>Look Up VM - IPs - Terminated</name>
         <natlang/>
@@ -24,6 +24,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:35:11</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>d32b1c29db70c81015e3dd18f496193b</sys_id>
         <sys_mod_count>28</sys_mod_count>
         <sys_name>Look Up VM - IPs - Terminated</sys_name>
@@ -90,16 +91,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:35:11</sys_created_on>
         <sys_id>272b1c29db70c81015e3dd18f496196e</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 17:46:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -375,16 +371,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:35:11</sys_created_on>
         <sys_id>272b1c29db70c81015e3dd18f496196e</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 17:46:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -494,11 +485,11 @@
         <sys_created_on>2019-10-29 11:35:11</sys_created_on>
         <sys_id>272b1c29db70c81015e3dd18f496196c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Name</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d32b1c29db70c81015e3dd18f496193b_name_en</sys_update_name>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 11:35:11</sys_updated_on>
         <url/>
@@ -518,11 +509,11 @@
         <sys_created_on>2020-02-07 16:15:31</sys_created_on>
         <sys_id>3ee36d8edbfac4106846dd384b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>IP Address</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d32b1c29db70c81015e3dd18f496193b_ip_address_en</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 16:15:31</sys_updated_on>
         <url/>
@@ -533,18 +524,14 @@
         <action_id display_value="Look Up VM - IPs - Terminated">d32b1c29db70c81015e3dd18f496193b</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d0fbd0a9db70c81015e3dd18f4961941","name":"plan"}}</plan>
         <snapshot>81d8b102dbfec4106846dd384b96196d</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:38:31</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>d0fbd0a9db70c81015e3dd18f4961941</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 17:46:54</sys_updated_on>
     </sys_hub_action_plan>
@@ -570,6 +557,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:38:29</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>37eb90a9db70c81015e3dd18f4961966</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -636,16 +624,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:38:29</sys_created_on>
         <sys_id>bfeb90a9db70c81015e3dd18f4961993</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 17:46:53</sys_updated_on>
     </sys_hub_step_instance>
@@ -921,16 +904,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:38:29</sys_created_on>
         <sys_id>bfeb90a9db70c81015e3dd18f4961993</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 17:46:53</sys_updated_on>
     </sys_hub_step_instance>
@@ -1040,11 +1018,11 @@
         <sys_created_on>2019-10-29 11:38:29</sys_created_on>
         <sys_id>ffeb90a9db70c81015e3dd18f4961991</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Name</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_37eb90a9db70c81015e3dd18f4961966_name_en</sys_update_name>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 11:38:29</sys_updated_on>
         <url/>
@@ -1064,11 +1042,11 @@
         <sys_created_on>2020-02-07 16:26:05</sys_created_on>
         <sys_id>a95661c2db3ec4106846dd384b96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>IP Address</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_37eb90a9db70c81015e3dd18f4961966_ip_address_en</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 16:26:05</sys_updated_on>
         <url/>

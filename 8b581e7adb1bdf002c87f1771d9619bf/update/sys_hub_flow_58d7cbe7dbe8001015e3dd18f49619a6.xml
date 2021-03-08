@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Monitoring">c842e809dba0c0d0a9ed3967f4961939</category>
-        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3b-10-23-2020</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
         <copied_from>8017c7a7dbe8001015e3dd18f496197b</copied_from>
         <copied_from_name>Nagios - Deploy Monitoring Templ</copied_from_name>
         <description/>
         <internal_name>nagios__reset_demo</internal_name>
         <label_cache>[{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.job_id","label":"1➛Job ID","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"9b00ffb8-d3aa-4a69-b563-56f3a623659b.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.host_group","label":"Input➛Host Group","type":"string","base_type":"string"},{"name":"subflow.host_name","label":"Input➛Host Name","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"2ffa5bc5-0f99-4907-8447-2c4b1bb817d6.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"89374d42-d389-4de7-b590-eb91239e3000.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.nagios_ip","label":"Input➛Nagios IP","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"520cae82-9429-4172-98fe-b179f1ac4ce6.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.db_ip","label":"Input➛DB IP","type":"string","base_type":"string"},{"name":"subflow.db_pass","label":"Input➛DB Pass","type":"string","base_type":"string"},{"name":"subflow.db_user","label":"Input➛DB User","type":"string","base_type":"string"},{"name":"subflow.db_name","label":"Input➛DB Name","type":"string","base_type":"string"},{"name":"subflow.host_ip","label":"Input➛Host IP","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"5f9126d2-a033-42dc-a709-e240bd3b2812.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_finished","label":"3➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_started","label":"3➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_failed","label":"3➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_status","label":"3➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.job_id","label":"3➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.responce_body","label":"3➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.error_code","label":"3➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"71515c05-1c95-4e21-8b7a-dd0ba5f27c9b.status_code","label":"3➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.domain","label":"Input➛Domain","type":"string","base_type":"string"},{"name":"subflow.target_ip","label":"Input➛Target IP","type":"string","base_type":"string"},{"name":"subflow.apache_host_ip","label":"Input➛Apache Host IP","type":"string","base_type":"string"},{"name":"subflow.server_ip","label":"Input➛Apache Host IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.lab_code","label":"Input➛Lab Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.server_role","label":"Input➛Server Role","type":"string","base_type":"string"},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"06c3ad8c-3c89-4bd8-b522-0827d5de7b20.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99a42d82-4893-4dd9-84ae-160564bf8e69.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"36747632-8902-4824-9370-718ccc7ffdc2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"}]</label_cache>
-        <latest_snapshot>c338ebf5db7ce810425f817913961959</latest_snapshot>
+        <latest_snapshot>8b3cf732db22a0d084237608f49619eb</latest_snapshot>
         <master_snapshot>38588b2bdbe8001015e3dd18f4961914</master_snapshot>
         <name>Nagios - Reset Demo</name>
         <natlang/>
@@ -28,6 +28,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:01:36</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>58d7cbe7dbe8001015e3dd18f49619a6</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Nagios - Reset Demo</sys_name>
@@ -58,14 +59,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:01:38</sys_created_on>
         <sys_id>3cd70fe7dbe8001015e3dd18f496193d</sys_id>
-        <sys_mod_count>28</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:31:56</sys_updated_on>
+        <sys_updated_on>2021-03-01 17:23:06</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3cd70fe7dbe8001015e3dd18f496193d"/>
@@ -114,11 +111,7 @@
         <sys_created_on>2019-10-23 19:01:37</sys_created_on>
         <sys_id>68d70fe7dbe8001015e3dd18f496192f</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:51</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -169,14 +162,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:03:44</sys_created_on>
         <sys_id>6b484b2bdbe8001015e3dd18f496192b</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:31:56</sys_updated_on>
+        <sys_updated_on>2021-03-01 17:23:06</sys_updated_on>
         <ui_id>9b00ffb8-d3aa-4a69-b563-56f3a623659b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6b484b2bdbe8001015e3dd18f496192b"/>
@@ -249,11 +238,7 @@
         <sys_created_on>2019-10-23 19:01:37</sys_created_on>
         <sys_id>e4d70fe7dbe8001015e3dd18f4961933</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:51</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -279,16 +264,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>58d7cbe7dbe8001015e3dd18f49619a6</id>
         <name>Nagios - Reset Demo</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:01:36</sys_created_on>
         <sys_id>94d7cbe7dbe8001015e3dd18f49619a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:01:36</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -471,14 +451,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:01:38</sys_created_on>
         <sys_id>3cd70fe7dbe8001015e3dd18f496193d</sys_id>
-        <sys_mod_count>28</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:31:56</sys_updated_on>
+        <sys_updated_on>2021-03-01 17:23:06</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3cd70fe7dbe8001015e3dd18f496193d"/>
@@ -522,14 +498,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:03:44</sys_created_on>
         <sys_id>6b484b2bdbe8001015e3dd18f496192b</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:31:56</sys_updated_on>
+        <sys_updated_on>2021-03-01 17:23:06</sys_updated_on>
         <ui_id>9b00ffb8-d3aa-4a69-b563-56f3a623659b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6b484b2bdbe8001015e3dd18f496192b"/>
@@ -603,11 +575,7 @@
         <sys_created_on>2019-10-23 19:01:37</sys_created_on>
         <sys_id>68d70fe7dbe8001015e3dd18f496192f</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:51</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -663,11 +631,7 @@
         <sys_created_on>2019-10-23 19:01:37</sys_created_on>
         <sys_id>e4d70fe7dbe8001015e3dd18f4961933</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:51</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -740,19 +704,15 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"55588b2bdbe8001015e3dd18f49619c1","name":"plan"}}</plan>
         <plan_id display_value="Nagios - Reset Demo">58d7cbe7dbe8001015e3dd18f49619a6</plan_id>
-        <snapshot>c338ebf5db7ce810425f817913961959</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <snapshot>8b3cf732db22a0d084237608f49619eb</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:03:51</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>55588b2bdbe8001015e3dd18f49619c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:51</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -782,6 +742,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:03:49</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>38588b2bdbe8001015e3dd18f4961914</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -813,11 +774,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>01588b2bdbe8001015e3dd18f496197d</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>9b00ffb8-d3aa-4a69-b563-56f3a623659b</ui_id>
@@ -868,11 +825,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>81588b2bdbe8001015e3dd18f4961972</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -924,11 +877,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>8d588b2bdbe8001015e3dd18f496198e</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -979,11 +928,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>cd588b2bdbe8001015e3dd18f4961976</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -1009,16 +954,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>38588b2bdbe8001015e3dd18f4961914</id>
         <name>Nagios - Reset Demo</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 19:03:49</sys_created_on>
         <sys_id>bc588b2bdbe8001015e3dd18f4961914</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:49</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -1202,11 +1142,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>01588b2bdbe8001015e3dd18f496197d</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>9b00ffb8-d3aa-4a69-b563-56f3a623659b</ui_id>
@@ -1253,11 +1189,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>8d588b2bdbe8001015e3dd18f496198e</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -1309,11 +1241,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>81588b2bdbe8001015e3dd18f4961972</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -1369,11 +1297,7 @@
         <sys_created_on>2019-10-23 19:03:50</sys_created_on>
         <sys_id>cd588b2bdbe8001015e3dd18f4961976</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 19:03:50</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>

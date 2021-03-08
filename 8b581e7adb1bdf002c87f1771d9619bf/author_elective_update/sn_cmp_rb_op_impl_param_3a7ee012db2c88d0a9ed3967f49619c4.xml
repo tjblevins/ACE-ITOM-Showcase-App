@@ -57,7 +57,7 @@
         <update_guid_history>c37e2412872c88d0710764cc95e844d5:-445628895,4b7ee012382c88d0cf36865e8e0ccdc9:-1146898376,0f7ee012352c88d013d5dd9bd41aacc8:-445628895</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="LABCODE">a1920992dbac88d0a9ed3967f49619a1</sys_audit_delete>
+        <sys_audit_delete display_value="">a1920992dbac88d0a9ed3967f49619a1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 12:07:06</sys_created_on>

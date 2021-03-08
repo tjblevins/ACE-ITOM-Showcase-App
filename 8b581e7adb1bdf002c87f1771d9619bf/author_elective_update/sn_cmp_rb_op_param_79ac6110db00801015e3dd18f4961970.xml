@@ -44,7 +44,7 @@
         <update_guid_history>71ac61109d0080106f3c33270348d672:-1480727262</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="templateParameters">86ac6110db00801015e3dd18f49619d9</sys_audit_delete>
+        <sys_audit_delete display_value="">86ac6110db00801015e3dd18f49619d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-18 13:31:40</sys_created_on>

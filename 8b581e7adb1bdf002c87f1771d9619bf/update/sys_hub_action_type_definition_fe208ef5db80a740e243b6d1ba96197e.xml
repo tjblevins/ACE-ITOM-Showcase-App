@@ -23,6 +23,7 @@
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-21 14:25:30</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>fe208ef5db80a740e243b6d1ba96197e</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>Stop Linux Service</sys_name>
@@ -52,16 +53,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-21 14:35:12</sys_created_on>
         <sys_id>c162823ddb80a740e243b6d1ba9619ac</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>REST step</sys_name>
-        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name>sys_hub_step_instance_c162823ddb80a740e243b6d1ba9619ac</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-21 14:46:49</sys_updated_on>
     </sys_hub_step_instance>
@@ -493,16 +489,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-21 14:35:12</sys_created_on>
         <sys_id>c162823ddb80a740e243b6d1ba9619ac</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>REST step</sys_name>
-        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name>sys_hub_step_instance_c162823ddb80a740e243b6d1ba9619ac</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-21 14:46:49</sys_updated_on>
     </sys_hub_step_instance>
@@ -767,6 +758,7 @@
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-21 14:35:20</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>3262c23ddb80a740e243b6d1ba9619d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -796,16 +788,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-21 14:35:20</sys_created_on>
         <sys_id>0362c23ddb80a740e243b6d1ba9619ec</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>REST step</sys_name>
-        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name>sys_hub_step_instance_0362c23ddb80a740e243b6d1ba9619ec</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-21 14:46:54</sys_updated_on>
     </sys_hub_step_instance>
@@ -1237,16 +1224,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-21 14:35:20</sys_created_on>
         <sys_id>0362c23ddb80a740e243b6d1ba9619ec</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>REST step</sys_name>
-        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name>sys_hub_step_instance_0362c23ddb80a740e243b6d1ba9619ec</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-21 14:46:54</sys_updated_on>
     </sys_hub_step_instance>

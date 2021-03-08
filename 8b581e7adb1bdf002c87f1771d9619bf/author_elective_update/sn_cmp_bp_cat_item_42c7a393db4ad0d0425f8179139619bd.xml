@@ -147,7 +147,7 @@
         <update_guid_history>41f82357a64ad0d059369d6d4f391d33:-94745651,41f82357a64ad0d059369d6d4f391d33:-94745651,6818eb93324ad0d0430fa5ba6c268f58:-1880348754</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Route 53 Record Update">d9f82357db4ad0d0425f81791396196d</sys_audit_delete>
+        <sys_audit_delete display_value="">d9f82357db4ad0d0425f81791396196d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-22 12:33:15</sys_created_on>

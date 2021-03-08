@@ -44,7 +44,7 @@
         <update_guid_history>24ac2110ad008010a2f6845572e97e90:1055355108</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="resourceId">49ac2110db00801015e3dd18f49619b0</sys_audit_delete>
+        <sys_audit_delete display_value="">49ac2110db00801015e3dd18f49619b0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-18 13:31:35</sys_created_on>

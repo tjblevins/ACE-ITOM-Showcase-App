@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>install_date</element>
-            <list_id display_value="cmdb_ci_database" element="NULL" name="cmdb_ci_database" parent="NULL" relationship="NULL" sys_domain="global" view="84c17143db0140908669db184b9619f4">dcc1b143db0140908669db184b961971</list_id>
+            <list_id display_value="cmdb_ci_database" element="NULL" name="cmdb_ci_database" parent="NULL" relationship="NULL" sys_domain="global" view="bc5ec6491b56281087b0dd3bdc4bcbe7">dcc1b143db0140908669db184b961971</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-11-15 20:00:01</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt08c17143db0140908669db184b9619ed" name="RPT08c17143db0140908669db184b9619ed">84c17143db0140908669db184b9619f4</view>
+            <view display_value="Rpt08c17143db0140908669db184b9619ed" name="RPT08c17143db0140908669db184b9619ed">bc5ec6491b56281087b0dd3bdc4bcbe7</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

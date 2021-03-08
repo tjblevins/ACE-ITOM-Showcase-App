@@ -8,7 +8,7 @@
         <sm_checkpoint_id/>
         <source_sm_checkpoint_id/>
         <status>2</status>
-        <svc_layer display_value="AWS Ubuntu Server 16 LTS">569dc58edb3ac4106846dd384b961910</svc_layer>
+        <svc_layer display_value="">569dc58edb3ac4106846dd384b961910</svc_layer>
         <sys_class_name>sn_cmp_bp_blueprint</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:38:00</sys_created_on>

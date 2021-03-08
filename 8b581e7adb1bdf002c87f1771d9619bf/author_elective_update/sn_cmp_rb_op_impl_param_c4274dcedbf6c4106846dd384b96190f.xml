@@ -57,7 +57,7 @@
         <update_guid_history>c0274dce08f6c410c1cf88367960d416:2137509187,8c274dceacf6c410c825c4821c60a314:-1177332387,4c274dcea6f6c4100eaeac9508fea813:2137509187</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="templateParameters">98274dcedbf6c4106846dd384b961953</sys_audit_delete>
+        <sys_audit_delete display_value="">98274dcedbf6c4106846dd384b961953</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:09:44</sys_created_on>

@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Demo Configuration">7e423a86dbdc8090a9ed3967f49619a0</category>
-        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3b-10-23-2020</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>maint__clear_out_events</internal_name>
-        <label_cache>[{"name":"5d4b9cfe-7d88-4639-9de3-581c87ce7429.item","label":"2➛Event Record","reference":"em_event","reference_display":"Event","type":"reference","base_type":"reference"},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Table","label":"1➛Event Table","reference":"em_event","reference_display":"Event","type":"table_name","base_type":"table_name"},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Records","label":"1➛Event Records","reference":"em_event","reference_display":"Event","type":"records","base_type":"records"},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
-        <latest_snapshot>a3482339db7ce810425f817913961990</latest_snapshot>
+        <label_cache>[{"name":"5d4b9cfe-7d88-4639-9de3-581c87ce7429.item","label":"2➛Event Record","reference":"em_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Table","label":"1➛Event Table","reference":"em_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Records","label":"1➛Event Records","reference":"em_event","reference_display":"Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <latest_snapshot>f59a678d1b32e05087b0dd3bdc4bcb3a</latest_snapshot>
         <master_snapshot>3a1a434ddb74481015e3dd18f49619d8</master_snapshot>
         <name>Maint - Clear Out Events</name>
         <natlang/>
@@ -28,16 +28,17 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:48:09</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>74d68fc5db74481015e3dd18f496198f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Maint - Clear Out Events</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
         <sys_update_name>sys_hub_flow_74d68fc5db74481015e3dd18f496198f</sys_update_name>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:30</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=74d68fc5db74481015e3dd18f496198f"/>
@@ -45,10 +46,10 @@
     <sys_hub_flow_component action="delete_multiple" query="flow=74d68fc5db74481015e3dd18f496198f^sys_idNOT IN5e870349db74481015e3dd18f4961960,da870349db74481015e3dd18f4961965,da870349db74481015e3dd18f4961967"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Maint - Clear Out Events">74d68fc5db74481015e3dd18f496198f</flow>
         <order>1</order>
@@ -57,14 +58,10 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:51:15</sys_created_on>
         <sys_id>5e870349db74481015e3dd18f4961960</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:32:13</sys_updated_on>
+        <sys_updated_on>2021-03-08 15:52:18</sys_updated_on>
         <ui_id>caa5019a-69be-4eec-842e-1d8a8abf8db6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5e870349db74481015e3dd18f4961960"/>
@@ -85,6 +82,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:10</sys_created_on>
+        <sys_id>376e97051b76a410c7ee1029b04bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:10</sys_updated_on>
+        <value>em_event</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
@@ -95,6 +106,20 @@
         <sys_updated_on>2019-10-28 11:01:47</sys_updated_on>
         <value>10000</value>
         <variable display_value="">8e0722490b30030085c083eb37673a16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:10</sys_created_on>
+        <sys_id>736e97051b76a410c7ee1029b04bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:10</sys_updated_on>
+        <value>message_keyNOT LIKEoi_</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -124,6 +149,34 @@
         <value>10000</value>
         <variable display_value="">cd07ee090b30030085c083eb37673a39</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:58:50</sys_created_on>
+        <sys_id>ba5e57051b76a410c7ee1029b04bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:58:50</sys_updated_on>
+        <value>message_keyNOT LIKEoi_</value>
+        <variable display_value="">460722490b30030085c083eb37673a0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:10</sys_created_on>
+        <sys_id>bf6e97051b76a410c7ee1029b04bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:10</sys_updated_on>
+        <value>10000</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -133,20 +186,16 @@
         <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Maint - Clear Out Events">74d68fc5db74481015e3dd18f496198f</flow>
-        <order>2.1</order>
+        <order>3</order>
         <parent_ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:51:16</sys_created_on>
         <sys_id>da870349db74481015e3dd18f4961965</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:32:13</sys_updated_on>
+        <sys_updated_on>2021-03-08 15:52:18</sys_updated_on>
         <ui_id>ff8d6f78-bb5f-4796-9dac-d2b24b63b8eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=da870349db74481015e3dd18f4961965"/>
@@ -176,7 +225,7 @@
         <value>{{5d4b9cfe-7d88-4639-9de3-581c87ce7429.item}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">16870349db74481015e3dd18f4961967</block>
+        <block display_value="">725e57051b76a410c7ee1029b04bcba2</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -194,14 +243,10 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:51:16</sys_created_on>
         <sys_id>da870349db74481015e3dd18f4961967</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -225,26 +270,21 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>74d68fc5db74481015e3dd18f496198f</id>
         <name>Maint - Clear Out Events</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:48:09</sys_created_on>
         <sys_id>f4d68fc5db74481015e3dd18f4961990</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-28 10:48:09</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_hub_action_instance action="delete_multiple" query="flow=74d68fc5db74481015e3dd18f496198f^sys_idNOT IN5e870349db74481015e3dd18f4961960,da870349db74481015e3dd18f4961965"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Maint - Clear Out Events">74d68fc5db74481015e3dd18f496198f</flow>
         <order>1</order>
@@ -253,14 +293,10 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:51:15</sys_created_on>
         <sys_id>5e870349db74481015e3dd18f4961960</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:32:13</sys_updated_on>
+        <sys_updated_on>2021-03-08 15:52:18</sys_updated_on>
         <ui_id>caa5019a-69be-4eec-842e-1d8a8abf8db6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5e870349db74481015e3dd18f4961960"/>
@@ -281,6 +317,20 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:10</sys_created_on>
+        <sys_id>376e97051b76a410c7ee1029b04bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:10</sys_updated_on>
+        <value>em_event</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
@@ -291,6 +341,20 @@
         <sys_updated_on>2019-10-28 11:01:47</sys_updated_on>
         <value>10000</value>
         <variable display_value="">8e0722490b30030085c083eb37673a16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:10</sys_created_on>
+        <sys_id>736e97051b76a410c7ee1029b04bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:10</sys_updated_on>
+        <value>message_keyNOT LIKEoi_</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -320,6 +384,34 @@
         <value>10000</value>
         <variable display_value="">cd07ee090b30030085c083eb37673a39</variable>
     </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:58:50</sys_created_on>
+        <sys_id>ba5e57051b76a410c7ee1029b04bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:58:50</sys_updated_on>
+        <value>message_keyNOT LIKEoi_</value>
+        <variable display_value="">460722490b30030085c083eb37673a0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5e870349db74481015e3dd18f4961960</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:10</sys_created_on>
+        <sys_id>bf6e97051b76a410c7ee1029b04bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:10</sys_updated_on>
+        <value>10000</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -329,20 +421,16 @@
         <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Maint - Clear Out Events">74d68fc5db74481015e3dd18f496198f</flow>
-        <order>2.1</order>
+        <order>3</order>
         <parent_ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:51:16</sys_created_on>
         <sys_id>da870349db74481015e3dd18f4961965</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2020-12-01 13:32:13</sys_updated_on>
+        <sys_updated_on>2021-03-08 15:52:18</sys_updated_on>
         <ui_id>ff8d6f78-bb5f-4796-9dac-d2b24b63b8eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=da870349db74481015e3dd18f4961965"/>
@@ -373,7 +461,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=74d68fc5db74481015e3dd18f496198f^sys_idNOT INda870349db74481015e3dd18f4961967"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">16870349db74481015e3dd18f4961967</block>
+        <block display_value="">725e57051b76a410c7ee1029b04bcba2</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -391,14 +479,10 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 10:51:16</sys_created_on>
         <sys_id>da870349db74481015e3dd18f4961967</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -422,21 +506,17 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"be1a434ddb74481015e3dd18f49619ed","name":"plan"}}</plan>
         <plan_id display_value="Maint - Clear Out Events">74d68fc5db74481015e3dd18f496198f</plan_id>
-        <snapshot>a3482339db7ce810425f817913961990</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <snapshot>f59a678d1b32e05087b0dd3bdc4bcb3a</snapshot>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>be1a434ddb74481015e3dd18f49619ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -449,7 +529,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>maint__clear_out_events</internal_name>
-        <label_cache>[{"name":"5d4b9cfe-7d88-4639-9de3-581c87ce7429.item","label":"2➛Event Record","reference":"em_event","reference_display":"Event","type":"reference","base_type":"reference"},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Table","label":"1➛Event Table","reference":"em_event","reference_display":"Event","type":"table_name","base_type":"table_name"},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Records","label":"1➛Event Records","reference":"em_event","reference_display":"Event","type":"records","base_type":"records"},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <label_cache>[{"name":"5d4b9cfe-7d88-4639-9de3-581c87ce7429.item","label":"2➛Event Record","reference":"em_event","reference_display":"Event","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Table","label":"1➛Event Table","reference":"em_event","reference_display":"Event","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"caa5019a-69be-4eec-842e-1d8a8abf8db6.Records","label":"1➛Event Records","reference":"em_event","reference_display":"Event","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"85833674-fbff-4dc8-8e8d-b59ea69dc6b7.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
         <master>true</master>
         <name>Maint - Clear Out Events</name>
         <natlang/>
@@ -464,23 +544,24 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>3a1a434ddb74481015e3dd18f49619d8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=3a1a434ddb74481015e3dd18f49619d8"/>
     <sys_variable_value action="delete_multiple" query="document_key=3a1a434ddb74481015e3dd18f49619d8"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=3a1a434ddb74481015e3dd18f49619d8^sys_idNOT INba1a434ddb74481015e3dd18f49619db,be1a434ddb74481015e3dd18f49619de,fa1a434ddb74481015e3dd18f49619e1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">16870349db74481015e3dd18f4961967</block>
+        <block display_value="">725e57051b76a410c7ee1029b04bcba2</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -498,14 +579,10 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_id>ba1a434ddb74481015e3dd18f49619db</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -527,7 +604,7 @@
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
         <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
@@ -539,17 +616,27 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_id>be1a434ddb74481015e3dd18f49619de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>caa5019a-69be-4eec-842e-1d8a8abf8db6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be1a434ddb74481015e3dd18f49619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:11</sys_created_on>
+        <sys_id>007ed7051b76a410c7ee1029b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:11</sys_updated_on>
+        <value>10000</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
@@ -563,6 +650,34 @@
         <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
         <value>10000</value>
         <variable display_value="">8e0722490b30030085c083eb37673a16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:11</sys_created_on>
+        <sys_id>847ed7051b76a410c7ee1029b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:11</sys_updated_on>
+        <value>em_event</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:11</sys_created_on>
+        <sys_id>c07ed7051b76a410c7ee1029b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:11</sys_updated_on>
+        <value>message_keyNOT LIKEoi_</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -587,20 +702,16 @@
         <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Maint - Clear Out Events">3a1a434ddb74481015e3dd18f49619d8</flow>
-        <order>2.1</order>
+        <order>3</order>
         <parent_ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_id>fa1a434ddb74481015e3dd18f49619e1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>ff8d6f78-bb5f-4796-9dac-d2b24b63b8eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fa1a434ddb74481015e3dd18f49619e1"/>
@@ -621,23 +732,18 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>3a1a434ddb74481015e3dd18f49619d8</id>
         <name>Maint - Clear Out Events</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_id>3e1a434ddb74481015e3dd18f49619d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_hub_action_instance action="delete_multiple" query="flow=3a1a434ddb74481015e3dd18f49619d8^sys_idNOT INbe1a434ddb74481015e3dd18f49619de,fa1a434ddb74481015e3dd18f49619e1"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
         <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
@@ -649,17 +755,27 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_id>be1a434ddb74481015e3dd18f49619de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>caa5019a-69be-4eec-842e-1d8a8abf8db6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be1a434ddb74481015e3dd18f49619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:11</sys_created_on>
+        <sys_id>007ed7051b76a410c7ee1029b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:11</sys_updated_on>
+        <value>10000</value>
+        <variable display_value="">4f400a1587003300663ca1bb36cb0b61</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
@@ -673,6 +789,34 @@
         <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
         <value>10000</value>
         <variable display_value="">8e0722490b30030085c083eb37673a16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:11</sys_created_on>
+        <sys_id>847ed7051b76a410c7ee1029b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:11</sys_updated_on>
+        <value>em_event</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>be1a434ddb74481015e3dd18f49619de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-08 14:59:11</sys_created_on>
+        <sys_id>c07ed7051b76a410c7ee1029b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:11</sys_updated_on>
+        <value>message_keyNOT LIKEoi_</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -697,20 +841,16 @@
         <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Maint - Clear Out Events">3a1a434ddb74481015e3dd18f49619d8</flow>
-        <order>2.1</order>
+        <order>3</order>
         <parent_ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_id>fa1a434ddb74481015e3dd18f49619e1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>ff8d6f78-bb5f-4796-9dac-d2b24b63b8eb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fa1a434ddb74481015e3dd18f49619e1"/>
@@ -729,7 +869,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=3a1a434ddb74481015e3dd18f49619d8^sys_idNOT INba1a434ddb74481015e3dd18f49619db"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">16870349db74481015e3dd18f4961967</block>
+        <block display_value="">725e57051b76a410c7ee1029b04bcba2</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -747,14 +887,10 @@
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-28 11:02:29</sys_created_on>
         <sys_id>ba1a434ddb74481015e3dd18f49619db</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-28 11:02:29</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-08 14:59:12</sys_updated_on>
         <ui_id>5d4b9cfe-7d88-4639-9de3-581c87ce7429</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

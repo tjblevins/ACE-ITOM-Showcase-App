@@ -8,7 +8,7 @@
         <sm_checkpoint_id/>
         <source_sm_checkpoint_id/>
         <status>2</status>
-        <svc_layer display_value="AWS Red Hat Enterprise Linux 7">491bcd0adb3ac4106846dd384b9619b9</svc_layer>
+        <svc_layer display_value="">491bcd0adb3ac4106846dd384b9619b9</svc_layer>
         <sys_class_name>sn_cmp_bp_blueprint</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:26:59</sys_created_on>

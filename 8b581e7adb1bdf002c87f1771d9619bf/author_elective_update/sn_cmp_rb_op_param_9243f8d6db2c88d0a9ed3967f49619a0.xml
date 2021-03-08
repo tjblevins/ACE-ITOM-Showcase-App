@@ -44,7 +44,7 @@
         <update_guid_history>d643f8d6a12c88d05b9d2bcbadbe58a4:906571866</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="CloudAccount">91537cd6db2c88d0a9ed3967f496191f</sys_audit_delete>
+        <sys_audit_delete display_value="">91537cd6db2c88d0a9ed3967f496191f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:00:28</sys_created_on>

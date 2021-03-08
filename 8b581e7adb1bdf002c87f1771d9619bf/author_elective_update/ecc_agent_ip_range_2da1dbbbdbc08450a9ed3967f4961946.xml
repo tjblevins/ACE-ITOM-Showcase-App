@@ -44,7 +44,7 @@
         <update_guid_history>7fa6c3409298c450dbe3097a93436ae4:-603377874,c7e193fbf8c08450024f6fde87f50296:-1160947184</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ACE-Tower1">3bb81282db5c8090a9ed3967f49619c4</sys_audit_delete>
+        <sys_audit_delete display_value="">3bb81282db5c8090a9ed3967f49619c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 13:29:21</sys_created_on>

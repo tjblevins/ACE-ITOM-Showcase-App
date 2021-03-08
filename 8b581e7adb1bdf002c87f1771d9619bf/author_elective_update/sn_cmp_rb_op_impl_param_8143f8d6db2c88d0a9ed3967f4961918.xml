@@ -57,7 +57,7 @@
         <update_guid_history>4d43f8d6012c88d09e99aeb0dc755019:-1825910879</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Location">8e43f8d6db2c88d0a9ed3967f496197e</sys_audit_delete>
+        <sys_audit_delete display_value="">8e43f8d6db2c88d0a9ed3967f496197e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:00:13</sys_created_on>

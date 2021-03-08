@@ -57,7 +57,7 @@
         <update_guid_history>477e2412372c88d08d63633920a195d7:-582211374,bbcd64ded4e888d0ccd1cfa1a17f59a8:-2076456790,37cd64defae888d048d82dc546f8e6a4:-1584781787,37cd64de21e888d09a6b64ddb4dc57a3:-2076456790</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="lab_code">da82c592dbac88d0a9ed3967f496198d</sys_audit_delete>
+        <sys_audit_delete display_value="">da82c592dbac88d0a9ed3967f496198d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 12:06:52</sys_created_on>

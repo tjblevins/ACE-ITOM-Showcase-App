@@ -2867,7 +2867,7 @@ answer = 0;&lt;/value&gt;
         <reverted_from/>
         <source/>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-10 18:38:42</sys_created_on>
         <sys_id>31366535dbfbb70015e3dd18f4961960</sys_id>
@@ -2880,7 +2880,7 @@ answer = 0;&lt;/value&gt;
         <update_guid_history>fd36653520fbb700a7f1395270b9bc5f:91887908</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITOM - ZRetired-Initial Site Depot LAMP Stack">01091480db988450a9ed3967f49619ba</sys_audit_delete>
+        <sys_audit_delete display_value="">01091480db988450a9ed3967f49619ba</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-29 23:03:27</sys_created_on>

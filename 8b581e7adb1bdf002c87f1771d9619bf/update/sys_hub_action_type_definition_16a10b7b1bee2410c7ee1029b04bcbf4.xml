@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Cloud Catalog">02d53a2bdb68001015e3dd18f496191f</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>service_catalog__order_now__marketing_wordpress</internal_name>
+        <label_cache>[{"name":"{{action.instance_url}}","label":"action➛Instance URL","type":"action","ref":""},{"name":"{{action.sc_sysid}}","label":"action➛SC SysID","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>98250bbb1bee2410c7ee1029b04bcbad</latest_snapshot>
+        <master_snapshot>a0250bbb1bee2410c7ee1029b04bcbfe</master_snapshot>
+        <name>Service Catalog - Order Now - Marketing Wordpress</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:41:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16a10b7b1bee2410c7ee1029b04bcbf4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Service Catalog - Order Now - Marketing Wordpress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_16a10b7b1bee2410c7ee1029b04bcbf4</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=16a10b7b1bee2410c7ee1029b04bcbf4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=16a10b7b1bee2410c7ee1029b04bcbf4"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=16a10b7b1bee2410c7ee1029b04bcbf4^sys_idNOT IN2f15c7bb1bee2410c7ee1029b04bcbf3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Service Catalog - Order Now - Marketing Wordpress">16a10b7b1bee2410c7ee1029b04bcbf4</action>
+        <cid>f242f085-578a-4dec-8d5c-aea3c530bb0a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>2f15c7bb1bee2410c7ee1029b04bcbf3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f15c7bb1bee2410c7ee1029b04bcbf3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:13</sys_created_on>
+        <sys_id>10250bbb1bee2410c7ee1029b04bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3b150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>6c420f7b1bee2410c7ee1029b04bcb42</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3f150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>77150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>b3150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>f3150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>{
+sysparm_quantity: 1,
+variables: {
+"CloudAccount" : "ACEGroup",
+"Location" : "AWS Datacenter - us-west-2",
+"StackName" : "ACE-SD-Marketing",
+"UserGroup" : "93b2bd26dbfe130059595f135e96190f",
+"ScheduleProfile" : "Always On",
+"LeaseEndDate" : "2022-01-03 16:22:22",
+"ScheduleTimeZone" : "US/Central",
+"BusinessService" : "5f0d13fe1b22a41487b0dd3bdc4bcb1e",
+"Site_Depot_Wordpress_LABCODE" : "tb01",
+"Site_Depot_Wordpress_SubNet" : "subnet-02aa46db7f3628c9c",
+"Site_Depot_Wordpress_SecGroup" : "sg-0c78b51976cfa4b68",
+"Site_Depot_Wordpress_WWWNAME" : "ami-0092d6a99a2167204",
+"Site_Depot_Wordpress_WWWAMI" : "ACE-SD-WWW-",
+"cicd" : 1
+}
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>fb150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>ff150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f15c7bb1bee2410c7ee1029b04bcbf3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>73150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>fb150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.instance_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>67150bbb1bee2410c7ee1029b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3b150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>b3150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>bf150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>77150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3f150bbb1bee2410c7ee1029b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:13</sys_created_on>
+        <sys_id>9c250bbb1bee2410c7ee1029b04bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>ff150bbb1bee2410c7ee1029b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/api/sn_sc/servicecatalog/items/{{action.sc_sysid}}/order_now</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2f15c7bb1bee2410c7ee1029b04bcbf3^sys_idNOT INab150bbb1bee2410c7ee1029b04bcb09"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c4527f55-e783-49b3-a2a4-77b9c6cb2725</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">2f15c7bb1bee2410c7ee1029b04bcbf3</model>
+        <model_id>2f15c7bb1bee2410c7ee1029b04bcbf3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2f15c7bb1bee2410c7ee1029b04bcbf3</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>ab150bbb1bee2410c7ee1029b04bcb09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=16a10b7b1bee2410c7ee1029b04bcbf4^sys_idNOT IN2315c7bb1bee2410c7ee1029b04bcbec,a715c7bb1bee2410c7ee1029b04bcbe4"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=42f44d56-a6b7-4f3e-8811-20cf03634b38</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sc_sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SC SysID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Service Catalog - Order Now - Marketing Wordpress">16a10b7b1bee2410c7ee1029b04bcbf4</model>
+        <model_id>16a10b7b1bee2410c7ee1029b04bcbf4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_16a10b7b1bee2410c7ee1029b04bcbf4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>2315c7bb1bee2410c7ee1029b04bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b54ffbb0-2827-42af-b0e3-388ea7971795</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Instance URL</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Service Catalog - Order Now - Marketing Wordpress">16a10b7b1bee2410c7ee1029b04bcbf4</model>
+        <model_id>16a10b7b1bee2410c7ee1029b04bcbf4</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_16a10b7b1bee2410c7ee1029b04bcbf4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:09</sys_created_on>
+        <sys_id>a715c7bb1bee2410c7ee1029b04bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=16a10b7b1bee2410c7ee1029b04bcbf4^sys_idNOT IN2f15c7bb1bee2410c7ee1029b04bcbf3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Service Catalog - Order Now - Marketing Wordpress">16a10b7b1bee2410c7ee1029b04bcbf4</action>
+        <cid>f242f085-578a-4dec-8d5c-aea3c530bb0a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>2f15c7bb1bee2410c7ee1029b04bcbf3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f15c7bb1bee2410c7ee1029b04bcbf3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:13</sys_created_on>
+        <sys_id>10250bbb1bee2410c7ee1029b04bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3b150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>6c420f7b1bee2410c7ee1029b04bcb42</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3f150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>77150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>b3150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>f3150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>{
+sysparm_quantity: 1,
+variables: {
+"CloudAccount" : "ACEGroup",
+"Location" : "AWS Datacenter - us-west-2",
+"StackName" : "ACE-SD-Marketing",
+"UserGroup" : "93b2bd26dbfe130059595f135e96190f",
+"ScheduleProfile" : "Always On",
+"LeaseEndDate" : "2022-01-03 16:22:22",
+"ScheduleTimeZone" : "US/Central",
+"BusinessService" : "5f0d13fe1b22a41487b0dd3bdc4bcb1e",
+"Site_Depot_Wordpress_LABCODE" : "tb01",
+"Site_Depot_Wordpress_SubNet" : "subnet-02aa46db7f3628c9c",
+"Site_Depot_Wordpress_SecGroup" : "sg-0c78b51976cfa4b68",
+"Site_Depot_Wordpress_WWWNAME" : "ami-0092d6a99a2167204",
+"Site_Depot_Wordpress_WWWAMI" : "ACE-SD-WWW-",
+"cicd" : 1
+}
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>fb150bbb1bee2410c7ee1029b04bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2f15c7bb1bee2410c7ee1029b04bcbf3</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>ff150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f15c7bb1bee2410c7ee1029b04bcbf3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>73150bbb1bee2410c7ee1029b04bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>fb150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.instance_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>67150bbb1bee2410c7ee1029b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3b150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>b3150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>bf150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>77150bbb1bee2410c7ee1029b04bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>3f150bbb1bee2410c7ee1029b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:13</sys_created_on>
+        <sys_id>9c250bbb1bee2410c7ee1029b04bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>2f15c7bb1bee2410c7ee1029b04bcbf3</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>ff150bbb1bee2410c7ee1029b04bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/api/sn_sc/servicecatalog/items/{{action.sc_sysid}}/order_now</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2f15c7bb1bee2410c7ee1029b04bcbf3^sys_idNOT INab150bbb1bee2410c7ee1029b04bcb09"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c4527f55-e783-49b3-a2a4-77b9c6cb2725</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">2f15c7bb1bee2410c7ee1029b04bcbf3</model>
+        <model_id>2f15c7bb1bee2410c7ee1029b04bcbf3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2f15c7bb1bee2410c7ee1029b04bcbf3</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>ab150bbb1bee2410c7ee1029b04bcb09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_16a10b7b1bee2410c7ee1029b04bcbf4^sys_idNOT IN6b15c7bb1bee2410c7ee1029b04bcbea,6f15c7bb1bee2410c7ee1029b04bcbf0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_url</element>
+        <help/>
+        <hint/>
+        <label>Instance URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_16a10b7b1bee2410c7ee1029b04bcbf4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>6b15c7bb1bee2410c7ee1029b04bcbea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sc_sysid</element>
+        <help/>
+        <hint/>
+        <label>SC SysID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_16a10b7b1bee2410c7ee1029b04bcbf4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:10</sys_created_on>
+        <sys_id>6f15c7bb1bee2410c7ee1029b04bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=16a10b7b1bee2410c7ee1029b04bcbf4^sys_idNOT INc9254bbb1bee2410c7ee1029b04bcbc2"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Service Catalog - Order Now - Marketing Wordpress">16a10b7b1bee2410c7ee1029b04bcbf4</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c9254bbb1bee2410c7ee1029b04bcbc2","name":"plan"}}</plan>
+        <snapshot>98250bbb1bee2410c7ee1029b04bcbad</snapshot>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c9254bbb1bee2410c7ee1029b04bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:16</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Cloud Catalog">02d53a2bdb68001015e3dd18f496191f</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>service_catalog__order_now__marketing_wordpress</internal_name>
+        <label_cache>[{"name":"{{action.instance_url}}","label":"action➛Instance URL","type":"action","ref":""},{"name":"{{action.sc_sysid}}","label":"action➛SC SysID","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Service Catalog - Order Now - Marketing Wordpress</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Service Catalog - Order Now - Marketing Wordpress">16a10b7b1bee2410c7ee1029b04bcbf4</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0250bbb1bee2410c7ee1029b04bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0250bbb1bee2410c7ee1029b04bcbfe"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a0250bbb1bee2410c7ee1029b04bcbfe"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=a0250bbb1bee2410c7ee1029b04bcbfe^sys_idNOT INec254bbb1bee2410c7ee1029b04bcb0d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Service Catalog - Order Now - Marketing Wordpress">a0250bbb1bee2410c7ee1029b04bcbfe</action>
+        <cid>f242f085-578a-4dec-8d5c-aea3c530bb0a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ec254bbb1bee2410c7ee1029b04bcb0d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ec254bbb1bee2410c7ee1029b04bcb0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>28254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>2c254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>64254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>6c420f7b1bee2410c7ee1029b04bcb42</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>68254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a0254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a4254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>{
+sysparm_quantity: 1,
+variables: {
+"CloudAccount" : "ACEGroup",
+"Location" : "AWS Datacenter - us-west-2",
+"StackName" : "ACE-SD-Marketing",
+"UserGroup" : "93b2bd26dbfe130059595f135e96190f",
+"ScheduleProfile" : "Always On",
+"LeaseEndDate" : "2022-01-03 16:22:22",
+"ScheduleTimeZone" : "US/Central",
+"BusinessService" : "5f0d13fe1b22a41487b0dd3bdc4bcb1e",
+"Site_Depot_Wordpress_LABCODE" : "tb01",
+"Site_Depot_Wordpress_SubNet" : "subnet-02aa46db7f3628c9c",
+"Site_Depot_Wordpress_SecGroup" : "sg-0c78b51976cfa4b68",
+"Site_Depot_Wordpress_WWWNAME" : "ami-0092d6a99a2167204",
+"Site_Depot_Wordpress_WWWAMI" : "ACE-SD-WWW-",
+"cicd" : 1
+}
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>e8254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ec254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec254bbb1bee2410c7ee1029b04bcb0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>60254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>e8254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.instance_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>68254bbb1bee2410c7ee1029b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>28254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a0254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ac254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>64254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>2c254bbb1bee2410c7ee1029b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>24254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ec254bbb1bee2410c7ee1029b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/api/sn_sc/servicecatalog/items/{{action.sc_sysid}}/order_now</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ec254bbb1bee2410c7ee1029b04bcb0d^sys_idNOT INac254bbb1bee2410c7ee1029b04bcb20"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c4527f55-e783-49b3-a2a4-77b9c6cb2725</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">ec254bbb1bee2410c7ee1029b04bcb0d</model>
+        <model_id>ec254bbb1bee2410c7ee1029b04bcb0d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ec254bbb1bee2410c7ee1029b04bcb0d</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ac254bbb1bee2410c7ee1029b04bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=a0250bbb1bee2410c7ee1029b04bcbfe^sys_idNOT INa4250bbb1bee2410c7ee1029b04bcbff,a4254bbb1bee2410c7ee1029b04bcb06"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b54ffbb0-2827-42af-b0e3-388ea7971795</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance_url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Instance URL</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Service Catalog - Order Now - Marketing Wordpress">a0250bbb1bee2410c7ee1029b04bcbfe</model>
+        <model_id>a0250bbb1bee2410c7ee1029b04bcbfe</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a0250bbb1bee2410c7ee1029b04bcbfe</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a4250bbb1bee2410c7ee1029b04bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=42f44d56-a6b7-4f3e-8811-20cf03634b38</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sc_sysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SC SysID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Service Catalog - Order Now - Marketing Wordpress">a0250bbb1bee2410c7ee1029b04bcbfe</model>
+        <model_id>a0250bbb1bee2410c7ee1029b04bcbfe</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a0250bbb1bee2410c7ee1029b04bcbfe</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a4254bbb1bee2410c7ee1029b04bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=a0250bbb1bee2410c7ee1029b04bcbfe^sys_idNOT INec254bbb1bee2410c7ee1029b04bcb0d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Service Catalog - Order Now - Marketing Wordpress">a0250bbb1bee2410c7ee1029b04bcbfe</action>
+        <cid>f242f085-578a-4dec-8d5c-aea3c530bb0a</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ec254bbb1bee2410c7ee1029b04bcb0d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ec254bbb1bee2410c7ee1029b04bcb0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>28254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>2c254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>64254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>6c420f7b1bee2410c7ee1029b04bcb42</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>68254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a0254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a4254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>{
+sysparm_quantity: 1,
+variables: {
+"CloudAccount" : "ACEGroup",
+"Location" : "AWS Datacenter - us-west-2",
+"StackName" : "ACE-SD-Marketing",
+"UserGroup" : "93b2bd26dbfe130059595f135e96190f",
+"ScheduleProfile" : "Always On",
+"LeaseEndDate" : "2022-01-03 16:22:22",
+"ScheduleTimeZone" : "US/Central",
+"BusinessService" : "5f0d13fe1b22a41487b0dd3bdc4bcb1e",
+"Site_Depot_Wordpress_LABCODE" : "tb01",
+"Site_Depot_Wordpress_SubNet" : "subnet-02aa46db7f3628c9c",
+"Site_Depot_Wordpress_SecGroup" : "sg-0c78b51976cfa4b68",
+"Site_Depot_Wordpress_WWWNAME" : "ami-0092d6a99a2167204",
+"Site_Depot_Wordpress_WWWAMI" : "ACE-SD-WWW-",
+"cicd" : 1
+}
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>e8254bbb1bee2410c7ee1029b04bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec254bbb1bee2410c7ee1029b04bcb0d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ec254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec254bbb1bee2410c7ee1029b04bcb0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>60254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>e8254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.instance_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>68254bbb1bee2410c7ee1029b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>28254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>a0254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ac254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>64254bbb1bee2410c7ee1029b04bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>2c254bbb1bee2410c7ee1029b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>24254bbb1bee2410c7ee1029b04bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>ec254bbb1bee2410c7ee1029b04bcb0d</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ec254bbb1bee2410c7ee1029b04bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/api/sn_sc/servicecatalog/items/{{action.sc_sysid}}/order_now</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ec254bbb1bee2410c7ee1029b04bcb0d^sys_idNOT INac254bbb1bee2410c7ee1029b04bcb20"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=c4527f55-e783-49b3-a2a4-77b9c6cb2725</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">ec254bbb1bee2410c7ee1029b04bcb0d</model>
+        <model_id>ec254bbb1bee2410c7ee1029b04bcb0d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ec254bbb1bee2410c7ee1029b04bcb0d</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ac254bbb1bee2410c7ee1029b04bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a0250bbb1bee2410c7ee1029b04bcbfe^sys_idNOT IN60254bbb1bee2410c7ee1029b04bcb0b,ec254bbb1bee2410c7ee1029b04bcb04"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sc_sysid</element>
+        <help/>
+        <hint/>
+        <label>SC SysID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a0250bbb1bee2410c7ee1029b04bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>60254bbb1bee2410c7ee1029b04bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance_url</element>
+        <help/>
+        <hint/>
+        <label>Instance URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a0250bbb1bee2410c7ee1029b04bcbfe</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2021-03-04 15:56:14</sys_created_on>
+        <sys_id>ec254bbb1bee2410c7ee1029b04bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 15:56:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

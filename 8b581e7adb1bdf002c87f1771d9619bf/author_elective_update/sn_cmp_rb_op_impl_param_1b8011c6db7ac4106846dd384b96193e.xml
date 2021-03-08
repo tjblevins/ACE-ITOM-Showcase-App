@@ -57,7 +57,7 @@
         <update_guid_history>578011c6457ac410df61a5f02b643640:-928826981</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="CloudAccount">409051c6db7ac4106846dd384b961974</sys_audit_delete>
+        <sys_audit_delete display_value="">409051c6db7ac4106846dd384b961974</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2020-02-07 14:50:57</sys_created_on>

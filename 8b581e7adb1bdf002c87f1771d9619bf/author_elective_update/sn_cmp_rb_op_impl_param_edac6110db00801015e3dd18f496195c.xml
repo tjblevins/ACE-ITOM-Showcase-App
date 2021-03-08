@@ -57,7 +57,7 @@
         <update_guid_history>2dac6110cc0080103af10dae1c1a6363:2085466625,e5ac611009008010692299c4d4952d62:293104386,a5ac611010008010fac2bf2ebc84a761:2085466625</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="orchestrationTemplate">0eac6110db00801015e3dd18f49619bd</sys_audit_delete>
+        <sys_audit_delete display_value="">0eac6110db00801015e3dd18f49619bd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-18 13:31:40</sys_created_on>

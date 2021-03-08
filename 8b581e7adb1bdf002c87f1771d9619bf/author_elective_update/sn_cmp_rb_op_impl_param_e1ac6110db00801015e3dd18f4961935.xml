@@ -57,7 +57,7 @@
         <update_guid_history>61ac6110ad008010e1f0195711ea1f37:-689660308</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="CloudAccount">deac6110db00801015e3dd18f49619e8</sys_audit_delete>
+        <sys_audit_delete display_value="">deac6110db00801015e3dd18f49619e8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-18 13:31:40</sys_created_on>

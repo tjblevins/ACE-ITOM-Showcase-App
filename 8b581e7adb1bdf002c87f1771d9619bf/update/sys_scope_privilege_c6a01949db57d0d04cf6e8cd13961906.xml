@@ -16,7 +16,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-15 05:00:00</sys_updated_on>
         <target_name>CmpBillingJobUtil</target_name>
-        <target_scope display_value="Cloud Provisioning and Governance">80d50579eb203200979aa5115206fedd</target_scope>
+        <target_scope display_value="Cloud Management Platform">80d50579eb203200979aa5115206fedd</target_scope>
         <target_type>sys_script_include</target_type>
     </sys_scope_privilege>
 </record_update>

@@ -1787,7 +1787,7 @@ Parameters:
         <update_guid_history>6f25bf62e3f7bb00050090babb9ee758:2067091444,1725bf6217f7bb000250595a23cbb455:-1439907396,2df47b626af7bb000a646f4810719285:1124490905</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="1">c36d8c3fdbfbff00a9ed3967f496193f</sys_audit_delete>
+        <sys_audit_delete display_value="">c36d8c3fdbfbff00a9ed3967f496193f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-16 17:18:38</sys_created_on>

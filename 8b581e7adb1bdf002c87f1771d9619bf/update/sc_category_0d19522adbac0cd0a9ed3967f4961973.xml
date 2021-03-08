@@ -17,7 +17,6 @@
         <parent/>
         <roles/>
         <sc_catalog display_value="ITOM Demo Catalog">ea0b42b4dbaf9300786ff1351d961971</sc_catalog>
-        <show_in_cms>false</show_in_cms>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-20 13:03:48</sys_created_on>

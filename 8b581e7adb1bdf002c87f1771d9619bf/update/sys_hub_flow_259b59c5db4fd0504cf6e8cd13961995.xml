@@ -28,6 +28,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:32:03</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>259b59c5db4fd0504cf6e8cd13961995</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>BR - Add Switch IPs to Switchports</sys_name>
@@ -59,14 +60,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:38:19</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>190d15c9db4fd0504cf6e8cd13961937</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:19</sys_updated_on>
         <table>dscy_switchport</table>
@@ -113,11 +111,7 @@
         <sys_created_on>2020-09-02 19:38:10</sys_created_on>
         <sys_id>0bfc91c9db4fd0504cf6e8cd13961905</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:20</sys_updated_on>
         <ui_id>ca602c57-438f-4711-a38b-cbf14d851aa0</ui_id>
@@ -190,11 +184,7 @@
         <sys_created_on>2020-09-02 19:38:10</sys_created_on>
         <sys_id>c3fc91c9db4fd0504cf6e8cd13961900</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:20</sys_updated_on>
         <ui_id>ee562b03-bfc6-4aa4-930c-ebfea7b8b893</ui_id>
@@ -246,16 +236,11 @@
         <flow display_value="BR - Add Switch IPs to Switchports">259b59c5db4fd0504cf6e8cd13961995</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:38:10</sys_created_on>
         <sys_id>83fc51c9db4fd0504cf6e8cd139619fb</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:20</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
@@ -296,16 +281,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>259b59c5db4fd0504cf6e8cd13961995</id>
         <name>BR - Add Switch IPs to Switchports</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:32:03</sys_created_on>
         <sys_id>299b59c5db4fd0504cf6e8cd13961997</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:32:03</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -570,11 +550,7 @@
         <sys_created_on>2020-09-02 19:38:10</sys_created_on>
         <sys_id>0bfc91c9db4fd0504cf6e8cd13961905</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:20</sys_updated_on>
         <ui_id>ca602c57-438f-4711-a38b-cbf14d851aa0</ui_id>
@@ -647,11 +623,7 @@
         <sys_created_on>2020-09-02 19:38:10</sys_created_on>
         <sys_id>c3fc91c9db4fd0504cf6e8cd13961900</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:20</sys_updated_on>
         <ui_id>ee562b03-bfc6-4aa4-930c-ebfea7b8b893</ui_id>
@@ -710,11 +682,11 @@
         <sys_created_on>2020-09-02 19:38:09</sys_created_on>
         <sys_id>0ffc51c9db4fd0504cf6e8cd139619f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_259b59c5db4fd0504cf6e8cd13961995_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:09</sys_updated_on>
         <url/>
@@ -733,11 +705,11 @@
         <sys_created_on>2020-09-02 19:38:09</sys_created_on>
         <sys_id>8ffc51c9db4fd0504cf6e8cd139619f7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_259b59c5db4fd0504cf6e8cd13961995_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:09</sys_updated_on>
         <url/>
@@ -756,11 +728,11 @@
         <sys_created_on>2020-09-02 19:38:09</sys_created_on>
         <sys_id>bafc51c9db4fd0504cf6e8cd139619c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_259b59c5db4fd0504cf6e8cd13961995_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:09</sys_updated_on>
         <url/>
@@ -772,18 +744,14 @@
         <plan/>
         <plan_id>259b59c5db4fd0504cf6e8cd13961995</plan_id>
         <snapshot>810dd1c9db4fd0504cf6e8cd139619e4</snapshot>
-        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:38:19</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>150d15c9db4fd0504cf6e8cd13961938</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:19</sys_updated_on>
         <trigger display_value="">190d15c9db4fd0504cf6e8cd13961937</trigger>
@@ -814,6 +782,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:38:17</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>810dd1c9db4fd0504cf6e8cd139619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -845,11 +814,7 @@
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>490d15c9db4fd0504cf6e8cd13961921</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
         <ui_id>ca602c57-438f-4711-a38b-cbf14d851aa0</ui_id>
@@ -922,11 +887,7 @@
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>8d0d15c9db4fd0504cf6e8cd1396191c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
         <ui_id>ee562b03-bfc6-4aa4-930c-ebfea7b8b893</ui_id>
@@ -978,16 +939,11 @@
         <flow display_value="BR - Add Switch IPs to Switchports">810dd1c9db4fd0504cf6e8cd139619e4</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>850d15c9db4fd0504cf6e8cd13961923</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:19</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
@@ -1028,16 +984,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>810dd1c9db4fd0504cf6e8cd139619e4</id>
         <name>BR - Add Switch IPs to Switchports</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>cd0dd1c9db4fd0504cf6e8cd139619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -1302,11 +1253,7 @@
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>490d15c9db4fd0504cf6e8cd13961921</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
         <ui_id>ca602c57-438f-4711-a38b-cbf14d851aa0</ui_id>
@@ -1379,11 +1326,7 @@
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>8d0d15c9db4fd0504cf6e8cd1396191c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
         <ui_id>ee562b03-bfc6-4aa4-930c-ebfea7b8b893</ui_id>
@@ -1442,11 +1385,11 @@
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>010d15c9db4fd0504cf6e8cd1396190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_810dd1c9db4fd0504cf6e8cd139619e4_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
         <url/>
@@ -1465,11 +1408,11 @@
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>0d0d15c9db4fd0504cf6e8cd13961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_810dd1c9db4fd0504cf6e8cd139619e4_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
         <url/>
@@ -1488,11 +1431,11 @@
         <sys_created_on>2020-09-02 19:38:18</sys_created_on>
         <sys_id>0d0dd1c9db4fd0504cf6e8cd139619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_810dd1c9db4fd0504cf6e8cd139619e4_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-02 19:38:18</sys_updated_on>
         <url/>

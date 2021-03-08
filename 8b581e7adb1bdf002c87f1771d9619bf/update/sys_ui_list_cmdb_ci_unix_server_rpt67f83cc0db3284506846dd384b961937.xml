@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cpu_speed</element>
-            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="e0093cc0db3284506846dd384b96193c">78093cc0db3284506846dd384b96193d</list_id>
+            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="415e0a491b56281087b0dd3bdc4bcbea">78093cc0db3284506846dd384b96193d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>ram</element>
-            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="e0093cc0db3284506846dd384b96193c">78093cc0db3284506846dd384b96193d</list_id>
+            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="415e0a491b56281087b0dd3bdc4bcbea">78093cc0db3284506846dd384b96193d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cpu_core_count</element>
-            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="e0093cc0db3284506846dd384b96193c">78093cc0db3284506846dd384b96193d</list_id>
+            <list_id display_value="cmdb_ci_unix_server" element="NULL" name="cmdb_ci_unix_server" parent="NULL" relationship="NULL" sys_domain="global" view="415e0a491b56281087b0dd3bdc4bcbea">78093cc0db3284506846dd384b96193d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -70,7 +70,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-02-01 08:00:13</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt67f83cc0db3284506846dd384b961937" name="RPT67f83cc0db3284506846dd384b961937">e0093cc0db3284506846dd384b96193c</view>
+            <view display_value="Rpt67f83cc0db3284506846dd384b961937" name="RPT67f83cc0db3284506846dd384b961937">415e0a491b56281087b0dd3bdc4bcbea</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

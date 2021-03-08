@@ -58,7 +58,7 @@
         <update_guid_history>8c06a1f1d3fbb700056d904b2e51355c:783140012</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITOM Demo Catalog.AWS EC2 - Change Instance Type">5d45dabcdb7cc41015e3dd18f49619c1</sys_audit_delete>
+        <sys_audit_delete display_value="">5d45dabcdb7cc41015e3dd18f49619c1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 12:33:10</sys_created_on>

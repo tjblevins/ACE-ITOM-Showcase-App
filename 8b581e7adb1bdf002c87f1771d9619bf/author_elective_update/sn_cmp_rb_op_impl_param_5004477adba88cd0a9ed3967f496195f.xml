@@ -57,7 +57,7 @@
         <update_guid_history>9c04477a32a88cd0084b1fc4af183865:813464181,5804477a91a88cd055b76c9d5434d964:516180819,1804477af0a88cd0843e441763ab0d63:813464181</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="templateParameters">a104877adba88cd0a9ed3967f4961976</sys_audit_delete>
+        <sys_audit_delete display_value="">a104877adba88cd0a9ed3967f4961976</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-21 10:49:35</sys_created_on>

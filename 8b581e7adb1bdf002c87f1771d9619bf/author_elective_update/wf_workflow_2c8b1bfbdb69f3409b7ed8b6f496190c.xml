@@ -3899,7 +3899,7 @@ answer = 0;&lt;/value&gt;
         <reverted_from/>
         <source/>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-10 18:38:35</sys_created_on>
         <sys_id>04366135dbfbb70015e3dd18f4961993</sys_id>
@@ -3912,7 +3912,7 @@ answer = 0;&lt;/value&gt;
         <update_guid_history>c036613553fbb700dc571cac18952d93:-853922914</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITOM - ZRetired - Reset Site Depot Wordpress">90f89080db988450a9ed3967f4961976</sys_audit_delete>
+        <sys_audit_delete display_value="">90f89080db988450a9ed3967f4961976</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-29 23:03:08</sys_created_on>

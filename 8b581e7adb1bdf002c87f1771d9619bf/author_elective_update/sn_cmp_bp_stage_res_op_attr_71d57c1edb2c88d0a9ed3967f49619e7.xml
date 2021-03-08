@@ -45,7 +45,7 @@
         <update_guid_history>b9d57c1ec82c88d0da6062d79d1080e7:-238342773</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="lab_code">e9593c92db6c88d0a9ed3967f49619c3</sys_audit_delete>
+        <sys_audit_delete display_value="">e9593c92db6c88d0a9ed3967f49619c3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:26:41</sys_created_on>

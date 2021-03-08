@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Cloud Catalog">02d53a2bdb68001015e3dd18f496191f</category>
-        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3b-10-23-2020</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
         <copied_from>b880f7f1db6c08d0a9ed3967f496190e</copied_from>
         <copied_from_name>CMP - Catalog Sub Flow - EXAMPLE</copied_from_name>
         <description/>
         <internal_name>cmp__deprovision_site_depot_wordpress</internal_name>
         <label_cache>[{"name":"subflow.lab_code","label":"Input➛LABCODE","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.ansible_tower","label":"Input➛u_ansible_tower","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.flowcorrelationid","label":"Input➛flowcorrelationid","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"846efa0c-0f4d-4f25-83e5-ba7f3de18292.privateip","label":"1➛Private IP","reference_display":"Private IP","type":"ip_addr","base_type":"ip_addr"},{"name":"846efa0c-0f4d-4f25-83e5-ba7f3de18292.publicip","label":"1➛Public IP","reference_display":"Public IP","type":"ip_addr","base_type":"ip_addr"}]</label_cache>
-        <latest_snapshot>30f7ef75db7ce810425f8179139619f5</latest_snapshot>
+        <latest_snapshot>a60c73fedbee60d084237608f49619b0</latest_snapshot>
         <master_snapshot>e6fb6ce5dbf0c81015e3dd18f49619d2</master_snapshot>
         <name>CMP - Deprovision Site Depot Wordpress</name>
         <natlang/>
@@ -28,6 +28,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:29:30</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>dce958a5db70c81015e3dd18f4961946</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_name>CMP - Deprovision Site Depot Wordpress</sys_name>
@@ -59,11 +60,7 @@
         <sys_created_on>2019-10-29 11:29:31</sys_created_on>
         <sys_id>24e958a5db70c81015e3dd18f496198f</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:49</sys_updated_on>
         <ui_id>3b17718a-0c83-4f46-adc3-b38c5d447424</ui_id>
@@ -131,11 +128,7 @@
         <sys_created_on>2019-10-29 11:30:13</sys_created_on>
         <sys_id>7a0a5ca5db70c81015e3dd18f49619c3</sys_id>
         <sys_mod_count>20</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:49</sys_updated_on>
         <ui_id>ab175cf4-fbf9-4b67-a0df-7ef917fed86f</ui_id>
@@ -156,11 +149,7 @@
         <sys_created_on>2019-10-29 11:29:31</sys_created_on>
         <sys_id>a0e958a5db70c81015e3dd18f496198b</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:49</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -198,16 +187,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>dce958a5db70c81015e3dd18f4961946</id>
         <name>CMP - Deprovision Site Depot Wordpress</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-29 11:29:30</sys_created_on>
         <sys_id>1ce958a5db70c81015e3dd18f4961954</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 11:29:30</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -310,11 +294,7 @@
         <sys_created_on>2019-10-29 11:29:31</sys_created_on>
         <sys_id>24e958a5db70c81015e3dd18f496198f</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:49</sys_updated_on>
         <ui_id>3b17718a-0c83-4f46-adc3-b38c5d447424</ui_id>
@@ -384,11 +364,7 @@
         <sys_created_on>2019-10-29 11:29:31</sys_created_on>
         <sys_id>a0e958a5db70c81015e3dd18f496198b</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:49</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -436,11 +412,7 @@
         <sys_created_on>2019-10-29 11:30:13</sys_created_on>
         <sys_id>7a0a5ca5db70c81015e3dd18f49619c3</sys_id>
         <sys_mod_count>20</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:49</sys_updated_on>
         <ui_id>ab175cf4-fbf9-4b67-a0df-7ef917fed86f</ui_id>
@@ -460,11 +432,11 @@
         <sys_created_on>2019-10-29 11:29:31</sys_created_on>
         <sys_id>1ce958a5db70c81015e3dd18f4961986</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>flowcorrelationid</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_dce958a5db70c81015e3dd18f4961946_flowcorrelationid_en</sys_update_name>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 11:29:31</sys_updated_on>
         <url/>
@@ -474,19 +446,15 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e8fbe8e5dbf0c81015e3dd18f4961974","name":"plan"}}</plan>
         <plan_id display_value="CMP - Deprovision Site Depot Wordpress">dce958a5db70c81015e3dd18f4961946</plan_id>
-        <snapshot>30f7ef75db7ce810425f8179139619f5</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <snapshot>a60c73fedbee60d084237608f49619b0</snapshot>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 12:48:26</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>e8fbe8e5dbf0c81015e3dd18f4961974</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:49</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -516,6 +484,7 @@
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 12:48:35</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>e6fb6ce5dbf0c81015e3dd18f49619d2</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -544,11 +513,7 @@
         <sys_created_on>2019-10-29 12:48:36</sys_created_on>
         <sys_id>36fbace5dbf0c81015e3dd18f4961913</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:46</sys_updated_on>
         <ui_id>ab175cf4-fbf9-4b67-a0df-7ef917fed86f</ui_id>
@@ -569,11 +534,7 @@
         <sys_created_on>2019-10-29 12:48:36</sys_created_on>
         <sys_id>3afbace5dbf0c81015e3dd18f496190b</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:46</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -609,11 +570,7 @@
         <sys_created_on>2019-10-29 12:48:36</sys_created_on>
         <sys_id>b6fbace5dbf0c81015e3dd18f4961911</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:46</sys_updated_on>
         <ui_id>3b17718a-0c83-4f46-adc3-b38c5d447424</ui_id>
@@ -648,16 +605,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>e6fb6ce5dbf0c81015e3dd18f49619d2</id>
         <name>CMP - Deprovision Site Depot Wordpress</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 12:48:35</sys_created_on>
         <sys_id>a2fb6ce5dbf0c81015e3dd18f49619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 12:48:35</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -759,11 +711,7 @@
         <sys_created_on>2019-10-29 12:48:36</sys_created_on>
         <sys_id>3afbace5dbf0c81015e3dd18f496190b</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:46</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -799,11 +747,7 @@
         <sys_created_on>2019-10-29 12:48:36</sys_created_on>
         <sys_id>b6fbace5dbf0c81015e3dd18f4961911</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:46</sys_updated_on>
         <ui_id>3b17718a-0c83-4f46-adc3-b38c5d447424</ui_id>
@@ -848,11 +792,7 @@
         <sys_created_on>2019-10-29 12:48:36</sys_created_on>
         <sys_id>36fbace5dbf0c81015e3dd18f4961913</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2020-02-07 12:03:46</sys_updated_on>
         <ui_id>ab175cf4-fbf9-4b67-a0df-7ef917fed86f</ui_id>
@@ -872,11 +812,11 @@
         <sys_created_on>2019-10-29 12:48:35</sys_created_on>
         <sys_id>f6fb6ce5dbf0c81015e3dd18f49619da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>flowcorrelationid</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e6fb6ce5dbf0c81015e3dd18f49619d2_flowcorrelationid_en</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 12:48:35</sys_updated_on>
         <url/>

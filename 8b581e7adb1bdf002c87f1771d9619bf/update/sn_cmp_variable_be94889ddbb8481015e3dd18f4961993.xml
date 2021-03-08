@@ -43,7 +43,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>Site_Depot_Wordpress_WWWNAME</name>
-        <order>6</order>
+        <order>13</order>
         <pool/>
         <pool_filter/>
         <price_if_checked>0</price_if_checked>
@@ -72,14 +72,14 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-28 15:18:05</sys_created_on>
         <sys_id>be94889ddbb8481015e3dd18f4961993</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Web Server Name</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
         <sys_update_name>sn_cmp_variable_be94889ddbb8481015e3dd18f4961993</sys_update_name>
-        <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-28 15:34:15</sys_updated_on>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2021-03-04 14:24:51</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -92,7 +92,7 @@
         <variable_set display_value="Provision">e294489ddbb8481015e3dd18f49619fe</variable_set>
         <variable_width/>
         <visibility>1</visibility>
-        <visible>true</visible>
+        <visible>false</visible>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

@@ -28,6 +28,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-29 10:58:28</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>b0b634c4dbb950104cf6e8cd139619e3</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Test</sys_name>
@@ -59,11 +60,7 @@
         <sys_created_on>2020-06-29 11:20:15</sys_created_on>
         <sys_id>3bab3c40dbf950104cf6e8cd13961910</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 11:20:15</sys_updated_on>
         <ui_id>37bcbca7-e31b-4128-9c9d-90debe03b712</ui_id>
@@ -150,11 +147,7 @@
         <sys_created_on>2020-06-29 11:17:39</sys_created_on>
         <sys_id>751b3400dbf950104cf6e8cd13961956</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 11:20:15</sys_updated_on>
         <ui_id>d4265c49-ed50-4645-9f8d-41602296f47d</ui_id>
@@ -180,16 +173,11 @@
         <flow display_value="Test">b0b634c4dbb950104cf6e8cd139619e3</flow>
         <name>Created</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-29 11:17:39</sys_created_on>
         <sys_id>211b3400dbf950104cf6e8cd13961951</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 11:20:15</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
@@ -230,16 +218,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>b0b634c4dbb950104cf6e8cd139619e3</id>
         <name>Test</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-29 10:58:28</sys_created_on>
         <sys_id>bcb638c4dbb950104cf6e8cd13961997</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 10:58:28</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -423,11 +406,7 @@
         <sys_created_on>2020-06-29 11:20:15</sys_created_on>
         <sys_id>3bab3c40dbf950104cf6e8cd13961910</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 11:20:15</sys_updated_on>
         <ui_id>37bcbca7-e31b-4128-9c9d-90debe03b712</ui_id>
@@ -514,11 +493,7 @@
         <sys_created_on>2020-06-29 11:17:39</sys_created_on>
         <sys_id>751b3400dbf950104cf6e8cd13961956</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 11:20:15</sys_updated_on>
         <ui_id>d4265c49-ed50-4645-9f8d-41602296f47d</ui_id>
@@ -551,11 +526,11 @@
         <sys_created_on>2020-06-29 11:17:38</sys_created_on>
         <sys_id>211b3400dbf950104cf6e8cd13961949</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0b634c4dbb950104cf6e8cd139619e3_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 11:17:38</sys_updated_on>
         <url/>
@@ -574,11 +549,11 @@
         <sys_created_on>2020-06-29 11:17:38</sys_created_on>
         <sys_id>251b3400dbf950104cf6e8cd1396194e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b0b634c4dbb950104cf6e8cd139619e3_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-29 11:17:38</sys_updated_on>
         <url/>

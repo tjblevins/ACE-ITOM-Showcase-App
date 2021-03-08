@@ -57,7 +57,7 @@
         <update_guid_history>7bcd64de60e888d0172df91da8c745bd:-396398082,f3cd64de9fe888d00a78b7e2ee4485ba:-1156254246,b7cd64ded9e888d075b03d109223f6b9:-396398082</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="flowcorrelationid">1682c592dbac88d0a9ed3967f4961997</sys_audit_delete>
+        <sys_audit_delete display_value="">1682c592dbac88d0a9ed3967f4961997</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 12:06:52</sys_created_on>

@@ -57,7 +57,7 @@
         <update_guid_history>05ac2110ea0080109da46a8cb3d87cf8:-590080337</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Location">11ac6110db00801015e3dd18f4961915</sys_audit_delete>
+        <sys_audit_delete display_value="">11ac6110db00801015e3dd18f4961915</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-18 13:31:37</sys_created_on>

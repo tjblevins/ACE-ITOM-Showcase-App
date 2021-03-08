@@ -46,7 +46,7 @@
         <update_guid_history>fd79f892126c88d0dcc9d8a40359ad79:-1553419478,ee69bc92f16c88d0205b8999446ab6da:-1262274054</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="flowcorrelationid">e3910152dbac88d0a9ed3967f496195e</sys_audit_delete>
+        <sys_audit_delete display_value="">e3910152dbac88d0a9ed3967f496195e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 12:02:51</sys_created_on>

@@ -24,6 +24,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-20 09:54:25</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>61ba5430dbb2d0144cf6e8cd1396198b</sys_id>
         <sys_mod_count>18</sys_mod_count>
         <sys_name>Add Days to Date</sys_name>
@@ -80,16 +81,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-20 10:05:30</sys_created_on>
         <sys_id>233d98b4dbb2d0144cf6e8cd139619b0</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:31:29</sys_updated_on>
     </sys_hub_step_instance>
@@ -516,16 +512,11 @@ outputs.nd = tdt;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-20 10:05:30</sys_created_on>
         <sys_id>233d98b4dbb2d0144cf6e8cd139619b0</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:31:29</sys_updated_on>
     </sys_hub_step_instance>
@@ -786,11 +777,11 @@ outputs.nd = tdt;
         <sys_created_on>2020-08-20 10:05:30</sys_created_on>
         <sys_id>a33d98b4dbb2d0144cf6e8cd139619ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Old Date</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_61ba5430dbb2d0144cf6e8cd1396198b_old_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:05:30</sys_updated_on>
         <url/>
@@ -810,11 +801,11 @@ outputs.nd = tdt;
         <sys_created_on>2020-08-20 10:05:58</sys_created_on>
         <sys_id>2a5d9cb4dbb2d0144cf6e8cd139619be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New Date</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_61ba5430dbb2d0144cf6e8cd1396198b_new_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:05:58</sys_updated_on>
         <url/>
@@ -825,18 +816,14 @@ outputs.nd = tdt;
         <action_id display_value="Add Days to Date">61ba5430dbb2d0144cf6e8cd1396198b</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"08ed9cf4dbb2d0144cf6e8cd1396199b","name":"plan"}}</plan>
         <snapshot>1933ec34dbf2d0144cf6e8cd139619ae</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-20 10:08:16</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>08ed9cf4dbb2d0144cf6e8cd1396199b</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:31:35</sys_updated_on>
     </sys_hub_action_plan>
@@ -862,6 +849,7 @@ outputs.nd = tdt;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-20 10:08:14</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>37dd5cf4dbb2d0144cf6e8cd139619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -918,16 +906,11 @@ outputs.nd = tdt;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-20 10:08:14</sys_created_on>
         <sys_id>77dd5cf4dbb2d0144cf6e8cd139619e6</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:31:34</sys_updated_on>
     </sys_hub_step_instance>
@@ -1354,16 +1337,11 @@ outputs.nd = tdt;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-08-20 10:08:14</sys_created_on>
         <sys_id>77dd5cf4dbb2d0144cf6e8cd139619e6</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:31:34</sys_updated_on>
     </sys_hub_step_instance>
@@ -1624,11 +1602,11 @@ outputs.nd = tdt;
         <sys_created_on>2020-08-20 10:08:14</sys_created_on>
         <sys_id>33dd5cf4dbb2d0144cf6e8cd139619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Old Date</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_37dd5cf4dbb2d0144cf6e8cd139619dd_old_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:08:14</sys_updated_on>
         <url/>
@@ -1648,11 +1626,11 @@ outputs.nd = tdt;
         <sys_created_on>2020-08-20 10:08:14</sys_created_on>
         <sys_id>bbdd9cf4dbb2d0144cf6e8cd13961902</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>New Date</sys_name>
         <sys_package display_value="ACE-ITOM-Showcase" source="x_snc_itom_shocase">8b581e7adb1bdf002c87f1771d9619bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_37dd5cf4dbb2d0144cf6e8cd139619dd_new_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-08-20 10:08:14</sys_updated_on>
         <url/>

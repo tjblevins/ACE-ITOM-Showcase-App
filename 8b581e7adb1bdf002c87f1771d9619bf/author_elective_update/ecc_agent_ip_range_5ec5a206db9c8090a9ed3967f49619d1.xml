@@ -44,7 +44,7 @@
         <update_guid_history>00e5aac2a39c8090f39aec21ca87e51f:-562264592</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ACE-WebStore">1456ae06db9c8090a9ed3967f49619e9</sys_audit_delete>
+        <sys_audit_delete display_value="">1456ae06db9c8090a9ed3967f49619e9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-06 14:28:39</sys_created_on>

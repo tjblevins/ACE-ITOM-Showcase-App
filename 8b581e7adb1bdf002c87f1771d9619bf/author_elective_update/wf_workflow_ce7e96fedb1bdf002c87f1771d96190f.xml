@@ -6999,7 +6999,7 @@ and select 'Update activity' to use the latest version, then publish the workflo
         <reverted_from/>
         <source/>
         <source_table>sys_upgrade_history</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-10 18:38:51</sys_created_on>
         <sys_id>c0466935dbfbb70015e3dd18f49619c0</sys_id>
@@ -7012,7 +7012,7 @@ and select 'Update activity' to use the latest version, then publish the workflo
         <update_guid_history>804669353efbb7002bd8d7038288e3c0:-526618786</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITOM - ZRetired-Intial SC Lab Config">e4291880db988450a9ed3967f4961900</sys_audit_delete>
+        <sys_audit_delete display_value="">e4291880db988450a9ed3967f4961900</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-29 23:03:58</sys_created_on>

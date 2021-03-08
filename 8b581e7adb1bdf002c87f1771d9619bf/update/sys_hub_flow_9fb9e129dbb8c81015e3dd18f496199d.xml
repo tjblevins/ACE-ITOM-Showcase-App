@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3a-10-13-2020</compiler_build>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
         <copied_from>e1bb66896752130099a3007d2685efec</copied_from>
         <copied_from_name>Alert Management Template</copied_from_name>
         <description>A Subflow with the required parameters for an Alert Management Rule.</description>
         <internal_name>rem__restart_mysql</internal_name>
         <label_cache>[{"name":"subflow.ah_alertgr.incident.number","label":"Input➛alertGR➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"subflow.ah_userdisplayname","label":"Input➛userDisplayName","type":"string","base_type":"string"},{"name":"subflow.ah_username","label":"Input➛userName","type":"string","base_type":"string"},{"name":"subflow.ah_executionid","label":"Input➛executionId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.ah_alertgr","label":"Input➛alertGR","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference","column_name":""},{"name":"subflow.ah_alertruleid","label":"Input➛alertRuleId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.ah_alertrulename","label":"Input➛alertRuleName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"08da8d24-6690-4270-965d-a9c3e62556ac.record","label":"1➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"08da8d24-6690-4270-965d-a9c3e62556ac.table_name","label":"1➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name"},{"name":"subflow.ah_alertgr.incident","label":"Input➛alertGR➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"em_alert","column_name":"incident"},{"name":"79dc986d-95df-4ac7-a9ef-7a760e5c78c0.link","label":"2➛link","reference_display":"link","type":"string","base_type":"string"},{"name":"e8dd7139-ae2f-4291-9ff4-af27d5b6f287.url","label":"3➛URL","reference_display":"URL","type":"string","base_type":"string"},{"name":"e8dd7139-ae2f-4291-9ff4-af27d5b6f287.hostname","label":"3➛HOSTNAME","reference_display":"HOSTNAME","type":"string","base_type":"string"},{"name":"f3b9f97a-a7c4-4514-a8b2-3b8fd706f2b0.record","label":"7➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"f3b9f97a-a7c4-4514-a8b2-3b8fd706f2b0.table_name","label":"7➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name"},{"name":"subflow.ah_alertgr.cmdb_ci.name","label":"Input➛alertGR➛Configuration item➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name"},{"name":"fb34d540-220c-4837-bdaa-c0af7c7de691.record","label":"8➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"fb34d540-220c-4837-bdaa-c0af7c7de691.table_name","label":"8➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name"},{"name":"ec349f38-a8b0-4b9d-8a76-2449dfba4eca.lab_code","label":"4➛Lab Code","reference_display":"Lab Code","type":"string","base_type":"string"},{"name":"10a2f790-e265-47a4-8143-17f2cbc2fdbf.parts1","label":"5➛Parts1","reference_display":"Parts1","type":"string","base_type":"string"},{"name":"10a2f790-e265-47a4-8143-17f2cbc2fdbf.parts2","label":"5➛Parts2","reference_display":"Parts2","type":"string","base_type":"string"},{"name":"10a2f790-e265-47a4-8143-17f2cbc2fdbf.parts3","label":"5➛Parts3","reference_display":"Parts3","type":"string","base_type":"string"},{"name":"10a2f790-e265-47a4-8143-17f2cbc2fdbf.parts4","label":"5➛Parts4","reference_display":"Parts4","type":"string","base_type":"string"},{"name":"05b0a067-9cba-47f1-ac06-ba46496e5380.Record","label":"6➛Linux Server Record","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"reference","base_type":"reference"},{"name":"05b0a067-9cba-47f1-ac06-ba46496e5380.Table","label":"6➛Linux Server Table","reference":"cmdb_ci_linux_server","reference_display":"Linux Server","type":"table_name","base_type":"table_name"},{"name":"6136b46f-e248-4cba-8256-5b7c85eeaefd.new_server_name","label":"9➛New Server Name","reference_display":"New Server Name","type":"string","base_type":"string"},{"name":"05b0a067-9cba-47f1-ac06-ba46496e5380.Record.ip_address","label":"6➛Linux Server Record➛IP Address","reference":"","reference_display":"IP Address","type":"string","base_type":"string","parent_table_name":"cmdb_ci_linux_server","column_name":"ip_address"},{"name":"72f987ba-da88-4885-a27e-79eba2bafb6b.record","label":"10➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"72f987ba-da88-4885-a27e-79eba2bafb6b.table_name","label":"10➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name"},{"name":"d86ee122-fd22-468b-a7ac-d2d1b7926c65.new_server_name","label":"11➛New Server Name","reference_display":"New Server Name","type":"string","base_type":"string"},{"name":"97d40f2e-aefd-48b2-b30d-6779c7aec647.record","label":"12➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"97d40f2e-aefd-48b2-b30d-6779c7aec647.table_name","label":"12➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name"}]</label_cache>
-        <latest_snapshot>aa19bfd1dbac6c90425f8179139619c0</latest_snapshot>
+        <latest_snapshot>0e15a78d1bbea05087b0dd3bdc4bcbc8</latest_snapshot>
         <master_snapshot>3540f5e1dbf8c81015e3dd18f49619d1</master_snapshot>
         <name>Rem - Restart MySQL</name>
         <natlang/>
@@ -28,6 +28,7 @@
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 17:18:25</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>9fb9e129dbb8c81015e3dd18f496199d</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Rem - Restart MySQL</sys_name>
@@ -59,11 +60,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>21cea521dbf8c81015e3dd18f4961970</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>08da8d24-6690-4270-965d-a9c3e62556ac</ui_id>
@@ -149,11 +146,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>21cea521dbf8c81015e3dd18f4961992</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>e8dd7139-ae2f-4291-9ff4-af27d5b6f287</ui_id>
@@ -187,11 +180,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>39cea521dbf8c81015e3dd18f49619b9</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>d86ee122-fd22-468b-a7ac-d2d1b7926c65</ui_id>
@@ -314,11 +303,7 @@
         <sys_created_on>2019-10-29 17:46:49</sys_created_on>
         <sys_id>533075e1dbf8c81015e3dd18f496194c</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>d1e3dfbe-a696-4476-9ee9-74fe4fdc1e0c</ui_id>
@@ -377,11 +362,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>71cea521dbf8c81015e3dd18f49619b3</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>6136b46f-e248-4cba-8256-5b7c85eeaefd</ui_id>
@@ -504,11 +485,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>75cea521dbf8c81015e3dd18f49619b1</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>fb34d540-220c-4837-bdaa-c0af7c7de691</ui_id>
@@ -581,11 +558,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>75cea521dbf8c81015e3dd18f49619bd</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>97d40f2e-aefd-48b2-b30d-6779c7aec647</ui_id>
@@ -672,11 +645,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>79cea521dbf8c81015e3dd18f49619b7</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>72f987ba-da88-4885-a27e-79eba2bafb6b</ui_id>
@@ -762,11 +731,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>a1cea521dbf8c81015e3dd18f4961995</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>ec349f38-a8b0-4b9d-8a76-2449dfba4eca</ui_id>
@@ -802,11 +767,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>adcea521dbf8c81015e3dd18f496198d</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>79dc986d-95df-4ac7-a9ef-7a760e5c78c0</ui_id>
@@ -879,11 +840,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>b1cea521dbf8c81015e3dd18f49619a5</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>10a2f790-e265-47a4-8143-17f2cbc2fdbf</ui_id>
@@ -944,11 +901,7 @@
         <sys_created_on>2019-10-29 17:46:49</sys_created_on>
         <sys_id>db3075e1dbf8c81015e3dd18f496194f</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>6189c4be-0e34-43b8-9d6f-2332b9250c01</ui_id>
@@ -1021,11 +974,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>f9cea521dbf8c81015e3dd18f49619a9</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>05b0a067-9cba-47f1-ac06-ba46496e5380</ui_id>
@@ -1112,11 +1061,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>fdcea521dbf8c81015e3dd18f49619ad</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>f3b9f97a-a7c4-4514-a8b2-3b8fd706f2b0</ui_id>
@@ -1177,16 +1122,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>9fb9e129dbb8c81015e3dd18f496199d</id>
         <name>Rem - Restart MySQL</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 17:18:25</sys_created_on>
         <sys_id>17b9e129dbb8c81015e3dd18f496199f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:18:25</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -1694,11 +1634,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>21cea521dbf8c81015e3dd18f4961970</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>08da8d24-6690-4270-965d-a9c3e62556ac</ui_id>
@@ -1784,11 +1720,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>21cea521dbf8c81015e3dd18f4961992</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>e8dd7139-ae2f-4291-9ff4-af27d5b6f287</ui_id>
@@ -1824,11 +1756,7 @@
         <sys_created_on>2019-10-29 17:46:49</sys_created_on>
         <sys_id>533075e1dbf8c81015e3dd18f496194c</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>d1e3dfbe-a696-4476-9ee9-74fe4fdc1e0c</ui_id>
@@ -1889,11 +1817,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>75cea521dbf8c81015e3dd18f49619b1</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>fb34d540-220c-4837-bdaa-c0af7c7de691</ui_id>
@@ -1966,11 +1890,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>75cea521dbf8c81015e3dd18f49619bd</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>97d40f2e-aefd-48b2-b30d-6779c7aec647</ui_id>
@@ -2057,11 +1977,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>79cea521dbf8c81015e3dd18f49619b7</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>72f987ba-da88-4885-a27e-79eba2bafb6b</ui_id>
@@ -2147,11 +2063,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>a1cea521dbf8c81015e3dd18f4961995</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>ec349f38-a8b0-4b9d-8a76-2449dfba4eca</ui_id>
@@ -2187,11 +2099,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>adcea521dbf8c81015e3dd18f496198d</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>79dc986d-95df-4ac7-a9ef-7a760e5c78c0</ui_id>
@@ -2264,11 +2172,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>b1cea521dbf8c81015e3dd18f49619a5</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>10a2f790-e265-47a4-8143-17f2cbc2fdbf</ui_id>
@@ -2329,11 +2233,7 @@
         <sys_created_on>2019-10-29 17:46:49</sys_created_on>
         <sys_id>db3075e1dbf8c81015e3dd18f496194f</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>6189c4be-0e34-43b8-9d6f-2332b9250c01</ui_id>
@@ -2406,11 +2306,7 @@
         <sys_created_on>2019-10-29 17:40:25</sys_created_on>
         <sys_id>f9cea521dbf8c81015e3dd18f49619a9</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>05b0a067-9cba-47f1-ac06-ba46496e5380</ui_id>
@@ -2497,11 +2393,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>fdcea521dbf8c81015e3dd18f49619ad</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>f3b9f97a-a7c4-4514-a8b2-3b8fd706f2b0</ui_id>
@@ -2573,11 +2465,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>39cea521dbf8c81015e3dd18f49619b9</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>d86ee122-fd22-468b-a7ac-d2d1b7926c65</ui_id>
@@ -2698,11 +2586,7 @@
         <sys_created_on>2019-10-29 17:40:26</sys_created_on>
         <sys_id>71cea521dbf8c81015e3dd18f49619b3</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
         <ui_id>6136b46f-e248-4cba-8256-5b7c85eeaefd</ui_id>
@@ -2952,19 +2836,15 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"cb4079e1dbf8c81015e3dd18f496194a","name":"plan"}}</plan>
         <plan_id display_value="Rem - Restart MySQL">9fb9e129dbb8c81015e3dd18f496199d</plan_id>
-        <snapshot>aa19bfd1dbac6c90425f8179139619c0</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <snapshot>0e15a78d1bbea05087b0dd3bdc4bcbc8</snapshot>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 17:47:04</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>cb4079e1dbf8c81015e3dd18f496194a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:04</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -2994,6 +2874,7 @@
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 17:46:59</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>3540f5e1dbf8c81015e3dd18f49619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -3025,11 +2906,7 @@
         <sys_created_on>2019-10-29 17:47:00</sys_created_on>
         <sys_id>024039e1dbf8c81015e3dd18f4961966</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:00</sys_updated_on>
         <ui_id>08da8d24-6690-4270-965d-a9c3e62556ac</ui_id>
@@ -3116,11 +2993,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>124039e1dbf8c81015e3dd18f49619a3</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>72f987ba-da88-4885-a27e-79eba2bafb6b</ui_id>
@@ -3205,11 +3078,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>224039e1dbf8c81015e3dd18f49619b8</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>d86ee122-fd22-468b-a7ac-d2d1b7926c65</ui_id>
@@ -3282,11 +3151,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>264039e1dbf8c81015e3dd18f49619b3</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>6189c4be-0e34-43b8-9d6f-2332b9250c01</ui_id>
@@ -3359,11 +3224,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>4a4039e1dbf8c81015e3dd18f496196c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>79dc986d-95df-4ac7-a9ef-7a760e5c78c0</ui_id>
@@ -3436,11 +3297,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>5a4039e1dbf8c81015e3dd18f496197f</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>10a2f790-e265-47a4-8143-17f2cbc2fdbf</ui_id>
@@ -3501,11 +3358,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>5e4039e1dbf8c81015e3dd18f496199d</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>fb34d540-220c-4837-bdaa-c0af7c7de691</ui_id>
@@ -3576,11 +3429,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>6a4039e1dbf8c81015e3dd18f49619b5</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>6136b46f-e248-4cba-8256-5b7c85eeaefd</ui_id>
@@ -3652,11 +3501,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>9a4039e1dbf8c81015e3dd18f4961978</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>ec349f38-a8b0-4b9d-8a76-2449dfba4eca</ui_id>
@@ -3692,11 +3537,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>9a4039e1dbf8c81015e3dd18f4961986</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>05b0a067-9cba-47f1-ac06-ba46496e5380</ui_id>
@@ -3757,11 +3598,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>9a4039e1dbf8c81015e3dd18f4961998</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>f3b9f97a-a7c4-4514-a8b2-3b8fd706f2b0</ui_id>
@@ -3834,11 +3671,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>a64039e1dbf8c81015e3dd18f49619a8</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>97d40f2e-aefd-48b2-b30d-6779c7aec647</ui_id>
@@ -3925,11 +3758,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>aa4039e1dbf8c81015e3dd18f49619ad</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>d1e3dfbe-a696-4476-9ee9-74fe4fdc1e0c</ui_id>
@@ -3989,11 +3818,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>d24039e1dbf8c81015e3dd18f4961973</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>e8dd7139-ae2f-4291-9ff4-af27d5b6f287</ui_id>
@@ -4017,16 +3842,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>3540f5e1dbf8c81015e3dd18f49619d1</id>
         <name>Rem - Restart MySQL</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-10-29 17:46:59</sys_created_on>
         <sys_id>b140f5e1dbf8c81015e3dd18f49619d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:46:59</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -4534,11 +4354,7 @@
         <sys_created_on>2019-10-29 17:47:00</sys_created_on>
         <sys_id>024039e1dbf8c81015e3dd18f4961966</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:00</sys_updated_on>
         <ui_id>08da8d24-6690-4270-965d-a9c3e62556ac</ui_id>
@@ -4625,11 +4441,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>124039e1dbf8c81015e3dd18f49619a3</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>72f987ba-da88-4885-a27e-79eba2bafb6b</ui_id>
@@ -4716,11 +4528,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>264039e1dbf8c81015e3dd18f49619b3</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>6189c4be-0e34-43b8-9d6f-2332b9250c01</ui_id>
@@ -4793,11 +4601,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>4a4039e1dbf8c81015e3dd18f496196c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>79dc986d-95df-4ac7-a9ef-7a760e5c78c0</ui_id>
@@ -4870,11 +4674,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>5a4039e1dbf8c81015e3dd18f496197f</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>10a2f790-e265-47a4-8143-17f2cbc2fdbf</ui_id>
@@ -4935,11 +4735,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>5e4039e1dbf8c81015e3dd18f496199d</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>fb34d540-220c-4837-bdaa-c0af7c7de691</ui_id>
@@ -5011,11 +4807,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>9a4039e1dbf8c81015e3dd18f4961978</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>ec349f38-a8b0-4b9d-8a76-2449dfba4eca</ui_id>
@@ -5051,11 +4843,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>9a4039e1dbf8c81015e3dd18f4961986</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>05b0a067-9cba-47f1-ac06-ba46496e5380</ui_id>
@@ -5116,11 +4904,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>9a4039e1dbf8c81015e3dd18f4961998</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>f3b9f97a-a7c4-4514-a8b2-3b8fd706f2b0</ui_id>
@@ -5193,11 +4977,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>a64039e1dbf8c81015e3dd18f49619a8</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>97d40f2e-aefd-48b2-b30d-6779c7aec647</ui_id>
@@ -5284,11 +5064,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>aa4039e1dbf8c81015e3dd18f49619ad</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>d1e3dfbe-a696-4476-9ee9-74fe4fdc1e0c</ui_id>
@@ -5348,11 +5124,7 @@
         <sys_created_on>2019-10-29 17:47:01</sys_created_on>
         <sys_id>d24039e1dbf8c81015e3dd18f4961973</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:01</sys_updated_on>
         <ui_id>e8dd7139-ae2f-4291-9ff4-af27d5b6f287</ui_id>
@@ -5387,11 +5159,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>224039e1dbf8c81015e3dd18f49619b8</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>d86ee122-fd22-468b-a7ac-d2d1b7926c65</ui_id>
@@ -5462,11 +5230,7 @@
         <sys_created_on>2019-10-29 17:47:02</sys_created_on>
         <sys_id>6a4039e1dbf8c81015e3dd18f49619b5</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-10-29 17:47:02</sys_updated_on>
         <ui_id>6136b46f-e248-4cba-8256-5b7c85eeaefd</ui_id>

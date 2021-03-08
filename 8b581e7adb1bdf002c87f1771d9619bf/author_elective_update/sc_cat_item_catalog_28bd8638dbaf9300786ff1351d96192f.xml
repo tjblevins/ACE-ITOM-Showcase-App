@@ -58,7 +58,7 @@
         <update_guid_history>8806a1f150fbb700da5a5a841e79ab59:1414199378</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ITOM Demo Catalog.Initial Demo Env Provisioning">3c85debcdb7cc41015e3dd18f4961980</sys_audit_delete>
+        <sys_audit_delete display_value="">3c85debcdb7cc41015e3dd18f4961980</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 12:34:13</sys_created_on>

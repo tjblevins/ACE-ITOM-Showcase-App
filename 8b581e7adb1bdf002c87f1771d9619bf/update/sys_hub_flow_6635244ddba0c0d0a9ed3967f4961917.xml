@@ -28,6 +28,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-15 12:46:25</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>6635244ddba0c0d0a9ed3967f4961917</sys_id>
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Nagios - Add New Trap Host</sys_name>
@@ -63,11 +64,7 @@
         <sys_created_on>2019-10-15 12:46:26</sys_created_on>
         <sys_id>7a35244ddba0c0d0a9ed3967f4961926</sys_id>
         <sys_mod_count>9</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -119,11 +116,7 @@
         <sys_created_on>2019-10-15 12:49:07</sys_created_on>
         <sys_id>8ed5648ddba0c0d0a9ed3967f4961903</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
         <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
@@ -194,11 +187,7 @@
         <sys_created_on>2019-10-15 12:46:26</sys_created_on>
         <sys_id>b235244ddba0c0d0a9ed3967f4961934</sys_id>
         <sys_mod_count>24</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -249,11 +238,7 @@
         <sys_created_on>2019-10-15 12:46:26</sys_created_on>
         <sys_id>f235244ddba0c0d0a9ed3967f496192b</sys_id>
         <sys_mod_count>9</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -279,16 +264,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>6635244ddba0c0d0a9ed3967f4961917</id>
         <name>Add New Trap Host</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-15 12:46:25</sys_created_on>
         <sys_id>6a35244ddba0c0d0a9ed3967f4961918</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-15 12:46:25</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -472,11 +452,7 @@
         <sys_created_on>2019-10-15 12:49:07</sys_created_on>
         <sys_id>8ed5648ddba0c0d0a9ed3967f4961903</sys_id>
         <sys_mod_count>22</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
         <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
@@ -547,11 +523,7 @@
         <sys_created_on>2019-10-15 12:46:26</sys_created_on>
         <sys_id>b235244ddba0c0d0a9ed3967f4961934</sys_id>
         <sys_mod_count>24</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:53:04</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -603,11 +575,7 @@
         <sys_created_on>2019-10-15 12:46:26</sys_created_on>
         <sys_id>7a35244ddba0c0d0a9ed3967f4961926</sys_id>
         <sys_mod_count>9</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -663,11 +631,7 @@
         <sys_created_on>2019-10-15 12:46:26</sys_created_on>
         <sys_id>f235244ddba0c0d0a9ed3967f496192b</sys_id>
         <sys_mod_count>9</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -741,18 +705,14 @@
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"39e5e48ddba0c0d0a9ed3967f4961935","name":"plan"}}</plan>
         <plan_id display_value="Nagios - Add New Trap Host">6635244ddba0c0d0a9ed3967f4961917</plan_id>
         <snapshot>c82832afdb68001015e3dd18f49619b5</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-15 12:49:23</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>39e5e48ddba0c0d0a9ed3967f4961935</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:23</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -782,6 +742,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-15 12:49:21</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>e1e5a48ddba0c0d0a9ed3967f49619c1</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -817,11 +778,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>31e5a48ddba0c0d0a9ed3967f49619eb</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -863,11 +820,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>6de5a48ddba0c0d0a9ed3967f49619e5</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>
@@ -919,11 +872,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>7de5a48ddba0c0d0a9ed3967f49619f6</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -970,11 +919,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>b5e5a48ddba0c0d0a9ed3967f49619f1</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
@@ -1009,16 +954,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>e1e5a48ddba0c0d0a9ed3967f49619c1</id>
         <name>Add New Trap Host</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-15 12:49:21</sys_created_on>
         <sys_id>6de5a48ddba0c0d0a9ed3967f49619c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-15 12:49:21</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -1202,11 +1142,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>7de5a48ddba0c0d0a9ed3967f49619f6</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>99591286-b818-4b1f-ac7a-4551f4120dd8</ui_id>
@@ -1253,11 +1189,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>b5e5a48ddba0c0d0a9ed3967f49619f1</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>36747632-8902-4824-9370-718ccc7ffdc2</ui_id>
@@ -1309,11 +1241,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>31e5a48ddba0c0d0a9ed3967f49619eb</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>fc2b1c77-65f0-4d28-bc21-d089901d9122</ui_id>
@@ -1355,11 +1283,7 @@
         <sys_created_on>2019-10-15 12:49:22</sys_created_on>
         <sys_id>6de5a48ddba0c0d0a9ed3967f49619e5</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:42:21</sys_updated_on>
         <ui_id>0f1055a8-872c-4777-a2d6-3da168c9a8a1</ui_id>

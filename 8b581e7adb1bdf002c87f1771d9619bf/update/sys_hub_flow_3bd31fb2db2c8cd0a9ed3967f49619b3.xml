@@ -28,6 +28,7 @@
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-21 11:58:49</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>3bd31fb2db2c8cd0a9ed3967f49619b3</sys_id>
         <sys_mod_count>33</sys_mod_count>
         <sys_name>CMP - Deploy AWS LAMP Stack</sys_name>
@@ -57,11 +58,7 @@
         <sys_created_on>2019-10-29 10:23:36</sys_created_on>
         <sys_id>07ca08e9dbfc881015e3dd18f496194d</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>718b234f-fdb6-4228-8735-1c51a0a1db8b</ui_id>
@@ -288,11 +285,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>08e31fb2db2c8cd0a9ed3967f49619dc</sys_id>
         <sys_mod_count>37</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>31c92ac1-6e36-4882-b538-00c08169c7a3</ui_id>
@@ -315,11 +308,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>08e31fb2db2c8cd0a9ed3967f49619e7</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>ea7468fb-922c-49d8-9460-c7df59e46930</ui_id>
@@ -355,11 +344,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>08e31fb2db2c8cd0a9ed3967f49619ea</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -392,11 +377,7 @@
         <sys_created_on>2019-10-29 10:23:37</sys_created_on>
         <sys_id>0bca08e9dbfc881015e3dd18f496195a</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>db0bef1e-c48f-4212-9390-7aaebb22505b</ui_id>
@@ -443,11 +424,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>0ce31fb2db2c8cd0a9ed3967f49619ef</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>5fa26dc0-da1d-4066-a8e4-51e5f0b45bdc</ui_id>
@@ -481,11 +458,7 @@
         <sys_created_on>2019-10-29 10:23:36</sys_created_on>
         <sys_id>0fca08e9dbfc881015e3dd18f4961952</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>a2a27a0c-c811-481b-82e1-816a349ccf85</ui_id>
@@ -535,11 +508,7 @@
         <sys_created_on>2019-10-29 10:23:37</sys_created_on>
         <sys_id>0fca08e9dbfc881015e3dd18f4961957</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>0af37808-2dc6-47e8-8965-5a4e64756a14</ui_id>
@@ -690,11 +659,7 @@
         <sys_created_on>2019-10-29 10:23:37</sys_created_on>
         <sys_id>0fca08e9dbfc881015e3dd18f496195c</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>1026ba25-33bc-4b85-ac05-7e7a6afe1751</ui_id>
@@ -716,11 +681,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>1f001825db30c81015e3dd18f49619a7</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>e3656fd8-b89c-4a8c-8c4c-dcadc56484d7</ui_id>
@@ -815,11 +776,7 @@
         <sys_created_on>2019-10-24 10:43:18</sys_created_on>
         <sys_id>2e5f9effdbec401015e3dd18f4961923</sys_id>
         <sys_mod_count>52</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>baed589c-cd93-423d-ace1-5739e2b6d3af</ui_id>
@@ -864,11 +821,7 @@
         <sys_created_on>2019-10-29 10:41:53</sys_created_on>
         <sys_id>32fec8a1db30c81015e3dd18f4961917</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>72c90470-3d92-4a65-81c4-244ca0c8cfd0</ui_id>
@@ -1013,11 +966,7 @@
         <sys_created_on>2019-10-24 10:43:19</sys_created_on>
         <sys_id>365f9effdbec401015e3dd18f49619b8</sys_id>
         <sys_mod_count>48</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>7b15554a-bf4d-478f-a389-c1b7d5589e2f</ui_id>
@@ -1074,11 +1023,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>39829429db30c81015e3dd18f496194a</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>e1bb2e8f-6419-4b7a-9961-571e8dbcef39</ui_id>
@@ -1273,11 +1218,7 @@
         <sys_created_on>2019-10-24 14:28:35</sys_created_on>
         <sys_id>3ee29f73dba4801015e3dd18f4961936</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>ee8788cc-50e0-4fc5-b496-bfcf691865d8</ui_id>
@@ -1324,11 +1265,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>44e31fb2db2c8cd0a9ed3967f49619ed</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>c5a1db66-06bd-4a68-808f-d8dd9eeed608</ui_id>
@@ -1361,11 +1298,7 @@
         <sys_created_on>2019-10-23 11:09:48</sys_created_on>
         <sys_id>4ddb91efdba4cc9015e3dd18f496197b</sys_id>
         <sys_mod_count>56</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>f70a5d66-101f-47ca-9c1b-a77dfbd158ad</ui_id>
@@ -1586,11 +1519,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>57001825db30c81015e3dd18f49619a5</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>362c6f2b-cca7-4dd4-b72b-3c4607530ca0</ui_id>
@@ -1683,11 +1612,7 @@
         <sys_created_on>2019-10-21 11:58:51</sys_created_on>
         <sys_id>5ce35fb2db2c8cd0a9ed3967f4961912</sys_id>
         <sys_mod_count>64</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>d5ab7189-c876-499f-866a-c87bf4024036</ui_id>
@@ -1720,11 +1645,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>65829429db30c81015e3dd18f4961948</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>5b17e0e5-88f3-4f37-9aea-b1dea9fd4ed4</ui_id>
@@ -1793,11 +1714,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>71829429db30c81015e3dd18f4961956</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>fdf08389-28bd-4577-9896-b2ddb63c942c</ui_id>
@@ -1914,11 +1831,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>71829429db30c81015e3dd18f496195d</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>97ff0942-fec7-464a-8179-b294befdc2d0</ui_id>
@@ -2089,11 +2002,7 @@
         <sys_created_on>2019-10-24 11:15:11</sys_created_on>
         <sys_id>75a62ebbdb20801015e3dd18f49619a3</sys_id>
         <sys_mod_count>23</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>b59880e1-a8b7-40a1-9952-fb57e1cdba25</ui_id>
@@ -2115,11 +2024,7 @@
         <sys_created_on>2019-10-24 10:43:18</sys_created_on>
         <sys_id>765f9effdbec401015e3dd18f49619b4</sys_id>
         <sys_mod_count>48</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>fa0ad1de-72d0-4669-996a-0e87d52443ff</ui_id>
@@ -2260,11 +2165,7 @@
         <sys_created_on>2019-10-24 10:43:19</sys_created_on>
         <sys_id>7e5f9effdbec401015e3dd18f49619bd</sys_id>
         <sys_mod_count>27</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>945f0ee5-be37-492a-aa14-f0b650049d74</ui_id>
@@ -2288,11 +2189,7 @@
         <sys_created_on>2019-10-24 11:52:12</sys_created_on>
         <sys_id>842f623bdb60801015e3dd18f4961956</sys_id>
         <sys_mod_count>42</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>7c26dbec-4f37-4116-bed3-5ecc88d345bc</ui_id>
@@ -2337,11 +2234,7 @@
         <sys_created_on>2019-10-24 11:52:13</sys_created_on>
         <sys_id>982f623bdb60801015e3dd18f49619bb</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>f9ad851b-aa9c-44ea-b12e-226ce580bb23</ui_id>
@@ -2440,11 +2333,7 @@
         <sys_created_on>2019-10-24 14:51:08</sys_created_on>
         <sys_id>9918d7bfdba4801015e3dd18f49619b1</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>24f6abdb-8204-440e-970a-e4e49eb0a0b9</ui_id>
@@ -2494,11 +2383,7 @@
         <sys_created_on>2019-10-21 11:58:51</sys_created_on>
         <sys_id>9ce35fb2db2c8cd0a9ed3967f4961913</sys_id>
         <sys_mod_count>64</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>96b4334c-5b81-4f34-97e1-05bfb56bf4ac</ui_id>
@@ -2537,11 +2422,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>9f001825db30c81015e3dd18f49619ab</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>7ff28129-499e-4bf4-b375-6372b5e0d539</ui_id>
@@ -2565,11 +2446,7 @@
         <sys_created_on>2019-10-24 10:43:18</sys_created_on>
         <sys_id>a25f9effdbec401015e3dd18f4961959</sys_id>
         <sys_mod_count>52</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>fbc654a0-f153-4f6a-8833-e56ad064faa7</ui_id>
@@ -2614,11 +2491,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>b5829429db30c81015e3dd18f4961958</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>6e6f961d-cf11-4f76-b678-f17fe000c501</ui_id>
@@ -2783,11 +2656,7 @@
         <sys_created_on>2019-10-24 10:43:19</sys_created_on>
         <sys_id>b65f9effdbec401015e3dd18f49619ba</sys_id>
         <sys_mod_count>48</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>7fe5d496-a062-4091-875c-9d58178fcbe3</ui_id>
@@ -2850,11 +2719,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>bbd31fb2db2c8cd0a9ed3967f49619d4</sys_id>
         <sys_mod_count>37</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>a6c8efcc-5953-4936-be02-a09f1a5786a1</ui_id>
@@ -2877,11 +2742,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>c0e31fb2db2c8cd0a9ed3967f49619e4</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>f2cc2eb9-b0f6-4f17-a1cf-8ef9f95ca124</ui_id>
@@ -2931,11 +2792,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>c0e31fb2db2c8cd0a9ed3967f49619f2</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>46ea35fa-1442-42fe-90a7-9b9e54e73e61</ui_id>
@@ -2970,11 +2827,7 @@
         <sys_created_on>2019-10-21 11:58:51</sys_created_on>
         <sys_id>c4e31fb2db2c8cd0a9ed3967f49619ff</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>f0af72e2-d811-463a-b86d-619e20a87d4c</ui_id>
@@ -3008,11 +2861,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>cce31fb2db2c8cd0a9ed3967f49619de</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>72025585-e354-4aa2-8a31-03b00a1c7aa5</ui_id>
@@ -3046,11 +2895,7 @@
         <sys_created_on>2019-10-24 11:52:13</sys_created_on>
         <sys_id>d82f623bdb60801015e3dd18f49619af</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>268c71f8-601c-4159-97ed-fde07dad0a64</ui_id>
@@ -3163,11 +3008,7 @@
         <sys_created_on>2019-10-23 11:09:48</sys_created_on>
         <sys_id>d9db91efdba4cc9015e3dd18f4961980</sys_id>
         <sys_mod_count>32</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>d6e907ef-500e-453a-9f64-49289446deab</ui_id>
@@ -3189,11 +3030,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>db001825db30c81015e3dd18f49619a9</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>fcd2e825-921b-435a-8461-1ee7b80242bd</ui_id>
@@ -3238,11 +3075,7 @@
         <sys_created_on>2019-10-29 10:39:00</sys_created_on>
         <sys_id>e45e0861db30c81015e3dd18f49619f5</sys_id>
         <sys_mod_count>12</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>d0c79c2b-63d7-416e-b1bd-2d1e653ef582</ui_id>
@@ -3335,11 +3168,7 @@
         <sys_created_on>2019-10-29 10:41:53</sys_created_on>
         <sys_id>e6fec8a1db30c81015e3dd18f4961913</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>feb6c6c7-2380-4e25-97ee-63797ad8b5bc</ui_id>
@@ -3484,11 +3313,7 @@
         <sys_created_on>2019-10-29 10:39:00</sys_created_on>
         <sys_id>ec5e0861db30c81015e3dd18f49619f7</sys_id>
         <sys_mod_count>12</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>1e5fe870-0c8f-4fe4-b5d2-0712fac413c8</ui_id>
@@ -3581,11 +3406,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>f9829429db30c81015e3dd18f496194f</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>8a85720d-514e-4182-aa4a-65aace3e6b74</ui_id>
@@ -3784,11 +3605,7 @@
         <sys_created_on>2019-10-24 11:15:11</sys_created_on>
         <sys_id>f9a62ebbdb20801015e3dd18f49619a5</sys_id>
         <sys_mod_count>23</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>5dfdcd3f-ed60-4fe8-bf37-f84b322e6654</ui_id>
@@ -3800,16 +3617,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>3bd31fb2db2c8cd0a9ed3967f49619b3</id>
         <name>CMP - Deploy AWS LAMP Stack</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-21 11:58:49</sys_created_on>
         <sys_id>73d31fb2db2c8cd0a9ed3967f49619b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-21 11:58:49</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -3911,11 +3723,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>08e31fb2db2c8cd0a9ed3967f49619e7</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>ea7468fb-922c-49d8-9460-c7df59e46930</ui_id>
@@ -3951,11 +3759,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>08e31fb2db2c8cd0a9ed3967f49619ea</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -3990,11 +3794,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>0ce31fb2db2c8cd0a9ed3967f49619ef</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>5fa26dc0-da1d-4066-a8e4-51e5f0b45bdc</ui_id>
@@ -4028,11 +3828,7 @@
         <sys_created_on>2019-10-29 10:23:36</sys_created_on>
         <sys_id>0fca08e9dbfc881015e3dd18f4961952</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>a2a27a0c-c811-481b-82e1-816a349ccf85</ui_id>
@@ -4082,11 +3878,7 @@
         <sys_created_on>2019-10-29 10:23:37</sys_created_on>
         <sys_id>0fca08e9dbfc881015e3dd18f4961957</sys_id>
         <sys_mod_count>16</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>0af37808-2dc6-47e8-8965-5a4e64756a14</ui_id>
@@ -4233,11 +4025,7 @@
         <sys_created_on>2019-10-24 10:43:18</sys_created_on>
         <sys_id>2e5f9effdbec401015e3dd18f4961923</sys_id>
         <sys_mod_count>52</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>baed589c-cd93-423d-ace1-5739e2b6d3af</ui_id>
@@ -4284,11 +4072,7 @@
         <sys_created_on>2019-10-24 14:28:35</sys_created_on>
         <sys_id>3ee29f73dba4801015e3dd18f4961936</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>ee8788cc-50e0-4fc5-b496-bfcf691865d8</ui_id>
@@ -4335,11 +4119,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>44e31fb2db2c8cd0a9ed3967f49619ed</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>c5a1db66-06bd-4a68-808f-d8dd9eeed608</ui_id>
@@ -4374,11 +4154,7 @@
         <sys_created_on>2019-10-24 11:52:12</sys_created_on>
         <sys_id>842f623bdb60801015e3dd18f4961956</sys_id>
         <sys_mod_count>42</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>7c26dbec-4f37-4116-bed3-5ecc88d345bc</ui_id>
@@ -4425,11 +4201,7 @@
         <sys_created_on>2019-10-24 10:43:18</sys_created_on>
         <sys_id>a25f9effdbec401015e3dd18f4961959</sys_id>
         <sys_mod_count>52</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>fbc654a0-f153-4f6a-8833-e56ad064faa7</ui_id>
@@ -4475,11 +4247,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>c0e31fb2db2c8cd0a9ed3967f49619e4</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>f2cc2eb9-b0f6-4f17-a1cf-8ef9f95ca124</ui_id>
@@ -4529,11 +4297,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>c0e31fb2db2c8cd0a9ed3967f49619f2</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>46ea35fa-1442-42fe-90a7-9b9e54e73e61</ui_id>
@@ -4568,11 +4332,7 @@
         <sys_created_on>2019-10-21 11:58:51</sys_created_on>
         <sys_id>c4e31fb2db2c8cd0a9ed3967f49619ff</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>f0af72e2-d811-463a-b86d-619e20a87d4c</ui_id>
@@ -4606,11 +4366,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>cce31fb2db2c8cd0a9ed3967f49619de</sys_id>
         <sys_mod_count>68</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-11-01 11:08:52</sys_updated_on>
         <ui_id>72025585-e354-4aa2-8a31-03b00a1c7aa5</ui_id>
@@ -4645,11 +4401,7 @@
         <sys_created_on>2019-10-29 10:23:36</sys_created_on>
         <sys_id>07ca08e9dbfc881015e3dd18f496194d</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>718b234f-fdb6-4228-8735-1c51a0a1db8b</ui_id>
@@ -4870,11 +4622,7 @@
         <sys_created_on>2019-10-29 10:23:37</sys_created_on>
         <sys_id>0bca08e9dbfc881015e3dd18f496195a</sys_id>
         <sys_mod_count>14</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>db0bef1e-c48f-4212-9390-7aaebb22505b</ui_id>
@@ -4919,11 +4667,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>1f001825db30c81015e3dd18f49619a7</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>e3656fd8-b89c-4a8c-8c4c-dcadc56484d7</ui_id>
@@ -5016,11 +4760,7 @@
         <sys_created_on>2019-10-29 10:41:53</sys_created_on>
         <sys_id>32fec8a1db30c81015e3dd18f4961917</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>72c90470-3d92-4a65-81c4-244ca0c8cfd0</ui_id>
@@ -5165,11 +4905,7 @@
         <sys_created_on>2019-10-24 10:43:19</sys_created_on>
         <sys_id>365f9effdbec401015e3dd18f49619b8</sys_id>
         <sys_mod_count>48</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>7b15554a-bf4d-478f-a389-c1b7d5589e2f</ui_id>
@@ -5226,11 +4962,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>39829429db30c81015e3dd18f496194a</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>e1bb2e8f-6419-4b7a-9961-571e8dbcef39</ui_id>
@@ -5423,11 +5155,7 @@
         <sys_created_on>2019-10-23 11:09:48</sys_created_on>
         <sys_id>4ddb91efdba4cc9015e3dd18f496197b</sys_id>
         <sys_mod_count>56</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>f70a5d66-101f-47ca-9c1b-a77dfbd158ad</ui_id>
@@ -5648,11 +5376,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>57001825db30c81015e3dd18f49619a5</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>362c6f2b-cca7-4dd4-b72b-3c4607530ca0</ui_id>
@@ -5745,11 +5469,7 @@
         <sys_created_on>2019-10-21 11:58:51</sys_created_on>
         <sys_id>5ce35fb2db2c8cd0a9ed3967f4961912</sys_id>
         <sys_mod_count>64</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>d5ab7189-c876-499f-866a-c87bf4024036</ui_id>
@@ -5782,11 +5502,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>65829429db30c81015e3dd18f4961948</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>5b17e0e5-88f3-4f37-9aea-b1dea9fd4ed4</ui_id>
@@ -5855,11 +5571,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>71829429db30c81015e3dd18f4961956</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>fdf08389-28bd-4577-9896-b2ddb63c942c</ui_id>
@@ -5976,11 +5688,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>71829429db30c81015e3dd18f496195d</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>97ff0942-fec7-464a-8179-b294befdc2d0</ui_id>
@@ -6145,11 +5853,7 @@
         <sys_created_on>2019-10-24 10:43:18</sys_created_on>
         <sys_id>765f9effdbec401015e3dd18f49619b4</sys_id>
         <sys_mod_count>48</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>fa0ad1de-72d0-4669-996a-0e87d52443ff</ui_id>
@@ -6284,11 +5988,7 @@
         <sys_created_on>2019-10-24 11:52:13</sys_created_on>
         <sys_id>982f623bdb60801015e3dd18f49619bb</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>f9ad851b-aa9c-44ea-b12e-226ce580bb23</ui_id>
@@ -6381,11 +6081,7 @@
         <sys_created_on>2019-10-21 11:58:51</sys_created_on>
         <sys_id>9ce35fb2db2c8cd0a9ed3967f4961913</sys_id>
         <sys_mod_count>64</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>96b4334c-5b81-4f34-97e1-05bfb56bf4ac</ui_id>
@@ -6418,11 +6114,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>b5829429db30c81015e3dd18f4961958</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>6e6f961d-cf11-4f76-b678-f17fe000c501</ui_id>
@@ -6587,11 +6279,7 @@
         <sys_created_on>2019-10-24 10:43:19</sys_created_on>
         <sys_id>b65f9effdbec401015e3dd18f49619ba</sys_id>
         <sys_mod_count>48</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>7fe5d496-a062-4091-875c-9d58178fcbe3</ui_id>
@@ -6648,11 +6336,7 @@
         <sys_created_on>2019-10-24 11:52:13</sys_created_on>
         <sys_id>d82f623bdb60801015e3dd18f49619af</sys_id>
         <sys_mod_count>38</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>268c71f8-601c-4159-97ed-fde07dad0a64</ui_id>
@@ -6759,11 +6443,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>db001825db30c81015e3dd18f49619a9</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>fcd2e825-921b-435a-8461-1ee7b80242bd</ui_id>
@@ -6808,11 +6488,7 @@
         <sys_created_on>2019-10-29 10:39:00</sys_created_on>
         <sys_id>e45e0861db30c81015e3dd18f49619f5</sys_id>
         <sys_mod_count>12</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>d0c79c2b-63d7-416e-b1bd-2d1e653ef582</ui_id>
@@ -6905,11 +6581,7 @@
         <sys_created_on>2019-10-29 10:41:53</sys_created_on>
         <sys_id>e6fec8a1db30c81015e3dd18f4961913</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>feb6c6c7-2380-4e25-97ee-63797ad8b5bc</ui_id>
@@ -7054,11 +6726,7 @@
         <sys_created_on>2019-10-29 10:39:00</sys_created_on>
         <sys_id>ec5e0861db30c81015e3dd18f49619f7</sys_id>
         <sys_mod_count>12</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>1e5fe870-0c8f-4fe4-b5d2-0712fac413c8</ui_id>
@@ -7151,11 +6819,7 @@
         <sys_created_on>2019-10-29 10:57:23</sys_created_on>
         <sys_id>f9829429db30c81015e3dd18f496194f</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>8a85720d-514e-4182-aa4a-65aace3e6b74</ui_id>
@@ -7355,11 +7019,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>08e31fb2db2c8cd0a9ed3967f49619dc</sys_id>
         <sys_mod_count>37</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>31c92ac1-6e36-4882-b538-00c08169c7a3</ui_id>
@@ -7387,11 +7047,7 @@
         <sys_created_on>2019-10-29 10:23:37</sys_created_on>
         <sys_id>0fca08e9dbfc881015e3dd18f496195c</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>1026ba25-33bc-4b85-ac05-7e7a6afe1751</ui_id>
@@ -7419,11 +7075,7 @@
         <sys_created_on>2019-10-24 11:15:11</sys_created_on>
         <sys_id>75a62ebbdb20801015e3dd18f49619a3</sys_id>
         <sys_mod_count>23</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>b59880e1-a8b7-40a1-9952-fb57e1cdba25</ui_id>
@@ -7451,11 +7103,7 @@
         <sys_created_on>2019-10-24 10:43:19</sys_created_on>
         <sys_id>7e5f9effdbec401015e3dd18f49619bd</sys_id>
         <sys_mod_count>27</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>945f0ee5-be37-492a-aa14-f0b650049d74</ui_id>
@@ -7483,11 +7131,7 @@
         <sys_created_on>2019-10-24 14:51:08</sys_created_on>
         <sys_id>9918d7bfdba4801015e3dd18f49619b1</sys_id>
         <sys_mod_count>13</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>24f6abdb-8204-440e-970a-e4e49eb0a0b9</ui_id>
@@ -7543,11 +7187,7 @@
         <sys_created_on>2019-10-29 10:46:34</sys_created_on>
         <sys_id>9f001825db30c81015e3dd18f49619ab</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>7ff28129-499e-4bf4-b375-6372b5e0d539</ui_id>
@@ -7575,11 +7215,7 @@
         <sys_created_on>2019-10-21 11:58:50</sys_created_on>
         <sys_id>bbd31fb2db2c8cd0a9ed3967f49619d4</sys_id>
         <sys_mod_count>37</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>a6c8efcc-5953-4936-be02-a09f1a5786a1</ui_id>
@@ -7607,11 +7243,7 @@
         <sys_created_on>2019-10-23 11:09:48</sys_created_on>
         <sys_id>d9db91efdba4cc9015e3dd18f4961980</sys_id>
         <sys_mod_count>32</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:36</sys_updated_on>
         <ui_id>d6e907ef-500e-453a-9f64-49289446deab</ui_id>
@@ -7639,11 +7271,7 @@
         <sys_created_on>2019-10-24 11:15:11</sys_created_on>
         <sys_id>f9a62ebbdb20801015e3dd18f49619a5</sys_id>
         <sys_mod_count>23</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:37</sys_updated_on>
         <ui_id>5dfdcd3f-ed60-4fe8-bf37-f84b322e6654</ui_id>
@@ -7680,18 +7308,14 @@
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"df26f66bdb68001015e3dd18f4961946","name":"plan"}}</plan>
         <plan_id display_value="CMP - Deploy AWS LAMP Stack">3bd31fb2db2c8cd0a9ed3967f49619b3</plan_id>
         <snapshot>53c1fb96db744050a9ed3967f49619d6</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 17:44:32</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>df26f66bdb68001015e3dd18f4961946</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:35</sys_updated_on>
     </sys_flow_subflow_plan>
@@ -7721,6 +7345,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 17:44:17</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>fb16726bdb68001015e3dd18f4961981</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -7750,11 +7375,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>03b21469db30c81015e3dd18f496196c</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>1e5fe870-0c8f-4fe4-b5d2-0712fac413c8</ui_id>
@@ -7811,11 +7432,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>03b21469db30c81015e3dd18f4961973</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>718b234f-fdb6-4228-8735-1c51a0a1db8b</ui_id>
@@ -7936,11 +7553,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>07700454dbb0041015e3dd18f4961929</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>fa0ad1de-72d0-4669-996a-0e87d52443ff</ui_id>
@@ -8075,11 +7688,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>07700454dbb0041015e3dd18f496192e</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>7fe5d496-a062-4091-875c-9d58178fcbe3</ui_id>
@@ -8136,11 +7745,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>0bb21469db30c81015e3dd18f4961978</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>e3656fd8-b89c-4a8c-8c4c-dcadc56484d7</ui_id>
@@ -8203,11 +7808,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>0c26f26bdb68001015e3dd18f4961942</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>d6e907ef-500e-453a-9f64-49289446deab</ui_id>
@@ -8229,11 +7830,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>0fb21469db30c81015e3dd18f4961991</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>6e6f961d-cf11-4f76-b678-f17fe000c501</ui_id>
@@ -8328,11 +7925,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>1426f26bdb68001015e3dd18f496195d</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -8365,11 +7958,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>2026f26bdb68001015e3dd18f4961988</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>f70a5d66-101f-47ca-9c1b-a77dfbd158ad</ui_id>
@@ -8496,11 +8085,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>36b21469db30c81015e3dd18f4961931</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>1026ba25-33bc-4b85-ac05-7e7a6afe1751</ui_id>
@@ -8528,11 +8113,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>4026f26bdb68001015e3dd18f4961944</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>a6c8efcc-5953-4936-be02-a09f1a5786a1</ui_id>
@@ -8554,11 +8135,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>43b21469db30c81015e3dd18f496197a</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>fcd2e825-921b-435a-8461-1ee7b80242bd</ui_id>
@@ -8591,11 +8168,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>4b700454dbb0041015e3dd18f4961950</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>f9ad851b-aa9c-44ea-b12e-226ce580bb23</ui_id>
@@ -8688,11 +8261,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>4fb21469db30c81015e3dd18f4961988</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>e1bb2e8f-6419-4b7a-9961-571e8dbcef39</ui_id>
@@ -8805,11 +8374,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>5026f26bdb68001015e3dd18f496194c</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>31c92ac1-6e36-4882-b538-00c08169c7a3</ui_id>
@@ -8833,11 +8398,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>5026f26bdb68001015e3dd18f4961965</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>46ea35fa-1442-42fe-90a7-9b9e54e73e61</ui_id>
@@ -8870,11 +8431,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>6c26f26bdb68001015e3dd18f4961998</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>d5ab7189-c876-499f-866a-c87bf4024036</ui_id>
@@ -8913,11 +8470,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>72700454dbb0041015e3dd18f4961909</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>24f6abdb-8204-440e-970a-e4e49eb0a0b9</ui_id>
@@ -8973,11 +8526,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>7a700454dbb0041015e3dd18f4961912</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>945f0ee5-be37-492a-aa14-f0b650049d74</ui_id>
@@ -9001,11 +8550,7 @@
         <sys_created_on>2019-10-25 12:26:07</sys_created_on>
         <sys_id>7a70c054dbb0041015e3dd18f4961999</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>fbc654a0-f153-4f6a-8833-e56ad064faa7</ui_id>
@@ -9044,11 +8589,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>7e700454dbb0041015e3dd18f4961917</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>b59880e1-a8b7-40a1-9952-fb57e1cdba25</ui_id>
@@ -9072,11 +8613,7 @@
         <sys_created_on>2019-10-25 12:26:07</sys_created_on>
         <sys_id>7e70c054dbb0041015e3dd18f496199b</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>7c26dbec-4f37-4116-bed3-5ecc88d345bc</ui_id>
@@ -9115,11 +8652,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>7eb21469db30c81015e3dd18f4961932</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>7ff28129-499e-4bf4-b375-6372b5e0d539</ui_id>
@@ -9141,11 +8674,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>83b21469db30c81015e3dd18f496197b</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>5b17e0e5-88f3-4f37-9aea-b1dea9fd4ed4</ui_id>
@@ -9190,11 +8719,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>87b21469db30c81015e3dd18f4961964</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>feb6c6c7-2380-4e25-97ee-63797ad8b5bc</ui_id>
@@ -9277,11 +8802,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>8b700454dbb0041015e3dd18f4961939</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>268c71f8-601c-4159-97ed-fde07dad0a64</ui_id>
@@ -9388,11 +8909,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>8fb21469db30c81015e3dd18f4961975</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>db0bef1e-c48f-4212-9390-7aaebb22505b</ui_id>
@@ -9425,11 +8942,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>8fb21469db30c81015e3dd18f496198f</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>fdf08389-28bd-4577-9896-b2ddb63c942c</ui_id>
@@ -9498,11 +9011,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>8fb21469db30c81015e3dd18f4961995</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>97ff0942-fec7-464a-8179-b294befdc2d0</ui_id>
@@ -9596,11 +9105,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>9026f26bdb68001015e3dd18f4961955</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>f2cc2eb9-b0f6-4f17-a1cf-8ef9f95ca124</ui_id>
@@ -9649,11 +9154,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>9426f26bdb68001015e3dd18f4961959</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>ea7468fb-922c-49d8-9460-c7df59e46930</ui_id>
@@ -9689,11 +9190,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>9826f26bdb68001015e3dd18f4961962</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>5fa26dc0-da1d-4066-a8e4-51e5f0b45bdc</ui_id>
@@ -9726,11 +9223,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>ac26f26bdb68001015e3dd18f4961999</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>96b4334c-5b81-4f34-97e1-05bfb56bf4ac</ui_id>
@@ -9765,11 +9258,7 @@
         <sys_created_on>2019-10-25 12:26:07</sys_created_on>
         <sys_id>ae70c054dbb0041015e3dd18f4961996</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>baed589c-cd93-423d-ace1-5739e2b6d3af</ui_id>
@@ -9808,11 +9297,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>b2700454dbb0041015e3dd18f4961919</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>5dfdcd3f-ed60-4fe8-bf37-f84b322e6654</ui_id>
@@ -9835,11 +9320,7 @@
         <sys_created_on>2019-10-29 10:58:16</sys_created_on>
         <sys_id>bab21469db30c81015e3dd18f496190e</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>a2a27a0c-c811-481b-82e1-816a349ccf85</ui_id>
@@ -9873,11 +9354,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>c3b21469db30c81015e3dd18f496198d</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>8a85720d-514e-4182-aa4a-65aace3e6b74</ui_id>
@@ -9984,11 +9461,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>c7b21469db30c81015e3dd18f496196a</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>d0c79c2b-63d7-416e-b1bd-2d1e653ef582</ui_id>
@@ -10045,11 +9518,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>cb700454dbb0041015e3dd18f496192c</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>7b15554a-bf4d-478f-a389-c1b7d5589e2f</ui_id>
@@ -10106,11 +9575,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>cbb21469db30c81015e3dd18f4961966</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>72c90470-3d92-4a65-81c4-244ca0c8cfd0</ui_id>
@@ -10193,11 +9658,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>cfb21469db30c81015e3dd18f4961976</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>362c6f2b-cca7-4dd4-b72b-3c4607530ca0</ui_id>
@@ -10256,11 +9717,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>d026f26bdb68001015e3dd18f4961960</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>c5a1db66-06bd-4a68-808f-d8dd9eeed608</ui_id>
@@ -10294,11 +9751,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>d426f26bdb68001015e3dd18f496194f</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>72025585-e354-4aa2-8a31-03b00a1c7aa5</ui_id>
@@ -10334,11 +9787,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>e826f26bdb68001015e3dd18f496196e</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>f0af72e2-d811-463a-b86d-619e20a87d4c</ui_id>
@@ -10373,11 +9822,7 @@
         <sys_created_on>2019-10-29 10:58:16</sys_created_on>
         <sys_id>f2b21469db30c81015e3dd18f4961913</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>0af37808-2dc6-47e8-8965-5a4e64756a14</ui_id>
@@ -10462,11 +9907,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>fa700454dbb0041015e3dd18f4961906</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>ee8788cc-50e0-4fc5-b496-bfcf691865d8</ui_id>
@@ -10489,16 +9930,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>fb16726bdb68001015e3dd18f4961981</id>
         <name>CMP - Deploy AWS LAMP Stack</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 17:44:17</sys_created_on>
         <sys_id>fb16726bdb68001015e3dd18f496198e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 17:44:17</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -10601,11 +10037,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>1426f26bdb68001015e3dd18f496195d</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>846efa0c-0f4d-4f25-83e5-ba7f3de18292</ui_id>
@@ -10640,11 +10072,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>5026f26bdb68001015e3dd18f4961965</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>46ea35fa-1442-42fe-90a7-9b9e54e73e61</ui_id>
@@ -10679,11 +10107,7 @@
         <sys_created_on>2019-10-25 12:26:07</sys_created_on>
         <sys_id>7a70c054dbb0041015e3dd18f4961999</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>fbc654a0-f153-4f6a-8833-e56ad064faa7</ui_id>
@@ -10718,11 +10142,7 @@
         <sys_created_on>2019-10-25 12:26:07</sys_created_on>
         <sys_id>7e70c054dbb0041015e3dd18f496199b</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>7c26dbec-4f37-4116-bed3-5ecc88d345bc</ui_id>
@@ -10756,11 +10176,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>9026f26bdb68001015e3dd18f4961955</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>f2cc2eb9-b0f6-4f17-a1cf-8ef9f95ca124</ui_id>
@@ -10809,11 +10225,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>9426f26bdb68001015e3dd18f4961959</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>ea7468fb-922c-49d8-9460-c7df59e46930</ui_id>
@@ -10849,11 +10261,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>9826f26bdb68001015e3dd18f4961962</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>5fa26dc0-da1d-4066-a8e4-51e5f0b45bdc</ui_id>
@@ -10888,11 +10296,7 @@
         <sys_created_on>2019-10-25 12:26:07</sys_created_on>
         <sys_id>ae70c054dbb0041015e3dd18f4961996</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>baed589c-cd93-423d-ace1-5739e2b6d3af</ui_id>
@@ -10926,11 +10330,7 @@
         <sys_created_on>2019-10-29 10:58:16</sys_created_on>
         <sys_id>bab21469db30c81015e3dd18f496190e</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>a2a27a0c-c811-481b-82e1-816a349ccf85</ui_id>
@@ -10966,11 +10366,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>d026f26bdb68001015e3dd18f4961960</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>c5a1db66-06bd-4a68-808f-d8dd9eeed608</ui_id>
@@ -11004,11 +10400,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>d426f26bdb68001015e3dd18f496194f</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>72025585-e354-4aa2-8a31-03b00a1c7aa5</ui_id>
@@ -11044,11 +10436,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>e826f26bdb68001015e3dd18f496196e</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>f0af72e2-d811-463a-b86d-619e20a87d4c</ui_id>
@@ -11083,11 +10471,7 @@
         <sys_created_on>2019-10-29 10:58:16</sys_created_on>
         <sys_id>f2b21469db30c81015e3dd18f4961913</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>0af37808-2dc6-47e8-8965-5a4e64756a14</ui_id>
@@ -11172,11 +10556,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>fa700454dbb0041015e3dd18f4961906</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>ee8788cc-50e0-4fc5-b496-bfcf691865d8</ui_id>
@@ -11210,11 +10590,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>03b21469db30c81015e3dd18f496196c</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>1e5fe870-0c8f-4fe4-b5d2-0712fac413c8</ui_id>
@@ -11271,11 +10647,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>03b21469db30c81015e3dd18f4961973</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>718b234f-fdb6-4228-8735-1c51a0a1db8b</ui_id>
@@ -11396,11 +10768,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>07700454dbb0041015e3dd18f4961929</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>fa0ad1de-72d0-4669-996a-0e87d52443ff</ui_id>
@@ -11535,11 +10903,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>07700454dbb0041015e3dd18f496192e</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>7fe5d496-a062-4091-875c-9d58178fcbe3</ui_id>
@@ -11596,11 +10960,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>0bb21469db30c81015e3dd18f4961978</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>e3656fd8-b89c-4a8c-8c4c-dcadc56484d7</ui_id>
@@ -11657,11 +11017,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>0fb21469db30c81015e3dd18f4961991</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>6e6f961d-cf11-4f76-b678-f17fe000c501</ui_id>
@@ -11754,11 +11110,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>2026f26bdb68001015e3dd18f4961988</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>f70a5d66-101f-47ca-9c1b-a77dfbd158ad</ui_id>
@@ -11879,11 +11231,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>43b21469db30c81015e3dd18f496197a</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>fcd2e825-921b-435a-8461-1ee7b80242bd</ui_id>
@@ -11916,11 +11264,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>4b700454dbb0041015e3dd18f4961950</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>f9ad851b-aa9c-44ea-b12e-226ce580bb23</ui_id>
@@ -12013,11 +11357,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>4fb21469db30c81015e3dd18f4961988</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>e1bb2e8f-6419-4b7a-9961-571e8dbcef39</ui_id>
@@ -12124,11 +11464,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>6c26f26bdb68001015e3dd18f4961998</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>d5ab7189-c876-499f-866a-c87bf4024036</ui_id>
@@ -12161,11 +11497,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>83b21469db30c81015e3dd18f496197b</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>5b17e0e5-88f3-4f37-9aea-b1dea9fd4ed4</ui_id>
@@ -12210,11 +11542,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>87b21469db30c81015e3dd18f4961964</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>feb6c6c7-2380-4e25-97ee-63797ad8b5bc</ui_id>
@@ -12297,11 +11625,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>8b700454dbb0041015e3dd18f4961939</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>268c71f8-601c-4159-97ed-fde07dad0a64</ui_id>
@@ -12408,11 +11732,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>8fb21469db30c81015e3dd18f4961975</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>db0bef1e-c48f-4212-9390-7aaebb22505b</ui_id>
@@ -12445,11 +11765,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>8fb21469db30c81015e3dd18f496198f</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>fdf08389-28bd-4577-9896-b2ddb63c942c</ui_id>
@@ -12518,11 +11834,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>8fb21469db30c81015e3dd18f4961995</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>97ff0942-fec7-464a-8179-b294befdc2d0</ui_id>
@@ -12615,11 +11927,7 @@
         <sys_created_on>2019-10-23 17:44:20</sys_created_on>
         <sys_id>ac26f26bdb68001015e3dd18f4961999</sys_id>
         <sys_mod_count>10</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>96b4334c-5b81-4f34-97e1-05bfb56bf4ac</ui_id>
@@ -12652,11 +11960,7 @@
         <sys_created_on>2019-10-29 10:58:18</sys_created_on>
         <sys_id>c3b21469db30c81015e3dd18f496198d</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>8a85720d-514e-4182-aa4a-65aace3e6b74</ui_id>
@@ -12763,11 +12067,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>c7b21469db30c81015e3dd18f496196a</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>d0c79c2b-63d7-416e-b1bd-2d1e653ef582</ui_id>
@@ -12824,11 +12124,7 @@
         <sys_created_on>2019-10-25 12:26:09</sys_created_on>
         <sys_id>cb700454dbb0041015e3dd18f496192c</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>7b15554a-bf4d-478f-a389-c1b7d5589e2f</ui_id>
@@ -12885,11 +12181,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>cbb21469db30c81015e3dd18f4961966</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>72c90470-3d92-4a65-81c4-244ca0c8cfd0</ui_id>
@@ -12972,11 +12264,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>cfb21469db30c81015e3dd18f4961976</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>362c6f2b-cca7-4dd4-b72b-3c4607530ca0</ui_id>
@@ -13040,11 +12328,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>0c26f26bdb68001015e3dd18f4961942</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>d6e907ef-500e-453a-9f64-49289446deab</ui_id>
@@ -13072,11 +12356,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>36b21469db30c81015e3dd18f4961931</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>1026ba25-33bc-4b85-ac05-7e7a6afe1751</ui_id>
@@ -13104,11 +12384,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>4026f26bdb68001015e3dd18f4961944</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>a6c8efcc-5953-4936-be02-a09f1a5786a1</ui_id>
@@ -13136,11 +12412,7 @@
         <sys_created_on>2019-10-23 17:44:19</sys_created_on>
         <sys_id>5026f26bdb68001015e3dd18f496194c</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>31c92ac1-6e36-4882-b538-00c08169c7a3</ui_id>
@@ -13168,11 +12440,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>72700454dbb0041015e3dd18f4961909</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:18</sys_updated_on>
         <ui_id>24f6abdb-8204-440e-970a-e4e49eb0a0b9</ui_id>
@@ -13228,11 +12496,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>7a700454dbb0041015e3dd18f4961912</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>945f0ee5-be37-492a-aa14-f0b650049d74</ui_id>
@@ -13260,11 +12524,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>7e700454dbb0041015e3dd18f4961917</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>b59880e1-a8b7-40a1-9952-fb57e1cdba25</ui_id>
@@ -13292,11 +12552,7 @@
         <sys_created_on>2019-10-29 10:58:17</sys_created_on>
         <sys_id>7eb21469db30c81015e3dd18f4961932</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>7ff28129-499e-4bf4-b375-6372b5e0d539</ui_id>
@@ -13324,11 +12580,7 @@
         <sys_created_on>2019-10-25 12:26:08</sys_created_on>
         <sys_id>b2700454dbb0041015e3dd18f4961919</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE-ITOM-Showcase">8b581e7adb1bdf002c87f1771d9619bf</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-29 10:58:19</sys_updated_on>
         <ui_id>5dfdcd3f-ed60-4fe8-bf37-f84b322e6654</ui_id>

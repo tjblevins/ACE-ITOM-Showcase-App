@@ -57,7 +57,7 @@
         <update_guid_history>4da7b4dea32c88d099cb59ab31973de8:835778875,add57c1e2b2c88d0cde82dcb372aa6d3:-1037571261,edd57c1ed62c88d0bb6c86c50baea3cf:813217669,21d57c1e712c88d03af0b2d59a874ccf:-1037571261</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ansible_tower">a9593c92db6c88d0a9ed3967f49619bd</sys_audit_delete>
+        <sys_audit_delete display_value="">a9593c92db6c88d0a9ed3967f49619bd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 11:26:41</sys_created_on>

@@ -217,7 +217,7 @@
         <update_guid_history>794552fc167cc410d5f0f3f610c0bc52:1114035231,12f89ee6b4ac0cd0ab71d8a61cb33118:943706539,77f5a1f1dafbb70093519078116c4235:0</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS EC2 - Change Instance Type">4a4552fcdb7cc41015e3dd18f496198b</sys_audit_delete>
+        <sys_audit_delete display_value="">4a4552fcdb7cc41015e3dd18f496198b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 12:33:13</sys_created_on>

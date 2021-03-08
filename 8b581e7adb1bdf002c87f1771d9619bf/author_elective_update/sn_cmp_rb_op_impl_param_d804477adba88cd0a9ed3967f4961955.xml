@@ -57,7 +57,7 @@
         <update_guid_history>1804477ad2a88cd0410a3364f4fa235c:-1992190142,d004477aa5a88cd0e59b73e9a93a505b:-1971084672,9004477aeaa88cd0ddf1635d3067fb5a:-1992190142</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="providerAPIParameters">d904877adba88cd0a9ed3967f4961940</sys_audit_delete>
+        <sys_audit_delete display_value="">d904877adba88cd0a9ed3967f4961940</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-21 10:49:34</sys_created_on>

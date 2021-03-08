@@ -45,7 +45,7 @@
         <update_guid_history>837e24120a2c88d04d97165debff03bb:761230371</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS_Deploy_Monitoring_Servers_LABCODE_1">a5920992dbac88d0a9ed3967f496199a</sys_audit_delete>
+        <sys_audit_delete display_value="">a5920992dbac88d0a9ed3967f496199a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-19 12:07:06</sys_created_on>
